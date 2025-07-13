@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnlineJobs.ph Skills Visualizer</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #f5f5f5;
+        }
+        
+        #container {
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+        }
+        
+        #controls {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            z-index: 1000;
+        }
+        
+        #controls h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        
+        #search {
+            width: 200px;
+            padding: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        
+        .button {
+            padding: 5px 10px;
+            margin: 2px;
+            background: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        .button:hover {
+            background: #45a049;
+        }
+        
+        .node {
+            cursor: pointer;
+        }
+        
+        .node circle {
+            stroke: #333;
+            stroke-width: 2px;
+            transition: all 0.3s;
+        }
+        
+        .node.has-hidden-children circle {
+            fill-opacity: 0.9 !important;
+            stroke-width: 3px;
+            stroke-dasharray: 3,1;
+        }
+        
+        .node circle:hover {
+            stroke-width: 4px;
+            filter: brightness(1.1);
+            transform: scale(1.2);
+        }
+        
+        .node text {
+            font-size: 12px;
+            pointer-events: none;
+            text-anchor: middle;
+            dominant-baseline: central;
+        }
+        
+        .node.root text {
+            font-size: 16px;
+            font-weight: bold;
+        }
+        
+        .node.level1 text {
+            font-size: 14px;
+        }
+        
+        .link {
+            fill: none;
+            stroke: #999;
+            stroke-opacity: 0.6;
+            stroke-width: 1.5px;
+        }
+        
+        .tooltip {
+            position: absolute;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            border-radius: 5px;
+            pointer-events: none;
+            font-size: 14px;
+            z-index: 1000;
+            display: none;
+        }
+        
+        .highlighted {
+            opacity: 0.2;
+        }
+        
+        .search-match circle {
+            stroke: #ff6b6b !important;
+            stroke-width: 4px !important;
+        }
+        
+        #info {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            background: white;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        /* Mobile menu toggle button */
+        #menuToggle {
+            display: none;
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            z-index: 1001;
+            background: white;
+            border: none;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            cursor: pointer;
+        }
+        
+        #menuToggle svg {
+            width: 24px;
+            height: 24px;
+        }
+        
+        /* Mobile styles for iPhone SE and similar devices */
+        @media (max-width: 768px) {
+            #menuToggle {
+                display: block;
+            }
+            
+            #controls {
+                transform: translateX(-100%);
+                transition: transform 0.3s ease;
+                width: 250px;
+                height: 100vh;
+                top: 0;
+                left: 0;
+                border-radius: 0;
+                overflow-y: auto;
+            }
+            
+            #controls.active {
+                transform: translateX(0);
+            }
+            
+            #controls h3 {
+                margin-top: 50px;
+            }
+            
+            #search {
+                width: calc(100% - 10px);
+                padding: 10px 5px;
+                font-size: 16px;
+            }
+            
+            .button {
+                padding: 10px 15px;
+                margin: 5px 2px;
+                font-size: 14px;
+                width: calc(50% - 8px);
+                display: inline-block;
+                text-align: center;
+            }
+            
+            .button:active {
+                transform: scale(0.95);
+            }
+            
+            .layout-btn {
+                width: calc(50% - 8px);
+            }
+            
+            #info {
+                display: none;
+            }
+            
+            #closeMenu {
+                display: block !important;
+            }
+            
+            .node text {
+                font-size: 10px;
+            }
+            
+            .node.root text {
+                font-size: 14px;
+            }
+            
+            .node.level1 text {
+                font-size: 12px;
+            }
+            
+            .node circle {
+                cursor: pointer;
+                stroke-width: 3px;
+            }
+            
+            .node circle:hover {
+                stroke-width: 5px;
+                transform: none;
+            }
+            
+            .tooltip {
+                font-size: 12px;
+                max-width: 200px;
+            }
+        }
+        
+        /* Overlay for mobile menu */
+        #overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+        
+        #overlay.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <button id="menuToggle" aria-label="Toggle menu">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 12h18M3 6h18M3 18h18"/>
+            </svg>
+        </button>
+        <div id="overlay"></div>
+        <div id="controls">
+            <button id="closeMenu" class="button" style="position: absolute; top: 10px; right: 10px; width: 30px; height: 30px; padding: 0; display: none;">×</button>
+            <h3>Skills Mind Map</h3>
+            <input type="text" id="search" placeholder="Search skills...">
+            <br>
+            <button class="button" onclick="resetZoom()">Reset View</button>
+            <button class="button" onclick="expandAll()">Expand All</button>
+            <button class="button" onclick="collapseAll()">Collapse All</button>
+            <br>
+            <label style="display: block; margin-top: 10px; font-size: 14px;">Layout:</label>
+            <button class="button layout-btn" onclick="setLayout('radial')" id="radialBtn">Radial</button>
+            <button class="button layout-btn" onclick="setLayout('horizontal')" id="horizontalBtn" style="background: #45a049;">Horizontal</button>
+        </div>
+        <div id="info">
+            <h4 style="margin-top: 0;">Instructions</h4>
+            <p style="margin: 5px 0; font-size: 12px;">
+                • Click nodes to expand/collapse<br>
+                • Drag to pan, scroll to zoom<br>
+                • Dashed circles have hidden children<br>
+            </p>
+            <span id="nodeCount" style="font-weight: bold;">Loading...</span>
+        </div>
+        <div class="tooltip"></div>
+        <svg id="mindmap"></svg>
+    </div>
+
+    <script>
+        // Mobile menu toggle functionality
+        const menuToggle = document.getElementById('menuToggle');
+        const controls = document.getElementById('controls');
+        const overlay = document.getElementById('overlay');
+        
+        menuToggle.addEventListener('click', function() {
+            controls.classList.toggle('active');
+            overlay.classList.toggle('active');
+        });
+        
+        overlay.addEventListener('click', function() {
+            controls.classList.remove('active');
+            overlay.classList.remove('active');
+        });
+        
+        const closeMenu = document.getElementById('closeMenu');
+        closeMenu.addEventListener('click', function() {
+            controls.classList.remove('active');
+            overlay.classList.remove('active');
+        });
+        
+        // Configuration
+        const width = window.innerWidth;
+        const height = window.innerHeight;
+        const centerX = width / 2;
+        const centerY = height / 2;
+
+        // Color scheme
+        const colorScale = d3.scaleOrdinal(d3.schemeSet3);
+
+        // Create SVG
+        const svg = d3.select("#mindmap")
+            .attr("width", width)
+            .attr("height", height);
+
+        // Create zoom behavior with touch support
+        const zoom = d3.zoom()
+            .scaleExtent([0.1, 10])
+            .on("zoom", (event) => {
+                g.attr("transform", event.transform);
+            })
+            .filter((event) => {
+                // Allow all events on desktop
+                if (window.innerWidth > 768) return true;
+                
+                // On mobile, allow touch events and prevent accidental zooms
+                if (event.type === 'wheel') return false; // Disable wheel zoom on mobile
+                if (event.touches && event.touches.length < 2) return false; // Require 2 fingers for zoom
+                return true;
+            });
+
+        svg.call(zoom);
+        
+        // Add pan support for mobile
+        if (window.innerWidth <= 768) {
+            let startX, startY, startTransform;
+            
+            svg.on("touchstart", function(event) {
+                if (event.touches.length === 1) {
+                    const touch = event.touches[0];
+                    startX = touch.clientX;
+                    startY = touch.clientY;
+                    startTransform = d3.zoomTransform(svg.node());
+                }
+            });
+            
+            svg.on("touchmove", function(event) {
+                if (event.touches.length === 1) {
+                    event.preventDefault();
+                    const touch = event.touches[0];
+                    const dx = touch.clientX - startX;
+                    const dy = touch.clientY - startY;
+                    
+                    const newTransform = d3.zoomIdentity
+                        .translate(startTransform.x + dx, startTransform.y + dy)
+                        .scale(startTransform.k);
+                    
+                    svg.call(zoom.transform, newTransform);
+                }
+            });
+        }
+
+        // Create main group
+        const g = svg.append("g");
+
+        // Tooltip
+        const tooltip = d3.select(".tooltip");
+
+        // Load and process data
+        let root;
+        let tree;
+        let diagonal;
+        let horizontalDiagonal;
+
+        // Layout configuration
+        let currentLayout = 'horizontal';
+        let horizontalTree;
+        
+        // Initialize with data
+        d3.json("allskills_tree_clean.json").then(data => {
+            // Convert the clean tree structure to D3 hierarchy format
+            function processData(obj, name = "OnlineJobs.ph") {
+                if (typeof obj === 'string') {
+                    // Leaf node
+                    return { name: name, id: obj };
+                } else {
+                    // Branch node
+                    const node = { name: name };
+                    const children = [];
+                    
+                    for (const [key, value] of Object.entries(obj)) {
+                        children.push(processData(value, key));
+                    }
+                    
+                    if (children.length > 0) {
+                        node.children = children;
+                    }
+                    
+                    return node;
+                }
+            }
+
+            // Create the hierarchical data
+            const hierarchicalData = {
+                name: "OnlineJobs.ph",
+                children: Object.entries(data).map(([key, value]) => processData(value, key))
+            };
+
+            // Create D3 hierarchy
+            root = d3.hierarchy(hierarchicalData);
+            root.x0 = Math.PI;
+            root.y0 = 0;
+
+            // Collapse all nodes except the root's immediate children
+            root.descendants().forEach(d => {
+                if (d.depth >= 1 && d.children) {
+                    d._children = d.children;
+                    d.children = null;
+                }
+            });
+
+            // Count all nodes
+            const countNodes = (node) => {
+                let count = 1;
+                if (node.children) node.children.forEach(child => count += countNodes(child));
+                if (node._children) node._children.forEach(child => count += countNodes(child));
+                return count;
+            };
+            
+            document.getElementById("nodeCount").textContent = `Total Skills: ${countNodes(root)}`;
+            
+            // Create radial tree layout
+            tree = d3.tree()
+                .size([2 * Math.PI, Math.min(width, height) / 2 - 150])
+                .separation((a, b) => (a.parent == b.parent ? 1 : 2) / a.depth);
+                
+            // Create horizontal tree layout
+            horizontalTree = d3.tree()
+                .size([height * 1.5, width - 200])
+                .separation((a, b) => {
+                    // Calculate separation based on text length and depth
+                    const baseSpacing = a.parent == b.parent ? 1 : 1.5;
+                    // Significantly increase spacing for deeper levels
+                    let depthFactor = 1;
+                    if (a.depth === 1) depthFactor = 2;
+                    else if (a.depth === 2) depthFactor = 2.5;
+                    else if (a.depth >= 3) depthFactor = 3;
+                    
+                    // Additional spacing for nodes with many children
+                    const childrenFactor = (a.children || a._children) ? 1.3 : 1;
+                    
+                    // Extra spacing for level 3 nodes
+                    const level3Factor = a.depth >= 3 ? 1.5 : 1;
+                    
+                    return baseSpacing * depthFactor * childrenFactor * level3Factor;
+                });
+
+            // Create diagonal link generator
+            diagonal = d3.linkRadial()
+                .angle(d => d.x)
+                .radius(d => d.y);
+                
+            // Create horizontal link generator
+            horizontalDiagonal = d3.linkHorizontal()
+                .x(d => d.y)
+                .y(d => d.x);
+
+            // Center the view
+            g.attr("transform", `translate(${centerX},${centerY})`);
+
+            update(root);
+            
+            // Apply initial zoom based on layout and device
+            const isMobile = window.innerWidth <= 768;
+            if (currentLayout === 'horizontal') {
+                if (isMobile) {
+                    svg.call(zoom.transform, d3.zoomIdentity.translate(50, centerY / 2).scale(0.3));
+                } else {
+                    svg.call(zoom.transform, d3.zoomIdentity.translate(150, centerY / 2).scale(0.6));
+                }
+            } else if (isMobile) {
+                // For radial layout on mobile, zoom out a bit
+                svg.call(zoom.transform, d3.zoomIdentity.translate(centerX, centerY).scale(0.5));
+            }
+        }).catch(error => {
+            console.error("Error loading data:", error);
+            document.getElementById("nodeCount").textContent = "Error loading skills data";
+        });
+
+        function update(source) {
+            const duration = 750;
+
+            // Compute new tree layout based on current layout type
+            if (currentLayout === 'radial') {
+                tree(root);
+            } else {
+                horizontalTree(root);
+            }
+
+            // Links
+            const link = g.selectAll(".link")
+                .data(root.links(), d => d.target.id || (d.target.id = Math.random()));
+
+            // Enter new links
+            const linkEnter = link.enter().append("path")
+                .attr("class", "link")
+                .attr("d", d => {
+                    const o = {x: source.x0, y: source.y0};
+                    return currentLayout === 'radial' ? 
+                        diagonal({source: o, target: o}) : 
+                        horizontalDiagonal({source: o, target: o});
+                });
+
+            // Update links
+            link.merge(linkEnter).transition()
+                .duration(duration)
+                .attr("d", currentLayout === 'radial' ? diagonal : horizontalDiagonal);
+
+            // Remove old links
+            link.exit().transition()
+                .duration(duration)
+                .attr("d", d => {
+                    const o = {x: source.x, y: source.y};
+                    return currentLayout === 'radial' ? 
+                        diagonal({source: o, target: o}) : 
+                        horizontalDiagonal({source: o, target: o});
+                })
+                .remove();
+
+            // Nodes
+            const node = g.selectAll(".node")
+                .data(root.descendants(), d => d.id || (d.id = Math.random()));
+
+            // Enter new nodes
+            const nodeEnter = node.enter().append("g")
+                .attr("class", d => {
+                    let classes = `node ${d.depth === 0 ? 'root' : `level${d.depth}`}`;
+                    if (d._children) classes += ' has-hidden-children';
+                    return classes;
+                })
+                .attr("transform", d => {
+                    if (currentLayout === 'radial') {
+                        return `rotate(${source.x0 * 180 / Math.PI - 90}) translate(${source.y0},0)`;
+                    } else {
+                        return `translate(${source.y0},${source.x0})`;
+                    }
+                })
+                .on("click", (event, d) => {
+                    if (event.defaultPrevented) return;
+                    
+                    // Check if the node has children or hidden children
+                    if (!d.children && !d._children && d.data.id) {
+                        // This is a leaf node with an ID, open the link
+                        window.open(`https://www.onlinejobs.ph/jobseekers/jobsearch?skill_tags=${d.data.id}`, '_blank');
+                    } else {
+                        // This is a parent node, toggle expand/collapse
+                        toggle(d);
+                        update(d);
+                    }
+                })
+                .on("mouseover", (event, d) => {
+                    const childCount = (d.children ? d.children.length : 0) + (d._children ? d._children.length : 0);
+                    tooltip.style("display", "block")
+                        .html(`<strong>${d.data.name}</strong><br>Level: ${d.depth}<br>Children: ${childCount}${d.data.id ? '<br>ID: ' + d.data.id : ''}`);
+                })
+                .on("mousemove", (event) => {
+                    tooltip.style("left", (event.pageX + 10) + "px")
+                        .style("top", (event.pageY - 10) + "px");
+                })
+                .on("mouseout", () => {
+                    tooltip.style("display", "none");
+                });
+
+            // Add circles
+            nodeEnter.append("circle")
+                .attr("r", 1e-6)
+                .style("fill", d => d._children ? colorScale(getTopParent(d).data.name) : "#fff")
+                .style("stroke", d => colorScale(getTopParent(d).data.name));
+
+            // Add text
+            nodeEnter.append("text")
+                .attr("dy", ".31em")
+                .attr("x", d => {
+                    if (currentLayout === 'radial') {
+                        return d.x < Math.PI === !d.children ? 10 : -10;
+                    } else {
+                        return d.children || d._children ? -10 : 10;
+                    }
+                })
+                .attr("text-anchor", d => {
+                    if (currentLayout === 'radial') {
+                        return d.x < Math.PI === !d.children ? "start" : "end";
+                    } else {
+                        return d.children || d._children ? "end" : "start";
+                    }
+                })
+                .attr("transform", d => {
+                    if (currentLayout === 'radial') {
+                        return d.x >= Math.PI ? "rotate(180)" : null;
+                    } else {
+                        return null;
+                    }
+                })
+                .text(d => d.data.name)
+                .style("fill-opacity", 1e-6);
+
+            // Update nodes
+            const nodeUpdate = node.merge(nodeEnter).transition()
+                .duration(duration)
+                .attr("transform", d => {
+                    if (currentLayout === 'radial') {
+                        return `rotate(${d.x * 180 / Math.PI - 90}) translate(${d.y},0)`;
+                    } else {
+                        return `translate(${d.y},${d.x})`;
+                    }
+                });
+
+            // Update node classes
+            node.merge(nodeEnter).attr("class", d => {
+                let classes = `node ${d.depth === 0 ? 'root' : `level${d.depth}`}`;
+                if (d._children) classes += ' has-hidden-children';
+                return classes;
+            });
+
+            nodeUpdate.select("circle")
+                .attr("r", d => {
+                    const isMobile = window.innerWidth <= 768;
+                    if (d.depth === 0) return isMobile ? 20 : 15;
+                    if (d.depth === 1) return isMobile ? 15 : 10;
+                    return isMobile ? 10 : 6;
+                })
+                .style("fill", d => d._children ? colorScale(getTopParent(d).data.name) : "#fff");
+
+            nodeUpdate.select("text")
+                .style("fill-opacity", 1)
+                .attr("x", d => {
+                    if (currentLayout === 'radial') {
+                        return d.x < Math.PI === !d.children ? 10 : -10;
+                    } else {
+                        return d.children || d._children ? -10 : 10;
+                    }
+                })
+                .attr("text-anchor", d => {
+                    if (currentLayout === 'radial') {
+                        return d.x < Math.PI === !d.children ? "start" : "end";
+                    } else {
+                        return d.children || d._children ? "end" : "start";
+                    }
+                })
+                .attr("transform", d => {
+                    if (currentLayout === 'radial') {
+                        return d.x >= Math.PI ? "rotate(180)" : null;
+                    } else {
+                        return null;
+                    }
+                });
+
+            // Remove old nodes
+            const nodeExit = node.exit().transition()
+                .duration(duration)
+                .attr("transform", d => {
+                    if (currentLayout === 'radial') {
+                        return `rotate(${source.x * 180 / Math.PI - 90}) translate(${source.y},0)`;
+                    } else {
+                        return `translate(${source.y},${source.x})`;
+                    }
+                })
+                .remove();
+
+            nodeExit.select("circle")
+                .attr("r", 1e-6);
+
+            nodeExit.select("text")
+                .style("fill-opacity", 1e-6);
+
+            // Store old positions
+            root.each(d => {
+                d.x0 = d.x;
+                d.y0 = d.y;
+            });
+        }
+
+        function toggle(d) {
+            if (d.children) {
+                // Collapse
+                d._children = d.children;
+                d.children = null;
+            } else if (d._children) {
+                // Expand - but ensure children start collapsed
+                d.children = d._children;
+                d._children = null;
+                
+                // Collapse all newly visible children
+                if (d.children) {
+                    d.children.forEach(child => {
+                        if (child.children) {
+                            child._children = child.children;
+                            child.children = null;
+                        }
+                    });
+                }
+            }
+        }
+
+        function getTopParent(node) {
+            while (node.depth > 1) {
+                node = node.parent;
+            }
+            return node;
+        }
+
+        function setLayout(layout) {
+            currentLayout = layout;
+            
+            // Update button styles
+            document.querySelectorAll('.layout-btn').forEach(btn => {
+                btn.style.background = '#4CAF50';
+            });
+            document.getElementById(layout === 'radial' ? 'radialBtn' : 'horizontalBtn').style.background = '#45a049';
+            
+            // Reset positions for smooth transition
+            root.descendants().forEach(d => {
+                d.x0 = d.x;
+                d.y0 = d.y;
+            });
+            
+            // Update the layout
+            update(root);
+            
+            // Adjust view for different layouts
+            const isMobile = window.innerWidth <= 768;
+            if (layout === 'horizontal') {
+                svg.transition()
+                    .duration(750)
+                    .call(zoom.transform, d3.zoomIdentity.translate(
+                        isMobile ? 50 : 150, 
+                        centerY / 2
+                    ).scale(isMobile ? 0.3 : 0.6));
+            } else {
+                resetZoom();
+            }
+        }
+        
+        function resetZoom() {
+            const isMobile = window.innerWidth <= 768;
+            if (currentLayout === 'radial') {
+                svg.transition()
+                    .duration(750)
+                    .call(zoom.transform, d3.zoomIdentity.translate(centerX, centerY).scale(isMobile ? 0.5 : 1));
+            } else {
+                svg.transition()
+                    .duration(750)
+                    .call(zoom.transform, d3.zoomIdentity.translate(
+                        isMobile ? 50 : 150, 
+                        centerY / 2
+                    ).scale(isMobile ? 0.3 : 0.6));
+            }
+        }
+
+        function expandAll() {
+            root.descendants().forEach(d => {
+                if (d._children) {
+                    d.children = d._children;
+                    d._children = null;
+                }
+            });
+            update(root);
+        }
+
+        function collapseAll() {
+            root.descendants().forEach(d => {
+                if (d.depth > 0 && d.children) {
+                    d._children = d.children;
+                    d.children = null;
+                }
+            });
+            update(root);
+        }
+
+        // Search functionality
+        document.getElementById("search").addEventListener("input", function(e) {
+            const searchTerm = e.target.value.toLowerCase();
+            
+            g.selectAll(".node").classed("highlighted", false);
+            g.selectAll(".node").classed("search-match", false);
+            
+            if (searchTerm) {
+                g.selectAll(".node")
+                    .classed("highlighted", d => !d.data.name.toLowerCase().includes(searchTerm))
+                    .classed("search-match", d => d.data.name.toLowerCase().includes(searchTerm));
+            }
+        });
+
+        // Responsive resize
+        window.addEventListener("resize", () => {
+            const newWidth = window.innerWidth;
+            const newHeight = window.innerHeight;
+            svg.attr("width", newWidth).attr("height", newHeight);
+        });
+    </script>
+</body>
+</html>
