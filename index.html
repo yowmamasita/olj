@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OnlineJobs.ph Skills Visualizer</title>
+    <title>OnlineJobs.ph Skills Visualizer - Upskilling Opportunities</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <style>
         body {
@@ -29,6 +29,7 @@
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
             z-index: 1000;
+            max-width: 280px;
         }
         
         #controls h3 {
@@ -37,11 +38,12 @@
         }
         
         #search {
-            width: 200px;
+            width: 100%;
             padding: 5px;
             margin-bottom: 10px;
             border: 1px solid #ddd;
             border-radius: 4px;
+            box-sizing: border-box;
         }
         
         .button {
@@ -74,10 +76,15 @@
             stroke-dasharray: 3,1;
         }
         
+        .node.high-opportunity circle {
+            stroke: #ff6b6b;
+            stroke-width: 3px;
+            filter: drop-shadow(0 0 3px rgba(255, 107, 107, 0.5));
+        }
+        
         .node circle:hover {
             stroke-width: 4px;
             filter: brightness(1.1);
-            transform: scale(1.2);
         }
         
         .node text {
@@ -96,6 +103,12 @@
             font-size: 14px;
         }
         
+        .node .job-count {
+            font-size: 10px;
+            fill: #666;
+            font-weight: bold;
+        }
+        
         .link {
             fill: none;
             stroke: #999;
@@ -106,13 +119,21 @@
         .tooltip {
             position: absolute;
             padding: 10px;
-            background: rgba(0, 0, 0, 0.8);
+            background: rgba(0, 0, 0, 0.9);
             color: white;
             border-radius: 5px;
             pointer-events: none;
             font-size: 14px;
             z-index: 1000;
             display: none;
+            max-width: 300px;
+        }
+        
+        .tooltip .job-info {
+            color: #4CAF50;
+            font-weight: bold;
+            font-size: 16px;
+            margin-top: 5px;
         }
         
         .highlighted {
@@ -132,6 +153,67 @@
             padding: 10px;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        #legend {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            z-index: 999;
+        }
+        
+        #legend h4 {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+            font-size: 12px;
+        }
+        
+        .legend-circle {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-right: 10px;
+            border: 2px solid #333;
+        }
+        
+        .filters {
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #ddd;
+        }
+        
+        .filter-label {
+            font-size: 12px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        #minJobsFilter {
+            width: 100%;
+            margin-bottom: 5px;
+        }
+        
+        #minJobsValue {
+            font-size: 12px;
+            color: #666;
+        }
+        
+        .data-status {
+            font-size: 11px;
+            color: #666;
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid #ddd;
         }
         
         /* Mobile menu toggle button */
@@ -154,7 +236,7 @@
             height: 24px;
         }
         
-        /* Mobile styles for iPhone SE and similar devices */
+        /* Mobile styles */
         @media (max-width: 768px) {
             #menuToggle {
                 display: block;
@@ -169,6 +251,7 @@
                 left: 0;
                 border-radius: 0;
                 overflow-y: auto;
+                max-width: none;
             }
             
             #controls.active {
@@ -179,35 +262,12 @@
                 margin-top: 50px;
             }
             
-            #search {
-                width: calc(100% - 10px);
-                padding: 10px 5px;
-                font-size: 16px;
-            }
-            
-            .button {
-                padding: 10px 15px;
-                margin: 5px 2px;
-                font-size: 14px;
-                width: calc(50% - 8px);
-                display: inline-block;
-                text-align: center;
-            }
-            
-            .button:active {
-                transform: scale(0.95);
-            }
-            
-            .layout-btn {
-                width: calc(50% - 8px);
+            #legend {
+                display: none;
             }
             
             #info {
                 display: none;
-            }
-            
-            #closeMenu {
-                display: block !important;
             }
             
             .node text {
@@ -222,19 +282,8 @@
                 font-size: 12px;
             }
             
-            .node circle {
-                cursor: pointer;
-                stroke-width: 3px;
-            }
-            
-            .node circle:hover {
-                stroke-width: 5px;
-                transform: none;
-            }
-            
-            .tooltip {
-                font-size: 12px;
-                max-width: 200px;
+            .node .job-count {
+                font-size: 8px;
             }
         }
         
@@ -265,7 +314,7 @@
         <div id="overlay"></div>
         <div id="controls">
             <button id="closeMenu" class="button" style="position: absolute; top: 10px; right: 10px; width: 30px; height: 30px; padding: 0; display: none;">×</button>
-            <h3>Skills Mind Map</h3>
+            <h3>Skills & Opportunities</h3>
             <input type="text" id="search" placeholder="Search skills...">
             <br>
             <button class="button" onclick="resetZoom()">Reset View</button>
@@ -275,13 +324,52 @@
             <label style="display: block; margin-top: 10px; font-size: 14px;">Layout:</label>
             <button class="button layout-btn" onclick="setLayout('radial')" id="radialBtn">Radial</button>
             <button class="button layout-btn" onclick="setLayout('horizontal')" id="horizontalBtn" style="background: #45a049;">Horizontal</button>
+            
+            <div class="filters">
+                <div class="filter-label">Filter by Job Count:</div>
+                <input type="range" id="minJobsFilter" min="0" max="100" value="0" step="5">
+                <div id="minJobsValue">Min jobs: 0</div>
+                <label style="display: inline-block; margin-top: 5px;">
+                    <input type="checkbox" id="showHighOpportunity" checked> Highlight high-opportunity skills
+                </label>
+            </div>
+            
+            <div class="data-status" id="dataStatus">
+                Loading data...
+            </div>
         </div>
+        
+        <div id="legend">
+            <h4>Node Size = Job Opportunities</h4>
+            <div class="legend-item">
+                <div class="legend-circle" style="width: 25px; height: 25px; background: #e8f5e9;"></div>
+                <span>Many jobs (100+)</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-circle" style="width: 18px; height: 18px; background: #c8e6c9;"></div>
+                <span>Some jobs (20-99)</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-circle" style="width: 12px; height: 12px; background: #a5d6a7;"></div>
+                <span>Few jobs (1-19)</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-circle" style="width: 8px; height: 8px; background: #f5f5f5; border-color: #999;"></div>
+                <span>No data/Branch</span>
+            </div>
+            <div class="legend-item" style="margin-top: 10px;">
+                <div class="legend-circle" style="border: 3px solid #ff6b6b; background: #e8f5e9;"></div>
+                <span>High opportunity (50+ jobs)</span>
+            </div>
+        </div>
+        
         <div id="info">
             <h4 style="margin-top: 0;">Instructions</h4>
             <p style="margin: 5px 0; font-size: 12px;">
                 • Click nodes to expand/collapse<br>
-                • Drag to pan, scroll to zoom<br>
-                • Dashed circles have hidden children<br>
+                • Click leaf nodes to see jobs<br>
+                • Larger nodes = more opportunities<br>
+                • Red border = high demand (50+ jobs)<br>
             </p>
             <span id="nodeCount" style="font-weight: bold;">Loading...</span>
         </div>
@@ -294,6 +382,11 @@
         const menuToggle = document.getElementById('menuToggle');
         const controls = document.getElementById('controls');
         const overlay = document.getElementById('overlay');
+        const closeMenu = document.getElementById('closeMenu');
+        
+        if (window.innerWidth <= 768) {
+            closeMenu.style.display = 'block';
+        }
         
         menuToggle.addEventListener('click', function() {
             controls.classList.toggle('active');
@@ -305,7 +398,6 @@
             overlay.classList.remove('active');
         });
         
-        const closeMenu = document.getElementById('closeMenu');
         closeMenu.addEventListener('click', function() {
             controls.classList.remove('active');
             overlay.classList.remove('active');
@@ -317,60 +409,24 @@
         const centerX = width / 2;
         const centerY = height / 2;
 
-        // Color scheme
+        // Enhanced color scheme for job intensity
         const colorScale = d3.scaleOrdinal(d3.schemeSet3);
+        const jobColorScale = d3.scaleSequential(d3.interpolateGreens)
+            .domain([0, 100]);
 
         // Create SVG
         const svg = d3.select("#mindmap")
             .attr("width", width)
             .attr("height", height);
 
-        // Create zoom behavior with touch support
+        // Create zoom behavior
         const zoom = d3.zoom()
             .scaleExtent([0.1, 10])
             .on("zoom", (event) => {
                 g.attr("transform", event.transform);
-            })
-            .filter((event) => {
-                // Allow all events on desktop
-                if (window.innerWidth > 768) return true;
-                
-                // On mobile, allow touch events and prevent accidental zooms
-                if (event.type === 'wheel') return false; // Disable wheel zoom on mobile
-                if (event.touches && event.touches.length < 2) return false; // Require 2 fingers for zoom
-                return true;
             });
 
         svg.call(zoom);
-        
-        // Add pan support for mobile
-        if (window.innerWidth <= 768) {
-            let startX, startY, startTransform;
-            
-            svg.on("touchstart", function(event) {
-                if (event.touches.length === 1) {
-                    const touch = event.touches[0];
-                    startX = touch.clientX;
-                    startY = touch.clientY;
-                    startTransform = d3.zoomTransform(svg.node());
-                }
-            });
-            
-            svg.on("touchmove", function(event) {
-                if (event.touches.length === 1) {
-                    event.preventDefault();
-                    const touch = event.touches[0];
-                    const dx = touch.clientX - startX;
-                    const dy = touch.clientY - startY;
-                    
-                    const newTransform = d3.zoomIdentity
-                        .translate(startTransform.x + dx, startTransform.y + dy)
-                        .scale(startTransform.k);
-                    
-                    svg.call(zoom.transform, newTransform);
-                }
-            });
-        }
 
         // Create main group
         const g = svg.append("g");
@@ -378,45 +434,138 @@
         // Tooltip
         const tooltip = d3.select(".tooltip");
 
-        // Load and process data
+        // Global variables
         let root;
         let tree;
         let diagonal;
         let horizontalDiagonal;
-
-        // Layout configuration
         let currentLayout = 'horizontal';
         let horizontalTree;
+        let minJobsFilter = 0;
+        let showHighOpportunity = true;
+        let dataMode = 'enhanced'; // 'enhanced' or 'fallback'
+        
+        // Try to load enhanced data first, fallback to original if not available
+        async function loadData() {
+            try {
+                // First try to load enhanced data with job counts
+                const response = await fetch('skills_with_jobs_current.json');
+                if (response.ok) {
+                    const data = await response.json();
+                    dataMode = 'enhanced';
+                    document.getElementById('dataStatus').innerHTML = 
+                        '<strong>✓ Job data loaded</strong><br>Showing real job counts';
+                    return data;
+                }
+            } catch (e) {
+                console.log('Enhanced data not found, falling back to original');
+            }
+            
+            // Fallback to original data
+            const response = await fetch('allskills_tree_clean.json');
+            const data = await response.json();
+            dataMode = 'fallback';
+            document.getElementById('dataStatus').innerHTML = 
+                '<strong>⚠ Using demo data</strong><br>Run scraper for real job counts';
+            
+            // Convert to enhanced format with mock data
+            return convertToEnhancedFormat(data);
+        }
+        
+        function convertToEnhancedFormat(data) {
+            const result = {};
+            
+            function process(obj) {
+                const processed = {};
+                for (const [key, value] of Object.entries(obj)) {
+                    if (typeof value === 'string') {
+                        // Leaf node - add mock job count
+                        processed[key] = {
+                            id: value,
+                            job_count: Math.floor(Math.random() * 100), // Mock data
+                            type: "leaf"
+                        };
+                    } else {
+                        // Branch node
+                        const children = process(value);
+                        const totalJobs = Object.values(children).reduce((sum, child) => 
+                            sum + (child.job_count || child.total_jobs || 0), 0
+                        );
+                        processed[key] = {
+                            children: children,
+                            total_jobs: totalJobs,
+                            type: "branch"
+                        };
+                    }
+                }
+                return processed;
+            }
+            
+            return process(data);
+        }
+        
+        // Convert enhanced data to D3 hierarchy
+        function convertToHierarchy(data, name = "OnlineJobs.ph") {
+            const node = { 
+                name: name,
+                job_count: 0,
+                total_jobs: 0
+            };
+            
+            if (data.id !== undefined) {
+                // Leaf node
+                node.id = data.id;
+                node.job_count = data.job_count || 0;
+                node.total_jobs = data.job_count || 0;
+            } else if (data.children) {
+                // Branch node
+                node.children = [];
+                node.total_jobs = data.total_jobs || 0;
+                
+                for (const [key, value] of Object.entries(data.children)) {
+                    node.children.push(convertToHierarchy(value, key));
+                }
+            } else {
+                // Root processing
+                node.children = [];
+                let totalJobs = 0;
+                
+                for (const [key, value] of Object.entries(data)) {
+                    const child = convertToHierarchy(value, key);
+                    node.children.push(child);
+                    totalJobs += child.total_jobs || 0;
+                }
+                
+                node.total_jobs = totalJobs;
+            }
+            
+            return node;
+        }
+        
+        // Node size based on job count
+        function getNodeSize(d) {
+            const baseSize = 6;
+            const maxSize = 25;
+            const minSize = 4;
+            
+            if (d.depth === 0) return 20; // Root node
+            
+            const jobs = d.data.job_count || d.data.total_jobs || 0;
+            
+            if (jobs === 0) return baseSize;
+            if (jobs >= 100) return maxSize;
+            if (jobs >= 50) return maxSize * 0.8;
+            if (jobs >= 20) return maxSize * 0.6;
+            if (jobs >= 10) return maxSize * 0.5;
+            if (jobs >= 5) return maxSize * 0.4;
+            
+            return Math.max(minSize, baseSize + (jobs / 100) * (maxSize - baseSize));
+        }
         
         // Initialize with data
-        d3.json("allskills_tree_clean.json").then(data => {
-            // Convert the clean tree structure to D3 hierarchy format
-            function processData(obj, name = "OnlineJobs.ph") {
-                if (typeof obj === 'string') {
-                    // Leaf node
-                    return { name: name, id: obj };
-                } else {
-                    // Branch node
-                    const node = { name: name };
-                    const children = [];
-                    
-                    for (const [key, value] of Object.entries(obj)) {
-                        children.push(processData(value, key));
-                    }
-                    
-                    if (children.length > 0) {
-                        node.children = children;
-                    }
-                    
-                    return node;
-                }
-            }
-
+        loadData().then(data => {
             // Create the hierarchical data
-            const hierarchicalData = {
-                name: "OnlineJobs.ph",
-                children: Object.entries(data).map(([key, value]) => processData(value, key))
-            };
+            const hierarchicalData = convertToHierarchy(data);
 
             // Create D3 hierarchy
             root = d3.hierarchy(hierarchicalData);
@@ -431,48 +580,52 @@
                 }
             });
 
-            // Count all nodes
-            const countNodes = (node) => {
-                let count = 1;
-                if (node.children) node.children.forEach(child => count += countNodes(child));
-                if (node._children) node._children.forEach(child => count += countNodes(child));
-                return count;
-            };
+            // Count nodes and calculate stats
+            let totalNodes = 0;
+            let totalJobs = 0;
+            let nodesWithJobs = 0;
             
-            document.getElementById("nodeCount").textContent = `Total Skills: ${countNodes(root)}`;
+            root.descendants().forEach(d => {
+                totalNodes++;
+                if (d.data.job_count > 0) {
+                    nodesWithJobs++;
+                    totalJobs += d.data.job_count;
+                }
+            });
             
-            // Create radial tree layout
+            document.getElementById("nodeCount").innerHTML = 
+                `Skills: ${totalNodes} | Jobs: ${totalJobs.toLocaleString()}`;
+            
+            // Setup filter
+            const maxJobs = Math.max(...root.descendants()
+                .map(d => d.data.job_count || 0));
+            document.getElementById('minJobsFilter').max = Math.min(maxJobs, 200);
+            
+            // Create layouts
             tree = d3.tree()
                 .size([2 * Math.PI, Math.min(width, height) / 2 - 150])
                 .separation((a, b) => (a.parent == b.parent ? 1 : 2) / a.depth);
                 
-            // Create horizontal tree layout
             horizontalTree = d3.tree()
                 .size([height * 1.5, width - 200])
                 .separation((a, b) => {
-                    // Calculate separation based on text length and depth
                     const baseSpacing = a.parent == b.parent ? 1 : 1.5;
-                    // Significantly increase spacing for deeper levels
                     let depthFactor = 1;
                     if (a.depth === 1) depthFactor = 2;
                     else if (a.depth === 2) depthFactor = 2.5;
                     else if (a.depth >= 3) depthFactor = 3;
                     
-                    // Additional spacing for nodes with many children
                     const childrenFactor = (a.children || a._children) ? 1.3 : 1;
-                    
-                    // Extra spacing for level 3 nodes
                     const level3Factor = a.depth >= 3 ? 1.5 : 1;
                     
                     return baseSpacing * depthFactor * childrenFactor * level3Factor;
                 });
 
-            // Create diagonal link generator
+            // Create link generators
             diagonal = d3.linkRadial()
                 .angle(d => d.x)
                 .radius(d => d.y);
                 
-            // Create horizontal link generator
             horizontalDiagonal = d3.linkHorizontal()
                 .x(d => d.y)
                 .y(d => d.x);
@@ -482,38 +635,39 @@
 
             update(root);
             
-            // Apply initial zoom based on layout and device
-            const isMobile = window.innerWidth <= 768;
+            // Set initial zoom
             if (currentLayout === 'horizontal') {
-                if (isMobile) {
-                    svg.call(zoom.transform, d3.zoomIdentity.translate(50, centerY / 2).scale(0.3));
-                } else {
-                    svg.call(zoom.transform, d3.zoomIdentity.translate(150, centerY / 2).scale(0.6));
-                }
-            } else if (isMobile) {
-                // For radial layout on mobile, zoom out a bit
-                svg.call(zoom.transform, d3.zoomIdentity.translate(centerX, centerY).scale(0.5));
+                svg.call(zoom.transform, d3.zoomIdentity
+                    .translate(150, centerY / 2)
+                    .scale(0.6));
             }
         }).catch(error => {
             console.error("Error loading data:", error);
+            document.getElementById("dataStatus").textContent = "Error loading data";
             document.getElementById("nodeCount").textContent = "Error loading skills data";
         });
 
         function update(source) {
             const duration = 750;
 
-            // Compute new tree layout based on current layout type
+            // Apply layout
             if (currentLayout === 'radial') {
                 tree(root);
             } else {
                 horizontalTree(root);
             }
 
+            // Filter nodes based on job count
+            const visibleNodes = root.descendants().filter(d => {
+                if (d.depth === 0) return true; // Always show root
+                const jobs = d.data.job_count || d.data.total_jobs || 0;
+                return jobs >= minJobsFilter || d.parent.children;
+            });
+
             // Links
             const link = g.selectAll(".link")
                 .data(root.links(), d => d.target.id || (d.target.id = Math.random()));
 
-            // Enter new links
             const linkEnter = link.enter().append("path")
                 .attr("class", "link")
                 .attr("d", d => {
@@ -523,12 +677,10 @@
                         horizontalDiagonal({source: o, target: o});
                 });
 
-            // Update links
             link.merge(linkEnter).transition()
                 .duration(duration)
                 .attr("d", currentLayout === 'radial' ? diagonal : horizontalDiagonal);
 
-            // Remove old links
             link.exit().transition()
                 .duration(duration)
                 .attr("d", d => {
@@ -541,13 +693,14 @@
 
             // Nodes
             const node = g.selectAll(".node")
-                .data(root.descendants(), d => d.id || (d.id = Math.random()));
+                .data(visibleNodes, d => d.id || (d.id = Math.random()));
 
-            // Enter new nodes
             const nodeEnter = node.enter().append("g")
                 .attr("class", d => {
                     let classes = `node ${d.depth === 0 ? 'root' : `level${d.depth}`}`;
                     if (d._children) classes += ' has-hidden-children';
+                    const jobs = d.data.job_count || 0;
+                    if (showHighOpportunity && jobs >= 50) classes += ' high-opportunity';
                     return classes;
                 })
                 .attr("transform", d => {
@@ -560,20 +713,30 @@
                 .on("click", (event, d) => {
                     if (event.defaultPrevented) return;
                     
-                    // Check if the node has children or hidden children
                     if (!d.children && !d._children && d.data.id) {
-                        // This is a leaf node with an ID, open the link
                         window.open(`https://www.onlinejobs.ph/jobseekers/jobsearch?skill_tags=${d.data.id}`, '_blank');
                     } else {
-                        // This is a parent node, toggle expand/collapse
                         toggle(d);
                         update(d);
                     }
                 })
                 .on("mouseover", (event, d) => {
+                    const jobs = d.data.job_count || 0;
+                    const totalJobs = d.data.total_jobs || 0;
                     const childCount = (d.children ? d.children.length : 0) + (d._children ? d._children.length : 0);
-                    tooltip.style("display", "block")
-                        .html(`<strong>${d.data.name}</strong><br>Level: ${d.depth}<br>Children: ${childCount}${d.data.id ? '<br>ID: ' + d.data.id : ''}`);
+                    
+                    let tooltipHtml = `<strong>${d.data.name}</strong><br>`;
+                    tooltipHtml += `Level: ${d.depth}<br>`;
+                    
+                    if (d.data.id) {
+                        tooltipHtml += `<div class="job-info">${jobs.toLocaleString()} job${jobs !== 1 ? 's' : ''} available</div>`;
+                        tooltipHtml += `<small>Click to view jobs</small>`;
+                    } else {
+                        tooltipHtml += `Children: ${childCount}<br>`;
+                        tooltipHtml += `<div class="job-info">Total: ${totalJobs.toLocaleString()} jobs in category</div>`;
+                    }
+                    
+                    tooltip.style("display", "block").html(tooltipHtml);
                 })
                 .on("mousemove", (event) => {
                     tooltip.style("left", (event.pageX + 10) + "px")
@@ -583,20 +746,31 @@
                     tooltip.style("display", "none");
                 });
 
-            // Add circles
+            // Add circles with dynamic sizing
             nodeEnter.append("circle")
                 .attr("r", 1e-6)
-                .style("fill", d => d._children ? colorScale(getTopParent(d).data.name) : "#fff")
-                .style("stroke", d => colorScale(getTopParent(d).data.name));
+                .style("fill", d => {
+                    const jobs = d.data.job_count || d.data.total_jobs || 0;
+                    if (jobs > 0) {
+                        return jobColorScale(Math.min(jobs, 100));
+                    }
+                    return d._children ? "#ddd" : "#fff";
+                })
+                .style("stroke", d => {
+                    const topParent = getTopParent(d);
+                    return colorScale(topParent.data.name);
+                });
 
             // Add text
-            nodeEnter.append("text")
-                .attr("dy", ".31em")
+            const textGroup = nodeEnter.append("g");
+            
+            textGroup.append("text")
+                .attr("dy", d => d.data.job_count > 0 ? "-.2em" : ".31em")
                 .attr("x", d => {
                     if (currentLayout === 'radial') {
-                        return d.x < Math.PI === !d.children ? 10 : -10;
+                        return d.x < Math.PI === !d.children ? getNodeSize(d) + 5 : -(getNodeSize(d) + 5);
                     } else {
-                        return d.children || d._children ? -10 : 10;
+                        return d.children || d._children ? -(getNodeSize(d) + 5) : getNodeSize(d) + 5;
                     }
                 })
                 .attr("text-anchor", d => {
@@ -615,6 +789,38 @@
                 })
                 .text(d => d.data.name)
                 .style("fill-opacity", 1e-6);
+            
+            // Add job count for leaf nodes
+            textGroup.append("text")
+                .attr("class", "job-count")
+                .attr("dy", ".9em")
+                .attr("x", d => {
+                    if (currentLayout === 'radial') {
+                        return d.x < Math.PI === !d.children ? getNodeSize(d) + 5 : -(getNodeSize(d) + 5);
+                    } else {
+                        return d.children || d._children ? -(getNodeSize(d) + 5) : getNodeSize(d) + 5;
+                    }
+                })
+                .attr("text-anchor", d => {
+                    if (currentLayout === 'radial') {
+                        return d.x < Math.PI === !d.children ? "start" : "end";
+                    } else {
+                        return d.children || d._children ? "end" : "start";
+                    }
+                })
+                .attr("transform", d => {
+                    if (currentLayout === 'radial') {
+                        return d.x >= Math.PI ? "rotate(180)" : null;
+                    } else {
+                        return null;
+                    }
+                })
+                .text(d => {
+                    const jobs = d.data.job_count;
+                    if (jobs > 0) return `(${jobs} jobs)`;
+                    return '';
+                })
+                .style("fill-opacity", 1e-6);
 
             // Update nodes
             const nodeUpdate = node.merge(nodeEnter).transition()
@@ -631,41 +837,23 @@
             node.merge(nodeEnter).attr("class", d => {
                 let classes = `node ${d.depth === 0 ? 'root' : `level${d.depth}`}`;
                 if (d._children) classes += ' has-hidden-children';
+                const jobs = d.data.job_count || 0;
+                if (showHighOpportunity && jobs >= 50) classes += ' high-opportunity';
                 return classes;
             });
 
             nodeUpdate.select("circle")
-                .attr("r", d => {
-                    const isMobile = window.innerWidth <= 768;
-                    if (d.depth === 0) return isMobile ? 20 : 15;
-                    if (d.depth === 1) return isMobile ? 15 : 10;
-                    return isMobile ? 10 : 6;
-                })
-                .style("fill", d => d._children ? colorScale(getTopParent(d).data.name) : "#fff");
-
-            nodeUpdate.select("text")
-                .style("fill-opacity", 1)
-                .attr("x", d => {
-                    if (currentLayout === 'radial') {
-                        return d.x < Math.PI === !d.children ? 10 : -10;
-                    } else {
-                        return d.children || d._children ? -10 : 10;
+                .attr("r", d => getNodeSize(d))
+                .style("fill", d => {
+                    const jobs = d.data.job_count || d.data.total_jobs || 0;
+                    if (jobs > 0) {
+                        return jobColorScale(Math.min(jobs, 100));
                     }
-                })
-                .attr("text-anchor", d => {
-                    if (currentLayout === 'radial') {
-                        return d.x < Math.PI === !d.children ? "start" : "end";
-                    } else {
-                        return d.children || d._children ? "end" : "start";
-                    }
-                })
-                .attr("transform", d => {
-                    if (currentLayout === 'radial') {
-                        return d.x >= Math.PI ? "rotate(180)" : null;
-                    } else {
-                        return null;
-                    }
+                    return d._children ? "#ddd" : "#fff";
                 });
+
+            nodeUpdate.selectAll("text")
+                .style("fill-opacity", 1);
 
             // Remove old nodes
             const nodeExit = node.exit().transition()
@@ -682,7 +870,7 @@
             nodeExit.select("circle")
                 .attr("r", 1e-6);
 
-            nodeExit.select("text")
+            nodeExit.selectAll("text")
                 .style("fill-opacity", 1e-6);
 
             // Store old positions
@@ -694,15 +882,12 @@
 
         function toggle(d) {
             if (d.children) {
-                // Collapse
                 d._children = d.children;
                 d.children = null;
             } else if (d._children) {
-                // Expand - but ensure children start collapsed
                 d.children = d._children;
                 d._children = null;
                 
-                // Collapse all newly visible children
                 if (d.children) {
                     d.children.forEach(child => {
                         if (child.children) {
@@ -724,48 +909,36 @@
         function setLayout(layout) {
             currentLayout = layout;
             
-            // Update button styles
             document.querySelectorAll('.layout-btn').forEach(btn => {
                 btn.style.background = '#4CAF50';
             });
             document.getElementById(layout === 'radial' ? 'radialBtn' : 'horizontalBtn').style.background = '#45a049';
             
-            // Reset positions for smooth transition
             root.descendants().forEach(d => {
                 d.x0 = d.x;
                 d.y0 = d.y;
             });
             
-            // Update the layout
             update(root);
             
-            // Adjust view for different layouts
-            const isMobile = window.innerWidth <= 768;
             if (layout === 'horizontal') {
                 svg.transition()
                     .duration(750)
-                    .call(zoom.transform, d3.zoomIdentity.translate(
-                        isMobile ? 50 : 150, 
-                        centerY / 2
-                    ).scale(isMobile ? 0.3 : 0.6));
+                    .call(zoom.transform, d3.zoomIdentity.translate(150, centerY / 2).scale(0.6));
             } else {
                 resetZoom();
             }
         }
         
         function resetZoom() {
-            const isMobile = window.innerWidth <= 768;
             if (currentLayout === 'radial') {
                 svg.transition()
                     .duration(750)
-                    .call(zoom.transform, d3.zoomIdentity.translate(centerX, centerY).scale(isMobile ? 0.5 : 1));
+                    .call(zoom.transform, d3.zoomIdentity.translate(centerX, centerY));
             } else {
                 svg.transition()
                     .duration(750)
-                    .call(zoom.transform, d3.zoomIdentity.translate(
-                        isMobile ? 50 : 150, 
-                        centerY / 2
-                    ).scale(isMobile ? 0.3 : 0.6));
+                    .call(zoom.transform, d3.zoomIdentity.translate(150, centerY / 2).scale(0.6));
             }
         }
 
@@ -801,6 +974,19 @@
                     .classed("highlighted", d => !d.data.name.toLowerCase().includes(searchTerm))
                     .classed("search-match", d => d.data.name.toLowerCase().includes(searchTerm));
             }
+        });
+
+        // Job filter
+        document.getElementById("minJobsFilter").addEventListener("input", function(e) {
+            minJobsFilter = parseInt(e.target.value);
+            document.getElementById("minJobsValue").textContent = `Min jobs: ${minJobsFilter}`;
+            update(root);
+        });
+
+        // High opportunity toggle
+        document.getElementById("showHighOpportunity").addEventListener("change", function(e) {
+            showHighOpportunity = e.target.checked;
+            update(root);
         });
 
         // Responsive resize
