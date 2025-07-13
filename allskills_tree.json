@@ -1,0 +1,3554 @@
+{
+  "Accounting": {
+    "_id": "1",
+    "Accounts Receivable": {
+      "_id": "2",
+      "Billing": {
+        "_id": "23392"
+      },
+      "Collection": {
+        "_id": "24570"
+      }
+    },
+    "Accounts Reconciliations": {
+      "_id": "3"
+    },
+    "Simpro": {
+      "_id": "4"
+    },
+    "Xero": {
+      "_id": "5"
+    },
+    "Payroll": {
+      "_id": "6"
+    },
+    "Quickbooks": {
+      "_id": "7"
+    },
+    "Accounts Payable": {
+      "_id": "8"
+    },
+    "Financial Accounting": {
+      "_id": "9",
+      "Analysis": {
+        "_id": "10"
+      },
+      "Planning": {
+        "_id": "11"
+      },
+      "Financial Analysis": {
+        "_id": "760"
+      },
+      "Financial Planning": {
+        "_id": "761"
+      },
+      "Financial Forcasting": {
+        "_id": "762"
+      },
+      "Financial Reporting": {
+        "_id": "24572"
+      },
+      "Internal Auditing": {
+        "_id": "24573"
+      },
+      "External Audit": {
+        "_id": "30474"
+      },
+      "Xplan": {
+        "_id": "40719"
+      }
+    },
+    "Bookkeeping": {
+      "_id": "12",
+      "Online Bookkeeping": {
+        "_id": "30027"
+      }
+    },
+    "EDI": {
+      "_id": "13"
+    },
+    "Tax Preparation": {
+      "_id": "763"
+    },
+    "Investment Accounting": {
+      "_id": "764",
+      "Investment Research": {
+        "_id": "798"
+      },
+      "Strategic Planning": {
+        "_id": "799"
+      }
+    },
+    "Banking": {
+      "_id": "22337"
+    },
+    "Claims Processing": {
+      "_id": "22715"
+    },
+    "Business Analysis": {
+      "_id": "23391"
+    },
+    "Bank Reconciliation": {
+      "_id": "23394"
+    },
+    "Invoicing": {
+      "_id": "24222"
+    },
+    "MYOB": {
+      "_id": "24229"
+    },
+    "Cost Accounting": {
+      "_id": "25322"
+    },
+    "Netsuite Accounting Software": {
+      "_id": "26329"
+    },
+    "Budget Management": {
+      "_id": "27630"
+    },
+    "General Ledger": {
+      "_id": "31340"
+    },
+    "BGL360": {
+      "_id": "35155"
+    },
+    "Sage Intacct": {
+      "_id": "35156"
+    },
+    "BlackLine": {
+      "_id": "39091"
+    },
+    "Cash Flow Management": {
+      "_id": "39681"
+    },
+    "Revenue Management": {
+      "_id": "39986"
+    }
+  },
+  "Marketing": {
+    "_id": "14",
+    "Performance Marketing": {
+      "_id": "15"
+    },
+    "CRM": {
+      "_id": "16",
+      "Scoro": {
+        "_id": "17"
+      },
+      "Accelo": {
+        "_id": "18"
+      },
+      "Sugar CRM": {
+        "_id": "19"
+      },
+      "Salesforce": {
+        "_id": "20"
+      },
+      "Pipedrive": {
+        "_id": "21"
+      },
+      "WORKetc": {
+        "_id": "22"
+      },
+      "Insightly": {
+        "_id": "23"
+      },
+      "Keap": {
+        "_id": "24"
+      },
+      "Freshdesk": {
+        "_id": "25"
+      },
+      "Zoho CRM": {
+        "_id": "26"
+      },
+      "Creatio": {
+        "_id": "27"
+      },
+      "HubSpot CRM": {
+        "_id": "28"
+      },
+      "Apptivo": {
+        "_id": "29"
+      },
+      "NetSuite CRM": {
+        "_id": "30"
+      },
+      "PipelineDeals": {
+        "_id": "31"
+      },
+      "Zendesk": {
+        "_id": "32"
+      },
+      "Microsoft Dynamics 365": {
+        "_id": "33"
+      },
+      "Nimble": {
+        "_id": "34"
+      },
+      "Odoo": {
+        "_id": "35"
+      },
+      "Less Annoying CRM": {
+        "_id": "36"
+      },
+      "Capsule CRM": {
+        "_id": "37"
+      },
+      "Podio": {
+        "_id": "38"
+      },
+      "Freshworks CRM": {
+        "_id": "39"
+      }
+    },
+    "Email Marketing": {
+      "_id": "40",
+      "MailerLite": {
+        "_id": "41"
+      },
+      "Sender": {
+        "_id": "42"
+      },
+      "Sendinblue": {
+        "_id": "43"
+      },
+      "Omnisend": {
+        "_id": "44"
+      },
+      "SendPulse": {
+        "_id": "45"
+      },
+      "Benchmark Email": {
+        "_id": "46"
+      },
+      "Mailchimp": {
+        "_id": "47"
+      },
+      "Mailjet": {
+        "_id": "48"
+      },
+      "Moosend": {
+        "_id": "49"
+      },
+      "EmailOctopus": {
+        "_id": "50"
+      },
+      "Klaviyo": {
+        "_id": "24574"
+      }
+    },
+    "Telemarketing": {
+      "_id": "51",
+      "Inbound Sales": {
+        "_id": "52"
+      },
+      "Outbound Sales": {
+        "_id": "53"
+      },
+      "Outbound Calls": {
+        "_id": "27691"
+      }
+    },
+    "Copywriting": {
+      "_id": "54",
+      "Email Copywriting": {
+        "_id": "25997"
+      }
+    },
+    "Influencer Marketing": {
+      "_id": "55"
+    },
+    "Marketing Automation": {
+      "_id": "56",
+      "Active Campaign": {
+        "_id": "27628"
+      },
+      "Convertkit": {
+        "_id": "27926"
+      }
+    },
+    "Real Estate Marketing": {
+      "_id": "57"
+    },
+    "Credit Repair": {
+      "_id": "58"
+    },
+    "Affiliate Marketing": {
+      "_id": "59"
+    },
+    "Marketing Analytics": {
+      "_id": "60",
+      "Google Tag Manager": {
+        "_id": "61"
+      },
+      "Google Analytics": {
+        "_id": "62"
+      },
+      "Google Data Studio": {
+        "_id": "63"
+      },
+      "UA": {
+        "_id": "64"
+      },
+      "GA4": {
+        "_id": "65"
+      },
+      "Meta Pixel": {
+        "_id": "66"
+      },
+      "Looker Studio": {
+        "_id": "41023"
+      }
+    },
+    "Content Creation": {
+      "_id": "67",
+      "Article Writing": {
+        "_id": "68"
+      },
+      "Blogging": {
+        "_id": "69"
+      },
+      "Creative Writing": {
+        "_id": "70"
+      },
+      "eBook Writing": {
+        "_id": "71"
+      },
+      "Proofreading": {
+        "_id": "72"
+      },
+      "Technical Writing": {
+        "_id": "73"
+      },
+      "News Writing": {
+        "_id": "74"
+      },
+      "Scriptwriting": {
+        "_id": "75"
+      },
+      "eMail Marketing": {
+        "_id": "76"
+      },
+      "Social Media Content Creation": {
+        "_id": "77"
+      },
+      "Microblog Content Writing": {
+        "_id": "78"
+      },
+      "Podcast Content Creation": {
+        "_id": "79"
+      },
+      "Video Content Creation": {
+        "_id": "80"
+      },
+      "Webinar Writing": {
+        "_id": "81"
+      },
+      "Case Studies Writing": {
+        "_id": "82"
+      },
+      "Influencer Content Creation": {
+        "_id": "83"
+      },
+      "Research Writing": {
+        "_id": "84"
+      },
+      "Ghost Writing": {
+        "_id": "85"
+      },
+      "Guide Writing": {
+        "_id": "86"
+      },
+      "Listicles": {
+        "_id": "87"
+      },
+      "Infographics": {
+        "_id": "88"
+      },
+      "Copyediting": {
+        "_id": "22338"
+      },
+      "Content Planning": {
+        "_id": "25323"
+      },
+      "Descript": {
+        "_id": "25995"
+      },
+      "Academic Writing": {
+        "_id": "33603"
+      }
+    },
+    "Social Media Management": {
+      "_id": "89",
+      "Community Moderation": {
+        "_id": "91"
+      },
+      "Online Forum Posting": {
+        "_id": "92"
+      },
+      "Microblogging": {
+        "_id": "93"
+      },
+      "Template Creation": {
+        "_id": "94"
+      },
+      "Facebook marketing": {
+        "_id": "95"
+      },
+      "Instagram marketing": {
+        "_id": "96"
+      },
+      "Social Media Marketing": {
+        "_id": "765"
+      },
+      "Social Media Engagement": {
+        "_id": "24377"
+      },
+      "Meta Business Suite": {
+        "_id": "28246"
+      },
+      "Post Scheduling": {
+        "_id": "40885"
+      }
+    },
+    "Video Marketing": {
+      "_id": "759"
+    },
+    "Craigslist Posting Marketing": {
+      "_id": "766"
+    },
+    "Direct Mail Marketing": {
+      "_id": "767"
+    },
+    "Search Engine Marketing": {
+      "_id": "768"
+    },
+    "Classified Ads Marketing": {
+      "_id": "769"
+    },
+    "Mobile Marketing": {
+      "_id": "770"
+    },
+    "Media Buying": {
+      "_id": "771"
+    },
+    "Youtube Marketing": {
+      "_id": "772"
+    },
+    "LinkedIn Marketing": {
+      "_id": "773"
+    },
+    "Appointment Setting": {
+      "_id": "23600",
+      "Calendly": {
+        "_id": "32358"
+      }
+    },
+    "Competitor Analysis": {
+      "_id": "23602"
+    },
+    "GoHighLevel": {
+      "_id": "24220"
+    },
+    "Market Research": {
+      "_id": "24233"
+    },
+    "Sales": {
+      "_id": "24376",
+      "Order Management": {
+        "_id": "27858"
+      },
+      "Ontraport": {
+        "_id": "31342"
+      }
+    },
+    "Audience Engagement": {
+      "_id": "25317"
+    },
+    "Kartra": {
+      "_id": "25328"
+    },
+    "Website Copywriting": {
+      "_id": "25339"
+    },
+    "Digital Marketing": {
+      "_id": "26551"
+    },
+    "Campaign Optimization": {
+      "_id": "28245"
+    }
+  },
+  "Advertising": {
+    "_id": "97",
+    "Google Ads": {
+      "_id": "98"
+    },
+    "Yahoo Gemini": {
+      "_id": "99"
+    },
+    "Amazon Ads": {
+      "_id": "100"
+    },
+    "Facebook Ads": {
+      "_id": "101"
+    },
+    "Microsoft Ads": {
+      "_id": "102"
+    },
+    "Twitter Ads": {
+      "_id": "103"
+    },
+    "Pinterest Ads": {
+      "_id": "104"
+    },
+    "Tiktok Ads": {
+      "_id": "105"
+    },
+    "Snapchat Ads": {
+      "_id": "106"
+    },
+    "PPC": {
+      "_id": "107"
+    },
+    "Ads Management": {
+      "_id": "108"
+    },
+    "Trend Monitoring": {
+      "_id": "109"
+    },
+    "Performance Tracking": {
+      "_id": "110"
+    },
+    "Audience Analysis": {
+      "_id": "111"
+    },
+    "Campaign Building": {
+      "_id": "112"
+    },
+    "AB Testing": {
+      "_id": "113"
+    },
+    "Ads Creation": {
+      "_id": "114"
+    },
+    "Visual Creation": {
+      "_id": "115"
+    },
+    "Google Analytics": {
+      "_id": "116"
+    },
+    "Bing Ads": {
+      "_id": "774"
+    },
+    "Youtube Ads": {
+      "_id": "775"
+    },
+    "Creative Advertising": {
+      "_id": "776"
+    },
+    "Scientific Advertising": {
+      "_id": "777"
+    },
+    "Amazon PPC": {
+      "_id": "25319"
+    }
+  },
+  "SEO": {
+    "_id": "117",
+    "Ahrefs": {
+      "_id": "118"
+    },
+    "Local SEO": {
+      "_id": "119"
+    },
+    "Off-Page": {
+      "_id": "120"
+    },
+    "On-Page": {
+      "_id": "121"
+    },
+    "Semrush": {
+      "_id": "122"
+    },
+    "SEO Analysis": {
+      "_id": "123"
+    },
+    "Backlinks Management": {
+      "_id": "124"
+    },
+    "Content Management": {
+      "_id": "125"
+    },
+    "Keyword Research": {
+      "_id": "126"
+    },
+    "Link Building": {
+      "_id": "127"
+    },
+    "Ranking Management": {
+      "_id": "128"
+    },
+    "Google Search Console": {
+      "_id": "778"
+    },
+    "Google Search Central": {
+      "_id": "779"
+    },
+    "Private Blog Network": {
+      "_id": "780"
+    }
+  },
+  "E-Commerce": {
+    "_id": "129",
+    "Amazon": {
+      "_id": "130",
+      "Feed Analysis": {
+        "_id": "131"
+      },
+      "Catalog Management": {
+        "_id": "132"
+      },
+      "Seller Page Management": {
+        "_id": "133"
+      },
+      "Seller Central": {
+        "_id": "134"
+      },
+      "FBA": {
+        "_id": "135"
+      },
+      "Kindle Direct Publishing (KDP)": {
+        "_id": "136"
+      },
+      "Keepa": {
+        "_id": "137"
+      },
+      "Keyword Management": {
+        "_id": "138"
+      },
+      "Listing Management": {
+        "_id": "139"
+      },
+      "Dropshipping": {
+        "_id": "140"
+      },
+      "Seller Amp SAS": {
+        "_id": "25335"
+      },
+      "JungleScout": {
+        "_id": "30026"
+      },
+      "Tactical Arbitrage": {
+        "_id": "30608"
+      }
+    },
+    "Logistics Management": {
+      "_id": "141",
+      "Freight Forwarding": {
+        "_id": "37408"
+      },
+      "Dispatching": {
+        "_id": "39952"
+      },
+      "Supply Chain Management": {
+        "_id": "39987"
+      }
+    },
+    "Product Analysis": {
+      "_id": "142"
+    },
+    "Product Optimization": {
+      "_id": "143"
+    },
+    "Product Research": {
+      "_id": "144"
+    },
+    "Product Sourcing": {
+      "_id": "145"
+    },
+    "Wholesale Sourcing": {
+      "_id": "146"
+    },
+    "Brand Analysis": {
+      "_id": "147"
+    },
+    "Brand Management": {
+      "_id": "148"
+    },
+    "Inventory Management": {
+      "_id": "149",
+      "Analytics": {
+        "_id": "150"
+      },
+      "Auditing": {
+        "_id": "151"
+      },
+      "Purchasing": {
+        "_id": "152"
+      },
+      "Quality Control": {
+        "_id": "153"
+      },
+      "Safekeeping": {
+        "_id": "154"
+      }
+    },
+    "Clickfunnels": {
+      "_id": "155"
+    },
+    "Ebay": {
+      "_id": "156",
+      "Customer Support": {
+        "_id": "157"
+      },
+      "Dropshipping": {
+        "_id": "158"
+      },
+      "Listing Management": {
+        "_id": "159"
+      },
+      "Fulfillment": {
+        "_id": "160"
+      }
+    },
+    "Etsy": {
+      "_id": "161"
+    },
+    "Shopify": {
+      "_id": "162"
+    },
+    "Bigcommerce": {
+      "_id": "163"
+    },
+    "Magento": {
+      "_id": "164"
+    },
+    "Order processing": {
+      "_id": "24243",
+      "Order Tracking": {
+        "_id": "36994"
+      },
+      "Order Fulfillment": {
+        "_id": "37413"
+      }
+    },
+    "Online Arbitrage": {
+      "_id": "24576"
+    },
+    "Supplier Sourcing": {
+      "_id": "26832"
+    },
+    "Funnelish": {
+      "_id": "31338"
+    },
+    "Shipstation": {
+      "_id": "34520"
+    },
+    "Logistics Coordination": {
+      "_id": "37411"
+    }
+  },
+  "Professional Services": {
+    "_id": "165",
+    "Construction And Engineering": {
+      "_id": "166",
+      "Costing": {
+        "_id": "167"
+      },
+      "Supply Management": {
+        "_id": "168"
+      },
+      "Earthquake": {
+        "_id": "169"
+      },
+      "Timber Design": {
+        "_id": "170"
+      },
+      "Steel and Rigid Frames": {
+        "_id": "171"
+      },
+      "Structural Engineering": {
+        "_id": "172"
+      },
+      "Geodetic and Soil": {
+        "_id": "173"
+      },
+      "Estimate": {
+        "_id": "24009"
+      },
+      "Planswift": {
+        "_id": "24246"
+      },
+      "Bluebeam Revu": {
+        "_id": "25321"
+      },
+      "Civil 3D": {
+        "_id": "28244"
+      },
+      "Buildxact": {
+        "_id": "31336"
+      },
+      "Xactimate": {
+        "_id": "31344"
+      },
+      "Etabs": {
+        "_id": "31483"
+      },
+      "Onshape": {
+        "_id": "33165"
+      },
+      "Quantity Surveying": {
+        "_id": "33166"
+      },
+      "HelioScope": {
+        "_id": "34028"
+      },
+      "CostX": {
+        "_id": "34512"
+      },
+      "Electrical Design": {
+        "_id": "35035"
+      },
+      "Bluebeam": {
+        "_id": "35494"
+      },
+      "Quantity Takeoff": {
+        "_id": "36998"
+      },
+      "Circuit Design": {
+        "_id": "37405"
+      }
+    },
+    "Architectural Services": {
+      "_id": "174",
+      "Auto Cad": {
+        "_id": "175"
+      },
+      "Drafting": {
+        "_id": "176"
+      },
+      "3D presentation": {
+        "_id": "177",
+        "Lumion": {
+          "_id": "24228"
+        }
+      },
+      "2D layout": {
+        "_id": "178"
+      },
+      "Parametric modeling": {
+        "_id": "179"
+      },
+      "Simulation": {
+        "_id": "180"
+      },
+      "Visualization": {
+        "_id": "181"
+      },
+      "Enscape": {
+        "_id": "22341"
+      },
+      "D5 Render": {
+        "_id": "32359"
+      },
+      "Twinmotion": {
+        "_id": "38083"
+      }
+    },
+    "Medical Services": {
+      "_id": "182",
+      "Medical Scribing": {
+        "_id": "24231"
+      },
+      "Patient Care": {
+        "_id": "25810"
+      },
+      "Medical Billing": {
+        "_id": "25998"
+      },
+      "Revenue Cycle Management": {
+        "_id": "26000"
+      },
+      "Medical Coding": {
+        "_id": "26328"
+      },
+      "Credentialing": {
+        "_id": "26963"
+      },
+      "Medical Knowledge": {
+        "_id": "27690"
+      },
+      "HIPAA Compliance": {
+        "_id": "37409"
+      },
+      "Denial Management": {
+        "_id": "37647"
+      },
+      "Dental Billing": {
+        "_id": "39875"
+      },
+      "ICD-10": {
+        "_id": "40884"
+      }
+    },
+    "Legal Services": {
+      "_id": "183",
+      "Case Management": {
+        "_id": "25567"
+      },
+      "Legal Research": {
+        "_id": "25569"
+      },
+      "Paralegal": {
+        "_id": "26831"
+      },
+      "Legal Writing": {
+        "_id": "27857"
+      }
+    },
+    "Management Services": {
+      "_id": "184",
+      "Accounting Management": {
+        "_id": "185"
+      },
+      "Finance Management": {
+        "_id": "186"
+      },
+      "Acquisition Management": {
+        "_id": "187"
+      },
+      "Advertising Management": {
+        "_id": "188"
+      },
+      "Administrative Management": {
+        "_id": "189"
+      },
+      "E-Commerce Management": {
+        "_id": "190",
+        "Product Listing": {
+          "_id": "24255"
+        }
+      },
+      "Construction Project Manager": {
+        "_id": "191"
+      },
+      "Bpo Operations Management": {
+        "_id": "192"
+      },
+      "Business Management": {
+        "_id": "193",
+        "Procurement": {
+          "_id": "24254"
+        }
+      },
+      "Call Center Operations Management": {
+        "_id": "194"
+      },
+      "Customer Support Management": {
+        "_id": "195"
+      },
+      "Events Management": {
+        "_id": "196"
+      },
+      "Property Management": {
+        "_id": "197"
+      },
+      "Sales Management": {
+        "_id": "198"
+      },
+      "Inventory Management": {
+        "_id": "199",
+        "Merchandising": {
+          "_id": "24234"
+        }
+      },
+      "Marketing Management": {
+        "_id": "200"
+      },
+      "Software Development Project Manager": {
+        "_id": "781"
+      }
+    },
+    "Journalism": {
+      "_id": "24224"
+    },
+    "Photography": {
+      "_id": "24244",
+      "Photo Retouching": {
+        "_id": "36997"
+      }
+    },
+    "Songwriting": {
+      "_id": "24378"
+    },
+    "Business development": {
+      "_id": "24569"
+    },
+    "Videography": {
+      "_id": "28247"
+    },
+    "Nutrition Counseling": {
+      "_id": "30476"
+    },
+    "Poetry Writing": {
+      "_id": "30607"
+    },
+    "Forex Trading": {
+      "_id": "33168",
+      "Technical Analysis": {
+        "_id": "33169"
+      },
+      "Risk Management": {
+        "_id": "37783"
+      },
+      "Cryptocurrency": {
+        "_id": "38081"
+      }
+    },
+    "Stock Trading": {
+      "_id": "33606"
+    },
+    "Counseling": {
+      "_id": "35469"
+    },
+    "Psychology": {
+      "_id": "35866",
+      "Psychological Assessment": {
+        "_id": "36995"
+      }
+    },
+    "Intellectual Property Rights": {
+      "_id": "37484",
+      "Patent Drafting": {
+        "_id": "37485"
+      }
+    },
+    "Nutrition Assessment": {
+      "_id": "40717"
+    }
+  },
+  "Project Management": {
+    "_id": "201",
+    "Basecamp": {
+      "_id": "202"
+    },
+    "Monday": {
+      "_id": "203"
+    },
+    "Workflow": {
+      "_id": "204"
+    },
+    "Atlassian": {
+      "_id": "205"
+    },
+    "Trello": {
+      "_id": "206"
+    },
+    "Asana": {
+      "_id": "207"
+    },
+    "Cerebro": {
+      "_id": "208"
+    },
+    "Airtable": {
+      "_id": "209"
+    },
+    "Appfolio": {
+      "_id": "210"
+    },
+    "Hootsuite": {
+      "_id": "211"
+    },
+    "Jira": {
+      "_id": "212"
+    },
+    "Clickup": {
+      "_id": "213"
+    },
+    "Notion": {
+      "_id": "24235"
+    },
+    "Process Mapping": {
+      "_id": "24251"
+    },
+    "Process Improvement": {
+      "_id": "24252"
+    },
+    "Agile Methodology": {
+      "_id": "25316"
+    },
+    "Smartsheet": {
+      "_id": "25573"
+    },
+    "Capacity Planning": {
+      "_id": "25621"
+    },
+    "Forecasting": {
+      "_id": "25809"
+    },
+    "Primavera": {
+      "_id": "26332"
+    },
+    "Scrum": {
+      "_id": "37416"
+    }
+  },
+  "Human Resources": {
+    "_id": "214",
+    "Recruiting": {
+      "_id": "215",
+      "US recruiting": {
+        "_id": "216"
+      },
+      "Technical recruiting": {
+        "_id": "217"
+      },
+      "Candidate Sourcing": {
+        "_id": "24371"
+      },
+      "Talent Acquisition": {
+        "_id": "26334"
+      },
+      "Applicant Tracking Systems": {
+        "_id": "28243"
+      },
+      "Candidate Screening": {
+        "_id": "34609"
+      }
+    },
+    "Sop Writing": {
+      "_id": "218"
+    },
+    "Policy Writing": {
+      "_id": "219"
+    },
+    "Payroll": {
+      "_id": "220",
+      "Timekeeping": {
+        "_id": "222"
+      }
+    },
+    "HR Management": {
+      "_id": "221"
+    },
+    "Onboarding": {
+      "_id": "25330"
+    },
+    "Workforce Management": {
+      "_id": "30477"
+    },
+    "Workday": {
+      "_id": "31486"
+    },
+    "Labor Relations": {
+      "_id": "32362"
+    },
+    "Staffing": {
+      "_id": "40887"
+    }
+  },
+  "Coaching": {
+    "_id": "223",
+    "Business": {
+      "_id": "224"
+    },
+    "Credit Repair": {
+      "_id": "225",
+      "Risk Assessment": {
+        "_id": "25332"
+      },
+      "Risk Analysis": {
+        "_id": "39682"
+      }
+    },
+    "Fitness": {
+      "_id": "226"
+    },
+    "Health And Wellness": {
+      "_id": "227",
+      "Health Education": {
+        "_id": "37469"
+      }
+    },
+    "Homeschool": {
+      "_id": "228",
+      "Tutorial Teaching": {
+        "_id": "782"
+      },
+      "Teaching": {
+        "_id": "24382"
+      },
+      "Storytelling": {
+        "_id": "28732"
+      }
+    },
+    "Life Coaching": {
+      "_id": "229"
+    },
+    "Lifestyle": {
+      "_id": "230"
+    },
+    "Success": {
+      "_id": "231"
+    },
+    "Training and Development": {
+      "_id": "27696"
+    }
+  },
+  "Real Estate": {
+    "_id": "232",
+    "Accounting": {
+      "_id": "233"
+    },
+    "Acquisition": {
+      "_id": "234"
+    },
+    "Analysis": {
+      "_id": "235"
+    },
+    "Anow": {
+      "_id": "236"
+    },
+    "Appointment Setting": {
+      "_id": "237"
+    },
+    "Appraisal": {
+      "_id": "238"
+    },
+    "Article Writing": {
+      "_id": "239"
+    },
+    "Bookkeeping": {
+      "_id": "240"
+    },
+    "Breezeway": {
+      "_id": "241"
+    },
+    "Brivity": {
+      "_id": "242"
+    },
+    "Cold Calling": {
+      "_id": "243"
+    },
+    "Commercial Real Estate": {
+      "_id": "244"
+    },
+    "Corelogic Mls Matrix": {
+      "_id": "245"
+    },
+    "Disposition Real Estate": {
+      "_id": "246"
+    },
+    "Freedomsoft": {
+      "_id": "247"
+    },
+    "Gohighlevel Real Estate": {
+      "_id": "248"
+    },
+    "Investing": {
+      "_id": "249"
+    },
+    "ISA Real Estate": {
+      "_id": "250"
+    },
+    "Lead Generation": {
+      "_id": "251"
+    },
+    "Listing Coordination": {
+      "_id": "252"
+    },
+    "Management": {
+      "_id": "253"
+    },
+    "Mojo": {
+      "_id": "255"
+    },
+    "Photo Editing": {
+      "_id": "256"
+    },
+    "Title Escrow": {
+      "_id": "257"
+    },
+    "Title Processing": {
+      "_id": "258"
+    },
+    "Transaction Coordinating": {
+      "_id": "259"
+    },
+    "Warm Calling": {
+      "_id": "260"
+    },
+    "Short Term Rentals": {
+      "_id": "261",
+      "Airbnb": {
+        "_id": "262"
+      },
+      "Vrbo": {
+        "_id": "263"
+      },
+      "HostAway": {
+        "_id": "39095"
+      }
+    },
+    "Mortgages": {
+      "_id": "264"
+    },
+    "REO Asset Management": {
+      "_id": "783"
+    },
+    "Buildium": {
+      "_id": "27632"
+    },
+    "Yardi": {
+      "_id": "30028"
+    }
+  },
+  "Design": {
+    "_id": "265",
+    "3D Design": {
+      "_id": "266",
+      "3D animation": {
+        "_id": "267"
+      },
+      "3D autocad": {
+        "_id": "268",
+        "Archicad": {
+          "_id": "25320"
+        }
+      },
+      "3D blender": {
+        "_id": "269"
+      },
+      "3D illustration": {
+        "_id": "270"
+      },
+      "3D modeling": {
+        "_id": "271"
+      },
+      "3D unity": {
+        "_id": "272"
+      },
+      "Solidworks": {
+        "_id": "24581"
+      },
+      "Vray": {
+        "_id": "25338"
+      },
+      "Navisworks": {
+        "_id": "26830"
+      },
+      "Tekla Structures": {
+        "_id": "26834"
+      },
+      "Autodesk Maya": {
+        "_id": "30022"
+      },
+      "3DS Max": {
+        "_id": "30124"
+      }
+    },
+    "Adobe": {
+      "_id": "273",
+      "After Effects": {
+        "_id": "274"
+      },
+      "Indesign": {
+        "_id": "275"
+      },
+      "Photoshop": {
+        "_id": "276"
+      },
+      "Sketchup": {
+        "_id": "277"
+      },
+      "Illustrator": {
+        "_id": "278"
+      },
+      "Lightroom": {
+        "_id": "22334"
+      }
+    },
+    "Logo Design": {
+      "_id": "279"
+    },
+    "Graphic Design": {
+      "_id": "280",
+      "Canva": {
+        "_id": "22340"
+      },
+      "Clip Studio Paint": {
+        "_id": "23463"
+      },
+      "Coreldraw": {
+        "_id": "23609"
+      },
+      "Procreate": {
+        "_id": "24253"
+      },
+      "Instructional Design": {
+        "_id": "25568",
+        "E-learning": {
+          "_id": "41055"
+        }
+      },
+      "Color theory": {
+        "_id": "27685"
+      }
+    },
+    "Font & Typographic Design": {
+      "_id": "281"
+    },
+    "Packaging & Brand Idenity Design": {
+      "_id": "282",
+      "Creative Direction": {
+        "_id": "27686"
+      },
+      "Branding": {
+        "_id": "31337"
+      }
+    },
+    "Art & Comic Design": {
+      "_id": "283",
+      "Drawing": {
+        "_id": "24216"
+      },
+      "Illustration": {
+        "_id": "24221"
+      },
+      "Painting": {
+        "_id": "26330"
+      },
+      "Midjourney": {
+        "_id": "26965"
+      },
+      "Cartooning": {
+        "_id": "30023"
+      },
+      "ZBrush": {
+        "_id": "31846"
+      }
+    },
+    "Web Design & Page Layout": {
+      "_id": "284",
+      "Landing Page Design": {
+        "_id": "25572"
+      },
+      "Flodesk": {
+        "_id": "31484"
+      },
+      "UI UX Design": {
+        "_id": "40889"
+      }
+    },
+    "Thumbnail & Social Media Design": {
+      "_id": "285"
+    },
+    "Advertising And Marketing Design": {
+      "_id": "286"
+    },
+    "Character Design": {
+      "_id": "287"
+    },
+    "Product Design": {
+      "_id": "288",
+      "User Experience Design": {
+        "_id": "289"
+      },
+      "User Experience Research": {
+        "_id": "290"
+      },
+      "Information Architecture": {
+        "_id": "291"
+      },
+      "Design Thinking": {
+        "_id": "292"
+      },
+      "Usability Testing": {
+        "_id": "293"
+      },
+      "Interaction Design": {
+        "_id": "294"
+      },
+      "Wireframing": {
+        "_id": "295"
+      },
+      "Prototyping": {
+        "_id": "296"
+      },
+      "Design Strategy": {
+        "_id": "297"
+      },
+      "Design Ops": {
+        "_id": "298"
+      },
+      "Visual Design": {
+        "_id": "299"
+      }
+    },
+    "User Interface": {
+      "_id": "300",
+      "Figma": {
+        "_id": "301"
+      },
+      "Adobe XD": {
+        "_id": "302"
+      },
+      "Sketch": {
+        "_id": "303"
+      },
+      "Invision": {
+        "_id": "304"
+      }
+    },
+    "Print Design": {
+      "_id": "784",
+      "Prepress": {
+        "_id": "35495"
+      }
+    },
+    "T-Shirt Design": {
+      "_id": "785"
+    },
+    "Autocad": {
+      "_id": "23388"
+    },
+    "Revit": {
+      "_id": "24257"
+    },
+    "Funnel Design": {
+      "_id": "32360"
+    },
+    "Photo Editing": {
+      "_id": "37969",
+      "Capture One": {
+        "_id": "40329"
+      }
+    },
+    "Photo Stitching": {
+      "_id": "37970"
+    },
+    "Virtual Tour Development": {
+      "_id": "37971"
+    },
+    "Pano2VR": {
+      "_id": "37972"
+    },
+    "Microstation": {
+      "_id": "40534"
+    }
+  },
+  "Video Editing": {
+    "_id": "305",
+    "Film Editing": {
+      "_id": "306"
+    },
+    "Movie Editing": {
+      "_id": "307"
+    },
+    "Animation": {
+      "_id": "308",
+      "2d Animation": {
+        "_id": "23632"
+      },
+      "Houdini": {
+        "_id": "32502"
+      }
+    },
+    "Flm Scoring": {
+      "_id": "309"
+    },
+    "Product Commercial Editing": {
+      "_id": "310"
+    },
+    "Motion Graphics": {
+      "_id": "311",
+      "Storyboarding": {
+        "_id": "38637"
+      }
+    },
+    "Social Media Video Editing": {
+      "_id": "312"
+    },
+    "Adobe Premiere Pro": {
+      "_id": "313"
+    },
+    "Apple Final Cut Pro": {
+      "_id": "314"
+    },
+    "Apple Imovie": {
+      "_id": "315"
+    },
+    "Cyberlink Powerdirector 365": {
+      "_id": "316"
+    },
+    "Corel Videostudio Ultimate": {
+      "_id": "317"
+    },
+    "Davinci Resolve": {
+      "_id": "318"
+    },
+    "Movavi Video Editor Plus": {
+      "_id": "319"
+    },
+    "Pinnacle Studio Ultimate": {
+      "_id": "320"
+    },
+    "Adobe Premiere Elements": {
+      "_id": "321"
+    },
+    "Clipchamp": {
+      "_id": "322"
+    },
+    "Wondershare Filmora": {
+      "_id": "323"
+    },
+    "CapCut": {
+      "_id": "23395"
+    },
+    "Captioning": {
+      "_id": "23396"
+    },
+    "Color Grading": {
+      "_id": "28299"
+    }
+  },
+  "Audio Editing": {
+    "_id": "324",
+    "Adobe Audition Cc": {
+      "_id": "325"
+    },
+    "Garageband": {
+      "_id": "326"
+    },
+    "Audacity": {
+      "_id": "327"
+    },
+    "Ocenaudio": {
+      "_id": "328"
+    },
+    "Audiotool": {
+      "_id": "329"
+    },
+    "Acoustica": {
+      "_id": "330"
+    },
+    "Wavepad": {
+      "_id": "331"
+    },
+    "Ableton Live": {
+      "_id": "332"
+    },
+    "Amadeus Pro": {
+      "_id": "333"
+    },
+    "Twistedwave": {
+      "_id": "334"
+    },
+    "Fission": {
+      "_id": "335"
+    },
+    "Wavosaur": {
+      "_id": "336"
+    },
+    "Reaper": {
+      "_id": "337"
+    },
+    "FL Studio": {
+      "_id": "338"
+    },
+    "Music Production": {
+      "_id": "24230"
+    },
+    "Voice Over": {
+      "_id": "24384",
+      "Voice Acting": {
+        "_id": "25336"
+      }
+    },
+    "Sound Design": {
+      "_id": "37000"
+    }
+  },
+  "Customer Support": {
+    "_id": "339",
+    "Email Support": {
+      "_id": "340"
+    },
+    "Chat Support": {
+      "_id": "341"
+    },
+    "Technical Support": {
+      "_id": "342"
+    },
+    "Phone Support": {
+      "_id": "343",
+      "English Speaking": {
+        "_id": "758"
+      }
+    },
+    "Ecommerce": {
+      "_id": "344",
+      "Amazon": {
+        "_id": "345",
+        "Helium10": {
+          "_id": "25327"
+        }
+      },
+      "Ebay": {
+        "_id": "346"
+      },
+      "B2B": {
+        "_id": "347"
+      },
+      "Shopify": {
+        "_id": "348"
+      },
+      "B2C": {
+        "_id": "23461"
+      }
+    },
+    "SaaS": {
+      "_id": "349",
+      "Power Automate": {
+        "_id": "24373"
+      }
+    },
+    "IT": {
+      "_id": "350",
+      "IT Asset Management": {
+        "_id": "31341"
+      }
+    },
+    "Mortgage": {
+      "_id": "351"
+    },
+    "Healthcare": {
+      "_id": "352",
+      "Electronic Health Record": {
+        "_id": "30025"
+      }
+    },
+    "Social Media Moderation": {
+      "_id": "353"
+    },
+    "Forum Community Moderation": {
+      "_id": "354"
+    },
+    "Content Management": {
+      "_id": "355"
+    },
+    "Insurance": {
+      "_id": "356",
+      "Medical Insurance": {
+        "_id": "357"
+      },
+      "Car Insurance": {
+        "_id": "358"
+      },
+      "Home Insurance": {
+        "_id": "359"
+      },
+      "Dental Insurance": {
+        "_id": "360"
+      },
+      "Prior Authorization": {
+        "_id": "25999"
+      },
+      "Insurance Verification": {
+        "_id": "32361"
+      },
+      "Underwriting": {
+        "_id": "32372"
+      }
+    },
+    "Sales Support": {
+      "_id": "361",
+      "Account Acquisition": {
+        "_id": "362"
+      },
+      "Account Retention": {
+        "_id": "363"
+      },
+      "Hotel Booking": {
+        "_id": "364"
+      },
+      "Flight Booking": {
+        "_id": "365"
+      },
+      "Food Service": {
+        "_id": "366"
+      },
+      "Mobile Service": {
+        "_id": "367"
+      },
+      "Lead Generation": {
+        "_id": "368"
+      },
+      "Credit Repair": {
+        "_id": "369"
+      },
+      "Prospecting": {
+        "_id": "786"
+      },
+      "Trustee Sales Tracking": {
+        "_id": "787"
+      },
+      "Ticket Booking": {
+        "_id": "33605"
+      }
+    },
+    "Customer Service": {
+      "_id": "21474",
+      "Conflict resolution": {
+        "_id": "23603"
+      },
+      "Fraud detection": {
+        "_id": "23639"
+      },
+      "Gorgias": {
+        "_id": "23643"
+      },
+      "Payment Processing": {
+        "_id": "24247"
+      },
+      "Genesys Cloud": {
+        "_id": "31339"
+      },
+      "Chargeback Analysis": {
+        "_id": "38286"
+      }
+    },
+    "Active Listening": {
+      "_id": "21863"
+    },
+    "Customer Relationship Management": {
+      "_id": "29071"
+    },
+    "Product Knowledge": {
+      "_id": "32364"
+    },
+    "Helpdesk Support": {
+      "_id": "37410"
+    },
+    "Back Office Support": {
+      "_id": "38080"
+    }
+  },
+  "Office and Administration": {
+    "_id": "370",
+    "Admin Data Processing": {
+      "_id": "371",
+      "SAP": {
+        "_id": "24259"
+      },
+      "Records Retrieval": {
+        "_id": "26001"
+      }
+    },
+    "Data Analytics": {
+      "_id": "372",
+      "GIS": {
+        "_id": "23640"
+      },
+      "QGIS": {
+        "_id": "24256"
+      },
+      "Tableau": {
+        "_id": "24380"
+      },
+      "Alteryx": {
+        "_id": "29580"
+      },
+      "Tibco Spotfire": {
+        "_id": "37417"
+      }
+    },
+    "Data Dive": {
+      "_id": "373"
+    },
+    "Data Capture": {
+      "_id": "374"
+    },
+    "Transcription": {
+      "_id": "375",
+      "Typing": {
+        "_id": "24381"
+      }
+    },
+    "Translation": {
+      "_id": "376"
+    },
+    "Microsoft Excel": {
+      "_id": "377"
+    },
+    "Microsoft Power Point": {
+      "_id": "378"
+    },
+    "Microsoft Word": {
+      "_id": "379"
+    },
+    "Google Docs": {
+      "_id": "380"
+    },
+    "Google Sheets": {
+      "_id": "381"
+    },
+    "Google Slides": {
+      "_id": "382"
+    },
+    "Google Forms": {
+      "_id": "383"
+    },
+    "Email Handling": {
+      "_id": "384"
+    },
+    "Calendar Management": {
+      "_id": "385",
+      "Scheduling": {
+        "_id": "24375"
+      }
+    },
+    "Data Entry": {
+      "_id": "386",
+      "Encoding": {
+        "_id": "23636"
+      },
+      "Error Detection": {
+        "_id": "26828"
+      }
+    },
+    "Email Management": {
+      "_id": "788"
+    },
+    "Travel Planning": {
+      "_id": "789",
+      "Amadeus": {
+        "_id": "23389"
+      },
+      "GDS": {
+        "_id": "24219"
+      },
+      "Sabre": {
+        "_id": "24260"
+      }
+    },
+    "Personal Assistant": {
+      "_id": "790"
+    },
+    "Attention to Detail": {
+      "_id": "22214"
+    },
+    "Adaptability": {
+      "_id": "22335"
+    },
+    "Administrative Support": {
+      "_id": "22336"
+    },
+    "Collaboration": {
+      "_id": "22339"
+    },
+    "AI Tools": {
+      "ChatGPT": {
+        "_id": "23397"
+      },
+      "_id": "31798",
+      "Stable Diffusion": {
+        "_id": "31845"
+      },
+      "Prompt Engineering": {
+        "_id": "40718"
+      }
+    },
+    "Communication": {
+      "_id": "23604",
+      "Japanese Speaking": {
+        "_id": "26964"
+      },
+      "Public Speaking": {
+        "_id": "27692"
+      },
+      "Spanish Bilingual": {
+        "_id": "27694"
+      },
+      "Korean Bilingual": {
+        "_id": "35663"
+      },
+      "German Language": {
+        "_id": "40883"
+      }
+    },
+    "Creativity": {
+      "_id": "23606"
+    },
+    "Creative Problem Solving": {
+      "_id": "23607"
+    },
+    "Critical Thinking": {
+      "_id": "23608"
+    },
+    "Data Collection": {
+      "_id": "23628",
+      "Skip Tracing": {
+        "_id": "24578"
+      }
+    },
+    "Documentation": {
+      "_id": "23630"
+    },
+    "Data analysis": {
+      "_id": "23633",
+      "Data Visualization": {
+        "_id": "27687"
+      },
+      "Minitab": {
+        "_id": "30475"
+      },
+      "Data scraping": {
+        "_id": "37406"
+      },
+      "Qlik Sense": {
+        "_id": "40886"
+      }
+    },
+    "Flexibility": {
+      "_id": "23638"
+    },
+    "Google Suite": {
+      "_id": "23641"
+    },
+    "Google Workspace": {
+      "_id": "23642"
+    },
+    "Account Management": {
+      "_id": "23970"
+    },
+    "Accuracy Verification": {
+      "_id": "24001"
+    },
+    "Annotating": {
+      "_id": "24002"
+    },
+    "Citrix": {
+      "_id": "24006"
+    },
+    "Coordination": {
+      "_id": "24008"
+    },
+    "Computer Literacy": {
+      "_id": "24215"
+    },
+    "English": {
+      "_id": "24217"
+    },
+    "Emotional Intelligence": {
+      "_id": "24218"
+    },
+    "Interpersonal": {
+      "_id": "24223"
+    },
+    "Leadership": {
+      "_id": "24227"
+    },
+    "Microsoft Outlook": {
+      "_id": "24241"
+    },
+    "Organization": {
+      "_id": "24242"
+    },
+    "Public Relation": {
+      "_id": "24245"
+    },
+    "Power BI": {
+      "_id": "24248"
+    },
+    "PowerApps": {
+      "_id": "24249"
+    },
+    "Problem Solving": {
+      "_id": "24250"
+    },
+    "Research": {
+      "_id": "24258",
+      "Scientific Research": {
+        "_id": "24379"
+      }
+    },
+    "Decision Making": {
+      "_id": "24372"
+    },
+    "Stakeholder Management": {
+      "_id": "24374"
+    },
+    "Time Managment": {
+      "_id": "24383"
+    },
+    "Microsoft 365": {
+      "_id": "24575",
+      "SharePoint": {
+        "_id": "29579"
+      }
+    },
+    "SAP ERP": {
+      "_id": "24580"
+    },
+    "Time Management": {
+      "_id": "24582"
+    },
+    "Data Management": {
+      "_id": "25324"
+    },
+    "English Proficiency": {
+      "_id": "25325"
+    },
+    "Operation Management": {
+      "_id": "25329"
+    },
+    "Quality Assurance": {
+      "_id": "25331",
+      "Bug Tracking": {
+        "_id": "30471"
+      }
+    },
+    "Analytical": {
+      "_id": "25566"
+    },
+    "File Management": {
+      "_id": "25808"
+    },
+    "Employee Engagement": {
+      "_id": "25996"
+    },
+    "Client Relationship Management": {
+      "_id": "28579"
+    },
+    "Debt Collection": {
+      "_id": "30473"
+    },
+    "Records Management": {
+      "_id": "31343"
+    },
+    "Meeting Management": {
+      "_id": "31485"
+    },
+    "Work Ethics": {
+      "_id": "31729"
+    },
+    "Jotform": {
+      "_id": "31783"
+    },
+    "Technology Proficiency": {
+      "_id": "32368"
+    },
+    "Team Collaboration": {
+      "_id": "32369"
+    },
+    "Team Leadership": {
+      "_id": "32370"
+    },
+    "Teamwork": {
+      "_id": "32371"
+    },
+    "Content Moderation": {
+      "_id": "33834"
+    },
+    "Employment Verification": {
+      "_id": "34513"
+    },
+    "Logical Reasoning": {
+      "_id": "35036"
+    },
+    "Negotation": {
+      "_id": "35037"
+    },
+    "Stenography": {
+      "_id": "36999"
+    },
+    "Executive Assistance": {
+      "_id": "38287"
+    },
+    "Regulatory Compliance": {
+      "_id": "38636"
+    },
+    "Travel Management": {
+      "_id": "38638"
+    },
+    "Google Drive": {
+      "_id": "39093"
+    },
+    "Multitasking": {
+      "_id": "39097"
+    },
+    "Resourcefulness": {
+      "_id": "39098"
+    },
+    "Reliability": {
+      "_id": "39099"
+    },
+    "Self-motivation": {
+      "_id": "39101"
+    },
+    "Tech-Savvy": {
+      "_id": "39102"
+    },
+    "Task Prioritization": {
+      "_id": "39103"
+    },
+    "Writing": {
+      "_id": "39104"
+    },
+    "Web Scraping": {
+      "_id": "39277"
+    },
+    "Note Taking": {
+      "_id": "40071"
+    }
+  },
+  "Web Programming": {
+    "_id": "387",
+    "PHP": {
+      "_id": "388",
+      "TYPO3": {
+        "_id": "389"
+      },
+      "Contao": {
+        "_id": "390"
+      },
+      "PrestaShop": {
+        "_id": "391"
+      },
+      "ExpressionEngine": {
+        "_id": "392"
+      },
+      "OpenCart": {
+        "_id": "393"
+      },
+      "MODX": {
+        "_id": "394"
+      },
+      "ProcessWire": {
+        "_id": "395"
+      },
+      "Yii": {
+        "_id": "396"
+      },
+      "FuelPHP": {
+        "_id": "397"
+      },
+      "PHPixie": {
+        "_id": "398"
+      },
+      "Slim": {
+        "_id": "399"
+      },
+      "PHPUnit": {
+        "_id": "400"
+      },
+      "October": {
+        "_id": "401"
+      },
+      "ez Publish": {
+        "_id": "402"
+      },
+      "Phalcon": {
+        "_id": "403"
+      },
+      "Laminas": {
+        "_id": "404"
+      },
+      "Zend": {
+        "_id": "405"
+      },
+      "Symfony": {
+        "_id": "406"
+      },
+      "CakePHP": {
+        "_id": "407"
+      },
+      "Laravel": {
+        "_id": "408",
+        "Livewire": {
+          "_id": "24226"
+        }
+      },
+      "CodeIgniter": {
+        "_id": "409"
+      }
+    },
+    "Ruby": {
+      "_id": "410",
+      "Ruby on Rails": {
+        "_id": "411"
+      },
+      "Merb": {
+        "_id": "412"
+      },
+      "Nitro": {
+        "_id": "413"
+      },
+      "Sinatra": {
+        "_id": "414"
+      },
+      "Camping": {
+        "_id": "415"
+      }
+    },
+    "CMS": {
+      "_id": "416",
+      "Craft CMS": {
+        "_id": "417"
+      },
+      "Neos CMS": {
+        "_id": "418"
+      },
+      "OctoberCMS": {
+        "_id": "419"
+      },
+      "ButterCMS": {
+        "_id": "420"
+      },
+      "PyroCMS": {
+        "_id": "421"
+      },
+      "Silverstripe CMS": {
+        "_id": "422"
+      },
+      "Composr CMS": {
+        "_id": "423"
+      },
+      "Grav CMS": {
+        "_id": "424"
+      },
+      "Wordpress": {
+        "_id": "425"
+      },
+      "Drupal": {
+        "_id": "426"
+      },
+      "Joomla": {
+        "_id": "427"
+      },
+      "Magento": {
+        "_id": "428"
+      },
+      "Bolt": {
+        "_id": "429"
+      },
+      "Wix": {
+        "_id": "430"
+      },
+      "Shopify": {
+        "_id": "431"
+      },
+      "Webflow": {
+        "_id": "432"
+      },
+      "Umbraco": {
+        "_id": "38360"
+      }
+    },
+    "Headless CMS": {
+      "_id": "433",
+      "Contentstack": {
+        "_id": "434"
+      },
+      "Contentful": {
+        "_id": "435"
+      },
+      "DotCMS": {
+        "_id": "436"
+      },
+      "Mura": {
+        "_id": "437"
+      },
+      "Cockpit": {
+        "_id": "438"
+      },
+      "Core dna": {
+        "_id": "439"
+      },
+      "Zesty IO": {
+        "_id": "440"
+      },
+      "Sanity IO": {
+        "_id": "441"
+      },
+      "Directus": {
+        "_id": "442"
+      },
+      "DatoCMS": {
+        "_id": "443"
+      },
+      "GraphCMS": {
+        "_id": "444"
+      },
+      "CosmicJS": {
+        "_id": "445"
+      },
+      "Kontent.ai": {
+        "_id": "446"
+      },
+      "Prismic": {
+        "_id": "447"
+      },
+      "Quintype": {
+        "_id": "448"
+      },
+      "Scrivito": {
+        "_id": "449"
+      },
+      "Sitecore": {
+        "_id": "450"
+      },
+      "Evoq Content": {
+        "_id": "451"
+      },
+      "Strapi": {
+        "_id": "452"
+      },
+      "Solodev": {
+        "_id": "453"
+      },
+      "Agility CMS": {
+        "_id": "454"
+      },
+      "Ingeniux CMS": {
+        "_id": "455"
+      },
+      "FirstSpirit": {
+        "_id": "456"
+      },
+      "Netlify CMS": {
+        "_id": "457"
+      },
+      "Liferay": {
+        "_id": "458"
+      },
+      "CoreMedia Content Cloud": {
+        "_id": "459"
+      },
+      "Bloomreach": {
+        "_id": "460"
+      },
+      "Crownpeak": {
+        "_id": "461"
+      },
+      "Magnolia CMS": {
+        "_id": "462"
+      },
+      "Progress Sitefinity": {
+        "_id": "463"
+      },
+      "Ibexa": {
+        "_id": "464"
+      },
+      "Optimizely": {
+        "_id": "465"
+      }
+    },
+    "Javascript": {
+      "_id": "466",
+      "Node JS": {
+        "_id": "467"
+      },
+      "Vue JS": {
+        "_id": "468"
+      },
+      "Vite": {
+        "_id": "469"
+      },
+      "Vue 2": {
+        "_id": "470"
+      },
+      "Vue 3": {
+        "_id": "471"
+      },
+      "React JS": {
+        "_id": "472"
+      },
+      "Express JS": {
+        "_id": "473"
+      },
+      "Angular JS": {
+        "_id": "474"
+      },
+      "Meteor": {
+        "_id": "475"
+      },
+      "jQuery": {
+        "_id": "476"
+      },
+      "Svelte": {
+        "_id": "477"
+      },
+      "Ember JS": {
+        "_id": "478"
+      },
+      "Backbone JS": {
+        "_id": "479"
+      },
+      "Nest JS": {
+        "_id": "480"
+      },
+      "Nuxt JS": {
+        "_id": "481"
+      },
+      "Next JS": {
+        "_id": "482"
+      },
+      "Bootstrap": {
+        "_id": "483"
+      },
+      "Redux": {
+        "_id": "484"
+      },
+      "Web3.js": {
+        "_id": "485"
+      },
+      "Ethers.js": {
+        "_id": "486"
+      },
+      "Gatsby": {
+        "_id": "487"
+      },
+      "Grapes JS": {
+        "_id": "488"
+      },
+      "Typescript": {
+        "_id": "489"
+      },
+      "Strapi": {
+        "_id": "490"
+      },
+      "Adonis JS": {
+        "_id": "491"
+      },
+      "Electron JS": {
+        "_id": "492"
+      },
+      "Liquid": {
+        "_id": "493"
+      },
+      "HAML": {
+        "_id": "494"
+      },
+      "Pug": {
+        "_id": "495"
+      },
+      "Slim": {
+        "_id": "496"
+      },
+      "JSON": {
+        "_id": "34514"
+      }
+    },
+    "CSS": {
+      "_id": "497",
+      "SCSS": {
+        "_id": "498"
+      },
+      "SASS": {
+        "_id": "499"
+      },
+      "LESS": {
+        "_id": "500"
+      },
+      "Stylus": {
+        "_id": "501"
+      },
+      "Bootstrap": {
+        "_id": "502"
+      },
+      "TailwindCSS": {
+        "_id": "503"
+      },
+      "Foundation": {
+        "_id": "504"
+      },
+      "Materialize": {
+        "_id": "505"
+      },
+      "g": {
+        "_id": "506"
+      },
+      "Skeleton": {
+        "_id": "507"
+      },
+      "Pure": {
+        "_id": "508"
+      },
+      "Semantic UI": {
+        "_id": "509"
+      },
+      "Tacit": {
+        "_id": "521"
+      },
+      "sanitize.css": {
+        "_id": "511"
+      },
+      "modern-normalize": {
+        "_id": "512"
+      },
+      "minireset.css": {
+        "_id": "513"
+      },
+      "modern-css-reset": {
+        "_id": "514"
+      },
+      "inuitcss": {
+        "_id": "515"
+      },
+      "ress": {
+        "_id": "516"
+      },
+      "Natural Selection": {
+        "_id": "517"
+      },
+      "Water.css": {
+        "_id": "518"
+      },
+      "MVP.css": {
+        "_id": "519"
+      },
+      "sakura": {
+        "_id": "520"
+      },
+      "awsm.css": {
+        "_id": "522"
+      },
+      "Milligram": {
+        "_id": "523"
+      },
+      "Picnic CSS": {
+        "_id": "524"
+      },
+      "Chota": {
+        "_id": "525"
+      },
+      "UIkit": {
+        "_id": "526"
+      },
+      "Primer": {
+        "_id": "527"
+      },
+      "Carbon Components": {
+        "_id": "528"
+      },
+      "Fomantic-UI": {
+        "_id": "529"
+      },
+      "Pico.css": {
+        "_id": "530"
+      },
+      "Blaze UI": {
+        "_id": "531"
+      },
+      "Base": {
+        "_id": "532"
+      },
+      "Cirrus": {
+        "_id": "533"
+      },
+      "turretcss": {
+        "_id": "534"
+      },
+      "Vanilla Framework": {
+        "_id": "535"
+      },
+      "PatternFly": {
+        "_id": "536"
+      },
+      "HiQ": {
+        "_id": "537"
+      },
+      "MUI": {
+        "_id": "538"
+      },
+      "Material Components Web": {
+        "_id": "539"
+      },
+      "Tachyons": {
+        "_id": "540"
+      },
+      "Open Props": {
+        "_id": "541"
+      },
+      "NES.css": {
+        "_id": "542"
+      },
+      "98.css": {
+        "_id": "543"
+      },
+      "Tufte CSS": {
+        "_id": "544"
+      },
+      "Gutenberg": {
+        "_id": "545"
+      },
+      "Bojler": {
+        "_id": "546"
+      },
+      "TuiCss": {
+        "_id": "547"
+      },
+      "Bourbon": {
+        "_id": "548"
+      }
+    },
+    "HTML": {
+      "_id": "549"
+    },
+    "Python": {
+      "_id": "550",
+      "Django": {
+        "_id": "551"
+      },
+      "Flask": {
+        "_id": "552"
+      },
+      "CherryPy": {
+        "_id": "553"
+      },
+      "TurboGears": {
+        "_id": "554"
+      },
+      "Web2Py": {
+        "_id": "555"
+      },
+      "Bottle": {
+        "_id": "556"
+      },
+      "Falcon": {
+        "_id": "557"
+      },
+      "CubicWeb": {
+        "_id": "558"
+      },
+      "Quixote": {
+        "_id": "559"
+      },
+      "Pyramid": {
+        "_id": "560"
+      },
+      "FastAPI": {
+        "_id": "39092"
+      }
+    },
+    "PSD to HTML": {
+      "_id": "793"
+    },
+    "GoLang": {
+      "_id": "25326"
+    },
+    "Visual Basic": {
+      "_id": "26003"
+    },
+    "MatLAB": {
+      "_id": "26829"
+    },
+    "Blazor": {
+      "_id": "27631"
+    },
+    "Zustand": {
+      "_id": "38887"
+    }
+  },
+  "Website Builder": {
+    "_id": "561",
+    "Bigcommerce": {
+      "_id": "562"
+    },
+    "Carrd": {
+      "_id": "563"
+    },
+    "Duda": {
+      "_id": "564"
+    },
+    "Godaddy Website Builder": {
+      "_id": "565"
+    },
+    "Google Sites": {
+      "_id": "566"
+    },
+    "Jimdo": {
+      "_id": "567"
+    },
+    "Odoo Website Builder": {
+      "_id": "568"
+    },
+    "Shopify": {
+      "_id": "569"
+    },
+    "Squarespace": {
+      "_id": "570"
+    },
+    "Strikingly": {
+      "_id": "571"
+    },
+    "Ucraft": {
+      "_id": "572"
+    },
+    "Weblium": {
+      "_id": "573"
+    },
+    "Webnode": {
+      "_id": "574"
+    },
+    "Weebly": {
+      "_id": "575"
+    },
+    "Webflow": {
+      "_id": "576"
+    },
+    "Wix": {
+      "_id": "577"
+    },
+    "Wordpress": {
+      "_id": "578",
+      "Woocommerce": {
+        "_id": "792"
+      },
+      "Elementor": {
+        "_id": "24010"
+      }
+    },
+    "Zyro": {
+      "_id": "579"
+    },
+    "Optimizepress": {
+      "_id": "791"
+    },
+    "Kajabi": {
+      "_id": "24225"
+    },
+    "Bubble.io": {
+      "_id": "25660"
+    },
+    "Cpanel": {
+      "_id": "30472"
+    },
+    "DNS Management": {
+      "_id": "36992"
+    }
+  },
+  "Software": {
+    "_id": "580",
+    "C#": {
+      "_id": "581"
+    },
+    "Javascript": {
+      "_id": "582"
+    },
+    ".Net": {
+      "_id": "583"
+    },
+    "Java": {
+      "_id": "584",
+      "Spring Boot": {
+        "_id": "25333"
+      }
+    },
+    "Dart": {
+      "_id": "585"
+    },
+    "Maui": {
+      "_id": "586"
+    },
+    "Webpack": {
+      "_id": "587"
+    },
+    "Qt": {
+      "_id": "588"
+    },
+    "C++": {
+      "_id": "589"
+    },
+    "Electron": {
+      "_id": "590"
+    },
+    "Python": {
+      "_id": "591"
+    },
+    "Fullstack": {
+      "_id": "592"
+    },
+    "Abap": {
+      "_id": "593"
+    },
+    "Accent R": {
+      "_id": "594"
+    },
+    "Version Control": {
+      "_id": "595",
+      "Git": {
+        "_id": "596"
+      },
+      "Mercurial": {
+        "_id": "597"
+      },
+      "SVN": {
+        "_id": "598"
+      }
+    },
+    "Data Engineering": {
+      "_id": "599",
+      "Bigquery": {
+        "_id": "600"
+      },
+      "BI": {
+        "_id": "601"
+      },
+      "SQL": {
+        "_id": "602"
+      },
+      "R": {
+        "_id": "603"
+      },
+      "Scala": {
+        "_id": "604"
+      },
+      "Apache Airflow": {
+        "_id": "34511"
+      }
+    },
+    "Devops": {
+      "_id": "605",
+      "Bash": {
+        "_id": "606"
+      },
+      "Powershell": {
+        "_id": "607"
+      },
+      "Git": {
+        "_id": "608"
+      },
+      "Docker": {
+        "_id": "609"
+      },
+      "Kubernetes": {
+        "_id": "610"
+      },
+      "Jenkins": {
+        "_id": "611"
+      },
+      "CICD": {
+        "_id": "612"
+      },
+      "Terraform": {
+        "_id": "613"
+      }
+    },
+    "Mobile Development": {
+      "_id": "614",
+      "Ansible": {
+        "_id": "615"
+      },
+      "Vagrant": {
+        "_id": "616"
+      },
+      "React Native": {
+        "_id": "617"
+      },
+      "Objective-C": {
+        "_id": "618"
+      },
+      "Swift": {
+        "_id": "619"
+      },
+      "Flutter": {
+        "_id": "620"
+      },
+      "Ionic": {
+        "_id": "621"
+      },
+      "Swiftui": {
+        "_id": "622"
+      },
+      "Gradle": {
+        "_id": "623"
+      },
+      "Jetpack Compose": {
+        "_id": "624"
+      },
+      "Kotlin": {
+        "_id": "625"
+      },
+      "Java": {
+        "_id": "626"
+      },
+      "iOS Development": {
+        "_id": "795"
+      },
+      "Android Development": {
+        "_id": "796"
+      }
+    },
+    "Game Development": {
+      "_id": "627",
+      "Unity": {
+        "_id": "628"
+      },
+      "Unreal Engine": {
+        "_id": "629"
+      }
+    },
+    "API Development": {
+      "_id": "630",
+      "GraphQL": {
+        "_id": "631"
+      },
+      "REST API": {
+        "_id": "632"
+      },
+      "Soap": {
+        "_id": "633"
+      },
+      "Apollo": {
+        "_id": "634"
+      },
+      "Paypal Api": {
+        "_id": "635"
+      },
+      "Stripe Api": {
+        "_id": "636"
+      }
+    },
+    "Databases": {
+      "_id": "637",
+      "MySQL": {
+        "_id": "638"
+      },
+      "PostgreSQL": {
+        "_id": "639"
+      },
+      "MongoDB": {
+        "_id": "640"
+      },
+      "NoSQL": {
+        "_id": "641"
+      },
+      "SQLite": {
+        "_id": "642"
+      },
+      "Oracle": {
+        "_id": "643"
+      },
+      "MariaDB": {
+        "_id": "644"
+      },
+      "Redis": {
+        "_id": "645"
+      },
+      "Elasticsearch": {
+        "_id": "646"
+      },
+      "Mssql": {
+        "_id": "647"
+      },
+      "Firebase": {
+        "_id": "648"
+      },
+      "Supabase": {
+        "_id": "649"
+      },
+      "Opensearch": {
+        "_id": "650"
+      },
+      "Apache Kafka": {
+        "_id": "651"
+      },
+      "SQL Server": {
+        "_id": "652"
+      },
+      "Boolean Search": {
+        "_id": "23393"
+      },
+      "Database Management": {
+        "_id": "24571"
+      },
+      "ServiceNow": {
+        "_id": "26002"
+      }
+    },
+    "Application Performance Management": {
+      "_id": "653",
+      "SolarWinds": {
+        "_id": "654"
+      },
+      "New Relic": {
+        "_id": "655"
+      },
+      "Firewalls": {
+        "_id": "656"
+      },
+      "VPN": {
+        "_id": "657"
+      },
+      "Blackfire": {
+        "_id": "658"
+      },
+      "Grafana": {
+        "_id": "659"
+      },
+      "Prometheus": {
+        "_id": "660"
+      },
+      "Zabbix": {
+        "_id": "661"
+      },
+      "Nagios": {
+        "_id": "662"
+      },
+      "Cacti": {
+        "_id": "663"
+      },
+      "Icinga": {
+        "_id": "664"
+      }
+    },
+    "Server": {
+      "_id": "665",
+      "Nginx": {
+        "_id": "666"
+      },
+      "Apache": {
+        "_id": "667"
+      },
+      "Caddy": {
+        "_id": "668"
+      },
+      "Lightspeed": {
+        "_id": "669"
+      },
+      "FTP and SFTP": {
+        "_id": "670"
+      },
+      "Mail - Exim": {
+        "_id": "671"
+      },
+      "Mail - Sendmail": {
+        "_id": "672"
+      },
+      "Mail - Postfix": {
+        "_id": "673"
+      },
+      "VPN - OpenVPN": {
+        "_id": "674"
+      },
+      "Cybersecurity": {
+        "_id": "24004",
+        "Threat Hunting": {
+          "_id": "40888"
+        }
+      }
+    },
+    "ASP.NET": {
+      "_id": "794"
+    },
+    "Software QA Testing": {
+      "_id": "797",
+      "Functional Testing": {
+        "_id": "23637"
+      },
+      "Regression Testing": {
+        "_id": "26333"
+      },
+      "Cypress": {
+        "_id": "26827"
+      },
+      "Playwright": {
+        "_id": "27693"
+      },
+      "Test Automation": {
+        "_id": "27695"
+      },
+      "Manual Testing": {
+        "_id": "36993"
+      },
+      "Game Testing": {
+        "_id": "39094"
+      }
+    },
+    "Network Administration": {
+      "_id": "24236",
+      "Active Directory": {
+        "_id": "30020"
+      },
+      "Network Monitoring": {
+        "_id": "32363"
+      },
+      "Network Security": {
+        "_id": "37412"
+      },
+      "Network Troubleshooting": {
+        "_id": "37782"
+      }
+    },
+    "Zapier": {
+      "_id": "24385"
+    },
+    "Robotic Process Automation": {
+      "_id": "24577"
+    },
+    "Uipath": {
+      "_id": "24583"
+    },
+    "API Testing": {
+      "_id": "25072"
+    },
+    "Selenium": {
+      "_id": "25334"
+    },
+    "VB.NET": {
+      "_id": "25337"
+    },
+    "APPSHEET": {
+      "_id": "27627"
+    },
+    "Arduino": {
+      "_id": "27629"
+    },
+    "Entity Framework": {
+      "_id": "27689"
+    },
+    "Dialux": {
+      "_id": "27856"
+    },
+    "STAAD": {
+      "_id": "27859"
+    },
+    "ArcGIS": {
+      "_id": "30470"
+    },
+    "Acumatica": {
+      "_id": "30797"
+    },
+    "Aurora Solar": {
+      "_id": "30798"
+    },
+    "SAP S4HANA": {
+      "_id": "30908"
+    },
+    "Anaplan": {
+      "_id": "31728"
+    },
+    "RabbitMQ": {
+      "_id": "32365"
+    },
+    "GitHub": {
+      "_id": "34027"
+    },
+    "Mulesoft": {
+      "_id": "34518"
+    },
+    "OutSystems": {
+      "_id": "34519"
+    },
+    "SAP Concur": {
+      "_id": "34521"
+    },
+    "Appian": {
+      "_id": "34522"
+    },
+    "Netsuite": {
+      "_id": "34610"
+    },
+    "Perl": {
+      "_id": "34611"
+    },
+    "FlutterFlow": {
+      "_id": "37407"
+    },
+    "HelpScout": {
+      "_id": "38634"
+    },
+    "LaTeX": {
+      "_id": "38635"
+    },
+    "ViciDial": {
+      "_id": "38639"
+    },
+    "Make.com": {
+      "_id": "39096"
+    },
+    "ConnectWise": {
+      "_id": "40925"
+    }
+  },
+  "Cloud Services": {
+    "AWS": {
+      "_id": "675",
+      "Analytics - Amazon Athena": {
+        "_id": "676"
+      },
+      "Analytics - Amazon CloudSearch": {
+        "_id": "677"
+      },
+      "Analytics - Amazon EMR": {
+        "_id": "678"
+      },
+      "Compute - EC2": {
+        "_id": "679"
+      },
+      "Compute - EC2 Auto Scaling": {
+        "_id": "680"
+      },
+      "Compute - Elastic Container Service": {
+        "_id": "681"
+      },
+      "Compute - Elastic Beanstalk": {
+        "_id": "682"
+      },
+      "Dev Tools - CodeGuru": {
+        "_id": "683"
+      },
+      "Dev Tools - Corretto": {
+        "_id": "684"
+      },
+      "Dev Tools - Cloud Control API": {
+        "_id": "685"
+      },
+      "Dev Tools - Cloud Development Kit": {
+        "_id": "686"
+      },
+      "Dev Tools - CodeDeploy": {
+        "_id": "687"
+      },
+      "Dev Tools - CodeCommit": {
+        "_id": "688"
+      },
+      "Storage - Elastic Block Store": {
+        "_id": "689"
+      },
+      "Storage - Elastic File System": {
+        "_id": "690"
+      },
+      "Stotage - S3": {
+        "_id": "691"
+      },
+      "Storage - S3 Glacier": {
+        "_id": "692"
+      },
+      "Internet of Things - IoT Core": {
+        "_id": "693"
+      },
+      "Internet of Things - FleetWise": {
+        "_id": "694"
+      },
+      "Internet of Things - SiteWise": {
+        "_id": "695"
+      },
+      "Internet of Things - TwinMaker": {
+        "_id": "696"
+      },
+      "Internet of Things - Greengrrass": {
+        "_id": "697"
+      },
+      "Database - Aurora": {
+        "_id": "698"
+      },
+      "Database - Cognito": {
+        "_id": "699"
+      },
+      "Database DocumentDB": {
+        "_id": "700"
+      },
+      "Database - DynamoDB": {
+        "_id": "701"
+      },
+      "Database - RDS": {
+        "_id": "702"
+      },
+      "Database - Redshift": {
+        "_id": "703"
+      },
+      "AWS Lambda": {
+        "_id": "32357"
+      }
+    },
+    "Azure": {
+      "_id": "704",
+      "Analytics - Data Explorer": {
+        "_id": "705"
+      },
+      "Analytics - Data Factory": {
+        "_id": "706"
+      },
+      "Analytics - Data Lake Storage": {
+        "_id": "707"
+      },
+      "Analytics - Event Hubs": {
+        "_id": "708"
+      },
+      "Analytics - Data Lake Analytics": {
+        "_id": "709"
+      },
+      "Compute - CycleCloud": {
+        "_id": "710"
+      },
+      "Compute - Qunatum": {
+        "_id": "711"
+      },
+      "Compute - Spot Virtual Machine": {
+        "_id": "712"
+      },
+      "Compute - VMWare Solution": {
+        "_id": "713"
+      },
+      "Compute - Batch": {
+        "_id": "714"
+      },
+      "Dev Tools - Pipelines": {
+        "_id": "715"
+      },
+      "Dev Tools - Visual Studio": {
+        "_id": "716"
+      },
+      "Dev Tools - Microsoft Dev Box": {
+        "_id": "717"
+      },
+      "Dev Tools - Load Testing": {
+        "_id": "718"
+      },
+      "DevOps - Artifacts": {
+        "_id": "719"
+      },
+      "DevOps - Azure Monitor": {
+        "_id": "720"
+      },
+      "DevOps - Deployment Environments": {
+        "_id": "721"
+      },
+      "Database - MariaDB": {
+        "_id": "722"
+      },
+      "Database - SQL Edge": {
+        "_id": "723"
+      },
+      "Database - Table Storage": {
+        "_id": "724"
+      },
+      "Security - Azure Active Directory": {
+        "_id": "725"
+      },
+      "Security - Microsoft Defender for Cloud": {
+        "_id": "726"
+      },
+      "Security - Front Door": {
+        "_id": "727"
+      },
+      "Security - Microsoft Sentinel": {
+        "_id": "728"
+      },
+      "Networking - Load Balancer": {
+        "_id": "729"
+      },
+      "Networking - Traffic Manager": {
+        "_id": "730"
+      },
+      "Networking - Network Watcher": {
+        "_id": "731"
+      },
+      "Networking - Azure Private Link": {
+        "_id": "732"
+      }
+    },
+    "Google Cloud": {
+      "_id": "733",
+      "Compute": {
+        "_id": "734"
+      },
+      "Networking": {
+        "_id": "735"
+      },
+      "Storage and Databases": {
+        "_id": "736"
+      },
+      "Big Data": {
+        "_id": "737"
+      },
+      "Machine Learning": {
+        "_id": "738"
+      },
+      "Identity & Security": {
+        "_id": "739"
+      },
+      "Management and Developer Tools": {
+        "_id": "740"
+      }
+    },
+    "IBM Cloud": {
+      "_id": "741",
+      "Machine Learning": {
+        "_id": "742"
+      },
+      "Analytics": {
+        "_id": "743"
+      },
+      "Blockchain": {
+        "_id": "744"
+      },
+      "Compute": {
+        "_id": "745"
+      },
+      "Containers": {
+        "_id": "746"
+      },
+      "Databases": {
+        "_id": "747"
+      },
+      "Developer tools": {
+        "_id": "748"
+      },
+      "Integration": {
+        "_id": "749"
+      },
+      "Internet of Things": {
+        "_id": "750"
+      },
+      "Logging and monitoring": {
+        "_id": "751"
+      }
+    },
+    "_id": "37178",
+    "Snowflake": {
+      "_id": "37415"
+    },
+    "Cloud Computing": {
+      "_id": "40228"
+    }
+  },
+  "Systems Administration": {
+    "_id": "14702",
+    "Cloud Engineer": {
+      "_id": "14703"
+    },
+    "Linux Administrator": {
+      "_id": "14704"
+    },
+    "Windows Administrator": {
+      "_id": "14705"
+    },
+    "System Analysis": {
+      "_id": "32366"
+    }
+  },
+  "Loan Processing": {
+    "_id": "29578"
+  },
+  "Research": {
+    "_id": "33167",
+    "Data Gathering": {
+      "_id": "37646"
+    }
+  },
+  "Patent Drafting": {
+    "_id": "36996"
+  },
+  "Virtual Assistant": {
+    "_id": "38361"
+  },
+  "Web Development": {
+    "_id": "40404"
+  }
+}
