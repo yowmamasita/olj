@@ -1,0 +1,6044 @@
+{
+  "Accounting": {
+    "children": {
+      "Accounts Receivable": {
+        "children": {
+          "Billing": {
+            "id": "23392",
+            "job_count": 21,
+            "type": "leaf"
+          },
+          "Collection": {
+            "id": "24570",
+            "job_count": 19,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 40,
+        "type": "branch"
+      },
+      "Accounts Reconciliations": {
+        "id": "3",
+        "job_count": 88,
+        "type": "leaf"
+      },
+      "Simpro": {
+        "id": "4",
+        "job_count": 9,
+        "type": "leaf"
+      },
+      "Xero": {
+        "id": "5",
+        "job_count": 94,
+        "type": "leaf"
+      },
+      "Payroll": {
+        "id": "6",
+        "job_count": 46,
+        "type": "leaf"
+      },
+      "Quickbooks": {
+        "id": "7",
+        "job_count": 335,
+        "type": "leaf"
+      },
+      "Accounts Payable": {
+        "id": "8",
+        "job_count": 54,
+        "type": "leaf"
+      },
+      "Financial Accounting": {
+        "children": {
+          "Analysis": {
+            "id": "10",
+            "job_count": 52,
+            "type": "leaf"
+          },
+          "Planning": {
+            "id": "11",
+            "job_count": 14,
+            "type": "leaf"
+          },
+          "Financial Analysis": {
+            "id": "760",
+            "job_count": 74,
+            "type": "leaf"
+          },
+          "Financial Planning": {
+            "id": "761",
+            "job_count": 18,
+            "type": "leaf"
+          },
+          "Financial Forcasting": {
+            "id": "762",
+            "job_count": 19,
+            "type": "leaf"
+          },
+          "Financial Reporting": {
+            "id": "24572",
+            "job_count": 52,
+            "type": "leaf"
+          },
+          "Internal Auditing": {
+            "id": "24573",
+            "job_count": 13,
+            "type": "leaf"
+          },
+          "External Audit": {
+            "id": "30474",
+            "job_count": 11,
+            "type": "leaf"
+          },
+          "Xplan": {
+            "id": "40719",
+            "job_count": 0,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 253,
+        "type": "branch"
+      },
+      "Bookkeeping": {
+        "children": {
+          "Online Bookkeeping": {
+            "id": "30027",
+            "job_count": 34,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 34,
+        "type": "branch"
+      },
+      "EDI": {
+        "id": "13",
+        "job_count": 3,
+        "type": "leaf"
+      },
+      "Tax Preparation": {
+        "id": "763",
+        "job_count": 95,
+        "type": "leaf"
+      },
+      "Investment Accounting": {
+        "children": {
+          "Investment Research": {
+            "id": "798",
+            "job_count": 6,
+            "type": "leaf"
+          },
+          "Strategic Planning": {
+            "id": "799",
+            "job_count": 22,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 28,
+        "type": "branch"
+      },
+      "Banking": {
+        "id": "22337",
+        "job_count": 2,
+        "type": "leaf"
+      },
+      "Claims Processing": {
+        "id": "22715",
+        "job_count": 11,
+        "type": "leaf"
+      },
+      "Business Analysis": {
+        "id": "23391",
+        "job_count": 18,
+        "type": "leaf"
+      },
+      "Bank Reconciliation": {
+        "id": "23394",
+        "job_count": 15,
+        "type": "leaf"
+      },
+      "Invoicing": {
+        "id": "24222",
+        "job_count": 21,
+        "type": "leaf"
+      },
+      "MYOB": {
+        "id": "24229",
+        "job_count": 4,
+        "type": "leaf"
+      },
+      "Cost Accounting": {
+        "id": "25322",
+        "job_count": 9,
+        "type": "leaf"
+      },
+      "Netsuite Accounting Software": {
+        "id": "26329",
+        "job_count": 8,
+        "type": "leaf"
+      },
+      "Budget Management": {
+        "id": "27630",
+        "job_count": 7,
+        "type": "leaf"
+      },
+      "General Ledger": {
+        "id": "31340",
+        "job_count": 1,
+        "type": "leaf"
+      },
+      "BGL360": {
+        "id": "35155",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Sage Intacct": {
+        "id": "35156",
+        "job_count": 5,
+        "type": "leaf"
+      },
+      "BlackLine": {
+        "id": "39091",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Cash Flow Management": {
+        "id": "39681",
+        "job_count": 2,
+        "type": "leaf"
+      },
+      "Revenue Management": {
+        "id": "39986",
+        "job_count": 16,
+        "type": "leaf"
+      }
+    },
+    "total_jobs": 1198,
+    "type": "branch"
+  },
+  "Marketing": {
+    "children": {
+      "Performance Marketing": {
+        "id": "15",
+        "job_count": 333,
+        "type": "leaf"
+      },
+      "CRM": {
+        "children": {
+          "Scoro": {
+            "id": "17",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Accelo": {
+            "id": "18",
+            "job_count": 2,
+            "type": "leaf"
+          },
+          "Sugar CRM": {
+            "id": "19",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Salesforce": {
+            "id": "20",
+            "job_count": 73,
+            "type": "leaf"
+          },
+          "Pipedrive": {
+            "id": "21",
+            "job_count": 3,
+            "type": "leaf"
+          },
+          "WORKetc": {
+            "id": "22",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Insightly": {
+            "id": "23",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Keap": {
+            "id": "24",
+            "job_count": 10,
+            "type": "leaf"
+          },
+          "Freshdesk": {
+            "id": "25",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Zoho CRM": {
+            "id": "26",
+            "job_count": 45,
+            "type": "leaf"
+          },
+          "Creatio": {
+            "id": "27",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "HubSpot CRM": {
+            "id": "28",
+            "job_count": 153,
+            "type": "leaf"
+          },
+          "Apptivo": {
+            "id": "29",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "NetSuite CRM": {
+            "id": "30",
+            "job_count": 3,
+            "type": "leaf"
+          },
+          "PipelineDeals": {
+            "id": "31",
+            "job_count": 5,
+            "type": "leaf"
+          },
+          "Zendesk": {
+            "id": "32",
+            "job_count": 15,
+            "type": "leaf"
+          },
+          "Microsoft Dynamics 365": {
+            "id": "33",
+            "job_count": 13,
+            "type": "leaf"
+          },
+          "Nimble": {
+            "id": "34",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Odoo": {
+            "id": "35",
+            "job_count": 14,
+            "type": "leaf"
+          },
+          "Less Annoying CRM": {
+            "id": "36",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Capsule CRM": {
+            "id": "37",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Podio": {
+            "id": "38",
+            "job_count": 2,
+            "type": "leaf"
+          },
+          "Freshworks CRM": {
+            "id": "39",
+            "job_count": 1,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 346,
+        "type": "branch"
+      },
+      "Email Marketing": {
+        "children": {
+          "MailerLite": {
+            "id": "41",
+            "job_count": 2,
+            "type": "leaf"
+          },
+          "Sender": {
+            "id": "42",
+            "job_count": 6,
+            "type": "leaf"
+          },
+          "Sendinblue": {
+            "id": "43",
+            "job_count": 4,
+            "type": "leaf"
+          },
+          "Omnisend": {
+            "id": "44",
+            "job_count": 4,
+            "type": "leaf"
+          },
+          "SendPulse": {
+            "id": "45",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Benchmark Email": {
+            "id": "46",
+            "job_count": 3,
+            "type": "leaf"
+          },
+          "Mailchimp": {
+            "id": "47",
+            "job_count": 23,
+            "type": "leaf"
+          },
+          "Mailjet": {
+            "id": "48",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Moosend": {
+            "id": "49",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "EmailOctopus": {
+            "id": "50",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Klaviyo": {
+            "id": "24574",
+            "job_count": 143,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 185,
+        "type": "branch"
+      },
+      "Telemarketing": {
+        "children": {
+          "Inbound Sales": {
+            "id": "52",
+            "job_count": 316,
+            "type": "leaf"
+          },
+          "Outbound Sales": {
+            "id": "53",
+            "job_count": 786,
+            "type": "leaf"
+          },
+          "Outbound Calls": {
+            "id": "27691",
+            "job_count": 332,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 1434,
+        "type": "branch"
+      },
+      "Copywriting": {
+        "children": {
+          "Email Copywriting": {
+            "id": "25997",
+            "job_count": 74,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 74,
+        "type": "branch"
+      },
+      "Influencer Marketing": {
+        "id": "55",
+        "job_count": 203,
+        "type": "leaf"
+      },
+      "Marketing Automation": {
+        "children": {
+          "Active Campaign": {
+            "id": "27628",
+            "job_count": 19,
+            "type": "leaf"
+          },
+          "Convertkit": {
+            "id": "27926",
+            "job_count": 8,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 27,
+        "type": "branch"
+      },
+      "Real Estate Marketing": {
+        "id": "57",
+        "job_count": 229,
+        "type": "leaf"
+      },
+      "Credit Repair": {
+        "id": "58",
+        "job_count": 60,
+        "type": "leaf"
+      },
+      "Affiliate Marketing": {
+        "id": "59",
+        "job_count": 110,
+        "type": "leaf"
+      },
+      "Marketing Analytics": {
+        "children": {
+          "Google Tag Manager": {
+            "id": "61",
+            "job_count": 82,
+            "type": "leaf"
+          },
+          "Google Analytics": {
+            "id": "62",
+            "job_count": 135,
+            "type": "leaf"
+          },
+          "Google Data Studio": {
+            "id": "63",
+            "job_count": 17,
+            "type": "leaf"
+          },
+          "UA": {
+            "id": "64",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "GA4": {
+            "id": "65",
+            "job_count": 7,
+            "type": "leaf"
+          },
+          "Meta Pixel": {
+            "id": "66",
+            "job_count": 37,
+            "type": "leaf"
+          },
+          "Looker Studio": {
+            "id": "41023",
+            "job_count": 14,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 292,
+        "type": "branch"
+      },
+      "Content Creation": {
+        "children": {
+          "Article Writing": {
+            "id": "68",
+            "job_count": 117,
+            "type": "leaf"
+          },
+          "Blogging": {
+            "id": "69",
+            "job_count": 57,
+            "type": "leaf"
+          },
+          "Creative Writing": {
+            "id": "70",
+            "job_count": 160,
+            "type": "leaf"
+          },
+          "eBook Writing": {
+            "id": "71",
+            "job_count": 32,
+            "type": "leaf"
+          },
+          "Proofreading": {
+            "id": "72",
+            "job_count": 39,
+            "type": "leaf"
+          },
+          "Technical Writing": {
+            "id": "73",
+            "job_count": 55,
+            "type": "leaf"
+          },
+          "News Writing": {
+            "id": "74",
+            "job_count": 13,
+            "type": "leaf"
+          },
+          "Scriptwriting": {
+            "id": "75",
+            "job_count": 104,
+            "type": "leaf"
+          },
+          "eMail Marketing": {
+            "id": "76",
+            "job_count": 56,
+            "type": "leaf"
+          },
+          "Social Media Content Creation": {
+            "id": "77",
+            "job_count": 994,
+            "type": "leaf"
+          },
+          "Microblog Content Writing": {
+            "id": "78",
+            "job_count": 15,
+            "type": "leaf"
+          },
+          "Podcast Content Creation": {
+            "id": "79",
+            "job_count": 63,
+            "type": "leaf"
+          },
+          "Video Content Creation": {
+            "id": "80",
+            "job_count": 724,
+            "type": "leaf"
+          },
+          "Webinar Writing": {
+            "id": "81",
+            "job_count": 13,
+            "type": "leaf"
+          },
+          "Case Studies Writing": {
+            "id": "82",
+            "job_count": 3,
+            "type": "leaf"
+          },
+          "Influencer Content Creation": {
+            "id": "83",
+            "job_count": 47,
+            "type": "leaf"
+          },
+          "Research Writing": {
+            "id": "84",
+            "job_count": 55,
+            "type": "leaf"
+          },
+          "Ghost Writing": {
+            "id": "85",
+            "job_count": 20,
+            "type": "leaf"
+          },
+          "Guide Writing": {
+            "id": "86",
+            "job_count": 4,
+            "type": "leaf"
+          },
+          "Listicles": {
+            "id": "87",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Infographics": {
+            "id": "88",
+            "job_count": 68,
+            "type": "leaf"
+          },
+          "Copyediting": {
+            "id": "22338",
+            "job_count": 29,
+            "type": "leaf"
+          },
+          "Content Planning": {
+            "id": "25323",
+            "job_count": 20,
+            "type": "leaf"
+          },
+          "Descript": {
+            "id": "25995",
+            "job_count": 14,
+            "type": "leaf"
+          },
+          "Academic Writing": {
+            "id": "33603",
+            "job_count": 5,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 2707,
+        "type": "branch"
+      },
+      "Social Media Management": {
+        "children": {
+          "Community Moderation": {
+            "id": "91",
+            "job_count": 72,
+            "type": "leaf"
+          },
+          "Online Forum Posting": {
+            "id": "92",
+            "job_count": 28,
+            "type": "leaf"
+          },
+          "Microblogging": {
+            "id": "93",
+            "job_count": 3,
+            "type": "leaf"
+          },
+          "Template Creation": {
+            "id": "94",
+            "job_count": 11,
+            "type": "leaf"
+          },
+          "Facebook marketing": {
+            "id": "95",
+            "job_count": 208,
+            "type": "leaf"
+          },
+          "Instagram marketing": {
+            "id": "96",
+            "job_count": 251,
+            "type": "leaf"
+          },
+          "Social Media Marketing": {
+            "id": "765",
+            "job_count": 349,
+            "type": "leaf"
+          },
+          "Social Media Engagement": {
+            "id": "24377",
+            "job_count": 144,
+            "type": "leaf"
+          },
+          "Meta Business Suite": {
+            "id": "28246",
+            "job_count": 98,
+            "type": "leaf"
+          },
+          "Post Scheduling": {
+            "id": "40885",
+            "job_count": 14,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 1178,
+        "type": "branch"
+      },
+      "Video Marketing": {
+        "id": "759",
+        "job_count": 166,
+        "type": "leaf"
+      },
+      "Craigslist Posting Marketing": {
+        "id": "766",
+        "job_count": 2,
+        "type": "leaf"
+      },
+      "Direct Mail Marketing": {
+        "id": "767",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Search Engine Marketing": {
+        "id": "768",
+        "job_count": 35,
+        "type": "leaf"
+      },
+      "Classified Ads Marketing": {
+        "id": "769",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Mobile Marketing": {
+        "id": "770",
+        "job_count": 7,
+        "type": "leaf"
+      },
+      "Media Buying": {
+        "id": "771",
+        "job_count": 196,
+        "type": "leaf"
+      },
+      "Youtube Marketing": {
+        "id": "772",
+        "job_count": 145,
+        "type": "leaf"
+      },
+      "LinkedIn Marketing": {
+        "id": "773",
+        "job_count": 146,
+        "type": "leaf"
+      },
+      "Appointment Setting": {
+        "children": {
+          "Calendly": {
+            "id": "32358",
+            "job_count": 16,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 16,
+        "type": "branch"
+      },
+      "Competitor Analysis": {
+        "id": "23602",
+        "job_count": 13,
+        "type": "leaf"
+      },
+      "GoHighLevel": {
+        "id": "24220",
+        "job_count": 627,
+        "type": "leaf"
+      },
+      "Market Research": {
+        "id": "24233",
+        "job_count": 76,
+        "type": "leaf"
+      },
+      "Sales": {
+        "children": {
+          "Order Management": {
+            "id": "27858",
+            "job_count": 11,
+            "type": "leaf"
+          },
+          "Ontraport": {
+            "id": "31342",
+            "job_count": 1,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 12,
+        "type": "branch"
+      },
+      "Audience Engagement": {
+        "id": "25317",
+        "job_count": 5,
+        "type": "leaf"
+      },
+      "Kartra": {
+        "id": "25328",
+        "job_count": 5,
+        "type": "leaf"
+      },
+      "Website Copywriting": {
+        "id": "25339",
+        "job_count": 59,
+        "type": "leaf"
+      },
+      "Digital Marketing": {
+        "id": "26551",
+        "job_count": 331,
+        "type": "leaf"
+      },
+      "Campaign Optimization": {
+        "id": "28245",
+        "job_count": 35,
+        "type": "leaf"
+      }
+    },
+    "total_jobs": 9054,
+    "type": "branch"
+  },
+  "Advertising": {
+    "children": {
+      "Google Ads": {
+        "id": "98",
+        "job_count": 593,
+        "type": "leaf"
+      },
+      "Yahoo Gemini": {
+        "id": "99",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Amazon Ads": {
+        "id": "100",
+        "job_count": 77,
+        "type": "leaf"
+      },
+      "Facebook Ads": {
+        "id": "101",
+        "job_count": 895,
+        "type": "leaf"
+      },
+      "Microsoft Ads": {
+        "id": "102",
+        "job_count": 11,
+        "type": "leaf"
+      },
+      "Twitter Ads": {
+        "id": "103",
+        "job_count": 10,
+        "type": "leaf"
+      },
+      "Pinterest Ads": {
+        "id": "104",
+        "job_count": 20,
+        "type": "leaf"
+      },
+      "Tiktok Ads": {
+        "id": "105",
+        "job_count": 230,
+        "type": "leaf"
+      },
+      "Snapchat Ads": {
+        "id": "106",
+        "job_count": 3,
+        "type": "leaf"
+      },
+      "PPC": {
+        "id": "107",
+        "job_count": 95,
+        "type": "leaf"
+      },
+      "Ads Management": {
+        "id": "108",
+        "job_count": 81,
+        "type": "leaf"
+      },
+      "Trend Monitoring": {
+        "id": "109",
+        "job_count": 12,
+        "type": "leaf"
+      },
+      "Performance Tracking": {
+        "id": "110",
+        "job_count": 28,
+        "type": "leaf"
+      },
+      "Audience Analysis": {
+        "id": "111",
+        "job_count": 7,
+        "type": "leaf"
+      },
+      "Campaign Building": {
+        "id": "112",
+        "job_count": 36,
+        "type": "leaf"
+      },
+      "AB Testing": {
+        "id": "113",
+        "job_count": 13,
+        "type": "leaf"
+      },
+      "Ads Creation": {
+        "id": "114",
+        "job_count": 34,
+        "type": "leaf"
+      },
+      "Visual Creation": {
+        "id": "115",
+        "job_count": 17,
+        "type": "leaf"
+      },
+      "Google Analytics": {
+        "id": "116",
+        "job_count": 54,
+        "type": "leaf"
+      },
+      "Bing Ads": {
+        "id": "774",
+        "job_count": 11,
+        "type": "leaf"
+      },
+      "Youtube Ads": {
+        "id": "775",
+        "job_count": 32,
+        "type": "leaf"
+      },
+      "Creative Advertising": {
+        "id": "776",
+        "job_count": 141,
+        "type": "leaf"
+      },
+      "Scientific Advertising": {
+        "id": "777",
+        "job_count": 2,
+        "type": "leaf"
+      },
+      "Amazon PPC": {
+        "id": "25319",
+        "job_count": 88,
+        "type": "leaf"
+      }
+    },
+    "total_jobs": 2490,
+    "type": "branch"
+  },
+  "SEO": {
+    "children": {
+      "Ahrefs": {
+        "id": "118",
+        "job_count": 25,
+        "type": "leaf"
+      },
+      "Local SEO": {
+        "id": "119",
+        "job_count": 221,
+        "type": "leaf"
+      },
+      "Off-Page": {
+        "id": "120",
+        "job_count": 73,
+        "type": "leaf"
+      },
+      "On-Page": {
+        "id": "121",
+        "job_count": 124,
+        "type": "leaf"
+      },
+      "Semrush": {
+        "id": "122",
+        "job_count": 44,
+        "type": "leaf"
+      },
+      "SEO Analysis": {
+        "id": "123",
+        "job_count": 141,
+        "type": "leaf"
+      },
+      "Backlinks Management": {
+        "id": "124",
+        "job_count": 91,
+        "type": "leaf"
+      },
+      "Content Management": {
+        "id": "125",
+        "job_count": 120,
+        "type": "leaf"
+      },
+      "Keyword Research": {
+        "id": "126",
+        "job_count": 126,
+        "type": "leaf"
+      },
+      "Link Building": {
+        "id": "127",
+        "job_count": 83,
+        "type": "leaf"
+      },
+      "Ranking Management": {
+        "id": "128",
+        "job_count": 31,
+        "type": "leaf"
+      },
+      "Google Search Console": {
+        "id": "778",
+        "job_count": 11,
+        "type": "leaf"
+      },
+      "Google Search Central": {
+        "id": "779",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Private Blog Network": {
+        "id": "780",
+        "job_count": 3,
+        "type": "leaf"
+      }
+    },
+    "total_jobs": 1093,
+    "type": "branch"
+  },
+  "E-Commerce": {
+    "children": {
+      "Amazon": {
+        "children": {
+          "Feed Analysis": {
+            "id": "131",
+            "job_count": 10,
+            "type": "leaf"
+          },
+          "Catalog Management": {
+            "id": "132",
+            "job_count": 77,
+            "type": "leaf"
+          },
+          "Seller Page Management": {
+            "id": "133",
+            "job_count": 24,
+            "type": "leaf"
+          },
+          "Seller Central": {
+            "id": "134",
+            "job_count": 106,
+            "type": "leaf"
+          },
+          "FBA": {
+            "id": "135",
+            "job_count": 79,
+            "type": "leaf"
+          },
+          "Kindle Direct Publishing (KDP)": {
+            "id": "136",
+            "job_count": 16,
+            "type": "leaf"
+          },
+          "Keepa": {
+            "id": "137",
+            "job_count": 67,
+            "type": "leaf"
+          },
+          "Keyword Management": {
+            "id": "138",
+            "job_count": 13,
+            "type": "leaf"
+          },
+          "Listing Management": {
+            "id": "139",
+            "job_count": 33,
+            "type": "leaf"
+          },
+          "Dropshipping": {
+            "id": "140",
+            "job_count": 40,
+            "type": "leaf"
+          },
+          "Seller Amp SAS": {
+            "id": "25335",
+            "job_count": 47,
+            "type": "leaf"
+          },
+          "JungleScout": {
+            "id": "30026",
+            "job_count": 4,
+            "type": "leaf"
+          },
+          "Tactical Arbitrage": {
+            "id": "30608",
+            "job_count": 6,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 522,
+        "type": "branch"
+      },
+      "Logistics Management": {
+        "children": {
+          "Freight Forwarding": {
+            "id": "37408",
+            "job_count": 23,
+            "type": "leaf"
+          },
+          "Dispatching": {
+            "id": "39952",
+            "job_count": 55,
+            "type": "leaf"
+          },
+          "Supply Chain Management": {
+            "id": "39987",
+            "job_count": 33,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 111,
+        "type": "branch"
+      },
+      "Product Analysis": {
+        "id": "142",
+        "job_count": 32,
+        "type": "leaf"
+      },
+      "Product Optimization": {
+        "id": "143",
+        "job_count": 42,
+        "type": "leaf"
+      },
+      "Product Research": {
+        "id": "144",
+        "job_count": 141,
+        "type": "leaf"
+      },
+      "Product Sourcing": {
+        "id": "145",
+        "job_count": 103,
+        "type": "leaf"
+      },
+      "Wholesale Sourcing": {
+        "id": "146",
+        "job_count": 32,
+        "type": "leaf"
+      },
+      "Brand Analysis": {
+        "id": "147",
+        "job_count": 13,
+        "type": "leaf"
+      },
+      "Brand Management": {
+        "id": "148",
+        "job_count": 36,
+        "type": "leaf"
+      },
+      "Inventory Management": {
+        "children": {
+          "Analytics": {
+            "id": "150",
+            "job_count": 7,
+            "type": "leaf"
+          },
+          "Auditing": {
+            "id": "151",
+            "job_count": 3,
+            "type": "leaf"
+          },
+          "Purchasing": {
+            "id": "152",
+            "job_count": 20,
+            "type": "leaf"
+          },
+          "Quality Control": {
+            "id": "153",
+            "job_count": 14,
+            "type": "leaf"
+          },
+          "Safekeeping": {
+            "id": "154",
+            "job_count": 0,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 44,
+        "type": "branch"
+      },
+      "Clickfunnels": {
+        "id": "155",
+        "job_count": 71,
+        "type": "leaf"
+      },
+      "Ebay": {
+        "children": {
+          "Customer Support": {
+            "id": "157",
+            "job_count": 166,
+            "type": "leaf"
+          },
+          "Dropshipping": {
+            "id": "158",
+            "job_count": 8,
+            "type": "leaf"
+          },
+          "Listing Management": {
+            "id": "159",
+            "job_count": 13,
+            "type": "leaf"
+          },
+          "Fulfillment": {
+            "id": "160",
+            "job_count": 1,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 188,
+        "type": "branch"
+      },
+      "Etsy": {
+        "id": "161",
+        "job_count": 22,
+        "type": "leaf"
+      },
+      "Shopify": {
+        "id": "162",
+        "job_count": 586,
+        "type": "leaf"
+      },
+      "Bigcommerce": {
+        "id": "163",
+        "job_count": 3,
+        "type": "leaf"
+      },
+      "Magento": {
+        "id": "164",
+        "job_count": 10,
+        "type": "leaf"
+      },
+      "Order processing": {
+        "children": {
+          "Order Tracking": {
+            "id": "36994",
+            "job_count": 9,
+            "type": "leaf"
+          },
+          "Order Fulfillment": {
+            "id": "37413",
+            "job_count": 19,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 28,
+        "type": "branch"
+      },
+      "Online Arbitrage": {
+        "id": "24576",
+        "job_count": 52,
+        "type": "leaf"
+      },
+      "Supplier Sourcing": {
+        "id": "26832",
+        "job_count": 18,
+        "type": "leaf"
+      },
+      "Funnelish": {
+        "id": "31338",
+        "job_count": 61,
+        "type": "leaf"
+      },
+      "Shipstation": {
+        "id": "34520",
+        "job_count": 3,
+        "type": "leaf"
+      },
+      "Logistics Coordination": {
+        "id": "37411",
+        "job_count": 36,
+        "type": "leaf"
+      }
+    },
+    "total_jobs": 2154,
+    "type": "branch"
+  },
+  "Professional Services": {
+    "children": {
+      "Construction And Engineering": {
+        "children": {
+          "Costing": {
+            "id": "167",
+            "job_count": 26,
+            "type": "leaf"
+          },
+          "Supply Management": {
+            "id": "168",
+            "job_count": 8,
+            "type": "leaf"
+          },
+          "Earthquake": {
+            "id": "169",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Timber Design": {
+            "id": "170",
+            "job_count": 2,
+            "type": "leaf"
+          },
+          "Steel and Rigid Frames": {
+            "id": "171",
+            "job_count": 5,
+            "type": "leaf"
+          },
+          "Structural Engineering": {
+            "id": "172",
+            "job_count": 18,
+            "type": "leaf"
+          },
+          "Geodetic and Soil": {
+            "id": "173",
+            "job_count": 3,
+            "type": "leaf"
+          },
+          "Estimate": {
+            "id": "24009",
+            "job_count": 71,
+            "type": "leaf"
+          },
+          "Planswift": {
+            "id": "24246",
+            "job_count": 10,
+            "type": "leaf"
+          },
+          "Bluebeam Revu": {
+            "id": "25321",
+            "job_count": 8,
+            "type": "leaf"
+          },
+          "Civil 3D": {
+            "id": "28244",
+            "job_count": 7,
+            "type": "leaf"
+          },
+          "Buildxact": {
+            "id": "31336",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Xactimate": {
+            "id": "31344",
+            "job_count": 16,
+            "type": "leaf"
+          },
+          "Etabs": {
+            "id": "31483",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Onshape": {
+            "id": "33165",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Quantity Surveying": {
+            "id": "33166",
+            "job_count": 16,
+            "type": "leaf"
+          },
+          "HelioScope": {
+            "id": "34028",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "CostX": {
+            "id": "34512",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Electrical Design": {
+            "id": "35035",
+            "job_count": 13,
+            "type": "leaf"
+          },
+          "Bluebeam": {
+            "id": "35494",
+            "job_count": 5,
+            "type": "leaf"
+          },
+          "Quantity Takeoff": {
+            "id": "36998",
+            "job_count": 17,
+            "type": "leaf"
+          },
+          "Circuit Design": {
+            "id": "37405",
+            "job_count": 0,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 226,
+        "type": "branch"
+      },
+      "Architectural Services": {
+        "children": {
+          "Auto Cad": {
+            "id": "175",
+            "job_count": 48,
+            "type": "leaf"
+          },
+          "Drafting": {
+            "id": "176",
+            "job_count": 33,
+            "type": "leaf"
+          },
+          "3D presentation": {
+            "children": {
+              "Lumion": {
+                "id": "24228",
+                "job_count": 8,
+                "type": "leaf"
+              }
+            },
+            "total_jobs": 8,
+            "type": "branch"
+          },
+          "2D layout": {
+            "id": "178",
+            "job_count": 5,
+            "type": "leaf"
+          },
+          "Parametric modeling": {
+            "id": "179",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Simulation": {
+            "id": "180",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Visualization": {
+            "id": "181",
+            "job_count": 3,
+            "type": "leaf"
+          },
+          "Enscape": {
+            "id": "22341",
+            "job_count": 4,
+            "type": "leaf"
+          },
+          "D5 Render": {
+            "id": "32359",
+            "job_count": 6,
+            "type": "leaf"
+          },
+          "Twinmotion": {
+            "id": "38083",
+            "job_count": 1,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 109,
+        "type": "branch"
+      },
+      "Medical Services": {
+        "children": {
+          "Medical Scribing": {
+            "id": "24231",
+            "job_count": 12,
+            "type": "leaf"
+          },
+          "Patient Care": {
+            "id": "25810",
+            "job_count": 24,
+            "type": "leaf"
+          },
+          "Medical Billing": {
+            "id": "25998",
+            "job_count": 46,
+            "type": "leaf"
+          },
+          "Revenue Cycle Management": {
+            "id": "26000",
+            "job_count": 15,
+            "type": "leaf"
+          },
+          "Medical Coding": {
+            "id": "26328",
+            "job_count": 18,
+            "type": "leaf"
+          },
+          "Credentialing": {
+            "id": "26963",
+            "job_count": 13,
+            "type": "leaf"
+          },
+          "Medical Knowledge": {
+            "id": "27690",
+            "job_count": 26,
+            "type": "leaf"
+          },
+          "HIPAA Compliance": {
+            "id": "37409",
+            "job_count": 21,
+            "type": "leaf"
+          },
+          "Denial Management": {
+            "id": "37647",
+            "job_count": 3,
+            "type": "leaf"
+          },
+          "Dental Billing": {
+            "id": "39875",
+            "job_count": 10,
+            "type": "leaf"
+          },
+          "ICD-10": {
+            "id": "40884",
+            "job_count": 2,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 190,
+        "type": "branch"
+      },
+      "Legal Services": {
+        "children": {
+          "Case Management": {
+            "id": "25567",
+            "job_count": 47,
+            "type": "leaf"
+          },
+          "Legal Research": {
+            "id": "25569",
+            "job_count": 30,
+            "type": "leaf"
+          },
+          "Paralegal": {
+            "id": "26831",
+            "job_count": 61,
+            "type": "leaf"
+          },
+          "Legal Writing": {
+            "id": "27857",
+            "job_count": 33,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 171,
+        "type": "branch"
+      },
+      "Management Services": {
+        "children": {
+          "Accounting Management": {
+            "id": "185",
+            "job_count": 31,
+            "type": "leaf"
+          },
+          "Finance Management": {
+            "id": "186",
+            "job_count": 60,
+            "type": "leaf"
+          },
+          "Acquisition Management": {
+            "id": "187",
+            "job_count": 4,
+            "type": "leaf"
+          },
+          "Advertising Management": {
+            "id": "188",
+            "job_count": 24,
+            "type": "leaf"
+          },
+          "Administrative Management": {
+            "id": "189",
+            "job_count": 270,
+            "type": "leaf"
+          },
+          "E-Commerce Management": {
+            "children": {
+              "Product Listing": {
+                "id": "24255",
+                "job_count": 65,
+                "type": "leaf"
+              }
+            },
+            "total_jobs": 65,
+            "type": "branch"
+          },
+          "Construction Project Manager": {
+            "id": "191",
+            "job_count": 76,
+            "type": "leaf"
+          },
+          "Bpo Operations Management": {
+            "id": "192",
+            "job_count": 41,
+            "type": "leaf"
+          },
+          "Business Management": {
+            "children": {
+              "Procurement": {
+                "id": "24254",
+                "job_count": 20,
+                "type": "leaf"
+              }
+            },
+            "total_jobs": 20,
+            "type": "branch"
+          },
+          "Call Center Operations Management": {
+            "id": "194",
+            "job_count": 70,
+            "type": "leaf"
+          },
+          "Customer Support Management": {
+            "id": "195",
+            "job_count": 138,
+            "type": "leaf"
+          },
+          "Events Management": {
+            "id": "196",
+            "job_count": 27,
+            "type": "leaf"
+          },
+          "Property Management": {
+            "id": "197",
+            "job_count": 144,
+            "type": "leaf"
+          },
+          "Sales Management": {
+            "id": "198",
+            "job_count": 177,
+            "type": "leaf"
+          },
+          "Inventory Management": {
+            "children": {
+              "Merchandising": {
+                "id": "24234",
+                "job_count": 10,
+                "type": "leaf"
+              }
+            },
+            "total_jobs": 10,
+            "type": "branch"
+          },
+          "Marketing Management": {
+            "id": "200",
+            "job_count": 12,
+            "type": "leaf"
+          },
+          "Software Development Project Manager": {
+            "id": "781",
+            "job_count": 71,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 1240,
+        "type": "branch"
+      },
+      "Journalism": {
+        "id": "24224",
+        "job_count": 15,
+        "type": "leaf"
+      },
+      "Photography": {
+        "children": {
+          "Photo Retouching": {
+            "id": "36997",
+            "job_count": 37,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 37,
+        "type": "branch"
+      },
+      "Songwriting": {
+        "id": "24378",
+        "job_count": 3,
+        "type": "leaf"
+      },
+      "Business development": {
+        "id": "24569",
+        "job_count": 121,
+        "type": "leaf"
+      },
+      "Videography": {
+        "id": "28247",
+        "job_count": 27,
+        "type": "leaf"
+      },
+      "Nutrition Counseling": {
+        "id": "30476",
+        "job_count": 1,
+        "type": "leaf"
+      },
+      "Poetry Writing": {
+        "id": "30607",
+        "job_count": 1,
+        "type": "leaf"
+      },
+      "Forex Trading": {
+        "children": {
+          "Technical Analysis": {
+            "id": "33169",
+            "job_count": 17,
+            "type": "leaf"
+          },
+          "Risk Management": {
+            "id": "37783",
+            "job_count": 7,
+            "type": "leaf"
+          },
+          "Cryptocurrency": {
+            "id": "38081",
+            "job_count": 23,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 47,
+        "type": "branch"
+      },
+      "Stock Trading": {
+        "id": "33606",
+        "job_count": 14,
+        "type": "leaf"
+      },
+      "Counseling": {
+        "id": "35469",
+        "job_count": 1,
+        "type": "leaf"
+      },
+      "Psychology": {
+        "children": {
+          "Psychological Assessment": {
+            "id": "36995",
+            "job_count": 2,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 2,
+        "type": "branch"
+      },
+      "Intellectual Property Rights": {
+        "children": {
+          "Patent Drafting": {
+            "id": "37485",
+            "job_count": 2,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 2,
+        "type": "branch"
+      },
+      "Nutrition Assessment": {
+        "id": "40717",
+        "job_count": 0,
+        "type": "leaf"
+      }
+    },
+    "total_jobs": 2207,
+    "type": "branch"
+  },
+  "Project Management": {
+    "children": {
+      "Basecamp": {
+        "id": "202",
+        "job_count": 1,
+        "type": "leaf"
+      },
+      "Monday": {
+        "id": "203",
+        "job_count": 51,
+        "type": "leaf"
+      },
+      "Workflow": {
+        "id": "204",
+        "job_count": 70,
+        "type": "leaf"
+      },
+      "Atlassian": {
+        "id": "205",
+        "job_count": 2,
+        "type": "leaf"
+      },
+      "Trello": {
+        "id": "206",
+        "job_count": 10,
+        "type": "leaf"
+      },
+      "Asana": {
+        "id": "207",
+        "job_count": 33,
+        "type": "leaf"
+      },
+      "Cerebro": {
+        "id": "208",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Airtable": {
+        "id": "209",
+        "job_count": 54,
+        "type": "leaf"
+      },
+      "Appfolio": {
+        "id": "210",
+        "job_count": 32,
+        "type": "leaf"
+      },
+      "Hootsuite": {
+        "id": "211",
+        "job_count": 1,
+        "type": "leaf"
+      },
+      "Jira": {
+        "id": "212",
+        "job_count": 4,
+        "type": "leaf"
+      },
+      "Clickup": {
+        "id": "213",
+        "job_count": 73,
+        "type": "leaf"
+      },
+      "Notion": {
+        "id": "24235",
+        "job_count": 82,
+        "type": "leaf"
+      },
+      "Process Mapping": {
+        "id": "24251",
+        "job_count": 8,
+        "type": "leaf"
+      },
+      "Process Improvement": {
+        "id": "24252",
+        "job_count": 34,
+        "type": "leaf"
+      },
+      "Agile Methodology": {
+        "id": "25316",
+        "job_count": 7,
+        "type": "leaf"
+      },
+      "Smartsheet": {
+        "id": "25573",
+        "job_count": 2,
+        "type": "leaf"
+      },
+      "Capacity Planning": {
+        "id": "25621",
+        "job_count": 2,
+        "type": "leaf"
+      },
+      "Forecasting": {
+        "id": "25809",
+        "job_count": 7,
+        "type": "leaf"
+      },
+      "Primavera": {
+        "id": "26332",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Scrum": {
+        "id": "37416",
+        "job_count": 6,
+        "type": "leaf"
+      }
+    },
+    "total_jobs": 479,
+    "type": "branch"
+  },
+  "Human Resources": {
+    "children": {
+      "Recruiting": {
+        "children": {
+          "US recruiting": {
+            "id": "216",
+            "job_count": 74,
+            "type": "leaf"
+          },
+          "Technical recruiting": {
+            "id": "217",
+            "job_count": 20,
+            "type": "leaf"
+          },
+          "Candidate Sourcing": {
+            "id": "24371",
+            "job_count": 71,
+            "type": "leaf"
+          },
+          "Talent Acquisition": {
+            "id": "26334",
+            "job_count": 77,
+            "type": "leaf"
+          },
+          "Applicant Tracking Systems": {
+            "id": "28243",
+            "job_count": 18,
+            "type": "leaf"
+          },
+          "Candidate Screening": {
+            "id": "34609",
+            "job_count": 41,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 301,
+        "type": "branch"
+      },
+      "Sop Writing": {
+        "id": "218",
+        "job_count": 28,
+        "type": "leaf"
+      },
+      "Policy Writing": {
+        "id": "219",
+        "job_count": 1,
+        "type": "leaf"
+      },
+      "Payroll": {
+        "children": {
+          "Timekeeping": {
+            "id": "222",
+            "job_count": 12,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 12,
+        "type": "branch"
+      },
+      "HR Management": {
+        "id": "221",
+        "job_count": 82,
+        "type": "leaf"
+      },
+      "Onboarding": {
+        "id": "25330",
+        "job_count": 22,
+        "type": "leaf"
+      },
+      "Workforce Management": {
+        "id": "30477",
+        "job_count": 2,
+        "type": "leaf"
+      },
+      "Workday": {
+        "id": "31486",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Labor Relations": {
+        "id": "32362",
+        "job_count": 2,
+        "type": "leaf"
+      },
+      "Staffing": {
+        "id": "40887",
+        "job_count": 1,
+        "type": "leaf"
+      }
+    },
+    "total_jobs": 451,
+    "type": "branch"
+  },
+  "Coaching": {
+    "children": {
+      "Business": {
+        "id": "224",
+        "job_count": 10,
+        "type": "leaf"
+      },
+      "Credit Repair": {
+        "children": {
+          "Risk Assessment": {
+            "id": "25332",
+            "job_count": 12,
+            "type": "leaf"
+          },
+          "Risk Analysis": {
+            "id": "39682",
+            "job_count": 12,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 24,
+        "type": "branch"
+      },
+      "Fitness": {
+        "id": "226",
+        "job_count": 13,
+        "type": "leaf"
+      },
+      "Health And Wellness": {
+        "children": {
+          "Health Education": {
+            "id": "37469",
+            "job_count": 5,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 5,
+        "type": "branch"
+      },
+      "Homeschool": {
+        "children": {
+          "Tutorial Teaching": {
+            "id": "782",
+            "job_count": 23,
+            "type": "leaf"
+          },
+          "Teaching": {
+            "id": "24382",
+            "job_count": 22,
+            "type": "leaf"
+          },
+          "Storytelling": {
+            "id": "28732",
+            "job_count": 14,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 59,
+        "type": "branch"
+      },
+      "Life Coaching": {
+        "id": "229",
+        "job_count": 4,
+        "type": "leaf"
+      },
+      "Lifestyle": {
+        "id": "230",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Success": {
+        "id": "231",
+        "job_count": 7,
+        "type": "leaf"
+      },
+      "Training and Development": {
+        "id": "27696",
+        "job_count": 36,
+        "type": "leaf"
+      }
+    },
+    "total_jobs": 158,
+    "type": "branch"
+  },
+  "Real Estate": {
+    "children": {
+      "Accounting": {
+        "id": "233",
+        "job_count": 72,
+        "type": "leaf"
+      },
+      "Acquisition": {
+        "id": "234",
+        "job_count": 121,
+        "type": "leaf"
+      },
+      "Analysis": {
+        "id": "235",
+        "job_count": 40,
+        "type": "leaf"
+      },
+      "Anow": {
+        "id": "236",
+        "job_count": 1,
+        "type": "leaf"
+      },
+      "Appointment Setting": {
+        "id": "237",
+        "job_count": 187,
+        "type": "leaf"
+      },
+      "Appraisal": {
+        "id": "238",
+        "job_count": 5,
+        "type": "leaf"
+      },
+      "Article Writing": {
+        "id": "239",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Bookkeeping": {
+        "id": "240",
+        "job_count": 18,
+        "type": "leaf"
+      },
+      "Breezeway": {
+        "id": "241",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Brivity": {
+        "id": "242",
+        "job_count": 3,
+        "type": "leaf"
+      },
+      "Cold Calling": {
+        "id": "243",
+        "job_count": 660,
+        "type": "leaf"
+      },
+      "Commercial Real Estate": {
+        "id": "244",
+        "job_count": 41,
+        "type": "leaf"
+      },
+      "Corelogic Mls Matrix": {
+        "id": "245",
+        "job_count": 6,
+        "type": "leaf"
+      },
+      "Disposition Real Estate": {
+        "id": "246",
+        "job_count": 39,
+        "type": "leaf"
+      },
+      "Freedomsoft": {
+        "id": "247",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Gohighlevel Real Estate": {
+        "id": "248",
+        "job_count": 85,
+        "type": "leaf"
+      },
+      "Investing": {
+        "id": "249",
+        "job_count": 4,
+        "type": "leaf"
+      },
+      "ISA Real Estate": {
+        "id": "250",
+        "job_count": 62,
+        "type": "leaf"
+      },
+      "Lead Generation": {
+        "id": "251",
+        "job_count": 253,
+        "type": "leaf"
+      },
+      "Listing Coordination": {
+        "id": "252",
+        "job_count": 15,
+        "type": "leaf"
+      },
+      "Management": {
+        "id": "253",
+        "job_count": 18,
+        "type": "leaf"
+      },
+      "Mojo": {
+        "id": "255",
+        "job_count": 1,
+        "type": "leaf"
+      },
+      "Photo Editing": {
+        "id": "256",
+        "job_count": 102,
+        "type": "leaf"
+      },
+      "Title Escrow": {
+        "id": "257",
+        "job_count": 1,
+        "type": "leaf"
+      },
+      "Title Processing": {
+        "id": "258",
+        "job_count": 5,
+        "type": "leaf"
+      },
+      "Transaction Coordinating": {
+        "id": "259",
+        "job_count": 58,
+        "type": "leaf"
+      },
+      "Warm Calling": {
+        "id": "260",
+        "job_count": 52,
+        "type": "leaf"
+      },
+      "Short Term Rentals": {
+        "children": {
+          "Airbnb": {
+            "id": "262",
+            "job_count": 106,
+            "type": "leaf"
+          },
+          "Vrbo": {
+            "id": "263",
+            "job_count": 19,
+            "type": "leaf"
+          },
+          "HostAway": {
+            "id": "39095",
+            "job_count": 9,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 134,
+        "type": "branch"
+      },
+      "Mortgages": {
+        "id": "264",
+        "job_count": 26,
+        "type": "leaf"
+      },
+      "REO Asset Management": {
+        "id": "783",
+        "job_count": 2,
+        "type": "leaf"
+      },
+      "Buildium": {
+        "id": "27632",
+        "job_count": 12,
+        "type": "leaf"
+      },
+      "Yardi": {
+        "id": "30028",
+        "job_count": 5,
+        "type": "leaf"
+      }
+    },
+    "total_jobs": 2028,
+    "type": "branch"
+  },
+  "Design": {
+    "children": {
+      "3D Design": {
+        "children": {
+          "3D animation": {
+            "id": "267",
+            "job_count": 64,
+            "type": "leaf"
+          },
+          "3D autocad": {
+            "children": {
+              "Archicad": {
+                "id": "25320",
+                "job_count": 5,
+                "type": "leaf"
+              }
+            },
+            "total_jobs": 5,
+            "type": "branch"
+          },
+          "3D blender": {
+            "id": "269",
+            "job_count": 33,
+            "type": "leaf"
+          },
+          "3D illustration": {
+            "id": "270",
+            "job_count": 14,
+            "type": "leaf"
+          },
+          "3D modeling": {
+            "id": "271",
+            "job_count": 47,
+            "type": "leaf"
+          },
+          "3D unity": {
+            "id": "272",
+            "job_count": 4,
+            "type": "leaf"
+          },
+          "Solidworks": {
+            "id": "24581",
+            "job_count": 8,
+            "type": "leaf"
+          },
+          "Vray": {
+            "id": "25338",
+            "job_count": 5,
+            "type": "leaf"
+          },
+          "Navisworks": {
+            "id": "26830",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Tekla Structures": {
+            "id": "26834",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Autodesk Maya": {
+            "id": "30022",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "3DS Max": {
+            "id": "30124",
+            "job_count": 10,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 193,
+        "type": "branch"
+      },
+      "Adobe": {
+        "children": {
+          "After Effects": {
+            "id": "274",
+            "job_count": 155,
+            "type": "leaf"
+          },
+          "Indesign": {
+            "id": "275",
+            "job_count": 54,
+            "type": "leaf"
+          },
+          "Photoshop": {
+            "id": "276",
+            "job_count": 407,
+            "type": "leaf"
+          },
+          "Sketchup": {
+            "id": "277",
+            "job_count": 18,
+            "type": "leaf"
+          },
+          "Illustrator": {
+            "id": "278",
+            "job_count": 194,
+            "type": "leaf"
+          },
+          "Lightroom": {
+            "id": "22334",
+            "job_count": 32,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 860,
+        "type": "branch"
+      },
+      "Logo Design": {
+        "id": "279",
+        "job_count": 49,
+        "type": "leaf"
+      },
+      "Graphic Design": {
+        "children": {
+          "Canva": {
+            "id": "22340",
+            "job_count": 447,
+            "type": "leaf"
+          },
+          "Clip Studio Paint": {
+            "id": "23463",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Coreldraw": {
+            "id": "23609",
+            "job_count": 8,
+            "type": "leaf"
+          },
+          "Procreate": {
+            "id": "24253",
+            "job_count": 5,
+            "type": "leaf"
+          },
+          "Instructional Design": {
+            "children": {
+              "E-learning": {
+                "id": "41055",
+                "job_count": 8,
+                "type": "leaf"
+              }
+            },
+            "total_jobs": 8,
+            "type": "branch"
+          },
+          "Color theory": {
+            "id": "27685",
+            "job_count": 4,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 472,
+        "type": "branch"
+      },
+      "Font & Typographic Design": {
+        "id": "281",
+        "job_count": 41,
+        "type": "leaf"
+      },
+      "Packaging & Brand Idenity Design": {
+        "children": {
+          "Creative Direction": {
+            "id": "27686",
+            "job_count": 67,
+            "type": "leaf"
+          },
+          "Branding": {
+            "id": "31337",
+            "job_count": 43,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 110,
+        "type": "branch"
+      },
+      "Art & Comic Design": {
+        "children": {
+          "Drawing": {
+            "id": "24216",
+            "job_count": 13,
+            "type": "leaf"
+          },
+          "Illustration": {
+            "id": "24221",
+            "job_count": 31,
+            "type": "leaf"
+          },
+          "Painting": {
+            "id": "26330",
+            "job_count": 2,
+            "type": "leaf"
+          },
+          "Midjourney": {
+            "id": "26965",
+            "job_count": 35,
+            "type": "leaf"
+          },
+          "Cartooning": {
+            "id": "30023",
+            "job_count": 6,
+            "type": "leaf"
+          },
+          "ZBrush": {
+            "id": "31846",
+            "job_count": 1,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 88,
+        "type": "branch"
+      },
+      "Web Design & Page Layout": {
+        "children": {
+          "Landing Page Design": {
+            "id": "25572",
+            "job_count": 131,
+            "type": "leaf"
+          },
+          "Flodesk": {
+            "id": "31484",
+            "job_count": 3,
+            "type": "leaf"
+          },
+          "UI UX Design": {
+            "id": "40889",
+            "job_count": 135,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 269,
+        "type": "branch"
+      },
+      "Thumbnail & Social Media Design": {
+        "id": "285",
+        "job_count": 170,
+        "type": "leaf"
+      },
+      "Advertising And Marketing Design": {
+        "id": "286",
+        "job_count": 123,
+        "type": "leaf"
+      },
+      "Character Design": {
+        "id": "287",
+        "job_count": 3,
+        "type": "leaf"
+      },
+      "Product Design": {
+        "children": {
+          "User Experience Design": {
+            "id": "289",
+            "job_count": 20,
+            "type": "leaf"
+          },
+          "User Experience Research": {
+            "id": "290",
+            "job_count": 10,
+            "type": "leaf"
+          },
+          "Information Architecture": {
+            "id": "291",
+            "job_count": 2,
+            "type": "leaf"
+          },
+          "Design Thinking": {
+            "id": "292",
+            "job_count": 3,
+            "type": "leaf"
+          },
+          "Usability Testing": {
+            "id": "293",
+            "job_count": 4,
+            "type": "leaf"
+          },
+          "Interaction Design": {
+            "id": "294",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Wireframing": {
+            "id": "295",
+            "job_count": 5,
+            "type": "leaf"
+          },
+          "Prototyping": {
+            "id": "296",
+            "job_count": 2,
+            "type": "leaf"
+          },
+          "Design Strategy": {
+            "id": "297",
+            "job_count": 6,
+            "type": "leaf"
+          },
+          "Design Ops": {
+            "id": "298",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Visual Design": {
+            "id": "299",
+            "job_count": 9,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 62,
+        "type": "branch"
+      },
+      "User Interface": {
+        "children": {
+          "Figma": {
+            "id": "301",
+            "job_count": 228,
+            "type": "leaf"
+          },
+          "Adobe XD": {
+            "id": "302",
+            "job_count": 7,
+            "type": "leaf"
+          },
+          "Sketch": {
+            "id": "303",
+            "job_count": 3,
+            "type": "leaf"
+          },
+          "Invision": {
+            "id": "304",
+            "job_count": 0,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 238,
+        "type": "branch"
+      },
+      "Print Design": {
+        "children": {
+          "Prepress": {
+            "id": "35495",
+            "job_count": 1,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 1,
+        "type": "branch"
+      },
+      "T-Shirt Design": {
+        "id": "785",
+        "job_count": 10,
+        "type": "leaf"
+      },
+      "Autocad": {
+        "id": "23388",
+        "job_count": 32,
+        "type": "leaf"
+      },
+      "Revit": {
+        "id": "24257",
+        "job_count": 30,
+        "type": "leaf"
+      },
+      "Funnel Design": {
+        "id": "32360",
+        "job_count": 154,
+        "type": "leaf"
+      },
+      "Photo Editing": {
+        "children": {
+          "Capture One": {
+            "id": "40329",
+            "job_count": 1,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 1,
+        "type": "branch"
+      },
+      "Photo Stitching": {
+        "id": "37970",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Virtual Tour Development": {
+        "id": "37971",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Pano2VR": {
+        "id": "37972",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Microstation": {
+        "id": "40534",
+        "job_count": 0,
+        "type": "leaf"
+      }
+    },
+    "total_jobs": 2906,
+    "type": "branch"
+  },
+  "Video Editing": {
+    "children": {
+      "Film Editing": {
+        "id": "306",
+        "job_count": 90,
+        "type": "leaf"
+      },
+      "Movie Editing": {
+        "id": "307",
+        "job_count": 35,
+        "type": "leaf"
+      },
+      "Animation": {
+        "children": {
+          "2d Animation": {
+            "id": "23632",
+            "job_count": 57,
+            "type": "leaf"
+          },
+          "Houdini": {
+            "id": "32502",
+            "job_count": 0,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 57,
+        "type": "branch"
+      },
+      "Flm Scoring": {
+        "id": "309",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Product Commercial Editing": {
+        "id": "310",
+        "job_count": 33,
+        "type": "leaf"
+      },
+      "Motion Graphics": {
+        "children": {
+          "Storyboarding": {
+            "id": "38637",
+            "job_count": 21,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 21,
+        "type": "branch"
+      },
+      "Social Media Video Editing": {
+        "id": "312",
+        "job_count": 996,
+        "type": "leaf"
+      },
+      "Adobe Premiere Pro": {
+        "id": "313",
+        "job_count": 390,
+        "type": "leaf"
+      },
+      "Apple Final Cut Pro": {
+        "id": "314",
+        "job_count": 47,
+        "type": "leaf"
+      },
+      "Apple Imovie": {
+        "id": "315",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Cyberlink Powerdirector 365": {
+        "id": "316",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Corel Videostudio Ultimate": {
+        "id": "317",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Davinci Resolve": {
+        "id": "318",
+        "job_count": 59,
+        "type": "leaf"
+      },
+      "Movavi Video Editor Plus": {
+        "id": "319",
+        "job_count": 9,
+        "type": "leaf"
+      },
+      "Pinnacle Studio Ultimate": {
+        "id": "320",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Adobe Premiere Elements": {
+        "id": "321",
+        "job_count": 2,
+        "type": "leaf"
+      },
+      "Clipchamp": {
+        "id": "322",
+        "job_count": 1,
+        "type": "leaf"
+      },
+      "Wondershare Filmora": {
+        "id": "323",
+        "job_count": 1,
+        "type": "leaf"
+      },
+      "CapCut": {
+        "id": "23395",
+        "job_count": 198,
+        "type": "leaf"
+      },
+      "Captioning": {
+        "id": "23396",
+        "job_count": 4,
+        "type": "leaf"
+      },
+      "Color Grading": {
+        "id": "28299",
+        "job_count": 28,
+        "type": "leaf"
+      }
+    },
+    "total_jobs": 1971,
+    "type": "branch"
+  },
+  "Audio Editing": {
+    "children": {
+      "Adobe Audition Cc": {
+        "id": "325",
+        "job_count": 8,
+        "type": "leaf"
+      },
+      "Garageband": {
+        "id": "326",
+        "job_count": 1,
+        "type": "leaf"
+      },
+      "Audacity": {
+        "id": "327",
+        "job_count": 2,
+        "type": "leaf"
+      },
+      "Ocenaudio": {
+        "id": "328",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Audiotool": {
+        "id": "329",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Acoustica": {
+        "id": "330",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Wavepad": {
+        "id": "331",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Ableton Live": {
+        "id": "332",
+        "job_count": 2,
+        "type": "leaf"
+      },
+      "Amadeus Pro": {
+        "id": "333",
+        "job_count": 1,
+        "type": "leaf"
+      },
+      "Twistedwave": {
+        "id": "334",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Fission": {
+        "id": "335",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Wavosaur": {
+        "id": "336",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Reaper": {
+        "id": "337",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "FL Studio": {
+        "id": "338",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Music Production": {
+        "id": "24230",
+        "job_count": 15,
+        "type": "leaf"
+      },
+      "Voice Over": {
+        "children": {
+          "Voice Acting": {
+            "id": "25336",
+            "job_count": 6,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 6,
+        "type": "branch"
+      },
+      "Sound Design": {
+        "id": "37000",
+        "job_count": 15,
+        "type": "leaf"
+      }
+    },
+    "total_jobs": 50,
+    "type": "branch"
+  },
+  "Customer Support": {
+    "children": {
+      "Email Support": {
+        "id": "340",
+        "job_count": 166,
+        "type": "leaf"
+      },
+      "Chat Support": {
+        "id": "341",
+        "job_count": 99,
+        "type": "leaf"
+      },
+      "Technical Support": {
+        "id": "342",
+        "job_count": 162,
+        "type": "leaf"
+      },
+      "Phone Support": {
+        "children": {
+          "English Speaking": {
+            "id": "758",
+            "job_count": 917,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 917,
+        "type": "branch"
+      },
+      "Ecommerce": {
+        "children": {
+          "Amazon": {
+            "children": {
+              "Helium10": {
+                "id": "25327",
+                "job_count": 23,
+                "type": "leaf"
+              }
+            },
+            "total_jobs": 23,
+            "type": "branch"
+          },
+          "Ebay": {
+            "id": "346",
+            "job_count": 4,
+            "type": "leaf"
+          },
+          "B2B": {
+            "id": "347",
+            "job_count": 50,
+            "type": "leaf"
+          },
+          "Shopify": {
+            "id": "348",
+            "job_count": 75,
+            "type": "leaf"
+          },
+          "B2C": {
+            "id": "23461",
+            "job_count": 5,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 157,
+        "type": "branch"
+      },
+      "SaaS": {
+        "children": {
+          "Power Automate": {
+            "id": "24373",
+            "job_count": 15,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 15,
+        "type": "branch"
+      },
+      "IT": {
+        "children": {
+          "IT Asset Management": {
+            "id": "31341",
+            "job_count": 5,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 5,
+        "type": "branch"
+      },
+      "Mortgage": {
+        "id": "351",
+        "job_count": 20,
+        "type": "leaf"
+      },
+      "Healthcare": {
+        "children": {
+          "Electronic Health Record": {
+            "id": "30025",
+            "job_count": 14,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 14,
+        "type": "branch"
+      },
+      "Social Media Moderation": {
+        "id": "353",
+        "job_count": 36,
+        "type": "leaf"
+      },
+      "Forum Community Moderation": {
+        "id": "354",
+        "job_count": 8,
+        "type": "leaf"
+      },
+      "Content Management": {
+        "id": "355",
+        "job_count": 19,
+        "type": "leaf"
+      },
+      "Insurance": {
+        "children": {
+          "Medical Insurance": {
+            "id": "357",
+            "job_count": 25,
+            "type": "leaf"
+          },
+          "Car Insurance": {
+            "id": "358",
+            "job_count": 14,
+            "type": "leaf"
+          },
+          "Home Insurance": {
+            "id": "359",
+            "job_count": 16,
+            "type": "leaf"
+          },
+          "Dental Insurance": {
+            "id": "360",
+            "job_count": 12,
+            "type": "leaf"
+          },
+          "Prior Authorization": {
+            "id": "25999",
+            "job_count": 11,
+            "type": "leaf"
+          },
+          "Insurance Verification": {
+            "id": "32361",
+            "job_count": 26,
+            "type": "leaf"
+          },
+          "Underwriting": {
+            "id": "32372",
+            "job_count": 11,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 115,
+        "type": "branch"
+      },
+      "Sales Support": {
+        "children": {
+          "Account Acquisition": {
+            "id": "362",
+            "job_count": 78,
+            "type": "leaf"
+          },
+          "Account Retention": {
+            "id": "363",
+            "job_count": 28,
+            "type": "leaf"
+          },
+          "Hotel Booking": {
+            "id": "364",
+            "job_count": 8,
+            "type": "leaf"
+          },
+          "Flight Booking": {
+            "id": "365",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Food Service": {
+            "id": "366",
+            "job_count": 4,
+            "type": "leaf"
+          },
+          "Mobile Service": {
+            "id": "367",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Lead Generation": {
+            "id": "368",
+            "job_count": 420,
+            "type": "leaf"
+          },
+          "Credit Repair": {
+            "id": "369",
+            "job_count": 73,
+            "type": "leaf"
+          },
+          "Prospecting": {
+            "id": "786",
+            "job_count": 36,
+            "type": "leaf"
+          },
+          "Trustee Sales Tracking": {
+            "id": "787",
+            "job_count": 4,
+            "type": "leaf"
+          },
+          "Ticket Booking": {
+            "id": "33605",
+            "job_count": 3,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 656,
+        "type": "branch"
+      },
+      "Customer Service": {
+        "children": {
+          "Conflict resolution": {
+            "id": "23603",
+            "job_count": 13,
+            "type": "leaf"
+          },
+          "Fraud detection": {
+            "id": "23639",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Gorgias": {
+            "id": "23643",
+            "job_count": 15,
+            "type": "leaf"
+          },
+          "Payment Processing": {
+            "id": "24247",
+            "job_count": 6,
+            "type": "leaf"
+          },
+          "Genesys Cloud": {
+            "id": "31339",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Chargeback Analysis": {
+            "id": "38286",
+            "job_count": 13,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 49,
+        "type": "branch"
+      },
+      "Active Listening": {
+        "id": "21863",
+        "job_count": 92,
+        "type": "leaf"
+      },
+      "Customer Relationship Management": {
+        "id": "29071",
+        "job_count": 139,
+        "type": "leaf"
+      },
+      "Product Knowledge": {
+        "id": "32364",
+        "job_count": 9,
+        "type": "leaf"
+      },
+      "Helpdesk Support": {
+        "id": "37410",
+        "job_count": 22,
+        "type": "leaf"
+      },
+      "Back Office Support": {
+        "id": "38080",
+        "job_count": 19,
+        "type": "leaf"
+      }
+    },
+    "total_jobs": 2719,
+    "type": "branch"
+  },
+  "Office and Administration": {
+    "children": {
+      "Admin Data Processing": {
+        "children": {
+          "SAP": {
+            "id": "24259",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Records Retrieval": {
+            "id": "26001",
+            "job_count": 4,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 5,
+        "type": "branch"
+      },
+      "Data Analytics": {
+        "children": {
+          "GIS": {
+            "id": "23640",
+            "job_count": 5,
+            "type": "leaf"
+          },
+          "QGIS": {
+            "id": "24256",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Tableau": {
+            "id": "24380",
+            "job_count": 11,
+            "type": "leaf"
+          },
+          "Alteryx": {
+            "id": "29580",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Tibco Spotfire": {
+            "id": "37417",
+            "job_count": 0,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 17,
+        "type": "branch"
+      },
+      "Data Dive": {
+        "id": "373",
+        "job_count": 5,
+        "type": "leaf"
+      },
+      "Data Capture": {
+        "id": "374",
+        "job_count": 12,
+        "type": "leaf"
+      },
+      "Transcription": {
+        "children": {
+          "Typing": {
+            "id": "24381",
+            "job_count": 23,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 23,
+        "type": "branch"
+      },
+      "Translation": {
+        "id": "376",
+        "job_count": 11,
+        "type": "leaf"
+      },
+      "Microsoft Excel": {
+        "id": "377",
+        "job_count": 320,
+        "type": "leaf"
+      },
+      "Microsoft Power Point": {
+        "id": "378",
+        "job_count": 17,
+        "type": "leaf"
+      },
+      "Microsoft Word": {
+        "id": "379",
+        "job_count": 31,
+        "type": "leaf"
+      },
+      "Google Docs": {
+        "id": "380",
+        "job_count": 45,
+        "type": "leaf"
+      },
+      "Google Sheets": {
+        "id": "381",
+        "job_count": 235,
+        "type": "leaf"
+      },
+      "Google Slides": {
+        "id": "382",
+        "job_count": 7,
+        "type": "leaf"
+      },
+      "Google Forms": {
+        "id": "383",
+        "job_count": 4,
+        "type": "leaf"
+      },
+      "Email Handling": {
+        "id": "384",
+        "job_count": 42,
+        "type": "leaf"
+      },
+      "Calendar Management": {
+        "children": {
+          "Scheduling": {
+            "id": "24375",
+            "job_count": 77,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 77,
+        "type": "branch"
+      },
+      "Data Entry": {
+        "children": {
+          "Encoding": {
+            "id": "23636",
+            "job_count": 4,
+            "type": "leaf"
+          },
+          "Error Detection": {
+            "id": "26828",
+            "job_count": 2,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 6,
+        "type": "branch"
+      },
+      "Email Management": {
+        "id": "788",
+        "job_count": 146,
+        "type": "leaf"
+      },
+      "Travel Planning": {
+        "children": {
+          "Amadeus": {
+            "id": "23389",
+            "job_count": 4,
+            "type": "leaf"
+          },
+          "GDS": {
+            "id": "24219",
+            "job_count": 5,
+            "type": "leaf"
+          },
+          "Sabre": {
+            "id": "24260",
+            "job_count": 7,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 16,
+        "type": "branch"
+      },
+      "Personal Assistant": {
+        "id": "790",
+        "job_count": 125,
+        "type": "leaf"
+      },
+      "Attention to Detail": {
+        "id": "22214",
+        "job_count": 375,
+        "type": "leaf"
+      },
+      "Adaptability": {
+        "id": "22335",
+        "job_count": 19,
+        "type": "leaf"
+      },
+      "Administrative Support": {
+        "id": "22336",
+        "job_count": 161,
+        "type": "leaf"
+      },
+      "Collaboration": {
+        "id": "22339",
+        "job_count": 6,
+        "type": "leaf"
+      },
+      "AI Tools": {
+        "children": {
+          "ChatGPT": {
+            "id": "23397",
+            "job_count": 125,
+            "type": "leaf"
+          },
+          "Stable Diffusion": {
+            "id": "31845",
+            "job_count": 4,
+            "type": "leaf"
+          },
+          "Prompt Engineering": {
+            "id": "40718",
+            "job_count": 22,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 151,
+        "type": "branch"
+      },
+      "Communication": {
+        "children": {
+          "Japanese Speaking": {
+            "id": "26964",
+            "job_count": 4,
+            "type": "leaf"
+          },
+          "Public Speaking": {
+            "id": "27692",
+            "job_count": 10,
+            "type": "leaf"
+          },
+          "Spanish Bilingual": {
+            "id": "27694",
+            "job_count": 93,
+            "type": "leaf"
+          },
+          "Korean Bilingual": {
+            "id": "35663",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "German Language": {
+            "id": "40883",
+            "job_count": 16,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 124,
+        "type": "branch"
+      },
+      "Creativity": {
+        "id": "23606",
+        "job_count": 12,
+        "type": "leaf"
+      },
+      "Creative Problem Solving": {
+        "id": "23607",
+        "job_count": 39,
+        "type": "leaf"
+      },
+      "Critical Thinking": {
+        "id": "23608",
+        "job_count": 52,
+        "type": "leaf"
+      },
+      "Data Collection": {
+        "children": {
+          "Skip Tracing": {
+            "id": "24578",
+            "job_count": 17,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 17,
+        "type": "branch"
+      },
+      "Documentation": {
+        "id": "23630",
+        "job_count": 37,
+        "type": "leaf"
+      },
+      "Data analysis": {
+        "children": {
+          "Data Visualization": {
+            "id": "27687",
+            "job_count": 6,
+            "type": "leaf"
+          },
+          "Minitab": {
+            "id": "30475",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Data scraping": {
+            "id": "37406",
+            "job_count": 24,
+            "type": "leaf"
+          },
+          "Qlik Sense": {
+            "id": "40886",
+            "job_count": 0,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 30,
+        "type": "branch"
+      },
+      "Flexibility": {
+        "id": "23638",
+        "job_count": 9,
+        "type": "leaf"
+      },
+      "Google Suite": {
+        "id": "23641",
+        "job_count": 15,
+        "type": "leaf"
+      },
+      "Google Workspace": {
+        "id": "23642",
+        "job_count": 21,
+        "type": "leaf"
+      },
+      "Account Management": {
+        "id": "23970",
+        "job_count": 69,
+        "type": "leaf"
+      },
+      "Accuracy Verification": {
+        "id": "24001",
+        "job_count": 7,
+        "type": "leaf"
+      },
+      "Annotating": {
+        "id": "24002",
+        "job_count": 2,
+        "type": "leaf"
+      },
+      "Citrix": {
+        "id": "24006",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Coordination": {
+        "id": "24008",
+        "job_count": 31,
+        "type": "leaf"
+      },
+      "Computer Literacy": {
+        "id": "24215",
+        "job_count": 85,
+        "type": "leaf"
+      },
+      "English": {
+        "id": "24217",
+        "job_count": 261,
+        "type": "leaf"
+      },
+      "Emotional Intelligence": {
+        "id": "24218",
+        "job_count": 15,
+        "type": "leaf"
+      },
+      "Interpersonal": {
+        "id": "24223",
+        "job_count": 7,
+        "type": "leaf"
+      },
+      "Leadership": {
+        "id": "24227",
+        "job_count": 53,
+        "type": "leaf"
+      },
+      "Microsoft Outlook": {
+        "id": "24241",
+        "job_count": 15,
+        "type": "leaf"
+      },
+      "Organization": {
+        "id": "24242",
+        "job_count": 413,
+        "type": "leaf"
+      },
+      "Public Relation": {
+        "id": "24245",
+        "job_count": 32,
+        "type": "leaf"
+      },
+      "Power BI": {
+        "id": "24248",
+        "job_count": 32,
+        "type": "leaf"
+      },
+      "PowerApps": {
+        "id": "24249",
+        "job_count": 7,
+        "type": "leaf"
+      },
+      "Problem Solving": {
+        "id": "24250",
+        "job_count": 60,
+        "type": "leaf"
+      },
+      "Research": {
+        "children": {
+          "Scientific Research": {
+            "id": "24379",
+            "job_count": 7,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 7,
+        "type": "branch"
+      },
+      "Decision Making": {
+        "id": "24372",
+        "job_count": 7,
+        "type": "leaf"
+      },
+      "Stakeholder Management": {
+        "id": "24374",
+        "job_count": 6,
+        "type": "leaf"
+      },
+      "Time Managment": {
+        "id": "24383",
+        "job_count": 98,
+        "type": "leaf"
+      },
+      "Microsoft 365": {
+        "children": {
+          "SharePoint": {
+            "id": "29579",
+            "job_count": 6,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 6,
+        "type": "branch"
+      },
+      "SAP ERP": {
+        "id": "24580",
+        "job_count": 7,
+        "type": "leaf"
+      },
+      "Time Management": {
+        "id": "24582",
+        "job_count": 27,
+        "type": "leaf"
+      },
+      "Data Management": {
+        "id": "25324",
+        "job_count": 17,
+        "type": "leaf"
+      },
+      "English Proficiency": {
+        "id": "25325",
+        "job_count": 731,
+        "type": "leaf"
+      },
+      "Operation Management": {
+        "id": "25329",
+        "job_count": 183,
+        "type": "leaf"
+      },
+      "Quality Assurance": {
+        "children": {
+          "Bug Tracking": {
+            "id": "30471",
+            "job_count": 3,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 3,
+        "type": "branch"
+      },
+      "Analytical": {
+        "id": "25566",
+        "job_count": 26,
+        "type": "leaf"
+      },
+      "File Management": {
+        "id": "25808",
+        "job_count": 13,
+        "type": "leaf"
+      },
+      "Employee Engagement": {
+        "id": "25996",
+        "job_count": 3,
+        "type": "leaf"
+      },
+      "Client Relationship Management": {
+        "id": "28579",
+        "job_count": 166,
+        "type": "leaf"
+      },
+      "Debt Collection": {
+        "id": "30473",
+        "job_count": 14,
+        "type": "leaf"
+      },
+      "Records Management": {
+        "id": "31343",
+        "job_count": 3,
+        "type": "leaf"
+      },
+      "Meeting Management": {
+        "id": "31485",
+        "job_count": 7,
+        "type": "leaf"
+      },
+      "Work Ethics": {
+        "id": "31729",
+        "job_count": 9,
+        "type": "leaf"
+      },
+      "Jotform": {
+        "id": "31783",
+        "job_count": 2,
+        "type": "leaf"
+      },
+      "Technology Proficiency": {
+        "id": "32368",
+        "job_count": 53,
+        "type": "leaf"
+      },
+      "Team Collaboration": {
+        "id": "32369",
+        "job_count": 29,
+        "type": "leaf"
+      },
+      "Team Leadership": {
+        "id": "32370",
+        "job_count": 169,
+        "type": "leaf"
+      },
+      "Teamwork": {
+        "id": "32371",
+        "job_count": 16,
+        "type": "leaf"
+      },
+      "Content Moderation": {
+        "id": "33834",
+        "job_count": 4,
+        "type": "leaf"
+      },
+      "Employment Verification": {
+        "id": "34513",
+        "job_count": 1,
+        "type": "leaf"
+      },
+      "Logical Reasoning": {
+        "id": "35036",
+        "job_count": 8,
+        "type": "leaf"
+      },
+      "Negotation": {
+        "id": "35037",
+        "job_count": 42,
+        "type": "leaf"
+      },
+      "Stenography": {
+        "id": "36999",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Executive Assistance": {
+        "id": "38287",
+        "job_count": 370,
+        "type": "leaf"
+      },
+      "Regulatory Compliance": {
+        "id": "38636",
+        "job_count": 28,
+        "type": "leaf"
+      },
+      "Travel Management": {
+        "id": "38638",
+        "job_count": 11,
+        "type": "leaf"
+      },
+      "Google Drive": {
+        "id": "39093",
+        "job_count": 26,
+        "type": "leaf"
+      },
+      "Multitasking": {
+        "id": "39097",
+        "job_count": 56,
+        "type": "leaf"
+      },
+      "Resourcefulness": {
+        "id": "39098",
+        "job_count": 5,
+        "type": "leaf"
+      },
+      "Reliability": {
+        "id": "39099",
+        "job_count": 21,
+        "type": "leaf"
+      },
+      "Self-motivation": {
+        "id": "39101",
+        "job_count": 45,
+        "type": "leaf"
+      },
+      "Tech-Savvy": {
+        "id": "39102",
+        "job_count": 97,
+        "type": "leaf"
+      },
+      "Task Prioritization": {
+        "id": "39103",
+        "job_count": 23,
+        "type": "leaf"
+      },
+      "Writing": {
+        "id": "39104",
+        "job_count": 52,
+        "type": "leaf"
+      },
+      "Web Scraping": {
+        "id": "39277",
+        "job_count": 22,
+        "type": "leaf"
+      },
+      "Note Taking": {
+        "id": "40071",
+        "job_count": 5,
+        "type": "leaf"
+      }
+    },
+    "total_jobs": 5719,
+    "type": "branch"
+  },
+  "Web Programming": {
+    "children": {
+      "PHP": {
+        "children": {
+          "TYPO3": {
+            "id": "389",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Contao": {
+            "id": "390",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "PrestaShop": {
+            "id": "391",
+            "job_count": 2,
+            "type": "leaf"
+          },
+          "ExpressionEngine": {
+            "id": "392",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "OpenCart": {
+            "id": "393",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "MODX": {
+            "id": "394",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "ProcessWire": {
+            "id": "395",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Yii": {
+            "id": "396",
+            "job_count": 2,
+            "type": "leaf"
+          },
+          "FuelPHP": {
+            "id": "397",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "PHPixie": {
+            "id": "398",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Slim": {
+            "id": "399",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "PHPUnit": {
+            "id": "400",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "October": {
+            "id": "401",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "ez Publish": {
+            "id": "402",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Phalcon": {
+            "id": "403",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Laminas": {
+            "id": "404",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Zend": {
+            "id": "405",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Symfony": {
+            "id": "406",
+            "job_count": 2,
+            "type": "leaf"
+          },
+          "CakePHP": {
+            "id": "407",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Laravel": {
+            "children": {
+              "Livewire": {
+                "id": "24226",
+                "job_count": 2,
+                "type": "leaf"
+              }
+            },
+            "total_jobs": 2,
+            "type": "branch"
+          },
+          "CodeIgniter": {
+            "id": "409",
+            "job_count": 7,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 15,
+        "type": "branch"
+      },
+      "Ruby": {
+        "children": {
+          "Ruby on Rails": {
+            "id": "411",
+            "job_count": 3,
+            "type": "leaf"
+          },
+          "Merb": {
+            "id": "412",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Nitro": {
+            "id": "413",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Sinatra": {
+            "id": "414",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Camping": {
+            "id": "415",
+            "job_count": 0,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 3,
+        "type": "branch"
+      },
+      "CMS": {
+        "children": {
+          "Craft CMS": {
+            "id": "417",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Neos CMS": {
+            "id": "418",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "OctoberCMS": {
+            "id": "419",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "ButterCMS": {
+            "id": "420",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "PyroCMS": {
+            "id": "421",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Silverstripe CMS": {
+            "id": "422",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Composr CMS": {
+            "id": "423",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Grav CMS": {
+            "id": "424",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Wordpress": {
+            "id": "425",
+            "job_count": 206,
+            "type": "leaf"
+          },
+          "Drupal": {
+            "id": "426",
+            "job_count": 2,
+            "type": "leaf"
+          },
+          "Joomla": {
+            "id": "427",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Magento": {
+            "id": "428",
+            "job_count": 5,
+            "type": "leaf"
+          },
+          "Bolt": {
+            "id": "429",
+            "job_count": 3,
+            "type": "leaf"
+          },
+          "Wix": {
+            "id": "430",
+            "job_count": 6,
+            "type": "leaf"
+          },
+          "Shopify": {
+            "id": "431",
+            "job_count": 55,
+            "type": "leaf"
+          },
+          "Webflow": {
+            "id": "432",
+            "job_count": 35,
+            "type": "leaf"
+          },
+          "Umbraco": {
+            "id": "38360",
+            "job_count": 0,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 313,
+        "type": "branch"
+      },
+      "Headless CMS": {
+        "children": {
+          "Contentstack": {
+            "id": "434",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Contentful": {
+            "id": "435",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "DotCMS": {
+            "id": "436",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Mura": {
+            "id": "437",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Cockpit": {
+            "id": "438",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Core dna": {
+            "id": "439",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Zesty IO": {
+            "id": "440",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Sanity IO": {
+            "id": "441",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Directus": {
+            "id": "442",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "DatoCMS": {
+            "id": "443",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "GraphCMS": {
+            "id": "444",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "CosmicJS": {
+            "id": "445",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Kontent.ai": {
+            "id": "446",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Prismic": {
+            "id": "447",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Quintype": {
+            "id": "448",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Scrivito": {
+            "id": "449",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Sitecore": {
+            "id": "450",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Evoq Content": {
+            "id": "451",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Strapi": {
+            "id": "452",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Solodev": {
+            "id": "453",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Agility CMS": {
+            "id": "454",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Ingeniux CMS": {
+            "id": "455",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "FirstSpirit": {
+            "id": "456",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Netlify CMS": {
+            "id": "457",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Liferay": {
+            "id": "458",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "CoreMedia Content Cloud": {
+            "id": "459",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Bloomreach": {
+            "id": "460",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Crownpeak": {
+            "id": "461",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Magnolia CMS": {
+            "id": "462",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Progress Sitefinity": {
+            "id": "463",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Ibexa": {
+            "id": "464",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Optimizely": {
+            "id": "465",
+            "job_count": 0,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 3,
+        "type": "branch"
+      },
+      "Javascript": {
+        "children": {
+          "Node JS": {
+            "id": "467",
+            "job_count": 67,
+            "type": "leaf"
+          },
+          "Vue JS": {
+            "id": "468",
+            "job_count": 17,
+            "type": "leaf"
+          },
+          "Vite": {
+            "id": "469",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Vue 2": {
+            "id": "470",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Vue 3": {
+            "id": "471",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "React JS": {
+            "id": "472",
+            "job_count": 106,
+            "type": "leaf"
+          },
+          "Express JS": {
+            "id": "473",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Angular JS": {
+            "id": "474",
+            "job_count": 9,
+            "type": "leaf"
+          },
+          "Meteor": {
+            "id": "475",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "jQuery": {
+            "id": "476",
+            "job_count": 4,
+            "type": "leaf"
+          },
+          "Svelte": {
+            "id": "477",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Ember JS": {
+            "id": "478",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Backbone JS": {
+            "id": "479",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Nest JS": {
+            "id": "480",
+            "job_count": 3,
+            "type": "leaf"
+          },
+          "Nuxt JS": {
+            "id": "481",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Next JS": {
+            "id": "482",
+            "job_count": 40,
+            "type": "leaf"
+          },
+          "Bootstrap": {
+            "id": "483",
+            "job_count": 2,
+            "type": "leaf"
+          },
+          "Redux": {
+            "id": "484",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Web3.js": {
+            "id": "485",
+            "job_count": 6,
+            "type": "leaf"
+          },
+          "Ethers.js": {
+            "id": "486",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Gatsby": {
+            "id": "487",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Grapes JS": {
+            "id": "488",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Typescript": {
+            "id": "489",
+            "job_count": 42,
+            "type": "leaf"
+          },
+          "Strapi": {
+            "id": "490",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Adonis JS": {
+            "id": "491",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Electron JS": {
+            "id": "492",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Liquid": {
+            "id": "493",
+            "job_count": 17,
+            "type": "leaf"
+          },
+          "HAML": {
+            "id": "494",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Pug": {
+            "id": "495",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Slim": {
+            "id": "496",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "JSON": {
+            "id": "34514",
+            "job_count": 14,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 332,
+        "type": "branch"
+      },
+      "CSS": {
+        "children": {
+          "SCSS": {
+            "id": "498",
+            "job_count": 3,
+            "type": "leaf"
+          },
+          "SASS": {
+            "id": "499",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "LESS": {
+            "id": "500",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Stylus": {
+            "id": "501",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Bootstrap": {
+            "id": "502",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "TailwindCSS": {
+            "id": "503",
+            "job_count": 17,
+            "type": "leaf"
+          },
+          "Foundation": {
+            "id": "504",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Materialize": {
+            "id": "505",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "g": {
+            "id": "506",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Skeleton": {
+            "id": "507",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Pure": {
+            "id": "508",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Semantic UI": {
+            "id": "509",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Tacit": {
+            "id": "521",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "sanitize.css": {
+            "id": "511",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "modern-normalize": {
+            "id": "512",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "minireset.css": {
+            "id": "513",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "modern-css-reset": {
+            "id": "514",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "inuitcss": {
+            "id": "515",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "ress": {
+            "id": "516",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Natural Selection": {
+            "id": "517",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Water.css": {
+            "id": "518",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "MVP.css": {
+            "id": "519",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "sakura": {
+            "id": "520",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "awsm.css": {
+            "id": "522",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Milligram": {
+            "id": "523",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Picnic CSS": {
+            "id": "524",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Chota": {
+            "id": "525",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "UIkit": {
+            "id": "526",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Primer": {
+            "id": "527",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Carbon Components": {
+            "id": "528",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Fomantic-UI": {
+            "id": "529",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Pico.css": {
+            "id": "530",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Blaze UI": {
+            "id": "531",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Base": {
+            "id": "532",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Cirrus": {
+            "id": "533",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "turretcss": {
+            "id": "534",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Vanilla Framework": {
+            "id": "535",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "PatternFly": {
+            "id": "536",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "HiQ": {
+            "id": "537",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "MUI": {
+            "id": "538",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Material Components Web": {
+            "id": "539",
+            "job_count": 4,
+            "type": "leaf"
+          },
+          "Tachyons": {
+            "id": "540",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Open Props": {
+            "id": "541",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "NES.css": {
+            "id": "542",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "98.css": {
+            "id": "543",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Tufte CSS": {
+            "id": "544",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Gutenberg": {
+            "id": "545",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Bojler": {
+            "id": "546",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "TuiCss": {
+            "id": "547",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Bourbon": {
+            "id": "548",
+            "job_count": 0,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 25,
+        "type": "branch"
+      },
+      "HTML": {
+        "id": "549",
+        "job_count": 102,
+        "type": "leaf"
+      },
+      "Python": {
+        "children": {
+          "Django": {
+            "id": "551",
+            "job_count": 7,
+            "type": "leaf"
+          },
+          "Flask": {
+            "id": "552",
+            "job_count": 5,
+            "type": "leaf"
+          },
+          "CherryPy": {
+            "id": "553",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "TurboGears": {
+            "id": "554",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Web2Py": {
+            "id": "555",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Bottle": {
+            "id": "556",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Falcon": {
+            "id": "557",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "CubicWeb": {
+            "id": "558",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Quixote": {
+            "id": "559",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Pyramid": {
+            "id": "560",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "FastAPI": {
+            "id": "39092",
+            "job_count": 5,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 18,
+        "type": "branch"
+      },
+      "PSD to HTML": {
+        "id": "793",
+        "job_count": 2,
+        "type": "leaf"
+      },
+      "GoLang": {
+        "id": "25326",
+        "job_count": 5,
+        "type": "leaf"
+      },
+      "Visual Basic": {
+        "id": "26003",
+        "job_count": 2,
+        "type": "leaf"
+      },
+      "MatLAB": {
+        "id": "26829",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Blazor": {
+        "id": "27631",
+        "job_count": 2,
+        "type": "leaf"
+      },
+      "Zustand": {
+        "id": "38887",
+        "job_count": 1,
+        "type": "leaf"
+      }
+    },
+    "total_jobs": 823,
+    "type": "branch"
+  },
+  "Website Builder": {
+    "children": {
+      "Bigcommerce": {
+        "id": "562",
+        "job_count": 5,
+        "type": "leaf"
+      },
+      "Carrd": {
+        "id": "563",
+        "job_count": 1,
+        "type": "leaf"
+      },
+      "Duda": {
+        "id": "564",
+        "job_count": 6,
+        "type": "leaf"
+      },
+      "Godaddy Website Builder": {
+        "id": "565",
+        "job_count": 28,
+        "type": "leaf"
+      },
+      "Google Sites": {
+        "id": "566",
+        "job_count": 10,
+        "type": "leaf"
+      },
+      "Jimdo": {
+        "id": "567",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Odoo Website Builder": {
+        "id": "568",
+        "job_count": 3,
+        "type": "leaf"
+      },
+      "Shopify": {
+        "id": "569",
+        "job_count": 154,
+        "type": "leaf"
+      },
+      "Squarespace": {
+        "id": "570",
+        "job_count": 48,
+        "type": "leaf"
+      },
+      "Strikingly": {
+        "id": "571",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Ucraft": {
+        "id": "572",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Weblium": {
+        "id": "573",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Webnode": {
+        "id": "574",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Weebly": {
+        "id": "575",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Webflow": {
+        "id": "576",
+        "job_count": 42,
+        "type": "leaf"
+      },
+      "Wix": {
+        "id": "577",
+        "job_count": 33,
+        "type": "leaf"
+      },
+      "Wordpress": {
+        "children": {
+          "Woocommerce": {
+            "id": "792",
+            "job_count": 80,
+            "type": "leaf"
+          },
+          "Elementor": {
+            "id": "24010",
+            "job_count": 129,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 209,
+        "type": "branch"
+      },
+      "Zyro": {
+        "id": "579",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Optimizepress": {
+        "id": "791",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Kajabi": {
+        "id": "24225",
+        "job_count": 66,
+        "type": "leaf"
+      },
+      "Bubble.io": {
+        "id": "25660",
+        "job_count": 13,
+        "type": "leaf"
+      },
+      "Cpanel": {
+        "id": "30472",
+        "job_count": 5,
+        "type": "leaf"
+      },
+      "DNS Management": {
+        "id": "36992",
+        "job_count": 12,
+        "type": "leaf"
+      }
+    },
+    "total_jobs": 635,
+    "type": "branch"
+  },
+  "Software": {
+    "children": {
+      "C#": {
+        "id": "581",
+        "job_count": 26,
+        "type": "leaf"
+      },
+      "Javascript": {
+        "id": "582",
+        "job_count": 33,
+        "type": "leaf"
+      },
+      ".Net": {
+        "id": "583",
+        "job_count": 16,
+        "type": "leaf"
+      },
+      "Java": {
+        "children": {
+          "Spring Boot": {
+            "id": "25333",
+            "job_count": 6,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 6,
+        "type": "branch"
+      },
+      "Dart": {
+        "id": "585",
+        "job_count": 4,
+        "type": "leaf"
+      },
+      "Maui": {
+        "id": "586",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Webpack": {
+        "id": "587",
+        "job_count": 1,
+        "type": "leaf"
+      },
+      "Qt": {
+        "id": "588",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "C++": {
+        "id": "589",
+        "job_count": 9,
+        "type": "leaf"
+      },
+      "Electron": {
+        "id": "590",
+        "job_count": 1,
+        "type": "leaf"
+      },
+      "Python": {
+        "id": "591",
+        "job_count": 89,
+        "type": "leaf"
+      },
+      "Fullstack": {
+        "id": "592",
+        "job_count": 103,
+        "type": "leaf"
+      },
+      "Abap": {
+        "id": "593",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Accent R": {
+        "id": "594",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Version Control": {
+        "children": {
+          "Git": {
+            "id": "596",
+            "job_count": 2,
+            "type": "leaf"
+          },
+          "Mercurial": {
+            "id": "597",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "SVN": {
+            "id": "598",
+            "job_count": 0,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 2,
+        "type": "branch"
+      },
+      "Data Engineering": {
+        "children": {
+          "Bigquery": {
+            "id": "600",
+            "job_count": 3,
+            "type": "leaf"
+          },
+          "BI": {
+            "id": "601",
+            "job_count": 7,
+            "type": "leaf"
+          },
+          "SQL": {
+            "id": "602",
+            "job_count": 47,
+            "type": "leaf"
+          },
+          "R": {
+            "id": "603",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Scala": {
+            "id": "604",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Apache Airflow": {
+            "id": "34511",
+            "job_count": 1,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 59,
+        "type": "branch"
+      },
+      "Devops": {
+        "children": {
+          "Bash": {
+            "id": "606",
+            "job_count": 4,
+            "type": "leaf"
+          },
+          "Powershell": {
+            "id": "607",
+            "job_count": 6,
+            "type": "leaf"
+          },
+          "Git": {
+            "id": "608",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Docker": {
+            "id": "609",
+            "job_count": 14,
+            "type": "leaf"
+          },
+          "Kubernetes": {
+            "id": "610",
+            "job_count": 4,
+            "type": "leaf"
+          },
+          "Jenkins": {
+            "id": "611",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "CICD": {
+            "id": "612",
+            "job_count": 4,
+            "type": "leaf"
+          },
+          "Terraform": {
+            "id": "613",
+            "job_count": 1,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 34,
+        "type": "branch"
+      },
+      "Mobile Development": {
+        "children": {
+          "Ansible": {
+            "id": "615",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Vagrant": {
+            "id": "616",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "React Native": {
+            "id": "617",
+            "job_count": 35,
+            "type": "leaf"
+          },
+          "Objective-C": {
+            "id": "618",
+            "job_count": 2,
+            "type": "leaf"
+          },
+          "Swift": {
+            "id": "619",
+            "job_count": 9,
+            "type": "leaf"
+          },
+          "Flutter": {
+            "id": "620",
+            "job_count": 14,
+            "type": "leaf"
+          },
+          "Ionic": {
+            "id": "621",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Swiftui": {
+            "id": "622",
+            "job_count": 6,
+            "type": "leaf"
+          },
+          "Gradle": {
+            "id": "623",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Jetpack Compose": {
+            "id": "624",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Kotlin": {
+            "id": "625",
+            "job_count": 3,
+            "type": "leaf"
+          },
+          "Java": {
+            "id": "626",
+            "job_count": 3,
+            "type": "leaf"
+          },
+          "iOS Development": {
+            "id": "795",
+            "job_count": 20,
+            "type": "leaf"
+          },
+          "Android Development": {
+            "id": "796",
+            "job_count": 11,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 106,
+        "type": "branch"
+      },
+      "Game Development": {
+        "children": {
+          "Unity": {
+            "id": "628",
+            "job_count": 13,
+            "type": "leaf"
+          },
+          "Unreal Engine": {
+            "id": "629",
+            "job_count": 13,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 26,
+        "type": "branch"
+      },
+      "API Development": {
+        "children": {
+          "GraphQL": {
+            "id": "631",
+            "job_count": 6,
+            "type": "leaf"
+          },
+          "REST API": {
+            "id": "632",
+            "job_count": 54,
+            "type": "leaf"
+          },
+          "Soap": {
+            "id": "633",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Apollo": {
+            "id": "634",
+            "job_count": 23,
+            "type": "leaf"
+          },
+          "Paypal Api": {
+            "id": "635",
+            "job_count": 2,
+            "type": "leaf"
+          },
+          "Stripe Api": {
+            "id": "636",
+            "job_count": 6,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 91,
+        "type": "branch"
+      },
+      "Databases": {
+        "children": {
+          "MySQL": {
+            "id": "638",
+            "job_count": 29,
+            "type": "leaf"
+          },
+          "PostgreSQL": {
+            "id": "639",
+            "job_count": 27,
+            "type": "leaf"
+          },
+          "MongoDB": {
+            "id": "640",
+            "job_count": 5,
+            "type": "leaf"
+          },
+          "NoSQL": {
+            "id": "641",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "SQLite": {
+            "id": "642",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Oracle": {
+            "id": "643",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "MariaDB": {
+            "id": "644",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Redis": {
+            "id": "645",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Elasticsearch": {
+            "id": "646",
+            "job_count": 3,
+            "type": "leaf"
+          },
+          "Mssql": {
+            "id": "647",
+            "job_count": 2,
+            "type": "leaf"
+          },
+          "Firebase": {
+            "id": "648",
+            "job_count": 12,
+            "type": "leaf"
+          },
+          "Supabase": {
+            "id": "649",
+            "job_count": 15,
+            "type": "leaf"
+          },
+          "Opensearch": {
+            "id": "650",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Apache Kafka": {
+            "id": "651",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "SQL Server": {
+            "id": "652",
+            "job_count": 17,
+            "type": "leaf"
+          },
+          "Boolean Search": {
+            "id": "23393",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Database Management": {
+            "id": "24571",
+            "job_count": 30,
+            "type": "leaf"
+          },
+          "ServiceNow": {
+            "id": "26002",
+            "job_count": 1,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 143,
+        "type": "branch"
+      },
+      "Application Performance Management": {
+        "children": {
+          "SolarWinds": {
+            "id": "654",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "New Relic": {
+            "id": "655",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Firewalls": {
+            "id": "656",
+            "job_count": 3,
+            "type": "leaf"
+          },
+          "VPN": {
+            "id": "657",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Blackfire": {
+            "id": "658",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Grafana": {
+            "id": "659",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Prometheus": {
+            "id": "660",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Zabbix": {
+            "id": "661",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Nagios": {
+            "id": "662",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Cacti": {
+            "id": "663",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Icinga": {
+            "id": "664",
+            "job_count": 0,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 3,
+        "type": "branch"
+      },
+      "Server": {
+        "children": {
+          "Nginx": {
+            "id": "666",
+            "job_count": 2,
+            "type": "leaf"
+          },
+          "Apache": {
+            "id": "667",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Caddy": {
+            "id": "668",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Lightspeed": {
+            "id": "669",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "FTP and SFTP": {
+            "id": "670",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Mail - Exim": {
+            "id": "671",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Mail - Sendmail": {
+            "id": "672",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Mail - Postfix": {
+            "id": "673",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "VPN - OpenVPN": {
+            "id": "674",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Cybersecurity": {
+            "children": {
+              "Threat Hunting": {
+                "id": "40888",
+                "job_count": 1,
+                "type": "leaf"
+              }
+            },
+            "total_jobs": 1,
+            "type": "branch"
+          }
+        },
+        "total_jobs": 6,
+        "type": "branch"
+      },
+      "ASP.NET": {
+        "id": "794",
+        "job_count": 8,
+        "type": "leaf"
+      },
+      "Software QA Testing": {
+        "children": {
+          "Functional Testing": {
+            "id": "23637",
+            "job_count": 5,
+            "type": "leaf"
+          },
+          "Regression Testing": {
+            "id": "26333",
+            "job_count": 2,
+            "type": "leaf"
+          },
+          "Cypress": {
+            "id": "26827",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Playwright": {
+            "id": "27693",
+            "job_count": 8,
+            "type": "leaf"
+          },
+          "Test Automation": {
+            "id": "27695",
+            "job_count": 17,
+            "type": "leaf"
+          },
+          "Manual Testing": {
+            "id": "36993",
+            "job_count": 5,
+            "type": "leaf"
+          },
+          "Game Testing": {
+            "id": "39094",
+            "job_count": 5,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 43,
+        "type": "branch"
+      },
+      "Network Administration": {
+        "children": {
+          "Active Directory": {
+            "id": "30020",
+            "job_count": 7,
+            "type": "leaf"
+          },
+          "Network Monitoring": {
+            "id": "32363",
+            "job_count": 4,
+            "type": "leaf"
+          },
+          "Network Security": {
+            "id": "37412",
+            "job_count": 11,
+            "type": "leaf"
+          },
+          "Network Troubleshooting": {
+            "id": "37782",
+            "job_count": 15,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 37,
+        "type": "branch"
+      },
+      "Zapier": {
+        "id": "24385",
+        "job_count": 171,
+        "type": "leaf"
+      },
+      "Robotic Process Automation": {
+        "id": "24577",
+        "job_count": 40,
+        "type": "leaf"
+      },
+      "Uipath": {
+        "id": "24583",
+        "job_count": 2,
+        "type": "leaf"
+      },
+      "API Testing": {
+        "id": "25072",
+        "job_count": 9,
+        "type": "leaf"
+      },
+      "Selenium": {
+        "id": "25334",
+        "job_count": 9,
+        "type": "leaf"
+      },
+      "VB.NET": {
+        "id": "25337",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "APPSHEET": {
+        "id": "27627",
+        "job_count": 3,
+        "type": "leaf"
+      },
+      "Arduino": {
+        "id": "27629",
+        "job_count": 1,
+        "type": "leaf"
+      },
+      "Entity Framework": {
+        "id": "27689",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Dialux": {
+        "id": "27856",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "STAAD": {
+        "id": "27859",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "ArcGIS": {
+        "id": "30470",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Acumatica": {
+        "id": "30797",
+        "job_count": 2,
+        "type": "leaf"
+      },
+      "Aurora Solar": {
+        "id": "30798",
+        "job_count": 8,
+        "type": "leaf"
+      },
+      "SAP S4HANA": {
+        "id": "30908",
+        "job_count": 1,
+        "type": "leaf"
+      },
+      "Anaplan": {
+        "id": "31728",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "RabbitMQ": {
+        "id": "32365",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "GitHub": {
+        "id": "34027",
+        "job_count": 8,
+        "type": "leaf"
+      },
+      "Mulesoft": {
+        "id": "34518",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "OutSystems": {
+        "id": "34519",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "SAP Concur": {
+        "id": "34521",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Appian": {
+        "id": "34522",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "Netsuite": {
+        "id": "34610",
+        "job_count": 6,
+        "type": "leaf"
+      },
+      "Perl": {
+        "id": "34611",
+        "job_count": 0,
+        "type": "leaf"
+      },
+      "FlutterFlow": {
+        "id": "37407",
+        "job_count": 8,
+        "type": "leaf"
+      },
+      "HelpScout": {
+        "id": "38634",
+        "job_count": 1,
+        "type": "leaf"
+      },
+      "LaTeX": {
+        "id": "38635",
+        "job_count": 2,
+        "type": "leaf"
+      },
+      "ViciDial": {
+        "id": "38639",
+        "job_count": 4,
+        "type": "leaf"
+      },
+      "Make.com": {
+        "id": "39096",
+        "job_count": 116,
+        "type": "leaf"
+      },
+      "ConnectWise": {
+        "id": "40925",
+        "job_count": 5,
+        "type": "leaf"
+      }
+    },
+    "total_jobs": 1242,
+    "type": "branch"
+  },
+  "Cloud Services": {
+    "children": {
+      "AWS": {
+        "children": {
+          "Analytics - Amazon Athena": {
+            "id": "676",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Analytics - Amazon CloudSearch": {
+            "id": "677",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Analytics - Amazon EMR": {
+            "id": "678",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Compute - EC2": {
+            "id": "679",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Compute - EC2 Auto Scaling": {
+            "id": "680",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Compute - Elastic Container Service": {
+            "id": "681",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Compute - Elastic Beanstalk": {
+            "id": "682",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Dev Tools - CodeGuru": {
+            "id": "683",
+            "job_count": 2,
+            "type": "leaf"
+          },
+          "Dev Tools - Corretto": {
+            "id": "684",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Dev Tools - Cloud Control API": {
+            "id": "685",
+            "job_count": 2,
+            "type": "leaf"
+          },
+          "Dev Tools - Cloud Development Kit": {
+            "id": "686",
+            "job_count": 2,
+            "type": "leaf"
+          },
+          "Dev Tools - CodeDeploy": {
+            "id": "687",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Dev Tools - CodeCommit": {
+            "id": "688",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Storage - Elastic Block Store": {
+            "id": "689",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Storage - Elastic File System": {
+            "id": "690",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Stotage - S3": {
+            "id": "691",
+            "job_count": 2,
+            "type": "leaf"
+          },
+          "Storage - S3 Glacier": {
+            "id": "692",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Internet of Things - IoT Core": {
+            "id": "693",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Internet of Things - FleetWise": {
+            "id": "694",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Internet of Things - SiteWise": {
+            "id": "695",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Internet of Things - TwinMaker": {
+            "id": "696",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Internet of Things - Greengrrass": {
+            "id": "697",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Database - Aurora": {
+            "id": "698",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Database - Cognito": {
+            "id": "699",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Database DocumentDB": {
+            "id": "700",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Database - DynamoDB": {
+            "id": "701",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Database - RDS": {
+            "id": "702",
+            "job_count": 2,
+            "type": "leaf"
+          },
+          "Database - Redshift": {
+            "id": "703",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "AWS Lambda": {
+            "id": "32357",
+            "job_count": 6,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 21,
+        "type": "branch"
+      },
+      "Azure": {
+        "children": {
+          "Analytics - Data Explorer": {
+            "id": "705",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Analytics - Data Factory": {
+            "id": "706",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Analytics - Data Lake Storage": {
+            "id": "707",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Analytics - Event Hubs": {
+            "id": "708",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Analytics - Data Lake Analytics": {
+            "id": "709",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Compute - CycleCloud": {
+            "id": "710",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Compute - Qunatum": {
+            "id": "711",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Compute - Spot Virtual Machine": {
+            "id": "712",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Compute - VMWare Solution": {
+            "id": "713",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Compute - Batch": {
+            "id": "714",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Dev Tools - Pipelines": {
+            "id": "715",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Dev Tools - Visual Studio": {
+            "id": "716",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Dev Tools - Microsoft Dev Box": {
+            "id": "717",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Dev Tools - Load Testing": {
+            "id": "718",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "DevOps - Artifacts": {
+            "id": "719",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "DevOps - Azure Monitor": {
+            "id": "720",
+            "job_count": 4,
+            "type": "leaf"
+          },
+          "DevOps - Deployment Environments": {
+            "id": "721",
+            "job_count": 3,
+            "type": "leaf"
+          },
+          "Database - MariaDB": {
+            "id": "722",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Database - SQL Edge": {
+            "id": "723",
+            "job_count": 2,
+            "type": "leaf"
+          },
+          "Database - Table Storage": {
+            "id": "724",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Security - Azure Active Directory": {
+            "id": "725",
+            "job_count": 4,
+            "type": "leaf"
+          },
+          "Security - Microsoft Defender for Cloud": {
+            "id": "726",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Security - Front Door": {
+            "id": "727",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Security - Microsoft Sentinel": {
+            "id": "728",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Networking - Load Balancer": {
+            "id": "729",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Networking - Traffic Manager": {
+            "id": "730",
+            "job_count": 4,
+            "type": "leaf"
+          },
+          "Networking - Network Watcher": {
+            "id": "731",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Networking - Azure Private Link": {
+            "id": "732",
+            "job_count": 0,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 26,
+        "type": "branch"
+      },
+      "Google Cloud": {
+        "children": {
+          "Compute": {
+            "id": "734",
+            "job_count": 2,
+            "type": "leaf"
+          },
+          "Networking": {
+            "id": "735",
+            "job_count": 3,
+            "type": "leaf"
+          },
+          "Storage and Databases": {
+            "id": "736",
+            "job_count": 2,
+            "type": "leaf"
+          },
+          "Big Data": {
+            "id": "737",
+            "job_count": 6,
+            "type": "leaf"
+          },
+          "Machine Learning": {
+            "id": "738",
+            "job_count": 12,
+            "type": "leaf"
+          },
+          "Identity & Security": {
+            "id": "739",
+            "job_count": 1,
+            "type": "leaf"
+          },
+          "Management and Developer Tools": {
+            "id": "740",
+            "job_count": 5,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 31,
+        "type": "branch"
+      },
+      "IBM Cloud": {
+        "children": {
+          "Machine Learning": {
+            "id": "742",
+            "job_count": 3,
+            "type": "leaf"
+          },
+          "Analytics": {
+            "id": "743",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Blockchain": {
+            "id": "744",
+            "job_count": 2,
+            "type": "leaf"
+          },
+          "Compute": {
+            "id": "745",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Containers": {
+            "id": "746",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Databases": {
+            "id": "747",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Developer tools": {
+            "id": "748",
+            "job_count": 2,
+            "type": "leaf"
+          },
+          "Integration": {
+            "id": "749",
+            "job_count": 12,
+            "type": "leaf"
+          },
+          "Internet of Things": {
+            "id": "750",
+            "job_count": 0,
+            "type": "leaf"
+          },
+          "Logging and monitoring": {
+            "id": "751",
+            "job_count": 1,
+            "type": "leaf"
+          }
+        },
+        "total_jobs": 20,
+        "type": "branch"
+      },
+      "Snowflake": {
+        "id": "37415",
+        "job_count": 3,
+        "type": "leaf"
+      },
+      "Cloud Computing": {
+        "id": "40228",
+        "job_count": 0,
+        "type": "leaf"
+      }
+    },
+    "total_jobs": 101,
+    "type": "branch"
+  },
+  "Systems Administration": {
+    "children": {
+      "Cloud Engineer": {
+        "id": "14703",
+        "job_count": 23,
+        "type": "leaf"
+      },
+      "Linux Administrator": {
+        "id": "14704",
+        "job_count": 17,
+        "type": "leaf"
+      },
+      "Windows Administrator": {
+        "id": "14705",
+        "job_count": 15,
+        "type": "leaf"
+      },
+      "System Analysis": {
+        "id": "32366",
+        "job_count": 9,
+        "type": "leaf"
+      }
+    },
+    "total_jobs": 64,
+    "type": "branch"
+  },
+  "Loan Processing": {
+    "id": "29578",
+    "job_count": 33,
+    "type": "leaf"
+  },
+  "Research": {
+    "children": {
+      "Data Gathering": {
+        "id": "37646",
+        "job_count": 8,
+        "type": "leaf"
+      }
+    },
+    "total_jobs": 8,
+    "type": "branch"
+  },
+  "Patent Drafting": {
+    "id": "36996",
+    "job_count": 0,
+    "type": "leaf"
+  },
+  "Virtual Assistant": {
+    "id": "38361",
+    "job_count": 526,
+    "type": "leaf"
+  },
+  "Web Development": {
+    "id": "40404",
+    "job_count": 183,
+    "type": "leaf"
+  }
+}
