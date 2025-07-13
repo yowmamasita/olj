@@ -1,47 +1,38 @@
-# macOS
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
-env/
+
+# Virtual environments
+.venv/
 venv/
-.env
+ENV/
+env/
+
+# uv
+.python-version
+
+# Generated data files
+skills_with_jobs_*.json
+job_counts_*.csv
+job_scrape_details_*.csv
+
+# Test files
+test_page.html
+test_skills.json
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-
-# Logs
-*.log
-
-# Backup files
-*.bak
 *~
-skills_mindmap_old.html
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep the current file
+!skills_with_jobs_current.json
