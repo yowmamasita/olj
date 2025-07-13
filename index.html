@@ -77,14 +77,41 @@
         }
         
         .node.high-opportunity circle {
-            stroke: #ff6b6b;
+            stroke: #FFD700;
             stroke-width: 3px;
-            filter: drop-shadow(0 0 3px rgba(255, 107, 107, 0.5));
+            filter: drop-shadow(0 0 6px rgba(255, 215, 0, 0.8));
+            animation: pulse 2s ease-in-out infinite;
+        }
+        
+        .node.very-high-opportunity circle {
+            stroke: #FF6B35;
+            stroke-width: 4px;
+            filter: drop-shadow(0 0 10px rgba(255, 107, 53, 0.9));
+            animation: pulse 1.5s ease-in-out infinite;
+        }
+        
+        .node.ultra-high-opportunity circle {
+            stroke: url(#rainbow-gradient);
+            stroke-width: 4px;
+            filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.8));
+            animation: rainbow-pulse 2s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.05); opacity: 0.9; }
+        }
+        
+        @keyframes rainbow-pulse {
+            0%, 100% { transform: scale(1); filter: hue-rotate(0deg) drop-shadow(0 0 12px rgba(255, 255, 255, 0.8)); }
+            50% { transform: scale(1.08); filter: hue-rotate(180deg) drop-shadow(0 0 15px rgba(255, 255, 255, 1)); }
         }
         
         .node circle:hover {
             stroke-width: 4px;
-            filter: brightness(1.1);
+            filter: brightness(1.2) drop-shadow(0 0 8px rgba(255, 255, 255, 0.6));
+            transform: scale(1.1);
+            transition: all 0.2s ease;
         }
         
         .node text {
@@ -141,8 +168,15 @@
         }
         
         .search-match circle {
-            stroke: #ff6b6b !important;
+            stroke: #FF1493 !important;
             stroke-width: 4px !important;
+            filter: drop-shadow(0 0 8px rgba(255, 20, 147, 0.8)) !important;
+            animation: search-pulse 1s ease-in-out infinite !important;
+        }
+        
+        @keyframes search-pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
         }
         
         #info {
@@ -409,15 +443,100 @@
         const centerX = width / 2;
         const centerY = height / 2;
 
-        // Enhanced color scheme for job intensity
-        const colorScale = d3.scaleOrdinal(d3.schemeSet3);
-        const jobColorScale = d3.scaleSequential(d3.interpolateGreens)
-            .domain([0, 100]);
+        // Vibrant color scheme for skill categories
+        const categoryColors = {
+            'Programming': ['#0066FF', '#00BBFF'],
+            'Technology': ['#0066FF', '#00BBFF'],
+            'Web Development': ['#0066FF', '#00BBFF'],
+            'Mobile Development': ['#0066FF', '#00BBFF'],
+            'Design': ['#9B59B6', '#E74C3C'],
+            'Creative': ['#9B59B6', '#E74C3C'],
+            'Graphics': ['#9B59B6', '#E74C3C'],
+            'UI/UX': ['#9B59B6', '#E74C3C'],
+            'Business': ['#FF6B35', '#FFB700'],
+            'Management': ['#FF6B35', '#FFB700'],
+            'Finance': ['#FF6B35', '#FFB700'],
+            'Accounting': ['#FF6B35', '#FFB700'],
+            'Marketing': ['#00C896', '#00E676'],
+            'Sales': ['#00C896', '#00E676'],
+            'SEO': ['#00C896', '#00E676'],
+            'Social Media': ['#00C896', '#00E676'],
+            'Writing': ['#00ACC1', '#26C6DA'],
+            'Content': ['#00ACC1', '#26C6DA'],
+            'Copywriting': ['#00ACC1', '#26C6DA'],
+            'Blog': ['#00ACC1', '#26C6DA'],
+            'Data': ['#3F51B5', '#7986CB'],
+            'Analytics': ['#3F51B5', '#7986CB'],
+            'Research': ['#3F51B5', '#7986CB'],
+            'Statistics': ['#3F51B5', '#7986CB'],
+            'Support': ['#E91E63', '#F06292'],
+            'Admin': ['#E91E63', '#F06292'],
+            'Customer Service': ['#E91E63', '#F06292'],
+            'Virtual Assistant': ['#E91E63', '#F06292']
+        };
+        
+        const defaultColors = ['#607D8B', '#90A4AE']; // Default gray for uncategorized
+        
+        function getCategoryColor(name) {
+            for (const [key, colors] of Object.entries(categoryColors)) {
+                if (name.toLowerCase().includes(key.toLowerCase())) {
+                    return colors;
+                }
+            }
+            return defaultColors;
+        }
+        
+        function getNodeColor(d) {
+            const jobs = d.data.job_count || d.data.total_jobs || 0;
+            const [startColor, endColor] = getCategoryColor(getTopParent(d).data.name);
+            
+            if (jobs === 0) return '#F5F5F5';
+            
+            // Create gradient based on job count
+            const colorScale = d3.scaleLinear()
+                .domain([0, 200])
+                .range([startColor, endColor])
+                .interpolate(d3.interpolateHsl);
+            
+            // Adjust brightness based on job count
+            const baseColor = colorScale(Math.min(jobs, 200));
+            const brightness = d3.scaleLinear()
+                .domain([0, 100])
+                .range([0.7, 1.2])
+                .clamp(true);
+            
+            return d3.color(baseColor).brighter(brightness(jobs));
+        }
 
-        // Create SVG
+        // Create SVG with gradient definitions
         const svg = d3.select("#mindmap")
             .attr("width", width)
             .attr("height", height);
+        
+        // Add gradient definitions
+        const defs = svg.append("defs");
+        
+        // Rainbow gradient for ultra-high opportunity nodes
+        const rainbowGradient = defs.append("linearGradient")
+            .attr("id", "rainbow-gradient")
+            .attr("x1", "0%")
+            .attr("y1", "0%")
+            .attr("x2", "100%")
+            .attr("y2", "100%");
+        
+        rainbowGradient.selectAll("stop")
+            .data([
+                {offset: "0%", color: "#FF0000"},
+                {offset: "16.66%", color: "#FF8800"},
+                {offset: "33.33%", color: "#FFD700"},
+                {offset: "50%", color: "#00FF00"},
+                {offset: "66.66%", color: "#0088FF"},
+                {offset: "83.33%", color: "#8800FF"},
+                {offset: "100%", color: "#FF0088"}
+            ])
+            .enter().append("stop")
+            .attr("offset", d => d.offset)
+            .attr("stop-color", d => d.color);
 
         // Create zoom behavior
         const zoom = d3.zoom()
