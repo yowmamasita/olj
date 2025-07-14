@@ -556,6 +556,87 @@
         #overlay.active {
             display: block;
         }
+        
+        /* Market Intelligence Button */
+        #marketIntelligenceBtn {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: linear-gradient(135deg, #4CAF50, #45a049);
+            color: white;
+            border: none;
+            border-radius: 50px;
+            padding: 15px 25px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            z-index: 1002;
+            box-shadow: 0 4px 20px rgba(76, 175, 80, 0.4);
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            animation: pulse-glow 2s ease-in-out infinite;
+        }
+        
+        #marketIntelligenceBtn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 25px rgba(76, 175, 80, 0.6);
+            background: linear-gradient(135deg, #45a049, #4CAF50);
+        }
+        
+        #marketIntelligenceBtn:active {
+            transform: translateY(0);
+        }
+        
+        .market-icon {
+            width: 24px;
+            height: 24px;
+            animation: rotate-pulse 3s ease-in-out infinite;
+        }
+        
+        @keyframes pulse-glow {
+            0%, 100% { 
+                box-shadow: 0 4px 20px rgba(76, 175, 80, 0.4);
+            }
+            50% { 
+                box-shadow: 0 6px 30px rgba(76, 175, 80, 0.8);
+            }
+        }
+        
+        @keyframes rotate-pulse {
+            0%, 100% { 
+                transform: rotate(0deg) scale(1);
+            }
+            25% { 
+                transform: rotate(5deg) scale(1.1);
+            }
+            50% { 
+                transform: rotate(-5deg) scale(1.05);
+            }
+            75% { 
+                transform: rotate(3deg) scale(1.1);
+            }
+        }
+        
+        /* Mobile specific styles for market intelligence button */
+        @media (max-width: 768px) {
+            #marketIntelligenceBtn {
+                top: 70px;
+                right: 10px;
+                padding: 12px 20px;
+                font-size: 14px;
+                border-radius: 40px;
+                min-height: 48px;
+                box-sizing: border-box;
+            }
+            
+            .market-icon {
+                width: 20px;
+                height: 20px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -565,6 +646,21 @@
                 <path d="M3 12h18M3 6h18M3 18h18"/>
             </svg>
         </button>
+        
+        <!-- Market Intelligence Button -->
+        <a href="stats.html" id="marketIntelligenceBtn" aria-label="View Market Intelligence Dashboard">
+            <svg class="market-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M3,3V21H21V19H5V3H3M20,3H8V7H20V3M20,9H8V12H20V9M20,14H8V18H20V14Z"/>
+                <circle cx="17" cy="5" r="1" opacity="0.7"/>
+                <circle cx="17" cy="10.5" r="1" opacity="0.7"/>
+                <circle cx="17" cy="16" r="1" opacity="0.7"/>
+                <path d="M10,5L12,7L10,9" stroke="currentColor" stroke-width="1" fill="none" opacity="0.5"/>
+                <path d="M10,10.5L12,12.5L10,14.5" stroke="currentColor" stroke-width="1" fill="none" opacity="0.5"/>
+                <path d="M10,16L12,18L10,20" stroke="currentColor" stroke-width="1" fill="none" opacity="0.5"/>
+            </svg>
+            Market Intelligence
+        </a>
+        
         <div id="overlay"></div>
         <div id="controls">
             <button id="closeMenu" class="button" style="position: absolute; top: 10px; right: 10px; width: 30px; height: 30px; padding: 0; display: none;">×</button>
