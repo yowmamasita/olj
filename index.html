@@ -72,16 +72,16 @@
         
         
         .node.high-opportunity circle {
-            stroke: #FFD700;
+            stroke: #FF00FF;
             stroke-width: 3px;
-            filter: drop-shadow(0 0 6px rgba(255, 215, 0, 0.8));
+            filter: drop-shadow(0 0 6px rgba(255, 0, 255, 0.8));
             animation: pulse 2s ease-in-out infinite;
         }
         
         .node.very-high-opportunity circle {
-            stroke: #FF6B35;
+            stroke: #00FFFF;
             stroke-width: 4px;
-            filter: drop-shadow(0 0 10px rgba(255, 107, 53, 0.9));
+            filter: drop-shadow(0 0 10px rgba(0, 255, 255, 0.9));
             animation: pulse 1.5s ease-in-out infinite;
         }
         
@@ -400,15 +400,28 @@
             </div>
             <h4 style="margin-top: 15px;">Special Effects</h4>
             <div class="legend-item">
-                <div class="legend-circle" style="border: 3px solid #FFD700; background: #FFF; animation: pulse 2s infinite;"></div>
+                <div class="legend-circle" style="border: 3px solid #FF00FF; background: #FFF; animation: pulse 2s infinite;"></div>
                 <span>High demand (50-99 jobs)</span>
             </div>
             <div class="legend-item">
-                <div class="legend-circle" style="border: 3px solid #FF6B35; background: #FFF; animation: pulse 1.5s infinite;"></div>
+                <div class="legend-circle" style="border: 3px solid #00FFFF; background: #FFF; animation: pulse 1.5s infinite;"></div>
                 <span>Very high (100-199 jobs)</span>
             </div>
             <div class="legend-item">
-                <div class="legend-circle" style="border: 3px solid; border-image: linear-gradient(45deg, red, orange, yellow, green, blue, purple) 1; background: #FFF;"></div>
+                <svg width="26" height="26" style="margin-right: 10px;">
+                    <defs>
+                        <linearGradient id="legend-rainbow-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#FF0000"/>
+                            <stop offset="16.66%" stop-color="#FF8800"/>
+                            <stop offset="33.33%" stop-color="#FFD700"/>
+                            <stop offset="50%" stop-color="#00FF00"/>
+                            <stop offset="66.66%" stop-color="#0088FF"/>
+                            <stop offset="83.33%" stop-color="#8800FF"/>
+                            <stop offset="100%" stop-color="#FF0088"/>
+                        </linearGradient>
+                    </defs>
+                    <circle cx="13" cy="13" r="10" fill="#FFF" stroke="url(#legend-rainbow-gradient)" stroke-width="3"/>
+                </svg>
                 <span>Ultra high (200+ jobs)</span>
             </div>
         </div>
@@ -885,8 +898,8 @@
                 .style("stroke", d => {
                     const jobs = d.data.job_count || d.data.total_jobs || 0;
                     if (jobs >= 200) return 'url(#rainbow-gradient)';
-                    if (jobs >= 100) return '#FF6B35';
-                    if (jobs >= 50) return '#FFD700';
+                    if (jobs >= 100) return '#00FFFF';
+                    if (jobs >= 50) return '#FF00FF';
                     return "none";
                 })
 
@@ -993,8 +1006,8 @@
                 .style("stroke", d => {
                     const jobs = d.data.job_count || d.data.total_jobs || 0;
                     if (jobs >= 200) return 'url(#rainbow-gradient)';
-                    if (jobs >= 100) return '#FF6B35';
-                    if (jobs >= 50) return '#FFD700';
+                    if (jobs >= 100) return '#00FFFF';
+                    if (jobs >= 50) return '#FF00FF';
                     return "none";
                 })
 
