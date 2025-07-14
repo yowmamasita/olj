@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=5.0, minimum-scale=0.5">
     <title>OnlineJobs.ph Skills Visualizer - Upskilling Opportunities</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <style>
@@ -62,6 +62,8 @@
         
         .node {
             cursor: pointer;
+            -webkit-tap-highlight-color: rgba(0,0,0,0.1);
+            touch-action: manipulation;
         }
         
         .node circle {
@@ -245,6 +247,102 @@
             border-top: 1px solid #ddd;
         }
         
+        .collapsible-section {
+            margin-top: 15px;
+            border-top: 1px solid #ddd;
+            padding-top: 15px;
+        }
+        
+        .collapsible-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            padding: 12px 8px;
+            font-weight: bold;
+            font-size: 14px;
+            color: #333;
+            user-select: none;
+            min-height: 44px;
+            box-sizing: border-box;
+            border-radius: 4px;
+            transition: background-color 0.2s ease;
+        }
+        
+        .collapsible-header:hover,
+        .collapsible-header:active {
+            background-color: #f5f5f5;
+        }
+        
+        .collapsible-icon {
+            font-size: 18px;
+            transition: transform 0.2s ease;
+        }
+        
+        .collapsible-icon.expanded {
+            transform: rotate(90deg);
+        }
+        
+        .collapsible-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        
+        .collapsible-content.expanded {
+            max-height: 500px;
+        }
+        
+        .mobile-legend {
+            padding: 10px 0;
+        }
+        
+        .mobile-legend h4 {
+            margin: 0 0 10px 0;
+            font-size: 13px;
+            color: #666;
+        }
+        
+        .mobile-legend .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+            font-size: 12px;
+        }
+        
+        .mobile-legend .legend-circle {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            margin-right: 8px;
+            border: 2px solid #333;
+            flex-shrink: 0;
+        }
+        
+        .mobile-instructions {
+            padding: 10px 0;
+            font-size: 12px;
+            line-height: 1.4;
+        }
+        
+        .mobile-instructions p {
+            margin: 0 0 8px 0;
+        }
+        
+        .mobile-instructions ul {
+            margin: 0;
+            padding-left: 16px;
+        }
+        
+        .mobile-instructions li {
+            margin-bottom: 4px;
+        }
+        
+        /* Hide mobile sections on desktop */
+        .collapsible-section {
+            display: none;
+        }
+        
         /* Mobile menu toggle button */
         #menuToggle {
             display: none;
@@ -269,18 +367,24 @@
         @media (max-width: 768px) {
             #menuToggle {
                 display: block;
+                /* Better touch target */
+                min-width: 48px;
+                min-height: 48px;
+                padding: 12px;
             }
             
             #controls {
                 transform: translateX(-100%);
                 transition: transform 0.3s ease;
-                width: 250px;
+                width: 280px;
                 height: 100vh;
                 top: 0;
                 left: 0;
                 border-radius: 0;
                 overflow-y: auto;
                 max-width: none;
+                padding: 20px;
+                box-sizing: border-box;
             }
             
             #controls.active {
@@ -289,6 +393,31 @@
             
             #controls h3 {
                 margin-top: 50px;
+            }
+            
+            /* Better touch targets for mobile buttons */
+            .button {
+                min-height: 44px;
+                padding: 12px 16px;
+                margin: 4px 2px;
+                font-size: 14px;
+                touch-action: manipulation;
+            }
+            
+            #search {
+                min-height: 44px;
+                padding: 12px;
+                font-size: 16px; /* Prevents zoom on iOS */
+            }
+            
+            #minJobsFilter {
+                min-height: 44px;
+                margin: 8px 0;
+            }
+            
+            input[type="checkbox"] {
+                transform: scale(1.2);
+                margin-right: 8px;
             }
             
             #legend {
@@ -313,6 +442,48 @@
             
             .node .job-count {
                 font-size: 8px;
+            }
+            
+            /* Show mobile sections on mobile */
+            .collapsible-section {
+                display: block;
+            }
+            
+            /* Mobile-specific improvements */
+            .tooltip {
+                font-size: 13px;
+                max-width: 250px;
+                word-wrap: break-word;
+            }
+            
+            /* Better touch handling for mobile */
+            .node {
+                -webkit-tap-highlight-color: rgba(0,0,0,0.2);
+                touch-action: manipulation;
+            }
+            
+            .node circle {
+                pointer-events: all;
+            }
+            
+            .node text {
+                pointer-events: none;
+            }
+            
+            .filters {
+                margin-top: 20px;
+                padding-top: 20px;
+            }
+            
+            .filter-label {
+                font-size: 14px;
+                margin-bottom: 8px;
+            }
+            
+            .data-status {
+                font-size: 12px;
+                margin-top: 20px;
+                padding-top: 15px;
             }
         }
         
@@ -361,6 +532,109 @@
                 <label style="display: inline-block; margin-top: 5px;">
                     <input type="checkbox" id="showHighOpportunity" checked> Highlight high-opportunity skills
                 </label>
+            </div>
+            
+            <!-- Mobile Legend Section -->
+            <div class="collapsible-section" id="mobileLegendSection">
+                <div class="collapsible-header" onclick="toggleCollapsible('mobileLegend')">
+                    <span>🎨 Color Legend</span>
+                    <span class="collapsible-icon" id="mobileLegendIcon">▶</span>
+                </div>
+                <div class="collapsible-content" id="mobileLegendContent">
+                    <div class="mobile-legend">
+                        <h4>Color = Skill Category</h4>
+                        <div class="legend-item">
+                            <div class="legend-circle" style="background: linear-gradient(45deg, #0066FF, #00BBFF); border: 1px solid #333;"></div>
+                            <span>Technology/Programming</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-circle" style="background: linear-gradient(45deg, #9B59B6, #E74C3C); border: 1px solid #333;"></div>
+                            <span>Design/Creative</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-circle" style="background: linear-gradient(45deg, #FF6B35, #FFB700); border: 1px solid #333;"></div>
+                            <span>Business/Management</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-circle" style="background: linear-gradient(45deg, #00C896, #00E676); border: 1px solid #333;"></div>
+                            <span>Marketing/Sales</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-circle" style="background: linear-gradient(45deg, #00ACC1, #26C6DA); border: 1px solid #333;"></div>
+                            <span>Writing/Content</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-circle" style="background: linear-gradient(45deg, #3F51B5, #7986CB); border: 1px solid #333;"></div>
+                            <span>Data/Analytics</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-circle" style="background: linear-gradient(45deg, #E91E63, #F06292); border: 1px solid #333;"></div>
+                            <span>Support/Admin</span>
+                        </div>
+                        
+                        <h4 style="margin-top: 15px;">Job Demand Levels</h4>
+                        <div class="legend-item">
+                            <div class="legend-circle" style="border: 2px solid #FF00FF; background: #FFF;"></div>
+                            <span>High demand (50-99 jobs)</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-circle" style="border: 2px solid #00FFFF; background: #FFF;"></div>
+                            <span>Very high (100-199 jobs)</span>
+                        </div>
+                        <div class="legend-item">
+                            <svg width="20" height="20" style="margin-right: 8px;">
+                                <defs>
+                                    <linearGradient id="mobile-rainbow-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" stop-color="#FF0000"/>
+                                        <stop offset="16.66%" stop-color="#FF8800"/>
+                                        <stop offset="33.33%" stop-color="#FFD700"/>
+                                        <stop offset="50%" stop-color="#00FF00"/>
+                                        <stop offset="66.66%" stop-color="#0088FF"/>
+                                        <stop offset="83.33%" stop-color="#8800FF"/>
+                                        <stop offset="100%" stop-color="#FF0088"/>
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="10" cy="10" r="8" fill="#FFF" stroke="url(#mobile-rainbow-gradient)" stroke-width="2"/>
+                            </svg>
+                            <span>Ultra high (200+ jobs)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Mobile Instructions Section -->
+            <div class="collapsible-section" id="mobileInstructionsSection">
+                <div class="collapsible-header" onclick="toggleCollapsible('mobileInstructions')">
+                    <span>❓ How to Use</span>
+                    <span class="collapsible-icon" id="mobileInstructionsIcon">▶</span>
+                </div>
+                <div class="collapsible-content" id="mobileInstructionsContent">
+                    <div class="mobile-instructions">
+                        <p><strong>Navigation:</strong></p>
+                        <ul>
+                            <li>Tap nodes to expand/collapse branches</li>
+                            <li>Pinch to zoom in/out</li>
+                            <li>Drag to pan around the tree</li>
+                            <li>Use "Reset View" to return to default zoom</li>
+                        </ul>
+                        
+                        <p><strong>Node Symbols:</strong></p>
+                        <ul>
+                            <li><strong>+</strong> = Node can be expanded</li>
+                            <li><strong>−</strong> = Node is expanded</li>
+                            <li>No symbol = End skill (tap to view jobs)</li>
+                        </ul>
+                        
+                        <p><strong>Finding Jobs:</strong></p>
+                        <ul>
+                            <li>Tap end nodes (skills) to view available jobs</li>
+                            <li>Use search to find specific skills</li>
+                            <li>Filter by job count using the slider</li>
+                        </ul>
+                        
+                        <p><strong>Node Count:</strong> <span id="mobileNodeCount">Loading...</span></p>
+                    </div>
+                </div>
             </div>
             
             <div class="data-status" id="dataStatus">
@@ -466,6 +740,48 @@
             controls.classList.remove('active');
             overlay.classList.remove('active');
         });
+        
+        // Collapsible functionality
+        function toggleCollapsible(sectionName) {
+            const content = document.getElementById(sectionName + 'Content');
+            const icon = document.getElementById(sectionName + 'Icon');
+            
+            if (content.classList.contains('expanded')) {
+                content.classList.remove('expanded');
+                icon.classList.remove('expanded');
+                icon.textContent = '▶';
+            } else {
+                content.classList.add('expanded');
+                icon.classList.add('expanded');
+                icon.textContent = '▼';
+            }
+        }
+        
+        // Tooltip helper function
+        function showTooltip(event, d) {
+            const jobs = d.data.job_count || 0;
+            const totalJobs = d.data.total_jobs || 0;
+            const childCount = (d.children ? d.children.length : 0) + (d._children ? d._children.length : 0);
+            
+            let tooltipHtml = `<strong>${d.data.name}</strong><br>`;
+            tooltipHtml += `Level: ${d.depth}<br>`;
+            
+            if (d.data.id) {
+                tooltipHtml += `<div class="job-info">${jobs.toLocaleString()} job${jobs !== 1 ? 's' : ''} available</div>`;
+                tooltipHtml += `<small>Tap to view jobs</small>`;
+            } else {
+                tooltipHtml += `Children: ${childCount}<br>`;
+                tooltipHtml += `<div class="job-info">Total: ${totalJobs.toLocaleString()} jobs in category</div>`;
+            }
+            
+            tooltip.style("display", "block").html(tooltipHtml);
+            
+            // Position tooltip
+            const pageX = event.pageX || event.touches[0].pageX;
+            const pageY = event.pageY || event.touches[0].pageY;
+            tooltip.style("left", (pageX + 10) + "px")
+                .style("top", (pageY - 10) + "px");
+        }
         
         // Configuration
         const width = window.innerWidth;
@@ -731,6 +1047,12 @@
             document.getElementById("nodeCount").innerHTML = 
                 `Skills: ${totalNodes} | Jobs: ${totalJobs.toLocaleString()}`;
             
+            // Update mobile node count
+            const mobileNodeCount = document.getElementById("mobileNodeCount");
+            if (mobileNodeCount) {
+                mobileNodeCount.innerHTML = `${totalNodes} skills, ${totalJobs.toLocaleString()} jobs`;
+            }
+            
             // Setup filter
             const maxJobs = Math.max(...root.descendants()
                 .map(d => d.data.job_count || 0));
@@ -860,29 +1182,43 @@
                     }
                 })
                 .on("mouseover", (event, d) => {
-                    const jobs = d.data.job_count || 0;
-                    const totalJobs = d.data.total_jobs || 0;
-                    const childCount = (d.children ? d.children.length : 0) + (d._children ? d._children.length : 0);
-                    
-                    let tooltipHtml = `<strong>${d.data.name}</strong><br>`;
-                    tooltipHtml += `Level: ${d.depth}<br>`;
-                    
-                    if (d.data.id) {
-                        tooltipHtml += `<div class="job-info">${jobs.toLocaleString()} job${jobs !== 1 ? 's' : ''} available</div>`;
-                        tooltipHtml += `<small>Click to view jobs</small>`;
-                    } else {
-                        tooltipHtml += `Children: ${childCount}<br>`;
-                        tooltipHtml += `<div class="job-info">Total: ${totalJobs.toLocaleString()} jobs in category</div>`;
+                    // Only show tooltip on hover for non-touch devices
+                    if (!('ontouchstart' in window)) {
+                        showTooltip(event, d);
                     }
-                    
-                    tooltip.style("display", "block").html(tooltipHtml);
                 })
                 .on("mousemove", (event) => {
-                    tooltip.style("left", (event.pageX + 10) + "px")
-                        .style("top", (event.pageY - 10) + "px");
+                    if (!('ontouchstart' in window)) {
+                        tooltip.style("left", (event.pageX + 10) + "px")
+                            .style("top", (event.pageY - 10) + "px");
+                    }
                 })
                 .on("mouseout", () => {
-                    tooltip.style("display", "none");
+                    if (!('ontouchstart' in window)) {
+                        tooltip.style("display", "none");
+                    }
+                })
+                .on("touchstart", (event, d) => {
+                    // Show tooltip on long press (touch and hold)
+                    const touchStartTime = Date.now();
+                    const touchTimeout = setTimeout(() => {
+                        showTooltip(event, d);
+                        // Hide tooltip after 3 seconds
+                        setTimeout(() => {
+                            tooltip.style("display", "none");
+                        }, 3000);
+                    }, 500); // Show tooltip after 500ms of holding
+                    
+                    // Clear timeout if touch ends quickly (normal tap)
+                    const touchEndHandler = () => {
+                        const touchDuration = Date.now() - touchStartTime;
+                        if (touchDuration < 500) {
+                            clearTimeout(touchTimeout);
+                        }
+                        document.removeEventListener('touchend', touchEndHandler);
+                    };
+                    
+                    document.addEventListener('touchend', touchEndHandler);
                 });
 
             // Add circles with dynamic sizing
