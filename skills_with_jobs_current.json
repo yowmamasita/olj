@@ -5,7 +5,7 @@
         "children": {
           "Billing": {
             "id": "23392",
-            "job_count": 21,
+            "job_count": 22,
             "type": "leaf"
           },
           "Collection": {
@@ -14,12 +14,12 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 40,
+        "total_jobs": 41,
         "type": "branch"
       },
       "Accounts Reconciliations": {
         "id": "3",
-        "job_count": 88,
+        "job_count": 82,
         "type": "leaf"
       },
       "Simpro": {
@@ -29,7 +29,7 @@
       },
       "Xero": {
         "id": "5",
-        "job_count": 94,
+        "job_count": 95,
         "type": "leaf"
       },
       "Payroll": {
@@ -39,19 +39,19 @@
       },
       "Quickbooks": {
         "id": "7",
-        "job_count": 335,
+        "job_count": 332,
         "type": "leaf"
       },
       "Accounts Payable": {
         "id": "8",
-        "job_count": 54,
+        "job_count": 50,
         "type": "leaf"
       },
       "Financial Accounting": {
         "children": {
           "Analysis": {
             "id": "10",
-            "job_count": 52,
+            "job_count": 51,
             "type": "leaf"
           },
           "Planning": {
@@ -61,17 +61,17 @@
           },
           "Financial Analysis": {
             "id": "760",
-            "job_count": 74,
+            "job_count": 71,
             "type": "leaf"
           },
           "Financial Planning": {
             "id": "761",
-            "job_count": 18,
+            "job_count": 17,
             "type": "leaf"
           },
           "Financial Forcasting": {
             "id": "762",
-            "job_count": 19,
+            "job_count": 18,
             "type": "leaf"
           },
           "Financial Reporting": {
@@ -95,35 +95,35 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 253,
+        "total_jobs": 247,
         "type": "branch"
       },
       "Bookkeeping": {
         "children": {
           "Online Bookkeeping": {
             "id": "30027",
-            "job_count": 34,
+            "job_count": 35,
             "type": "leaf"
           }
         },
-        "total_jobs": 34,
+        "total_jobs": 35,
         "type": "branch"
       },
       "EDI": {
         "id": "13",
-        "job_count": 3,
+        "job_count": 4,
         "type": "leaf"
       },
       "Tax Preparation": {
         "id": "763",
-        "job_count": 95,
+        "job_count": 92,
         "type": "leaf"
       },
       "Investment Accounting": {
         "children": {
           "Investment Research": {
             "id": "798",
-            "job_count": 6,
+            "job_count": 7,
             "type": "leaf"
           },
           "Strategic Planning": {
@@ -132,7 +132,7 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 28,
+        "total_jobs": 29,
         "type": "branch"
       },
       "Banking": {
@@ -147,17 +147,17 @@
       },
       "Business Analysis": {
         "id": "23391",
-        "job_count": 18,
+        "job_count": 17,
         "type": "leaf"
       },
       "Bank Reconciliation": {
         "id": "23394",
-        "job_count": 15,
+        "job_count": 14,
         "type": "leaf"
       },
       "Invoicing": {
         "id": "24222",
-        "job_count": 21,
+        "job_count": 20,
         "type": "leaf"
       },
       "MYOB": {
@@ -182,7 +182,7 @@
       },
       "General Ledger": {
         "id": "31340",
-        "job_count": 1,
+        "job_count": 2,
         "type": "leaf"
       },
       "BGL360": {
@@ -207,18 +207,18 @@
       },
       "Revenue Management": {
         "id": "39986",
-        "job_count": 16,
+        "job_count": 14,
         "type": "leaf"
       }
     },
-    "total_jobs": 1198,
+    "total_jobs": 1177,
     "type": "branch"
   },
   "Marketing": {
     "children": {
       "Performance Marketing": {
         "id": "15",
-        "job_count": 333,
+        "job_count": 334,
         "type": "leaf"
       },
       "CRM": {
@@ -270,7 +270,7 @@
           },
           "Zoho CRM": {
             "id": "26",
-            "job_count": 45,
+            "job_count": 44,
             "type": "leaf"
           },
           "Creatio": {
@@ -280,7 +280,7 @@
           },
           "HubSpot CRM": {
             "id": "28",
-            "job_count": 153,
+            "job_count": 156,
             "type": "leaf"
           },
           "Apptivo": {
@@ -300,12 +300,12 @@
           },
           "Zendesk": {
             "id": "32",
-            "job_count": 15,
+            "job_count": 14,
             "type": "leaf"
           },
           "Microsoft Dynamics 365": {
             "id": "33",
-            "job_count": 13,
+            "job_count": 12,
             "type": "leaf"
           },
           "Nimble": {
@@ -315,7 +315,7 @@
           },
           "Odoo": {
             "id": "35",
-            "job_count": 14,
+            "job_count": 16,
             "type": "leaf"
           },
           "Less Annoying CRM": {
@@ -339,14 +339,14 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 346,
+        "total_jobs": 348,
         "type": "branch"
       },
       "Email Marketing": {
         "children": {
           "MailerLite": {
             "id": "41",
-            "job_count": 2,
+            "job_count": 3,
             "type": "leaf"
           },
           "Sender": {
@@ -396,7 +396,7 @@
           },
           "Klaviyo": {
             "id": "24574",
-            "job_count": 143,
+            "job_count": 142,
             "type": "leaf"
           }
         },
@@ -407,44 +407,44 @@
         "children": {
           "Inbound Sales": {
             "id": "52",
-            "job_count": 316,
+            "job_count": 314,
             "type": "leaf"
           },
           "Outbound Sales": {
             "id": "53",
-            "job_count": 786,
+            "job_count": 782,
             "type": "leaf"
           },
           "Outbound Calls": {
             "id": "27691",
-            "job_count": 332,
+            "job_count": 330,
             "type": "leaf"
           }
         },
-        "total_jobs": 1434,
+        "total_jobs": 1426,
         "type": "branch"
       },
       "Copywriting": {
         "children": {
           "Email Copywriting": {
             "id": "25997",
-            "job_count": 74,
+            "job_count": 73,
             "type": "leaf"
           }
         },
-        "total_jobs": 74,
+        "total_jobs": 73,
         "type": "branch"
       },
       "Influencer Marketing": {
         "id": "55",
-        "job_count": 203,
+        "job_count": 204,
         "type": "leaf"
       },
       "Marketing Automation": {
         "children": {
           "Active Campaign": {
             "id": "27628",
-            "job_count": 19,
+            "job_count": 20,
             "type": "leaf"
           },
           "Convertkit": {
@@ -453,12 +453,12 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 27,
+        "total_jobs": 28,
         "type": "branch"
       },
       "Real Estate Marketing": {
         "id": "57",
-        "job_count": 229,
+        "job_count": 226,
         "type": "leaf"
       },
       "Credit Repair": {
@@ -475,17 +475,17 @@
         "children": {
           "Google Tag Manager": {
             "id": "61",
-            "job_count": 82,
+            "job_count": 81,
             "type": "leaf"
           },
           "Google Analytics": {
             "id": "62",
-            "job_count": 135,
+            "job_count": 134,
             "type": "leaf"
           },
           "Google Data Studio": {
             "id": "63",
-            "job_count": 17,
+            "job_count": 16,
             "type": "leaf"
           },
           "UA": {
@@ -500,7 +500,7 @@
           },
           "Meta Pixel": {
             "id": "66",
-            "job_count": 37,
+            "job_count": 35,
             "type": "leaf"
           },
           "Looker Studio": {
@@ -509,7 +509,7 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 292,
+        "total_jobs": 287,
         "type": "branch"
       },
       "Content Creation": {
@@ -526,22 +526,22 @@
           },
           "Creative Writing": {
             "id": "70",
-            "job_count": 160,
+            "job_count": 161,
             "type": "leaf"
           },
           "eBook Writing": {
             "id": "71",
-            "job_count": 32,
+            "job_count": 31,
             "type": "leaf"
           },
           "Proofreading": {
             "id": "72",
-            "job_count": 39,
+            "job_count": 40,
             "type": "leaf"
           },
           "Technical Writing": {
             "id": "73",
-            "job_count": 55,
+            "job_count": 53,
             "type": "leaf"
           },
           "News Writing": {
@@ -551,17 +551,17 @@
           },
           "Scriptwriting": {
             "id": "75",
-            "job_count": 104,
+            "job_count": 103,
             "type": "leaf"
           },
           "eMail Marketing": {
             "id": "76",
-            "job_count": 56,
+            "job_count": 55,
             "type": "leaf"
           },
           "Social Media Content Creation": {
             "id": "77",
-            "job_count": 994,
+            "job_count": 1000,
             "type": "leaf"
           },
           "Microblog Content Writing": {
@@ -571,17 +571,17 @@
           },
           "Podcast Content Creation": {
             "id": "79",
-            "job_count": 63,
+            "job_count": 62,
             "type": "leaf"
           },
           "Video Content Creation": {
             "id": "80",
-            "job_count": 724,
+            "job_count": 718,
             "type": "leaf"
           },
           "Webinar Writing": {
             "id": "81",
-            "job_count": 13,
+            "job_count": 12,
             "type": "leaf"
           },
           "Case Studies Writing": {
@@ -596,7 +596,7 @@
           },
           "Research Writing": {
             "id": "84",
-            "job_count": 55,
+            "job_count": 58,
             "type": "leaf"
           },
           "Ghost Writing": {
@@ -616,7 +616,7 @@
           },
           "Infographics": {
             "id": "88",
-            "job_count": 68,
+            "job_count": 67,
             "type": "leaf"
           },
           "Copyediting": {
@@ -626,7 +626,7 @@
           },
           "Content Planning": {
             "id": "25323",
-            "job_count": 20,
+            "job_count": 19,
             "type": "leaf"
           },
           "Descript": {
@@ -636,11 +636,11 @@
           },
           "Academic Writing": {
             "id": "33603",
-            "job_count": 5,
+            "job_count": 6,
             "type": "leaf"
           }
         },
-        "total_jobs": 2707,
+        "total_jobs": 2704,
         "type": "branch"
       },
       "Social Media Management": {
@@ -652,7 +652,7 @@
           },
           "Online Forum Posting": {
             "id": "92",
-            "job_count": 28,
+            "job_count": 29,
             "type": "leaf"
           },
           "Microblogging": {
@@ -662,22 +662,22 @@
           },
           "Template Creation": {
             "id": "94",
-            "job_count": 11,
+            "job_count": 9,
             "type": "leaf"
           },
           "Facebook marketing": {
             "id": "95",
-            "job_count": 208,
+            "job_count": 212,
             "type": "leaf"
           },
           "Instagram marketing": {
             "id": "96",
-            "job_count": 251,
+            "job_count": 254,
             "type": "leaf"
           },
           "Social Media Marketing": {
             "id": "765",
-            "job_count": 349,
+            "job_count": 346,
             "type": "leaf"
           },
           "Social Media Engagement": {
@@ -687,7 +687,7 @@
           },
           "Meta Business Suite": {
             "id": "28246",
-            "job_count": 98,
+            "job_count": 100,
             "type": "leaf"
           },
           "Post Scheduling": {
@@ -696,12 +696,12 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 1178,
+        "total_jobs": 1183,
         "type": "branch"
       },
       "Video Marketing": {
         "id": "759",
-        "job_count": 166,
+        "job_count": 167,
         "type": "leaf"
       },
       "Craigslist Posting Marketing": {
@@ -716,7 +716,7 @@
       },
       "Search Engine Marketing": {
         "id": "768",
-        "job_count": 35,
+        "job_count": 36,
         "type": "leaf"
       },
       "Classified Ads Marketing": {
@@ -731,17 +731,17 @@
       },
       "Media Buying": {
         "id": "771",
-        "job_count": 196,
+        "job_count": 191,
         "type": "leaf"
       },
       "Youtube Marketing": {
         "id": "772",
-        "job_count": 145,
+        "job_count": 144,
         "type": "leaf"
       },
       "LinkedIn Marketing": {
         "id": "773",
-        "job_count": 146,
+        "job_count": 141,
         "type": "leaf"
       },
       "Appointment Setting": {
@@ -762,12 +762,12 @@
       },
       "GoHighLevel": {
         "id": "24220",
-        "job_count": 627,
+        "job_count": 624,
         "type": "leaf"
       },
       "Market Research": {
         "id": "24233",
-        "job_count": 76,
+        "job_count": 75,
         "type": "leaf"
       },
       "Sales": {
@@ -793,17 +793,17 @@
       },
       "Kartra": {
         "id": "25328",
-        "job_count": 5,
+        "job_count": 4,
         "type": "leaf"
       },
       "Website Copywriting": {
         "id": "25339",
-        "job_count": 59,
+        "job_count": 60,
         "type": "leaf"
       },
       "Digital Marketing": {
         "id": "26551",
-        "job_count": 331,
+        "job_count": 329,
         "type": "leaf"
       },
       "Campaign Optimization": {
@@ -812,14 +812,14 @@
         "type": "leaf"
       }
     },
-    "total_jobs": 9054,
+    "total_jobs": 9029,
     "type": "branch"
   },
   "Advertising": {
     "children": {
       "Google Ads": {
         "id": "98",
-        "job_count": 593,
+        "job_count": 584,
         "type": "leaf"
       },
       "Yahoo Gemini": {
@@ -829,12 +829,12 @@
       },
       "Amazon Ads": {
         "id": "100",
-        "job_count": 77,
+        "job_count": 76,
         "type": "leaf"
       },
       "Facebook Ads": {
         "id": "101",
-        "job_count": 895,
+        "job_count": 892,
         "type": "leaf"
       },
       "Microsoft Ads": {
@@ -849,12 +849,12 @@
       },
       "Pinterest Ads": {
         "id": "104",
-        "job_count": 20,
+        "job_count": 19,
         "type": "leaf"
       },
       "Tiktok Ads": {
         "id": "105",
-        "job_count": 230,
+        "job_count": 229,
         "type": "leaf"
       },
       "Snapchat Ads": {
@@ -864,12 +864,12 @@
       },
       "PPC": {
         "id": "107",
-        "job_count": 95,
+        "job_count": 94,
         "type": "leaf"
       },
       "Ads Management": {
         "id": "108",
-        "job_count": 81,
+        "job_count": 75,
         "type": "leaf"
       },
       "Trend Monitoring": {
@@ -889,12 +889,12 @@
       },
       "Campaign Building": {
         "id": "112",
-        "job_count": 36,
+        "job_count": 37,
         "type": "leaf"
       },
       "AB Testing": {
         "id": "113",
-        "job_count": 13,
+        "job_count": 12,
         "type": "leaf"
       },
       "Ads Creation": {
@@ -909,7 +909,7 @@
       },
       "Google Analytics": {
         "id": "116",
-        "job_count": 54,
+        "job_count": 52,
         "type": "leaf"
       },
       "Bing Ads": {
@@ -924,7 +924,7 @@
       },
       "Creative Advertising": {
         "id": "776",
-        "job_count": 141,
+        "job_count": 138,
         "type": "leaf"
       },
       "Scientific Advertising": {
@@ -938,24 +938,24 @@
         "type": "leaf"
       }
     },
-    "total_jobs": 2490,
+    "total_jobs": 2463,
     "type": "branch"
   },
   "SEO": {
     "children": {
       "Ahrefs": {
         "id": "118",
-        "job_count": 25,
+        "job_count": 24,
         "type": "leaf"
       },
       "Local SEO": {
         "id": "119",
-        "job_count": 221,
+        "job_count": 217,
         "type": "leaf"
       },
       "Off-Page": {
         "id": "120",
-        "job_count": 73,
+        "job_count": 74,
         "type": "leaf"
       },
       "On-Page": {
@@ -970,27 +970,27 @@
       },
       "SEO Analysis": {
         "id": "123",
-        "job_count": 141,
+        "job_count": 139,
         "type": "leaf"
       },
       "Backlinks Management": {
         "id": "124",
-        "job_count": 91,
+        "job_count": 89,
         "type": "leaf"
       },
       "Content Management": {
         "id": "125",
-        "job_count": 120,
+        "job_count": 117,
         "type": "leaf"
       },
       "Keyword Research": {
         "id": "126",
-        "job_count": 126,
+        "job_count": 130,
         "type": "leaf"
       },
       "Link Building": {
         "id": "127",
-        "job_count": 83,
+        "job_count": 84,
         "type": "leaf"
       },
       "Ranking Management": {
@@ -1000,7 +1000,7 @@
       },
       "Google Search Console": {
         "id": "778",
-        "job_count": 11,
+        "job_count": 10,
         "type": "leaf"
       },
       "Google Search Central": {
@@ -1014,7 +1014,7 @@
         "type": "leaf"
       }
     },
-    "total_jobs": 1093,
+    "total_jobs": 1086,
     "type": "branch"
   },
   "E-Commerce": {
@@ -1028,22 +1028,22 @@
           },
           "Catalog Management": {
             "id": "132",
-            "job_count": 77,
+            "job_count": 78,
             "type": "leaf"
           },
           "Seller Page Management": {
             "id": "133",
-            "job_count": 24,
+            "job_count": 23,
             "type": "leaf"
           },
           "Seller Central": {
             "id": "134",
-            "job_count": 106,
+            "job_count": 107,
             "type": "leaf"
           },
           "FBA": {
             "id": "135",
-            "job_count": 79,
+            "job_count": 77,
             "type": "leaf"
           },
           "Kindle Direct Publishing (KDP)": {
@@ -1053,7 +1053,7 @@
           },
           "Keepa": {
             "id": "137",
-            "job_count": 67,
+            "job_count": 65,
             "type": "leaf"
           },
           "Keyword Management": {
@@ -1068,12 +1068,12 @@
           },
           "Dropshipping": {
             "id": "140",
-            "job_count": 40,
+            "job_count": 41,
             "type": "leaf"
           },
           "Seller Amp SAS": {
             "id": "25335",
-            "job_count": 47,
+            "job_count": 45,
             "type": "leaf"
           },
           "JungleScout": {
@@ -1087,14 +1087,14 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 522,
+        "total_jobs": 518,
         "type": "branch"
       },
       "Logistics Management": {
         "children": {
           "Freight Forwarding": {
             "id": "37408",
-            "job_count": 23,
+            "job_count": 24,
             "type": "leaf"
           },
           "Dispatching": {
@@ -1108,12 +1108,12 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 111,
+        "total_jobs": 112,
         "type": "branch"
       },
       "Product Analysis": {
         "id": "142",
-        "job_count": 32,
+        "job_count": 31,
         "type": "leaf"
       },
       "Product Optimization": {
@@ -1123,7 +1123,7 @@
       },
       "Product Research": {
         "id": "144",
-        "job_count": 141,
+        "job_count": 137,
         "type": "leaf"
       },
       "Product Sourcing": {
@@ -1138,12 +1138,12 @@
       },
       "Brand Analysis": {
         "id": "147",
-        "job_count": 13,
+        "job_count": 14,
         "type": "leaf"
       },
       "Brand Management": {
         "id": "148",
-        "job_count": 36,
+        "job_count": 37,
         "type": "leaf"
       },
       "Inventory Management": {
@@ -1160,7 +1160,7 @@
           },
           "Purchasing": {
             "id": "152",
-            "job_count": 20,
+            "job_count": 21,
             "type": "leaf"
           },
           "Quality Control": {
@@ -1174,29 +1174,29 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 44,
+        "total_jobs": 45,
         "type": "branch"
       },
       "Clickfunnels": {
         "id": "155",
-        "job_count": 71,
+        "job_count": 73,
         "type": "leaf"
       },
       "Ebay": {
         "children": {
           "Customer Support": {
             "id": "157",
-            "job_count": 166,
+            "job_count": 163,
             "type": "leaf"
           },
           "Dropshipping": {
             "id": "158",
-            "job_count": 8,
+            "job_count": 7,
             "type": "leaf"
           },
           "Listing Management": {
             "id": "159",
-            "job_count": 13,
+            "job_count": 12,
             "type": "leaf"
           },
           "Fulfillment": {
@@ -1205,17 +1205,17 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 188,
+        "total_jobs": 183,
         "type": "branch"
       },
       "Etsy": {
         "id": "161",
-        "job_count": 22,
+        "job_count": 21,
         "type": "leaf"
       },
       "Shopify": {
         "id": "162",
-        "job_count": 586,
+        "job_count": 581,
         "type": "leaf"
       },
       "Bigcommerce": {
@@ -1225,7 +1225,7 @@
       },
       "Magento": {
         "id": "164",
-        "job_count": 10,
+        "job_count": 9,
         "type": "leaf"
       },
       "Order processing": {
@@ -1256,7 +1256,7 @@
       },
       "Funnelish": {
         "id": "31338",
-        "job_count": 61,
+        "job_count": 62,
         "type": "leaf"
       },
       "Shipstation": {
@@ -1270,7 +1270,7 @@
         "type": "leaf"
       }
     },
-    "total_jobs": 2154,
+    "total_jobs": 2140,
     "type": "branch"
   },
   "Professional Services": {
@@ -1279,12 +1279,12 @@
         "children": {
           "Costing": {
             "id": "167",
-            "job_count": 26,
+            "job_count": 25,
             "type": "leaf"
           },
           "Supply Management": {
             "id": "168",
-            "job_count": 8,
+            "job_count": 6,
             "type": "leaf"
           },
           "Earthquake": {
@@ -1329,7 +1329,7 @@
           },
           "Civil 3D": {
             "id": "28244",
-            "job_count": 7,
+            "job_count": 6,
             "type": "leaf"
           },
           "Buildxact": {
@@ -1354,7 +1354,7 @@
           },
           "Quantity Surveying": {
             "id": "33166",
-            "job_count": 16,
+            "job_count": 17,
             "type": "leaf"
           },
           "HelioScope": {
@@ -1379,7 +1379,7 @@
           },
           "Quantity Takeoff": {
             "id": "36998",
-            "job_count": 17,
+            "job_count": 18,
             "type": "leaf"
           },
           "Circuit Design": {
@@ -1388,30 +1388,30 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 226,
+        "total_jobs": 224,
         "type": "branch"
       },
       "Architectural Services": {
         "children": {
           "Auto Cad": {
             "id": "175",
-            "job_count": 48,
+            "job_count": 45,
             "type": "leaf"
           },
           "Drafting": {
             "id": "176",
-            "job_count": 33,
+            "job_count": 32,
             "type": "leaf"
           },
           "3D presentation": {
             "children": {
               "Lumion": {
                 "id": "24228",
-                "job_count": 8,
+                "job_count": 7,
                 "type": "leaf"
               }
             },
-            "total_jobs": 8,
+            "total_jobs": 7,
             "type": "branch"
           },
           "2D layout": {
@@ -1436,12 +1436,12 @@
           },
           "Enscape": {
             "id": "22341",
-            "job_count": 4,
+            "job_count": 3,
             "type": "leaf"
           },
           "D5 Render": {
             "id": "32359",
-            "job_count": 6,
+            "job_count": 5,
             "type": "leaf"
           },
           "Twinmotion": {
@@ -1450,7 +1450,7 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 109,
+        "total_jobs": 102,
         "type": "branch"
       },
       "Medical Services": {
@@ -1487,7 +1487,7 @@
           },
           "Medical Knowledge": {
             "id": "27690",
-            "job_count": 26,
+            "job_count": 25,
             "type": "leaf"
           },
           "HIPAA Compliance": {
@@ -1511,19 +1511,19 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 190,
+        "total_jobs": 189,
         "type": "branch"
       },
       "Legal Services": {
         "children": {
           "Case Management": {
             "id": "25567",
-            "job_count": 47,
+            "job_count": 45,
             "type": "leaf"
           },
           "Legal Research": {
             "id": "25569",
-            "job_count": 30,
+            "job_count": 27,
             "type": "leaf"
           },
           "Paralegal": {
@@ -1533,18 +1533,18 @@
           },
           "Legal Writing": {
             "id": "27857",
-            "job_count": 33,
+            "job_count": 32,
             "type": "leaf"
           }
         },
-        "total_jobs": 171,
+        "total_jobs": 165,
         "type": "branch"
       },
       "Management Services": {
         "children": {
           "Accounting Management": {
             "id": "185",
-            "job_count": 31,
+            "job_count": 32,
             "type": "leaf"
           },
           "Finance Management": {
@@ -1559,23 +1559,23 @@
           },
           "Advertising Management": {
             "id": "188",
-            "job_count": 24,
+            "job_count": 25,
             "type": "leaf"
           },
           "Administrative Management": {
             "id": "189",
-            "job_count": 270,
+            "job_count": 264,
             "type": "leaf"
           },
           "E-Commerce Management": {
             "children": {
               "Product Listing": {
                 "id": "24255",
-                "job_count": 65,
+                "job_count": 64,
                 "type": "leaf"
               }
             },
-            "total_jobs": 65,
+            "total_jobs": 64,
             "type": "branch"
           },
           "Construction Project Manager": {
@@ -1585,18 +1585,18 @@
           },
           "Bpo Operations Management": {
             "id": "192",
-            "job_count": 41,
+            "job_count": 40,
             "type": "leaf"
           },
           "Business Management": {
             "children": {
               "Procurement": {
                 "id": "24254",
-                "job_count": 20,
+                "job_count": 21,
                 "type": "leaf"
               }
             },
-            "total_jobs": 20,
+            "total_jobs": 21,
             "type": "branch"
           },
           "Call Center Operations Management": {
@@ -1606,7 +1606,7 @@
           },
           "Customer Support Management": {
             "id": "195",
-            "job_count": 138,
+            "job_count": 136,
             "type": "leaf"
           },
           "Events Management": {
@@ -1621,7 +1621,7 @@
           },
           "Sales Management": {
             "id": "198",
-            "job_count": 177,
+            "job_count": 179,
             "type": "leaf"
           },
           "Inventory Management": {
@@ -1642,11 +1642,11 @@
           },
           "Software Development Project Manager": {
             "id": "781",
-            "job_count": 71,
+            "job_count": 70,
             "type": "leaf"
           }
         },
-        "total_jobs": 1240,
+        "total_jobs": 1234,
         "type": "branch"
       },
       "Journalism": {
@@ -1658,11 +1658,11 @@
         "children": {
           "Photo Retouching": {
             "id": "36997",
-            "job_count": 37,
+            "job_count": 36,
             "type": "leaf"
           }
         },
-        "total_jobs": 37,
+        "total_jobs": 36,
         "type": "branch"
       },
       "Songwriting": {
@@ -1672,7 +1672,7 @@
       },
       "Business development": {
         "id": "24569",
-        "job_count": 121,
+        "job_count": 120,
         "type": "leaf"
       },
       "Videography": {
@@ -1704,11 +1704,11 @@
           },
           "Cryptocurrency": {
             "id": "38081",
-            "job_count": 23,
+            "job_count": 24,
             "type": "leaf"
           }
         },
-        "total_jobs": 47,
+        "total_jobs": 48,
         "type": "branch"
       },
       "Stock Trading": {
@@ -1749,7 +1749,7 @@
         "type": "leaf"
       }
     },
-    "total_jobs": 2207,
+    "total_jobs": 2184,
     "type": "branch"
   },
   "Project Management": {
@@ -1761,12 +1761,12 @@
       },
       "Monday": {
         "id": "203",
-        "job_count": 51,
+        "job_count": 52,
         "type": "leaf"
       },
       "Workflow": {
         "id": "204",
-        "job_count": 70,
+        "job_count": 68,
         "type": "leaf"
       },
       "Atlassian": {
@@ -1776,7 +1776,7 @@
       },
       "Trello": {
         "id": "206",
-        "job_count": 10,
+        "job_count": 11,
         "type": "leaf"
       },
       "Asana": {
@@ -1791,7 +1791,7 @@
       },
       "Airtable": {
         "id": "209",
-        "job_count": 54,
+        "job_count": 53,
         "type": "leaf"
       },
       "Appfolio": {
@@ -1811,7 +1811,7 @@
       },
       "Clickup": {
         "id": "213",
-        "job_count": 73,
+        "job_count": 72,
         "type": "leaf"
       },
       "Notion": {
@@ -1831,7 +1831,7 @@
       },
       "Agile Methodology": {
         "id": "25316",
-        "job_count": 7,
+        "job_count": 6,
         "type": "leaf"
       },
       "Smartsheet": {
@@ -1860,7 +1860,7 @@
         "type": "leaf"
       }
     },
-    "total_jobs": 479,
+    "total_jobs": 476,
     "type": "branch"
   },
   "Human Resources": {
@@ -1869,41 +1869,41 @@
         "children": {
           "US recruiting": {
             "id": "216",
-            "job_count": 74,
+            "job_count": 75,
             "type": "leaf"
           },
           "Technical recruiting": {
             "id": "217",
-            "job_count": 20,
+            "job_count": 22,
             "type": "leaf"
           },
           "Candidate Sourcing": {
             "id": "24371",
-            "job_count": 71,
+            "job_count": 76,
             "type": "leaf"
           },
           "Talent Acquisition": {
             "id": "26334",
-            "job_count": 77,
+            "job_count": 79,
             "type": "leaf"
           },
           "Applicant Tracking Systems": {
             "id": "28243",
-            "job_count": 18,
+            "job_count": 17,
             "type": "leaf"
           },
           "Candidate Screening": {
             "id": "34609",
-            "job_count": 41,
+            "job_count": 42,
             "type": "leaf"
           }
         },
-        "total_jobs": 301,
+        "total_jobs": 311,
         "type": "branch"
       },
       "Sop Writing": {
         "id": "218",
-        "job_count": 28,
+        "job_count": 26,
         "type": "leaf"
       },
       "Policy Writing": {
@@ -1924,7 +1924,7 @@
       },
       "HR Management": {
         "id": "221",
-        "job_count": 82,
+        "job_count": 79,
         "type": "leaf"
       },
       "Onboarding": {
@@ -1953,7 +1953,7 @@
         "type": "leaf"
       }
     },
-    "total_jobs": 451,
+    "total_jobs": 456,
     "type": "branch"
   },
   "Coaching": {
@@ -1981,7 +1981,7 @@
       },
       "Fitness": {
         "id": "226",
-        "job_count": 13,
+        "job_count": 14,
         "type": "leaf"
       },
       "Health And Wellness": {
@@ -1999,7 +1999,7 @@
         "children": {
           "Tutorial Teaching": {
             "id": "782",
-            "job_count": 23,
+            "job_count": 22,
             "type": "leaf"
           },
           "Teaching": {
@@ -2013,7 +2013,7 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 59,
+        "total_jobs": 58,
         "type": "branch"
       },
       "Life Coaching": {
@@ -2044,17 +2044,17 @@
     "children": {
       "Accounting": {
         "id": "233",
-        "job_count": 72,
+        "job_count": 71,
         "type": "leaf"
       },
       "Acquisition": {
         "id": "234",
-        "job_count": 121,
+        "job_count": 115,
         "type": "leaf"
       },
       "Analysis": {
         "id": "235",
-        "job_count": 40,
+        "job_count": 38,
         "type": "leaf"
       },
       "Anow": {
@@ -2064,12 +2064,12 @@
       },
       "Appointment Setting": {
         "id": "237",
-        "job_count": 187,
+        "job_count": 189,
         "type": "leaf"
       },
       "Appraisal": {
         "id": "238",
-        "job_count": 5,
+        "job_count": 6,
         "type": "leaf"
       },
       "Article Writing": {
@@ -2094,12 +2094,12 @@
       },
       "Cold Calling": {
         "id": "243",
-        "job_count": 660,
+        "job_count": 663,
         "type": "leaf"
       },
       "Commercial Real Estate": {
         "id": "244",
-        "job_count": 41,
+        "job_count": 40,
         "type": "leaf"
       },
       "Corelogic Mls Matrix": {
@@ -2119,27 +2119,27 @@
       },
       "Gohighlevel Real Estate": {
         "id": "248",
-        "job_count": 85,
+        "job_count": 87,
         "type": "leaf"
       },
       "Investing": {
         "id": "249",
-        "job_count": 4,
+        "job_count": 3,
         "type": "leaf"
       },
       "ISA Real Estate": {
         "id": "250",
-        "job_count": 62,
+        "job_count": 63,
         "type": "leaf"
       },
       "Lead Generation": {
         "id": "251",
-        "job_count": 253,
+        "job_count": 252,
         "type": "leaf"
       },
       "Listing Coordination": {
         "id": "252",
-        "job_count": 15,
+        "job_count": 14,
         "type": "leaf"
       },
       "Management": {
@@ -2154,7 +2154,7 @@
       },
       "Photo Editing": {
         "id": "256",
-        "job_count": 102,
+        "job_count": 101,
         "type": "leaf"
       },
       "Title Escrow": {
@@ -2181,7 +2181,7 @@
         "children": {
           "Airbnb": {
             "id": "262",
-            "job_count": 106,
+            "job_count": 107,
             "type": "leaf"
           },
           "Vrbo": {
@@ -2195,12 +2195,12 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 134,
+        "total_jobs": 135,
         "type": "branch"
       },
       "Mortgages": {
         "id": "264",
-        "job_count": 26,
+        "job_count": 25,
         "type": "leaf"
       },
       "REO Asset Management": {
@@ -2219,7 +2219,7 @@
         "type": "leaf"
       }
     },
-    "total_jobs": 2028,
+    "total_jobs": 2023,
     "type": "branch"
   },
   "Design": {
@@ -2254,7 +2254,7 @@
           },
           "3D modeling": {
             "id": "271",
-            "job_count": 47,
+            "job_count": 46,
             "type": "leaf"
           },
           "3D unity": {
@@ -2289,59 +2289,59 @@
           },
           "3DS Max": {
             "id": "30124",
-            "job_count": 10,
+            "job_count": 9,
             "type": "leaf"
           }
         },
-        "total_jobs": 193,
+        "total_jobs": 191,
         "type": "branch"
       },
       "Adobe": {
         "children": {
           "After Effects": {
             "id": "274",
-            "job_count": 155,
+            "job_count": 153,
             "type": "leaf"
           },
           "Indesign": {
             "id": "275",
-            "job_count": 54,
+            "job_count": 53,
             "type": "leaf"
           },
           "Photoshop": {
             "id": "276",
-            "job_count": 407,
+            "job_count": 397,
             "type": "leaf"
           },
           "Sketchup": {
             "id": "277",
-            "job_count": 18,
+            "job_count": 17,
             "type": "leaf"
           },
           "Illustrator": {
             "id": "278",
-            "job_count": 194,
+            "job_count": 193,
             "type": "leaf"
           },
           "Lightroom": {
             "id": "22334",
-            "job_count": 32,
+            "job_count": 33,
             "type": "leaf"
           }
         },
-        "total_jobs": 860,
+        "total_jobs": 846,
         "type": "branch"
       },
       "Logo Design": {
         "id": "279",
-        "job_count": 49,
+        "job_count": 50,
         "type": "leaf"
       },
       "Graphic Design": {
         "children": {
           "Canva": {
             "id": "22340",
-            "job_count": 447,
+            "job_count": 439,
             "type": "leaf"
           },
           "Clip Studio Paint": {
@@ -2363,11 +2363,11 @@
             "children": {
               "E-learning": {
                 "id": "41055",
-                "job_count": 8,
+                "job_count": 7,
                 "type": "leaf"
               }
             },
-            "total_jobs": 8,
+            "total_jobs": 7,
             "type": "branch"
           },
           "Color theory": {
@@ -2376,7 +2376,7 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 472,
+        "total_jobs": 463,
         "type": "branch"
       },
       "Font & Typographic Design": {
@@ -2388,7 +2388,7 @@
         "children": {
           "Creative Direction": {
             "id": "27686",
-            "job_count": 67,
+            "job_count": 66,
             "type": "leaf"
           },
           "Branding": {
@@ -2397,7 +2397,7 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 110,
+        "total_jobs": 109,
         "type": "branch"
       },
       "Art & Comic Design": {
@@ -2409,7 +2409,7 @@
           },
           "Illustration": {
             "id": "24221",
-            "job_count": 31,
+            "job_count": 30,
             "type": "leaf"
           },
           "Painting": {
@@ -2419,7 +2419,7 @@
           },
           "Midjourney": {
             "id": "26965",
-            "job_count": 35,
+            "job_count": 32,
             "type": "leaf"
           },
           "Cartooning": {
@@ -2433,14 +2433,14 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 88,
+        "total_jobs": 84,
         "type": "branch"
       },
       "Web Design & Page Layout": {
         "children": {
           "Landing Page Design": {
             "id": "25572",
-            "job_count": 131,
+            "job_count": 129,
             "type": "leaf"
           },
           "Flodesk": {
@@ -2450,33 +2450,33 @@
           },
           "UI UX Design": {
             "id": "40889",
-            "job_count": 135,
+            "job_count": 131,
             "type": "leaf"
           }
         },
-        "total_jobs": 269,
+        "total_jobs": 263,
         "type": "branch"
       },
       "Thumbnail & Social Media Design": {
         "id": "285",
-        "job_count": 170,
+        "job_count": 168,
         "type": "leaf"
       },
       "Advertising And Marketing Design": {
         "id": "286",
-        "job_count": 123,
+        "job_count": 122,
         "type": "leaf"
       },
       "Character Design": {
         "id": "287",
-        "job_count": 3,
+        "job_count": 4,
         "type": "leaf"
       },
       "Product Design": {
         "children": {
           "User Experience Design": {
             "id": "289",
-            "job_count": 20,
+            "job_count": 19,
             "type": "leaf"
           },
           "User Experience Research": {
@@ -2491,7 +2491,7 @@
           },
           "Design Thinking": {
             "id": "292",
-            "job_count": 3,
+            "job_count": 4,
             "type": "leaf"
           },
           "Usability Testing": {
@@ -2526,18 +2526,18 @@
           },
           "Visual Design": {
             "id": "299",
-            "job_count": 9,
+            "job_count": 8,
             "type": "leaf"
           }
         },
-        "total_jobs": 62,
+        "total_jobs": 61,
         "type": "branch"
       },
       "User Interface": {
         "children": {
           "Figma": {
             "id": "301",
-            "job_count": 228,
+            "job_count": 231,
             "type": "leaf"
           },
           "Adobe XD": {
@@ -2547,7 +2547,7 @@
           },
           "Sketch": {
             "id": "303",
-            "job_count": 3,
+            "job_count": 2,
             "type": "leaf"
           },
           "Invision": {
@@ -2556,7 +2556,7 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 238,
+        "total_jobs": 240,
         "type": "branch"
       },
       "Print Design": {
@@ -2577,17 +2577,17 @@
       },
       "Autocad": {
         "id": "23388",
-        "job_count": 32,
+        "job_count": 30,
         "type": "leaf"
       },
       "Revit": {
         "id": "24257",
-        "job_count": 30,
+        "job_count": 27,
         "type": "leaf"
       },
       "Funnel Design": {
         "id": "32360",
-        "job_count": 154,
+        "job_count": 152,
         "type": "leaf"
       },
       "Photo Editing": {
@@ -2622,7 +2622,7 @@
         "type": "leaf"
       }
     },
-    "total_jobs": 2906,
+    "total_jobs": 2863,
     "type": "branch"
   },
   "Video Editing": {
@@ -2641,7 +2641,7 @@
         "children": {
           "2d Animation": {
             "id": "23632",
-            "job_count": 57,
+            "job_count": 58,
             "type": "leaf"
           },
           "Houdini": {
@@ -2650,7 +2650,7 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 57,
+        "total_jobs": 58,
         "type": "branch"
       },
       "Flm Scoring": {
@@ -2667,26 +2667,26 @@
         "children": {
           "Storyboarding": {
             "id": "38637",
-            "job_count": 21,
+            "job_count": 22,
             "type": "leaf"
           }
         },
-        "total_jobs": 21,
+        "total_jobs": 22,
         "type": "branch"
       },
       "Social Media Video Editing": {
         "id": "312",
-        "job_count": 996,
+        "job_count": 998,
         "type": "leaf"
       },
       "Adobe Premiere Pro": {
         "id": "313",
-        "job_count": 390,
+        "job_count": 389,
         "type": "leaf"
       },
       "Apple Final Cut Pro": {
         "id": "314",
-        "job_count": 47,
+        "job_count": 44,
         "type": "leaf"
       },
       "Apple Imovie": {
@@ -2736,21 +2736,21 @@
       },
       "CapCut": {
         "id": "23395",
-        "job_count": 198,
+        "job_count": 199,
         "type": "leaf"
       },
       "Captioning": {
         "id": "23396",
-        "job_count": 4,
+        "job_count": 3,
         "type": "leaf"
       },
       "Color Grading": {
         "id": "28299",
-        "job_count": 28,
+        "job_count": 27,
         "type": "leaf"
       }
     },
-    "total_jobs": 1971,
+    "total_jobs": 1970,
     "type": "branch"
   },
   "Audio Editing": {
@@ -2834,11 +2834,11 @@
         "children": {
           "Voice Acting": {
             "id": "25336",
-            "job_count": 6,
+            "job_count": 4,
             "type": "leaf"
           }
         },
-        "total_jobs": 6,
+        "total_jobs": 4,
         "type": "branch"
       },
       "Sound Design": {
@@ -2847,7 +2847,7 @@
         "type": "leaf"
       }
     },
-    "total_jobs": 50,
+    "total_jobs": 48,
     "type": "branch"
   },
   "Customer Support": {
@@ -2859,7 +2859,7 @@
       },
       "Chat Support": {
         "id": "341",
-        "job_count": 99,
+        "job_count": 96,
         "type": "leaf"
       },
       "Technical Support": {
@@ -2871,11 +2871,11 @@
         "children": {
           "English Speaking": {
             "id": "758",
-            "job_count": 917,
+            "job_count": 911,
             "type": "leaf"
           }
         },
-        "total_jobs": 917,
+        "total_jobs": 911,
         "type": "branch"
       },
       "Ecommerce": {
@@ -2884,11 +2884,11 @@
             "children": {
               "Helium10": {
                 "id": "25327",
-                "job_count": 23,
+                "job_count": 22,
                 "type": "leaf"
               }
             },
-            "total_jobs": 23,
+            "total_jobs": 22,
             "type": "branch"
           },
           "Ebay": {
@@ -2898,12 +2898,12 @@
           },
           "B2B": {
             "id": "347",
-            "job_count": 50,
+            "job_count": 48,
             "type": "leaf"
           },
           "Shopify": {
             "id": "348",
-            "job_count": 75,
+            "job_count": 73,
             "type": "leaf"
           },
           "B2C": {
@@ -2912,7 +2912,7 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 157,
+        "total_jobs": 152,
         "type": "branch"
       },
       "SaaS": {
@@ -2939,7 +2939,7 @@
       },
       "Mortgage": {
         "id": "351",
-        "job_count": 20,
+        "job_count": 18,
         "type": "leaf"
       },
       "Healthcare": {
@@ -2955,7 +2955,7 @@
       },
       "Social Media Moderation": {
         "id": "353",
-        "job_count": 36,
+        "job_count": 35,
         "type": "leaf"
       },
       "Forum Community Moderation": {
@@ -2965,7 +2965,7 @@
       },
       "Content Management": {
         "id": "355",
-        "job_count": 19,
+        "job_count": 17,
         "type": "leaf"
       },
       "Insurance": {
@@ -3013,17 +3013,17 @@
         "children": {
           "Account Acquisition": {
             "id": "362",
-            "job_count": 78,
+            "job_count": 79,
             "type": "leaf"
           },
           "Account Retention": {
             "id": "363",
-            "job_count": 28,
+            "job_count": 27,
             "type": "leaf"
           },
           "Hotel Booking": {
             "id": "364",
-            "job_count": 8,
+            "job_count": 10,
             "type": "leaf"
           },
           "Flight Booking": {
@@ -3043,12 +3043,12 @@
           },
           "Lead Generation": {
             "id": "368",
-            "job_count": 420,
+            "job_count": 419,
             "type": "leaf"
           },
           "Credit Repair": {
             "id": "369",
-            "job_count": 73,
+            "job_count": 74,
             "type": "leaf"
           },
           "Prospecting": {
@@ -3067,7 +3067,7 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 656,
+        "total_jobs": 658,
         "type": "branch"
       },
       "Customer Service": {
@@ -3084,7 +3084,7 @@
           },
           "Gorgias": {
             "id": "23643",
-            "job_count": 15,
+            "job_count": 13,
             "type": "leaf"
           },
           "Payment Processing": {
@@ -3099,21 +3099,21 @@
           },
           "Chargeback Analysis": {
             "id": "38286",
-            "job_count": 13,
+            "job_count": 14,
             "type": "leaf"
           }
         },
-        "total_jobs": 49,
+        "total_jobs": 48,
         "type": "branch"
       },
       "Active Listening": {
         "id": "21863",
-        "job_count": 92,
+        "job_count": 94,
         "type": "leaf"
       },
       "Customer Relationship Management": {
         "id": "29071",
-        "job_count": 139,
+        "job_count": 137,
         "type": "leaf"
       },
       "Product Knowledge": {
@@ -3132,7 +3132,7 @@
         "type": "leaf"
       }
     },
-    "total_jobs": 2719,
+    "total_jobs": 2701,
     "type": "branch"
   },
   "Office and Administration": {
@@ -3212,17 +3212,17 @@
       },
       "Microsoft Excel": {
         "id": "377",
-        "job_count": 320,
+        "job_count": 313,
         "type": "leaf"
       },
       "Microsoft Power Point": {
         "id": "378",
-        "job_count": 17,
+        "job_count": 18,
         "type": "leaf"
       },
       "Microsoft Word": {
         "id": "379",
-        "job_count": 31,
+        "job_count": 30,
         "type": "leaf"
       },
       "Google Docs": {
@@ -3232,7 +3232,7 @@
       },
       "Google Sheets": {
         "id": "381",
-        "job_count": 235,
+        "job_count": 229,
         "type": "leaf"
       },
       "Google Slides": {
@@ -3247,7 +3247,7 @@
       },
       "Email Handling": {
         "id": "384",
-        "job_count": 42,
+        "job_count": 41,
         "type": "leaf"
       },
       "Calendar Management": {
@@ -3279,7 +3279,7 @@
       },
       "Email Management": {
         "id": "788",
-        "job_count": 146,
+        "job_count": 145,
         "type": "leaf"
       },
       "Travel Planning": {
@@ -3296,21 +3296,21 @@
           },
           "Sabre": {
             "id": "24260",
-            "job_count": 7,
+            "job_count": 8,
             "type": "leaf"
           }
         },
-        "total_jobs": 16,
+        "total_jobs": 17,
         "type": "branch"
       },
       "Personal Assistant": {
         "id": "790",
-        "job_count": 125,
+        "job_count": 122,
         "type": "leaf"
       },
       "Attention to Detail": {
         "id": "22214",
-        "job_count": 375,
+        "job_count": 377,
         "type": "leaf"
       },
       "Adaptability": {
@@ -3320,7 +3320,7 @@
       },
       "Administrative Support": {
         "id": "22336",
-        "job_count": 161,
+        "job_count": 164,
         "type": "leaf"
       },
       "Collaboration": {
@@ -3342,11 +3342,11 @@
           },
           "Prompt Engineering": {
             "id": "40718",
-            "job_count": 22,
+            "job_count": 21,
             "type": "leaf"
           }
         },
-        "total_jobs": 151,
+        "total_jobs": 150,
         "type": "branch"
       },
       "Communication": {
@@ -3358,12 +3358,12 @@
           },
           "Public Speaking": {
             "id": "27692",
-            "job_count": 10,
+            "job_count": 9,
             "type": "leaf"
           },
           "Spanish Bilingual": {
             "id": "27694",
-            "job_count": 93,
+            "job_count": 91,
             "type": "leaf"
           },
           "Korean Bilingual": {
@@ -3377,7 +3377,7 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 124,
+        "total_jobs": 121,
         "type": "branch"
       },
       "Creativity": {
@@ -3387,7 +3387,7 @@
       },
       "Creative Problem Solving": {
         "id": "23607",
-        "job_count": 39,
+        "job_count": 38,
         "type": "leaf"
       },
       "Critical Thinking": {
@@ -3449,17 +3449,17 @@
       },
       "Google Workspace": {
         "id": "23642",
-        "job_count": 21,
+        "job_count": 22,
         "type": "leaf"
       },
       "Account Management": {
         "id": "23970",
-        "job_count": 69,
+        "job_count": 68,
         "type": "leaf"
       },
       "Accuracy Verification": {
         "id": "24001",
-        "job_count": 7,
+        "job_count": 6,
         "type": "leaf"
       },
       "Annotating": {
@@ -3474,22 +3474,22 @@
       },
       "Coordination": {
         "id": "24008",
-        "job_count": 31,
+        "job_count": 30,
         "type": "leaf"
       },
       "Computer Literacy": {
         "id": "24215",
-        "job_count": 85,
+        "job_count": 83,
         "type": "leaf"
       },
       "English": {
         "id": "24217",
-        "job_count": 261,
+        "job_count": 257,
         "type": "leaf"
       },
       "Emotional Intelligence": {
         "id": "24218",
-        "job_count": 15,
+        "job_count": 14,
         "type": "leaf"
       },
       "Interpersonal": {
@@ -3499,7 +3499,7 @@
       },
       "Leadership": {
         "id": "24227",
-        "job_count": 53,
+        "job_count": 55,
         "type": "leaf"
       },
       "Microsoft Outlook": {
@@ -3509,7 +3509,7 @@
       },
       "Organization": {
         "id": "24242",
-        "job_count": 413,
+        "job_count": 415,
         "type": "leaf"
       },
       "Public Relation": {
@@ -3519,7 +3519,7 @@
       },
       "Power BI": {
         "id": "24248",
-        "job_count": 32,
+        "job_count": 31,
         "type": "leaf"
       },
       "PowerApps": {
@@ -3550,12 +3550,12 @@
       },
       "Stakeholder Management": {
         "id": "24374",
-        "job_count": 6,
+        "job_count": 5,
         "type": "leaf"
       },
       "Time Managment": {
         "id": "24383",
-        "job_count": 98,
+        "job_count": 99,
         "type": "leaf"
       },
       "Microsoft 365": {
@@ -3581,17 +3581,17 @@
       },
       "Data Management": {
         "id": "25324",
-        "job_count": 17,
+        "job_count": 18,
         "type": "leaf"
       },
       "English Proficiency": {
         "id": "25325",
-        "job_count": 731,
+        "job_count": 720,
         "type": "leaf"
       },
       "Operation Management": {
         "id": "25329",
-        "job_count": 183,
+        "job_count": 186,
         "type": "leaf"
       },
       "Quality Assurance": {
@@ -3607,7 +3607,7 @@
       },
       "Analytical": {
         "id": "25566",
-        "job_count": 26,
+        "job_count": 25,
         "type": "leaf"
       },
       "File Management": {
@@ -3622,12 +3622,12 @@
       },
       "Client Relationship Management": {
         "id": "28579",
-        "job_count": 166,
+        "job_count": 165,
         "type": "leaf"
       },
       "Debt Collection": {
         "id": "30473",
-        "job_count": 14,
+        "job_count": 15,
         "type": "leaf"
       },
       "Records Management": {
@@ -3642,12 +3642,12 @@
       },
       "Work Ethics": {
         "id": "31729",
-        "job_count": 9,
+        "job_count": 10,
         "type": "leaf"
       },
       "Jotform": {
         "id": "31783",
-        "job_count": 2,
+        "job_count": 1,
         "type": "leaf"
       },
       "Technology Proficiency": {
@@ -3657,17 +3657,17 @@
       },
       "Team Collaboration": {
         "id": "32369",
-        "job_count": 29,
+        "job_count": 28,
         "type": "leaf"
       },
       "Team Leadership": {
         "id": "32370",
-        "job_count": 169,
+        "job_count": 166,
         "type": "leaf"
       },
       "Teamwork": {
         "id": "32371",
-        "job_count": 16,
+        "job_count": 17,
         "type": "leaf"
       },
       "Content Moderation": {
@@ -3682,12 +3682,12 @@
       },
       "Logical Reasoning": {
         "id": "35036",
-        "job_count": 8,
+        "job_count": 7,
         "type": "leaf"
       },
       "Negotation": {
         "id": "35037",
-        "job_count": 42,
+        "job_count": 43,
         "type": "leaf"
       },
       "Stenography": {
@@ -3697,12 +3697,12 @@
       },
       "Executive Assistance": {
         "id": "38287",
-        "job_count": 370,
+        "job_count": 364,
         "type": "leaf"
       },
       "Regulatory Compliance": {
         "id": "38636",
-        "job_count": 28,
+        "job_count": 26,
         "type": "leaf"
       },
       "Travel Management": {
@@ -3717,7 +3717,7 @@
       },
       "Multitasking": {
         "id": "39097",
-        "job_count": 56,
+        "job_count": 58,
         "type": "leaf"
       },
       "Resourcefulness": {
@@ -3732,7 +3732,7 @@
       },
       "Self-motivation": {
         "id": "39101",
-        "job_count": 45,
+        "job_count": 46,
         "type": "leaf"
       },
       "Tech-Savvy": {
@@ -3742,7 +3742,7 @@
       },
       "Task Prioritization": {
         "id": "39103",
-        "job_count": 23,
+        "job_count": 22,
         "type": "leaf"
       },
       "Writing": {
@@ -3752,7 +3752,7 @@
       },
       "Web Scraping": {
         "id": "39277",
-        "job_count": 22,
+        "job_count": 21,
         "type": "leaf"
       },
       "Note Taking": {
@@ -3761,7 +3761,7 @@
         "type": "leaf"
       }
     },
-    "total_jobs": 5719,
+    "total_jobs": 5678,
     "type": "branch"
   },
   "Web Programming": {
@@ -3867,11 +3867,11 @@
             "children": {
               "Livewire": {
                 "id": "24226",
-                "job_count": 2,
+                "job_count": 1,
                 "type": "leaf"
               }
             },
-            "total_jobs": 2,
+            "total_jobs": 1,
             "type": "branch"
           },
           "CodeIgniter": {
@@ -3880,7 +3880,7 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 15,
+        "total_jobs": 14,
         "type": "branch"
       },
       "Ruby": {
@@ -3943,7 +3943,7 @@
           },
           "Silverstripe CMS": {
             "id": "422",
-            "job_count": 0,
+            "job_count": 1,
             "type": "leaf"
           },
           "Composr CMS": {
@@ -3958,7 +3958,7 @@
           },
           "Wordpress": {
             "id": "425",
-            "job_count": 206,
+            "job_count": 204,
             "type": "leaf"
           },
           "Drupal": {
@@ -3988,12 +3988,12 @@
           },
           "Shopify": {
             "id": "431",
-            "job_count": 55,
+            "job_count": 51,
             "type": "leaf"
           },
           "Webflow": {
             "id": "432",
-            "job_count": 35,
+            "job_count": 34,
             "type": "leaf"
           },
           "Umbraco": {
@@ -4002,7 +4002,7 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 313,
+        "total_jobs": 307,
         "type": "branch"
       },
       "Headless CMS": {
@@ -4175,12 +4175,12 @@
         "children": {
           "Node JS": {
             "id": "467",
-            "job_count": 67,
+            "job_count": 65,
             "type": "leaf"
           },
           "Vue JS": {
             "id": "468",
-            "job_count": 17,
+            "job_count": 16,
             "type": "leaf"
           },
           "Vite": {
@@ -4195,12 +4195,12 @@
           },
           "Vue 3": {
             "id": "471",
-            "job_count": 1,
+            "job_count": 2,
             "type": "leaf"
           },
           "React JS": {
             "id": "472",
-            "job_count": 106,
+            "job_count": 105,
             "type": "leaf"
           },
           "Express JS": {
@@ -4285,7 +4285,7 @@
           },
           "Typescript": {
             "id": "489",
-            "job_count": 42,
+            "job_count": 41,
             "type": "leaf"
           },
           "Strapi": {
@@ -4305,7 +4305,7 @@
           },
           "Liquid": {
             "id": "493",
-            "job_count": 17,
+            "job_count": 18,
             "type": "leaf"
           },
           "HAML": {
@@ -4325,11 +4325,11 @@
           },
           "JSON": {
             "id": "34514",
-            "job_count": 14,
+            "job_count": 15,
             "type": "leaf"
           }
         },
-        "total_jobs": 332,
+        "total_jobs": 330,
         "type": "branch"
       },
       "CSS": {
@@ -4361,7 +4361,7 @@
           },
           "TailwindCSS": {
             "id": "503",
-            "job_count": 17,
+            "job_count": 18,
             "type": "leaf"
           },
           "Foundation": {
@@ -4585,12 +4585,12 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 25,
+        "total_jobs": 26,
         "type": "branch"
       },
       "HTML": {
         "id": "549",
-        "job_count": 102,
+        "job_count": 97,
         "type": "leaf"
       },
       "Python": {
@@ -4676,7 +4676,7 @@
       },
       "Blazor": {
         "id": "27631",
-        "job_count": 2,
+        "job_count": 1,
         "type": "leaf"
       },
       "Zustand": {
@@ -4685,7 +4685,7 @@
         "type": "leaf"
       }
     },
-    "total_jobs": 823,
+    "total_jobs": 809,
     "type": "branch"
   },
   "Website Builder": {
@@ -4727,12 +4727,12 @@
       },
       "Shopify": {
         "id": "569",
-        "job_count": 154,
+        "job_count": 153,
         "type": "leaf"
       },
       "Squarespace": {
         "id": "570",
-        "job_count": 48,
+        "job_count": 49,
         "type": "leaf"
       },
       "Strikingly": {
@@ -4774,7 +4774,7 @@
         "children": {
           "Woocommerce": {
             "id": "792",
-            "job_count": 80,
+            "job_count": 78,
             "type": "leaf"
           },
           "Elementor": {
@@ -4783,7 +4783,7 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 209,
+        "total_jobs": 207,
         "type": "branch"
       },
       "Zyro": {
@@ -4798,7 +4798,7 @@
       },
       "Kajabi": {
         "id": "24225",
-        "job_count": 66,
+        "job_count": 67,
         "type": "leaf"
       },
       "Bubble.io": {
@@ -4817,14 +4817,14 @@
         "type": "leaf"
       }
     },
-    "total_jobs": 635,
+    "total_jobs": 634,
     "type": "branch"
   },
   "Software": {
     "children": {
       "C#": {
         "id": "581",
-        "job_count": 26,
+        "job_count": 25,
         "type": "leaf"
       },
       "Javascript": {
@@ -4880,12 +4880,12 @@
       },
       "Python": {
         "id": "591",
-        "job_count": 89,
+        "job_count": 88,
         "type": "leaf"
       },
       "Fullstack": {
         "id": "592",
-        "job_count": 103,
+        "job_count": 100,
         "type": "leaf"
       },
       "Abap": {
@@ -4928,12 +4928,12 @@
           },
           "BI": {
             "id": "601",
-            "job_count": 7,
+            "job_count": 6,
             "type": "leaf"
           },
           "SQL": {
             "id": "602",
-            "job_count": 47,
+            "job_count": 48,
             "type": "leaf"
           },
           "R": {
@@ -4959,7 +4959,7 @@
         "children": {
           "Bash": {
             "id": "606",
-            "job_count": 4,
+            "job_count": 5,
             "type": "leaf"
           },
           "Powershell": {
@@ -4974,7 +4974,7 @@
           },
           "Docker": {
             "id": "609",
-            "job_count": 14,
+            "job_count": 15,
             "type": "leaf"
           },
           "Kubernetes": {
@@ -4998,7 +4998,7 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 34,
+        "total_jobs": 36,
         "type": "branch"
       },
       "Mobile Development": {
@@ -5015,7 +5015,7 @@
           },
           "React Native": {
             "id": "617",
-            "job_count": 35,
+            "job_count": 32,
             "type": "leaf"
           },
           "Objective-C": {
@@ -5065,16 +5065,16 @@
           },
           "iOS Development": {
             "id": "795",
-            "job_count": 20,
+            "job_count": 19,
             "type": "leaf"
           },
           "Android Development": {
             "id": "796",
-            "job_count": 11,
+            "job_count": 10,
             "type": "leaf"
           }
         },
-        "total_jobs": 106,
+        "total_jobs": 101,
         "type": "branch"
       },
       "Game Development": {
@@ -5102,7 +5102,7 @@
           },
           "REST API": {
             "id": "632",
-            "job_count": 54,
+            "job_count": 55,
             "type": "leaf"
           },
           "Soap": {
@@ -5126,7 +5126,7 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 91,
+        "total_jobs": 92,
         "type": "branch"
       },
       "Databases": {
@@ -5183,7 +5183,7 @@
           },
           "Firebase": {
             "id": "648",
-            "job_count": 12,
+            "job_count": 11,
             "type": "leaf"
           },
           "Supabase": {
@@ -5222,7 +5222,7 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 143,
+        "total_jobs": 142,
         "type": "branch"
       },
       "Application Performance Management": {
@@ -5377,7 +5377,7 @@
           },
           "Test Automation": {
             "id": "27695",
-            "job_count": 17,
+            "job_count": 16,
             "type": "leaf"
           },
           "Manual Testing": {
@@ -5391,7 +5391,7 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 43,
+        "total_jobs": 42,
         "type": "branch"
       },
       "Network Administration": {
@@ -5408,12 +5408,12 @@
           },
           "Network Security": {
             "id": "37412",
-            "job_count": 11,
+            "job_count": 12,
             "type": "leaf"
           },
           "Network Troubleshooting": {
             "id": "37782",
-            "job_count": 15,
+            "job_count": 14,
             "type": "leaf"
           }
         },
@@ -5507,7 +5507,7 @@
       },
       "GitHub": {
         "id": "34027",
-        "job_count": 8,
+        "job_count": 9,
         "type": "leaf"
       },
       "Mulesoft": {
@@ -5542,7 +5542,7 @@
       },
       "FlutterFlow": {
         "id": "37407",
-        "job_count": 8,
+        "job_count": 7,
         "type": "leaf"
       },
       "HelpScout": {
@@ -5567,11 +5567,11 @@
       },
       "ConnectWise": {
         "id": "40925",
-        "job_count": 5,
+        "job_count": 4,
         "type": "leaf"
       }
     },
-    "total_jobs": 1242,
+    "total_jobs": 1232,
     "type": "branch"
   },
   "Cloud Services": {
@@ -5821,7 +5821,7 @@
           },
           "Database - SQL Edge": {
             "id": "723",
-            "job_count": 2,
+            "job_count": 1,
             "type": "leaf"
           },
           "Database - Table Storage": {
@@ -5870,7 +5870,7 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 26,
+        "total_jobs": 25,
         "type": "branch"
       },
       "Google Cloud": {
@@ -5897,12 +5897,12 @@
           },
           "Machine Learning": {
             "id": "738",
-            "job_count": 12,
+            "job_count": 11,
             "type": "leaf"
           },
           "Identity & Security": {
             "id": "739",
-            "job_count": 1,
+            "job_count": 3,
             "type": "leaf"
           },
           "Management and Developer Tools": {
@@ -5911,14 +5911,14 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 31,
+        "total_jobs": 32,
         "type": "branch"
       },
       "IBM Cloud": {
         "children": {
           "Machine Learning": {
             "id": "742",
-            "job_count": 3,
+            "job_count": 2,
             "type": "leaf"
           },
           "Analytics": {
@@ -5953,7 +5953,7 @@
           },
           "Integration": {
             "id": "749",
-            "job_count": 12,
+            "job_count": 11,
             "type": "leaf"
           },
           "Internet of Things": {
@@ -5967,12 +5967,12 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 20,
+        "total_jobs": 18,
         "type": "branch"
       },
       "Snowflake": {
         "id": "37415",
-        "job_count": 3,
+        "job_count": 4,
         "type": "leaf"
       },
       "Cloud Computing": {
@@ -5981,7 +5981,7 @@
         "type": "leaf"
       }
     },
-    "total_jobs": 101,
+    "total_jobs": 100,
     "type": "branch"
   },
   "Systems Administration": {
@@ -5993,26 +5993,26 @@
       },
       "Linux Administrator": {
         "id": "14704",
-        "job_count": 17,
+        "job_count": 16,
         "type": "leaf"
       },
       "Windows Administrator": {
         "id": "14705",
-        "job_count": 15,
+        "job_count": 16,
         "type": "leaf"
       },
       "System Analysis": {
         "id": "32366",
-        "job_count": 9,
+        "job_count": 7,
         "type": "leaf"
       }
     },
-    "total_jobs": 64,
+    "total_jobs": 62,
     "type": "branch"
   },
   "Loan Processing": {
     "id": "29578",
-    "job_count": 33,
+    "job_count": 32,
     "type": "leaf"
   },
   "Research": {
@@ -6033,12 +6033,12 @@
   },
   "Virtual Assistant": {
     "id": "38361",
-    "job_count": 526,
+    "job_count": 516,
     "type": "leaf"
   },
   "Web Development": {
     "id": "40404",
-    "job_count": 183,
+    "job_count": 179,
     "type": "leaf"
   }
 }
