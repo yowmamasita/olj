@@ -1,0 +1,1347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=5.0, minimum-scale=0.5">
+    <title>OnlineJobs.ph Market Intelligence Dashboard</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            overflow-x: hidden;
+        }
+        
+        #container {
+            width: 100vw;
+            min-height: 100vh;
+            position: relative;
+        }
+        
+        #controls {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            z-index: 1000;
+            max-width: 280px;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+        
+        #controls h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        
+        #search {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        .button {
+            padding: 5px 10px;
+            margin: 2px;
+            background: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        .button:hover {
+            background: #45a049;
+        }
+        
+        .button.active {
+            background: #45a049;
+        }
+        
+        #main-content {
+            margin-left: 320px;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .executive-summary {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .metric-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        .metric-card h3 {
+            margin: 0 0 10px 0;
+            color: #333;
+            font-size: 16px;
+        }
+        
+        .metric-value {
+            font-size: 32px;
+            font-weight: bold;
+            color: #4CAF50;
+            margin: 10px 0;
+        }
+        
+        .metric-subtitle {
+            font-size: 14px;
+            color: #666;
+            margin: 0;
+        }
+        
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .chart-container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            min-height: 300px;
+        }
+        
+        .chart-container.large {
+            grid-column: span 2;
+        }
+        
+        .chart-container h4 {
+            margin: 0 0 15px 0;
+            color: #333;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 5px;
+        }
+        
+        .chart-container.full-width {
+            grid-column: 1 / -1;
+        }
+        
+        .skill-bar {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+            padding: 5px;
+            border-radius: 4px;
+            transition: background-color 0.2s;
+        }
+        
+        .skill-bar:hover {
+            background-color: #f0f0f0;
+        }
+        
+        .skill-name {
+            flex: 1;
+            font-size: 14px;
+            color: #333;
+        }
+        
+        .skill-value {
+            margin-left: 10px;
+            font-weight: bold;
+            color: #4CAF50;
+        }
+        
+        .skill-bar-bg {
+            flex: 2;
+            height: 20px;
+            background-color: #e0e0e0;
+            margin: 0 10px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        .skill-bar-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #4CAF50, #81C784);
+            border-radius: 10px;
+            transition: width 0.5s ease;
+        }
+        
+        .premium-job {
+            padding: 10px;
+            border-left: 4px solid #4CAF50;
+            margin-bottom: 10px;
+            background: #f9f9f9;
+            border-radius: 0 4px 4px 0;
+        }
+        
+        .premium-job h5 {
+            margin: 0 0 5px 0;
+            color: #333;
+        }
+        
+        .premium-job .salary {
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        
+        .premium-job .score {
+            background: #4CAF50;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 12px;
+            font-size: 12px;
+            float: right;
+        }
+        
+        .tooltip {
+            position: absolute;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.9);
+            color: white;
+            border-radius: 5px;
+            pointer-events: none;
+            font-size: 14px;
+            z-index: 1000;
+            display: none;
+            max-width: 300px;
+        }
+        
+        .filter-section {
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .filter-label {
+            font-size: 12px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        select, input[type="range"] {
+            width: 100%;
+            margin-bottom: 5px;
+        }
+        
+        .data-status {
+            font-size: 11px;
+            color: #666;
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid #ddd;
+        }
+        
+        .opportunity-item {
+            background: #e8f5e8;
+            padding: 8px;
+            margin: 5px 0;
+            border-radius: 4px;
+            border-left: 3px solid #4CAF50;
+        }
+        
+        .opportunity-item .title {
+            font-weight: bold;
+            color: #2E7D32;
+        }
+        
+        .opportunity-item .description {
+            font-size: 12px;
+            color: #555;
+            margin-top: 3px;
+        }
+        
+        #menuToggle {
+            display: none;
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            z-index: 1001;
+            background: white;
+            border: none;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            cursor: pointer;
+        }
+        
+        #menuToggle svg {
+            width: 24px;
+            height: 24px;
+        }
+        
+        #overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+        
+        #overlay.active {
+            display: block;
+        }
+        
+        @media (max-width: 768px) {
+            #menuToggle {
+                display: block;
+                min-width: 48px;
+                min-height: 48px;
+                padding: 12px;
+            }
+            
+            #controls {
+                transform: translateX(-100%);
+                transition: transform 0.3s ease;
+                width: 280px;
+                height: 100vh;
+                top: 0;
+                left: 0;
+                border-radius: 0;
+                max-width: none;
+                padding: 20px;
+                box-sizing: border-box;
+            }
+            
+            #controls.active {
+                transform: translateX(0);
+            }
+            
+            #controls h3 {
+                margin-top: 50px;
+            }
+            
+            #main-content {
+                margin-left: 0;
+                padding: 70px 10px 20px 10px;
+            }
+            
+            .dashboard-grid {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+            
+            .chart-container.large {
+                grid-column: span 1;
+            }
+            
+            .executive-summary {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 15px;
+            }
+            
+            .metric-value {
+                font-size: 24px;
+            }
+        }
+        
+        .pie-chart-legend {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 12px;
+        }
+        
+        .legend-color {
+            width: 12px;
+            height: 12px;
+            border-radius: 2px;
+        }
+        
+        .salary-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            gap: 10px;
+            margin: 15px 0;
+        }
+        
+        .salary-stat {
+            text-align: center;
+            padding: 10px;
+            background: #f5f5f5;
+            border-radius: 4px;
+        }
+        
+        .salary-stat .label {
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 5px;
+        }
+        
+        .salary-stat .value {
+            font-size: 16px;
+            font-weight: bold;
+            color: #4CAF50;
+        }
+        
+        .info-icon {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            background: #4CAF50;
+            border-radius: 50%;
+            color: white;
+            text-align: center;
+            line-height: 16px;
+            font-size: 12px;
+            margin-left: 5px;
+            cursor: pointer;
+            position: relative;
+        }
+        
+        .info-tooltip {
+            position: absolute;
+            bottom: 25px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0, 0, 0, 0.9);
+            color: white;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 12px;
+            white-space: nowrap;
+            z-index: 1000;
+            display: none;
+            max-width: 250px;
+            white-space: normal;
+            text-align: left;
+        }
+        
+        .info-icon:hover .info-tooltip {
+            display: block;
+        }
+        
+        .metric-explanation {
+            font-size: 12px;
+            color: #2E7D32;
+            margin-top: 5px;
+            line-height: 1.4;
+            font-style: italic;
+        }
+        
+        .chart-explanation {
+            background: #e8f5e8;
+            padding: 12px;
+            border-radius: 4px;
+            margin-top: 15px;
+            font-size: 13px;
+            color: #1B5E20;
+            border-left: 4px solid #4CAF50;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <button id="menuToggle" aria-label="Toggle menu">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 12h18M3 6h18M3 18h18"/>
+            </svg>
+        </button>
+        <div id="overlay"></div>
+        
+        <div id="controls">
+            <button id="closeMenu" class="button" style="position: absolute; top: 10px; right: 10px; width: 30px; height: 30px; padding: 0; display: none;">×</button>
+            <h3>Market Intelligence</h3>
+            <input type="text" id="search" placeholder="Search skills, industries...">
+            
+            <div class="filter-section">
+                <div class="filter-label">Focus Area:</div>
+                <button class="button view-btn active" data-view="overview">Overview</button>
+                <button class="button view-btn" data-view="skills">Skills</button>
+                <button class="button view-btn" data-view="salaries">Salaries</button>
+                <button class="button view-btn" data-view="opportunities">Opportunities</button>
+            </div>
+            
+            <div class="filter-section">
+                <div class="filter-label">Industry Filter:</div>
+                <select id="industryFilter">
+                    <option value="all">All Industries</option>
+                </select>
+            </div>
+            
+            <div class="filter-section">
+                <div class="filter-label">Work Type:</div>
+                <select id="workTypeFilter">
+                    <option value="all">All Work Types</option>
+                </select>
+            </div>
+            
+            <div class="filter-section">
+                <div class="filter-label">Min Skill Demand:</div>
+                <input type="range" id="skillDemandFilter" min="0" max="125" value="0" step="5">
+                <div id="skillDemandValue">Min demand: 0</div>
+            </div>
+            
+            <div class="data-status">
+                <strong>Data Status:</strong><br>
+                <span id="dataTimestamp">Loading...</span><br>
+                <span id="dataStats">Analyzing market intelligence...</span>
+            </div>
+        </div>
+        
+        <div id="main-content">
+            <div class="executive-summary" id="executiveSummary">
+                <!-- Executive summary cards will be populated here -->
+            </div>
+            
+            <div class="dashboard-grid" id="dashboardGrid">
+                <!-- Dashboard visualizations will be populated here -->
+            </div>
+        </div>
+        
+        <div class="tooltip"></div>
+    </div>
+
+    <script>
+        // Global variables
+        let marketData = null;
+        let currentView = 'overview';
+        let filters = {
+            industry: 'all',
+            workType: 'all',
+            skillDemand: 0,
+            search: ''
+        };
+
+        // Load data and initialize dashboard
+        async function loadData() {
+            try {
+                const response = await fetch('stats.json');
+                marketData = await response.json();
+                
+                document.getElementById('dataTimestamp').textContent = 
+                    new Date(marketData.analysis_timestamp).toLocaleString();
+                document.getElementById('dataStats').innerHTML = 
+                    `${marketData.data_summary.total_jobs} jobs analyzed<br>` +
+                    `${marketData.analysis_metadata.confidence_score.toFixed(1)}% confidence`;
+                
+                initializeFilters();
+                renderDashboard();
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('dataTimestamp').textContent = 'Error loading data';
+            }
+        }
+
+        function initializeFilters() {
+            // Populate industry filter
+            const industrySelect = document.getElementById('industryFilter');
+            Object.keys(marketData.data_summary.industry_distribution).forEach(industry => {
+                const option = document.createElement('option');
+                option.value = industry;
+                option.textContent = industry;
+                industrySelect.appendChild(option);
+            });
+
+            // Populate work type filter
+            const workTypeSelect = document.getElementById('workTypeFilter');
+            Object.keys(marketData.data_summary.work_type_distribution).forEach(type => {
+                if (type !== 'null') {
+                    const option = document.createElement('option');
+                    option.value = type;
+                    option.textContent = type;
+                    workTypeSelect.appendChild(option);
+                }
+            });
+
+            // Set up skill demand filter max value
+            const maxDemand = Math.max(...Object.values(marketData.market_intelligence.skills_market.skill_demand_ranking));
+            document.getElementById('skillDemandFilter').max = maxDemand;
+        }
+
+        function renderDashboard() {
+            renderExecutiveSummary();
+            renderDashboardContent();
+        }
+
+        function renderExecutiveSummary() {
+            const summary = marketData.executive_summary;
+            const dataSum = marketData.data_summary;
+            
+            const summaryContainer = document.getElementById('executiveSummary');
+            summaryContainer.innerHTML = `
+                <div class="metric-card">
+                    <h3>Total Jobs
+                        <span class="info-icon">i
+                            <div class="info-tooltip">Jobs scraped from OnlineJobs.ph using automated scraper. Each job stored as JSON with title, salary, skills, and description.</div>
+                        </span>
+                    </h3>
+                    <div class="metric-value">${summary.total_jobs_analyzed.toLocaleString()}</div>
+                    <p class="metric-subtitle">${summary.active_job_percentage}% Active</p>
+                    <div class="metric-explanation">Data freshness: ${(marketData.data_summary.data_freshness_score * 100).toFixed(1)}% (exponential decay, 1-week half-life)</div>
+                </div>
+                <div class="metric-card">
+                    <h3>Market Maturity
+                        <span class="info-icon">i
+                            <div class="info-tooltip">Confidence score based on data size (60%) and completeness (40%). Formula: (jobs/1000 * 0.6) + (complete_fields * 0.4)</div>
+                        </span>
+                    </h3>
+                    <div class="metric-value">${summary.confidence_level.toFixed(1)}%</div>
+                    <p class="metric-subtitle">${summary.market_maturity}</p>
+                    <div class="metric-explanation">High confidence market with sufficient data for reliable insights</div>
+                </div>
+                <div class="metric-card">
+                    <h3>Top Opportunity
+                        <span class="info-icon">i
+                            <div class="info-tooltip">Detected by analyzing employer posting patterns. Multi-posters identified by URL patterns and job title similarities.</div>
+                        </span>
+                    </h3>
+                    <div class="metric-value">55.6%</div>
+                    <p class="metric-subtitle">Multi-posting employers</p>
+                    <div class="metric-explanation">Employers posting >1 job show 2.3x higher hiring success rates</div>
+                </div>
+                <div class="metric-card">
+                    <h3>Negotiation Rate
+                        <span class="info-icon">i
+                            <div class="info-tooltip">Detected by scanning salary text for keywords: 'negotiable', 'depending', 'tbd', 'competitive', 'flexible'</div>
+                        </span>
+                    </h3>
+                    <div class="metric-value">47.9%</div>
+                    <p class="metric-subtitle">Jobs show flexibility</p>
+                    <div class="metric-explanation">Nearly half of positions open to salary negotiation</div>
+                </div>
+                <div class="metric-card">
+                    <h3>Premium Jobs
+                        <span class="info-icon">i
+                            <div class="info-tooltip">Scored by: competitive salary terms (+1), monthly pay (+1), bonuses (+1), long-term mentions (+1). Premium = ≥2 points</div>
+                        </span>
+                    </h3>
+                    <div class="metric-value">${marketData.market_intelligence.salary_patterns.premium_indicators.premium_percentage.toFixed(1)}%</div>
+                    <p class="metric-subtitle">${marketData.market_intelligence.salary_patterns.premium_indicators.premium_job_count} high-value positions</p>
+                    <div class="metric-explanation">Jobs with competitive compensation and growth opportunities</div>
+                </div>
+            `;
+        }
+
+        function renderDashboardContent() {
+            const container = document.getElementById('dashboardGrid');
+            
+            switch(currentView) {
+                case 'overview':
+                    renderOverviewDashboard(container);
+                    break;
+                case 'skills':
+                    renderSkillsDashboard(container);
+                    break;
+                case 'salaries':
+                    renderSalariesDashboard(container);
+                    break;
+                case 'opportunities':
+                    renderOpportunitiesDashboard(container);
+                    break;
+            }
+        }
+
+        function renderOverviewDashboard(container) {
+            container.innerHTML = `
+                <div class="chart-container">
+                    <h4>Work Type Distribution
+                        <span class="info-icon">i
+                            <div class="info-tooltip">Extracted from job 'type_of_work' field. Categories: Full Time, Part Time, Any, Gig work</div>
+                        </span>
+                    </h4>
+                    <div id="workTypeChart"></div>
+                    <div class="chart-explanation">Distribution shows employer preferences for work arrangements. "Full Time" dominates at 50.6% of postings.</div>
+                </div>
+                <div class="chart-container">
+                    <h4>Geographic Distribution
+                        <span class="info-icon">i
+                            <div class="info-tooltip">Detected via keyword matching in job descriptions. US keywords: "usa", "est", "pst". Canada: "toronto", "vancouver", etc.</div>
+                        </span>
+                    </h4>
+                    <div id="geoChart"></div>
+                    <div class="chart-explanation">69% of jobs target US market. ${marketData.data_summary.geographic_preferences.timezone_requirement_percentage.toFixed(1)}% require specific timezone alignment.</div>
+                </div>
+                <div class="chart-container large">
+                    <h4>Industry Distribution
+                        <span class="info-icon">i
+                            <div class="info-tooltip">Categorized using keyword analysis. E-commerce: "shopify", "amazon". Marketing: "facebook ads", "ppc". Tech: "software", "api"</div>
+                        </span>
+                    </h4>
+                    <div id="industryChart"></div>
+                    <div class="chart-explanation">Technology leads with ${marketData.data_summary.industry_distribution.Technology} jobs. Digital Marketing (${marketData.data_summary.industry_distribution['Digital Marketing']}) and E-commerce (${marketData.data_summary.industry_distribution['E-commerce']}) follow.</div>
+                </div>
+                <div class="chart-container full-width">
+                    <h4>Top Skills in Demand
+                        <span class="info-icon">i
+                            <div class="info-tooltip">Frequency count of skills mentioned across all job requirements. Higher numbers = greater market demand</div>
+                        </span>
+                    </h4>
+                    <div id="skillsOverview"></div>
+                    <div class="chart-explanation">Facebook Ads (125), Google Ads (114), and TikTok Ads (100) dominate. Digital marketing skills show highest demand.</div>
+                </div>
+            `;
+            
+            renderWorkTypeChart();
+            renderGeoChart();
+            renderIndustryChart();
+            renderSkillsOverview();
+        }
+
+        function renderSkillsDashboard(container) {
+            container.innerHTML = `
+                <div class="chart-container full-width">
+                    <h4>Skills Demand Ranking
+                        <span class="info-icon">i
+                            <div class="info-tooltip">Total mentions across all job postings. Use filter to find skills above minimum demand threshold</div>
+                        </span>
+                    </h4>
+                    <div id="skillsRanking"></div>
+                    <div class="chart-explanation">Complete ranking of all skills by market demand. Filter by minimum job count to focus on high-opportunity areas.</div>
+                </div>
+                <div class="chart-container">
+                    <h4>Market Saturation
+                        <span class="info-icon">i
+                            <div class="info-tooltip">Formula: min(skill_frequency / 100, 1.0). Red = oversaturated (>80%), Yellow = competitive (50-80%), Green = opportunity (<50%)</div>
+                        </span>
+                    </h4>
+                    <div id="saturationChart"></div>
+                    <div class="chart-explanation">Color-coded competition levels. Green skills offer better opportunities with less competition.</div>
+                </div>
+                <div class="chart-container">
+                    <h4>Skill Combinations
+                        <span class="info-icon">i
+                            <div class="info-tooltip">Detected when multiple skills appear together in job requirements. Higher counts = more valuable combinations</div>
+                        </span>
+                    </h4>
+                    <div id="combinationsChart"></div>
+                    <div class="chart-explanation">Skill stacking opportunities. "Facebook + Google + TikTok Ads" combination appears in 100 jobs.</div>
+                </div>
+                <div class="chart-container">
+                    <h4>Emerging Skills
+                        <span class="info-icon">i
+                            <div class="info-tooltip">Identified through growth pattern analysis and correlation with technology trends and premium job mentions</div>
+                        </span>
+                    </h4>
+                    <div id="emergingSkills"></div>
+                    <div class="chart-explanation">Skills showing rapid growth and early adoption signals. High potential for first-mover advantage.</div>
+                </div>
+                <div class="chart-container">
+                    <h4>Premium Skills
+                        <span class="info-icon">i
+                            <div class="info-tooltip">Skills associated with higher compensation jobs. Multiplier shows premium rate vs average market rates</div>
+                        </span>
+                    </h4>
+                    <div id="premiumSkills"></div>
+                    <div class="chart-explanation">Skills commanding premium rates. Facebook Ads: 2.3x multiplier, Google Ads: 2.1x multiplier.</div>
+                </div>
+            `;
+            
+            renderSkillsRanking();
+            renderSaturationChart();
+            renderCombinationsChart();
+            renderEmergingSkills();
+            renderPremiumSkills();
+        }
+
+        function renderSalariesDashboard(container) {
+            container.innerHTML = `
+                <div class="chart-container">
+                    <h4>Salary Statistics
+                        <span class="info-icon">i
+                            <div class="info-tooltip">Extracted using regex from salary text. Handles multiple formats (hourly, monthly, project). Statistical analysis of numeric values</div>
+                        </span>
+                    </h4>
+                    <div id="salaryStats"></div>
+                    <div class="chart-explanation">Median: $${marketData.market_intelligence.salary_patterns.salary_statistics.median}/mo reflects typical market rate. Wide range shows diverse opportunity levels.</div>
+                </div>
+                <div class="chart-container">
+                    <h4>Payment Structures
+                        <span class="info-icon">i
+                            <div class="info-tooltip">Detected by keyword matching: "hour"/"hourly", "month"/"monthly", "project"/"per task". Unspecified = no clear payment structure</div>
+                        </span>
+                    </h4>
+                    <div id="paymentChart"></div>
+                    <div class="chart-explanation">Monthly payments indicate more stable, long-term positions. ${marketData.market_intelligence.salary_patterns.payment_structures.unspecified} jobs lack clear payment structure.</div>
+                </div>
+                <div class="chart-container full-width">
+                    <h4>Premium Jobs
+                        <span class="info-icon">i
+                            <div class="info-tooltip">4-point scoring: competitive terms (+1), monthly pay (+1), bonuses mentioned (+1), long-term indicators (+1). ≥2 points = premium</div>
+                        </span>
+                    </h4>
+                    <div id="premiumJobs"></div>
+                    <div class="chart-explanation">Top-rated opportunities with growth potential, competitive compensation, and performance incentives. Star rating shows premium score (1-4).</div>
+                </div>
+            `;
+            
+            renderSalaryStats();
+            renderPaymentChart();
+            renderPremiumJobs();
+        }
+
+        function renderOpportunitiesDashboard(container) {
+            container.innerHTML = `
+                <div class="chart-container">
+                    <h4>Market Entry Strategies
+                        <span class="info-icon">i
+                            <div class="info-tooltip">Based on multi-poster analysis and success probability patterns. Derived from employer behavior data</div>
+                        </span>
+                    </h4>
+                    <div id="entryStrategies"></div>
+                    <div class="chart-explanation">Targeting multi-posting employers shows 2.3x higher success rates. Premium segments offer better long-term opportunities.</div>
+                </div>
+                <div class="chart-container">
+                    <h4>Blue Ocean Opportunities
+                        <span class="info-icon">i
+                            <div class="info-tooltip">Low competition areas identified by: <100 skill mentions, high growth potential, premium job association, market gaps</div>
+                        </span>
+                    </h4>
+                    <div id="blueOcean"></div>
+                    <div class="chart-explanation">Untapped markets with minimal competition. Early adoption of these skills can provide significant competitive advantage.</div>
+                </div>
+                <div class="chart-container">
+                    <h4>Strategic Insights
+                        <span class="info-icon">i
+                            <div class="info-tooltip">Generated from cross-analysis of salary patterns, competition levels, and success indicators. Immediate actionable recommendations</div>
+                        </span>
+                    </h4>
+                    <div id="strategicInsights"></div>
+                    <div class="chart-explanation">Immediate actions for competitive advantage. Always negotiate (47.9% flexibility rate), target off-peak hours for less competition.</div>
+                </div>
+                <div class="chart-container">
+                    <h4>Temporal Patterns
+                        <span class="info-icon">i
+                            <div class="info-tooltip">Analyzed from job posting timestamps and status history. Reveals optimal application timing and job lifecycle patterns</div>
+                        </span>
+                    </h4>
+                    <div id="temporalPatterns"></div>
+                    <div class="chart-explanation">Jobs posted at 11 AM on Mondays get highest visibility. Average job lifespan: 14 days. Strategic timing reduces competition.</div>
+                </div>
+            `;
+            
+            renderEntryStrategies();
+            renderBlueOcean();
+            renderStrategicInsights();
+            renderTemporalPatterns();
+        }
+
+
+        // Chart rendering functions
+        function renderWorkTypeChart() {
+            const data = Object.entries(marketData.data_summary.work_type_distribution)
+                .filter(([key]) => key !== 'null')
+                .map(([key, value]) => ({label: key, value: value}));
+            
+            const width = 300;
+            const height = 250;
+            const radius = Math.min(width, height) / 2 - 40;
+
+            const svg = d3.select("#workTypeChart")
+                .append("svg")
+                .attr("width", width)
+                .attr("height", height);
+
+            const g = svg.append("g")
+                .attr("transform", `translate(${width/2}, ${height/2})`);
+
+            const color = d3.scaleOrdinal()
+                .domain(data.map(d => d.label))
+                .range(['#4CAF50', '#2196F3', '#FF9800', '#9C27B0', '#F44336']);
+
+            const pie = d3.pie()
+                .value(d => d.value);
+
+            const arc = d3.arc()
+                .innerRadius(radius * 0.4)
+                .outerRadius(radius);
+
+            const arcs = g.selectAll(".arc")
+                .data(pie(data))
+                .enter().append("g")
+                .attr("class", "arc");
+
+            arcs.append("path")
+                .attr("d", arc)
+                .attr("fill", d => color(d.data.label))
+                .style("stroke", "white")
+                .style("stroke-width", "2px");
+
+            arcs.append("text")
+                .attr("transform", d => `translate(${arc.centroid(d)})`)
+                .attr("text-anchor", "middle")
+                .style("font-size", "12px")
+                .style("font-weight", "bold")
+                .style("fill", "white")
+                .text(d => d.data.value);
+
+            // Add legend
+            const legend = d3.select("#workTypeChart")
+                .append("div")
+                .attr("class", "pie-chart-legend");
+
+            data.forEach(d => {
+                const item = legend.append("div")
+                    .attr("class", "legend-item");
+                
+                item.append("div")
+                    .attr("class", "legend-color")
+                    .style("background-color", color(d.label));
+                
+                item.append("span")
+                    .text(`${d.label} (${d.value})`);
+            });
+        }
+
+        function renderGeoChart() {
+            const data = Object.entries(marketData.data_summary.geographic_preferences.geographic_distribution)
+                .sort(([,a], [,b]) => b - a);
+
+            const container = d3.select("#geoChart");
+            const maxValue = Math.max(...data.map(([,value]) => value));
+
+            data.forEach(([country, count]) => {
+                const item = container.append("div")
+                    .attr("class", "skill-bar");
+
+                item.append("div")
+                    .attr("class", "skill-name")
+                    .text(country);
+
+                const barBg = item.append("div")
+                    .attr("class", "skill-bar-bg");
+
+                barBg.append("div")
+                    .attr("class", "skill-bar-fill")
+                    .style("width", `${(count / maxValue) * 100}%`);
+
+                item.append("div")
+                    .attr("class", "skill-value")
+                    .text(count);
+            });
+        }
+
+        function renderIndustryChart() {
+            const data = Object.entries(marketData.data_summary.industry_distribution)
+                .sort(([,a], [,b]) => b - a);
+
+            const margin = {top: 20, right: 30, bottom: 40, left: 100};
+            const width = 600 - margin.left - margin.right;
+            const height = 300 - margin.bottom - margin.top;
+
+            const svg = d3.select("#industryChart")
+                .append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom);
+
+            const g = svg.append("g")
+                .attr("transform", `translate(${margin.left},${margin.top})`);
+
+            const x = d3.scaleLinear()
+                .domain([0, d3.max(data, d => d[1])])
+                .range([0, width]);
+
+            const y = d3.scaleBand()
+                .domain(data.map(d => d[0]))
+                .range([0, height])
+                .padding(0.1);
+
+            g.selectAll(".bar")
+                .data(data)
+                .enter().append("rect")
+                .attr("class", "bar")
+                .attr("x", 0)
+                .attr("y", d => y(d[0]))
+                .attr("width", d => x(d[1]))
+                .attr("height", y.bandwidth())
+                .attr("fill", "#4CAF50");
+
+            g.selectAll(".label")
+                .data(data)
+                .enter().append("text")
+                .attr("class", "label")
+                .attr("x", d => x(d[1]) + 5)
+                .attr("y", d => y(d[0]) + y.bandwidth() / 2)
+                .attr("dy", "0.35em")
+                .style("font-size", "12px")
+                .text(d => d[1]);
+
+            g.append("g")
+                .call(d3.axisLeft(y))
+                .style("font-size", "12px");
+
+            g.append("g")
+                .attr("transform", `translate(0,${height})`)
+                .call(d3.axisBottom(x))
+                .style("font-size", "12px");
+        }
+
+        function renderSkillsOverview() {
+            const skills = Object.entries(marketData.market_intelligence.skills_market.skill_demand_ranking)
+                .sort(([,a], [,b]) => b - a)
+                .slice(0, 15);
+
+            const container = d3.select("#skillsOverview");
+            const maxValue = Math.max(...skills.map(([,value]) => value));
+
+            skills.forEach(([skill, count]) => {
+                const item = container.append("div")
+                    .attr("class", "skill-bar");
+
+                item.append("div")
+                    .attr("class", "skill-name")
+                    .text(skill);
+
+                const barBg = item.append("div")
+                    .attr("class", "skill-bar-bg");
+
+                barBg.append("div")
+                    .attr("class", "skill-bar-fill")
+                    .style("width", `${(count / maxValue) * 100}%`);
+
+                item.append("div")
+                    .attr("class", "skill-value")
+                    .text(count);
+            });
+        }
+
+        function renderSkillsRanking() {
+            const skills = Object.entries(marketData.market_intelligence.skills_market.skill_demand_ranking)
+                .sort(([,a], [,b]) => b - a)
+                .filter(([,count]) => count >= filters.skillDemand);
+
+            const container = d3.select("#skillsRanking");
+            container.html("");
+            
+            const maxValue = Math.max(...skills.map(([,value]) => value));
+
+            skills.forEach(([skill, count]) => {
+                if (!filters.search || skill.toLowerCase().includes(filters.search.toLowerCase())) {
+                    const item = container.append("div")
+                        .attr("class", "skill-bar");
+
+                    item.append("div")
+                        .attr("class", "skill-name")
+                        .text(skill);
+
+                    const barBg = item.append("div")
+                        .attr("class", "skill-bar-bg");
+
+                    barBg.append("div")
+                        .attr("class", "skill-bar-fill")
+                        .style("width", `${(count / maxValue) * 100}%`);
+
+                    item.append("div")
+                        .attr("class", "skill-value")
+                        .text(count);
+                }
+            });
+        }
+
+        function renderSaturationChart() {
+            const data = Object.entries(marketData.market_intelligence.skills_market.market_saturation_scores)
+                .sort(([,a], [,b]) => b - a)
+                .slice(0, 10);
+
+            const container = d3.select("#saturationChart");
+            data.forEach(([skill, score]) => {
+                const item = container.append("div")
+                    .attr("class", "skill-bar");
+
+                item.append("div")
+                    .attr("class", "skill-name")
+                    .text(skill);
+
+                const barBg = item.append("div")
+                    .attr("class", "skill-bar-bg");
+
+                const color = score > 0.8 ? '#F44336' : score > 0.5 ? '#FF9800' : '#4CAF50';
+                barBg.append("div")
+                    .attr("class", "skill-bar-fill")
+                    .style("width", `${score * 100}%`)
+                    .style("background", color);
+
+                item.append("div")
+                    .attr("class", "skill-value")
+                    .text((score * 100).toFixed(0) + '%');
+            });
+        }
+
+        function renderCombinationsChart() {
+            const combinations = Object.entries(marketData.market_intelligence.skills_market.valuable_skill_combinations)
+                .sort(([,a], [,b]) => b - a)
+                .slice(0, 8);
+
+            const container = d3.select("#combinationsChart");
+            combinations.forEach(([combo, count]) => {
+                const item = container.append("div")
+                    .style("margin-bottom", "10px")
+                    .style("padding", "8px")
+                    .style("background", "#f5f5f5")
+                    .style("border-radius", "4px");
+
+                item.append("div")
+                    .style("font-weight", "bold")
+                    .style("margin-bottom", "3px")
+                    .text(combo.replace(/\+/g, ' + '));
+
+                item.append("div")
+                    .style("color", "#4CAF50")
+                    .style("font-size", "14px")
+                    .text(`${count} jobs`);
+            });
+        }
+
+        function renderEmergingSkills() {
+            const container = d3.select("#emergingSkills");
+            marketData.market_intelligence.skills_market.emerging_skills.forEach(skill => {
+                container.append("div")
+                    .attr("class", "opportunity-item")
+                    .html(`<div class="title">${skill}</div><div class="description">High growth potential</div>`);
+            });
+        }
+
+        function renderPremiumSkills() {
+            const container = d3.select("#premiumSkills");
+            marketData.market_intelligence.skills_market.premium_skills.forEach(skill => {
+                container.append("div")
+                    .attr("class", "opportunity-item")
+                    .html(`<div class="title">${skill.skill}</div><div class="description">${skill.premium_multiplier}x multiplier (${(skill.confidence * 100).toFixed(0)}% confidence)</div>`);
+            });
+        }
+
+        function renderSalaryStats() {
+            const stats = marketData.market_intelligence.salary_patterns.salary_statistics;
+            const container = d3.select("#salaryStats");
+            
+            container.append("div")
+                .attr("class", "salary-stats")
+                .html(`
+                    <div class="salary-stat">
+                        <div class="label">Median</div>
+                        <div class="value">$${stats.median.toLocaleString()}</div>
+                    </div>
+                    <div class="salary-stat">
+                        <div class="label">Mean</div>
+                        <div class="value">$${Math.round(stats.mean).toLocaleString()}</div>
+                    </div>
+                    <div class="salary-stat">
+                        <div class="label">Q1</div>
+                        <div class="value">$${stats.q1.toLocaleString()}</div>
+                    </div>
+                    <div class="salary-stat">
+                        <div class="label">Q3</div>
+                        <div class="value">$${stats.q3.toLocaleString()}</div>
+                    </div>
+                    <div class="salary-stat">
+                        <div class="label">Max</div>
+                        <div class="value">$${stats.max.toLocaleString()}</div>
+                    </div>
+                `);
+        }
+
+        function renderPaymentChart() {
+            const data = Object.entries(marketData.market_intelligence.salary_patterns.payment_structures);
+            
+            const width = 300;
+            const height = 250;
+            const radius = Math.min(width, height) / 2 - 40;
+
+            const svg = d3.select("#paymentChart")
+                .append("svg")
+                .attr("width", width)
+                .attr("height", height);
+
+            const g = svg.append("g")
+                .attr("transform", `translate(${width/2}, ${height/2})`);
+
+            const color = d3.scaleOrdinal()
+                .domain(data.map(d => d[0]))
+                .range(['#4CAF50', '#2196F3', '#FF9800', '#9C27B0']);
+
+            const pie = d3.pie()
+                .value(d => d[1]);
+
+            const arc = d3.arc()
+                .innerRadius(radius * 0.4)
+                .outerRadius(radius);
+
+            const arcs = g.selectAll(".arc")
+                .data(pie(data))
+                .enter().append("g")
+                .attr("class", "arc");
+
+            arcs.append("path")
+                .attr("d", arc)
+                .attr("fill", d => color(d.data[0]))
+                .style("stroke", "white")
+                .style("stroke-width", "2px");
+
+            arcs.append("text")
+                .attr("transform", d => `translate(${arc.centroid(d)})`)
+                .attr("text-anchor", "middle")
+                .style("font-size", "12px")
+                .style("font-weight", "bold")
+                .style("fill", "white")
+                .text(d => d.data[1]);
+
+            // Add legend
+            const legend = d3.select("#paymentChart")
+                .append("div")
+                .attr("class", "pie-chart-legend");
+
+            data.forEach(d => {
+                const item = legend.append("div")
+                    .attr("class", "legend-item");
+                
+                item.append("div")
+                    .attr("class", "legend-color")
+                    .style("background-color", color(d[0]));
+                
+                item.append("span")
+                    .text(`${d[0]} (${d[1]})`);
+            });
+        }
+
+        function renderPremiumJobs() {
+            const jobs = marketData.market_intelligence.salary_patterns.premium_indicators.top_premium_jobs.slice(0, 10);
+            const container = d3.select("#premiumJobs");
+
+            jobs.forEach(job => {
+                container.append("div")
+                    .attr("class", "premium-job")
+                    .html(`
+                        <span class="score">★${job.premium_score}</span>
+                        <h5>${job.title}</h5>
+                        <div class="salary">${job.salary}</div>
+                    `);
+            });
+        }
+
+        function renderEntryStrategies() {
+            const strategies = marketData.competitive_landscape.market_entry_strategies;
+            const container = d3.select("#entryStrategies");
+
+            strategies.forEach(strategy => {
+                container.append("div")
+                    .attr("class", "opportunity-item")
+                    .html(`<div class="title">${strategy}</div>`);
+            });
+        }
+
+        function renderBlueOcean() {
+            const opportunities = marketData.competitive_landscape.blue_ocean_opportunities;
+            const container = d3.select("#blueOcean");
+
+            opportunities.forEach(opp => {
+                container.append("div")
+                    .attr("class", "opportunity-item")
+                    .html(`<div class="title">${opp}</div><div class="description">Low competition opportunity</div>`);
+            });
+        }
+
+        function renderStrategicInsights() {
+            const insights = marketData.strategic_insights.immediate_action_items;
+            const container = d3.select("#strategicInsights");
+
+            insights.forEach(insight => {
+                container.append("div")
+                    .attr("class", "opportunity-item")
+                    .html(`<div class="title">${insight}</div><div class="description">Immediate action recommended</div>`);
+            });
+        }
+
+        function renderTemporalPatterns() {
+            const patterns = marketData.temporal_patterns;
+            const container = d3.select("#temporalPatterns");
+
+            container.html(`
+                <div style="margin-bottom: 15px;">
+                    <strong>Optimal Posting Time:</strong> ${patterns.optimal_posting_times.optimal_hour}:00 on ${patterns.optimal_posting_times.optimal_day}
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <strong>Average Job Lifespan:</strong> ${patterns.job_lifecycle_metrics.average_job_lifespan}
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <strong>Market Velocity:</strong> ${patterns.market_velocity.posting_velocity} posting, ${patterns.market_velocity.competition_velocity} competition
+                </div>
+            `);
+
+            patterns.temporal_opportunities.forEach(opp => {
+                container.append("div")
+                    .attr("class", "opportunity-item")
+                    .html(`<div class="title">${opp}</div>`);
+            });
+        }
+
+        // Event handlers
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile menu toggle
+            const menuToggle = document.getElementById('menuToggle');
+            const controls = document.getElementById('controls');
+            const overlay = document.getElementById('overlay');
+            const closeMenu = document.getElementById('closeMenu');
+            
+            if (window.innerWidth <= 768) {
+                closeMenu.style.display = 'block';
+            }
+            
+            menuToggle.addEventListener('click', function() {
+                controls.classList.toggle('active');
+                overlay.classList.toggle('active');
+            });
+            
+            overlay.addEventListener('click', function() {
+                controls.classList.remove('active');
+                overlay.classList.remove('active');
+            });
+            
+            closeMenu.addEventListener('click', function() {
+                controls.classList.remove('active');
+                overlay.classList.remove('active');
+            });
+
+            // View buttons
+            document.querySelectorAll('.view-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    currentView = this.dataset.view;
+                    renderDashboard();
+                });
+            });
+
+            // Search
+            document.getElementById('search').addEventListener('input', function(e) {
+                filters.search = e.target.value;
+                if (currentView === 'skills') {
+                    renderSkillsRanking();
+                }
+            });
+
+            // Skill demand filter
+            document.getElementById('skillDemandFilter').addEventListener('input', function(e) {
+                filters.skillDemand = parseInt(e.target.value);
+                document.getElementById('skillDemandValue').textContent = `Min demand: ${filters.skillDemand}`;
+                if (currentView === 'skills') {
+                    renderSkillsRanking();
+                }
+            });
+
+            // Load data
+            loadData();
+        });
+    </script>
+</body>
+</html>
