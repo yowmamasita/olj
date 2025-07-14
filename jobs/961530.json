@@ -1,0 +1,16 @@
+{
+  "job_id": "961530",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/TypeScript-BackendDevOpsCloud-Engineer-961530",
+  "scraped_at": "2025-07-14T23:25:22.198828",
+  "title": "TypeScript Backend/DevOps/Cloud Engineer",
+  "type_of_work": "Full Time",
+  "salary": "1400-2200 USD depending on candidate",
+  "hours_per_week": "40",
+  "date_updated": "Jul 14, 2025",
+  "job_overview": "When applying, please comment on how you meet the requirements of work experience with AWS Infrastructure-as-code, node and AWS backend and infrastructure in general.\n\r\nABOUT US\r\nNoxit is on a mission to create clarity and enable execution for millions of people in businesses. We are a Software-as-a-Service (SaaS) startup company located in Stockholm, Sweden. We are now recruiting a senior backend engineer in the Philippines to join our small international engineering team.\n\n\r\nABOUT THE IDEAL CANDIDATE\r\nThe successful candidate will have significant AWS experience and used to working with Infrastructure as Code in any of the common technologies such as CloudFormation, Terraform or CDK. And a strong command of software architecture, programming and experience working in Node.JS. You are highly motivated with an attention to detail and ability to work with minimal supervision. You are also used to working together with other developers in a virtual team setup. You love challenges and you are a fast learner. Excellent English and communication skills required.\n\n\r\nYou have a reliable Internet connection and source of power, a computer setup and most likely you have a dedicated workspace at home.\n\n\r\nIt is preferable if you live in the Philippines since that's where other members of the development team is located and it's easier to keep the team together in the same time zone, same culture and same holiday schedule.\n\n\r\nABOUT THE POSITION\r\nThe focus will be on backend programming in the AWS Serverless domain and you will work together with UX-designers and frontend developers to back you up. But depending on knowledge and interest you could be taking part in frontend programming as well. You will be working in a small, distributed team with colleagues located in the Philippines and Sweden.\n\n\r\nRESPONSIBILITIES\r\nDrive architecture and implementation for new featured in the core backend services that powers our SaaS platform.\r\nImplement code focused on high availability and reliability. Working with serverless infrastructure as code.\n\n\r\nREQUIRED SKILLS\r\nExperience in AWS IaC technology\r\nExperience in TypeScript\r\nExcellent communication skills\r\nTeam player\n\n\r\nBONUS SKILLS:\r\nExperience in AWS DynamoDB/Lambda/S3/Cognito\r\nExperience in AWS CDK (Cloud Development Kit) IaC\r\nExperience with Websockets and real time applications\r\nExperience in frontend development using React",
+  "skill_requirements": [
+    "Node JS",
+    "Typescript",
+    "AWS"
+  ]
+}

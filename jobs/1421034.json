@@ -1,0 +1,16 @@
+{
+  "job_id": "1421034",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/1421034",
+  "scraped_at": "2025-07-14T23:06:26.120804",
+  "title": "Software QA",
+  "type_of_work": "Any",
+  "salary": "Rate $1,680/month",
+  "hours_per_week": "15",
+  "date_updated": "Jul 14, 2025",
+  "job_overview": "Responsibilities\r\n- Develop, maintain, and execute manual and automated test cases across web and API layers\r\n- Collaborate with developers, product managers, and designers to clarify requirements and acceptance criteria\r\n- Write clear bug reports and help prioritize fixes based on risk and impact\r\n- Own regression testing during release cycles\r\n- Set up and improve CI/CD test pipelines\r\n- Contribute to overall QA process improvements and documentation\n\r\nRequirements\r\n- 2+ years of experience in software quality assurance\r\n- Strong understanding of QA methodologies, tools, and processes\r\n- Experience with test automation frameworks (e.g., Selenium, Playwright, Cypress, or equivalent)\r\n- Familiarity with REST APIs and tools like Postman\r\n- Comfortable with Git, CI systems (e.g., GitHub Actions, CircleCI), and agile workflows\r\n- Excellent written and verbal communication skills\n\r\nBonus Points\r\n- Experience testing in a Django or React environment\r\n- Familiarity with performance/load testing tools\r\n- ISTQB or other relevant QA certifications",
+  "skill_requirements": [
+    "Software QA Testing",
+    "English",
+    "Bug Tracking"
+  ]
+}

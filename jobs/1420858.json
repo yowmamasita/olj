@@ -1,0 +1,16 @@
+{
+  "job_id": "1420858",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Ful-Stack-Web-Developer-Build-a-Secure-One-Time-Message-Sharing-Web-App-1420858",
+  "scraped_at": "2025-07-14T23:09:11.317117",
+  "title": "Ful Stack Web Developer -  Build a Secure One-Time Message Sharing Web App",
+  "type_of_work": "Any",
+  "salary": "Negotiable",
+  "hours_per_week": "TBD",
+  "date_updated": "Jul 14, 2025",
+  "job_overview": "Job Description:\r\nWe are looking for an experienced full-stack web developer to build a secure, lightweight web application that allows users to create messages that can be read only once via a unique link — similar to Upgrade to see actual info, but with some additional functionality.\n\r\nKey Features:\r\n???? Frontend (User-facing):\r\nUser enters a message and clicks “Create Link”\n\r\nA unique link is generated (e.g., Upgrade to see actual info/abc123)\n\r\nThe message is viewable only once via that link\n\r\nAfter it's viewed, the link becomes invalid (visually marked as used)\n\r\n???? Address Detection & Replacement:\r\nBefore the message is shown, the system checks for the presence of cryptocurrency wallet addresses (e.g., USDT on TRC20)\n\r\nIf a known address type is detected, it's automatically replaced with a predefined destination address configured by the admin\n\r\nThe recipient sees the version with the updated address\n\r\n???? Admin Panel (Password-Protected):\r\nView and manage all submitted messages in plaintext\n\r\nSearch, filter, and delete/archive messages\n\r\nConfigure replacement rules:\n\r\nSelect cryptocurrency (e.g., USDT, BTC)\n\r\nSet network-specific target addresses (e.g., TRC20, ERC20, BEP20)\n\r\nTechnical Notes:\r\nWhile the app simulates a secure environment for the user, messages will be stored in plaintext on the server for analysis and admin inspection.\n\r\nNo need for real end-to-end encryption – only visual representation of security is needed.\r\nIdeal Candidate:\r\nProficient in modern web frameworks (e.g., Node.js, Django, Laravel, or similar)\n\r\nStrong frontend skills (React, Vue, or similar)\n\r\nExperience building secure, data-sensitive apps\n\r\nComfortable designing and implementing admin dashboards\n\r\nAbility to implement simple, clean UI and clear link workflows\n\r\nDeliverables:\r\nFully functional web app (frontend + backend)\n\r\nSimple, modern UI\n\r\nAdmin interface with auth/login\n\r\nDeployment-ready code (or Docker setup)\n\r\nBrief technical handoff/documentation\n\r\nTo apply, please include:\r\nA brief summary of your experience with similar apps\n\r\nTech stack you would use for this project\n\r\nTimeline and estimated cost\n\r\nLinks to previous relevant work (if available)",
+  "skill_requirements": [
+    "Web Programming",
+    "Node JS",
+    "Fullstack"
+  ]
+}

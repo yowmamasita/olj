@@ -1,0 +1,15 @@
+{
+  "job_id": "1421669",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/1421669",
+  "scraped_at": "2025-07-14T23:10:07.095550",
+  "title": "Automation and API Engineer",
+  "type_of_work": "Part Time",
+  "salary": "up to $15/ hour based on experience",
+  "hours_per_week": "TBD",
+  "date_updated": "Jul 14, 2025",
+  "job_overview": "We're looking to bring onboard an Automation and API contractor to kick off some internal projects. \r\nFor phase 1 we will be focusing on Zapier/ Upgrade to see actual info workflows to our CRM ( Jobadder) \r\nThere are several other projects with N8N and other LLM and Agentic builds. \r\nFrom there we will be looking at a potential custom ( low code) CRM to tailor some of our workflows\n\r\nOverall we need someone who can dig in and create workflows and API's for several projects. Experience in the space and the ability to pick up new tools will be important. \n\r\nWe do have the processes mapped and requirement completed so you will be working off those and communicating in Slack. \n\r\nYou'll have experience with;\r\nZaiper/ Upgrade to see actual info \r\nN8N \r\nVector database setup ( Pinecone or similar) \r\nAPI development \r\nExperience with Python and web scraping build would also be an advantage \r\nOther web based automation experience \r\nExperience with Power Automate would be ideal ( we have several Excel based projects in flight) \n\r\nThere is a wide range of projects so those from a coding background would be ideal. \n\r\nWe're ready to start this week \n\r\nPlease outline at least 3 specific projects you have worked on with the above tech. \r\nThat should highlight the business problem the project was designed to solve, how you went about solving that problem, the tech used and the outcome.",
+  "skill_requirements": [
+    "REST API",
+    "Zapier"
+  ]
+}

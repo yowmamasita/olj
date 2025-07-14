@@ -1,0 +1,16 @@
+{
+  "job_id": "1421943",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Senior-DevOps-Engineer-1421943",
+  "scraped_at": "2025-07-14T23:09:24.212578",
+  "title": "Senior DevOps Engineer",
+  "type_of_work": "Full Time",
+  "salary": "$2000",
+  "hours_per_week": "45",
+  "date_updated": "Jul 14, 2025",
+  "job_overview": "Location: Remote (Work from Home)\r\nJob Type: Full-time\r\nExperience: 5–10 years\n\r\nAbout Us:\r\nWe are on a mission to simplify the purchasing and management of supplies for real-estate properties. Our platform is transforming the way property owners and managers procure essential items, making the process more efficient and cost-effective. Join us in making property management easier and more convenient than ever before.\n\r\nRole Description:\r\nAs a Senior DevOps Engineer, you will be instrumental in building and maintaining the infrastructure and automation that power our platform. You’ll work alongside a collaborative team of developers and product leaders, ensuring the reliability, scalability, and performance of our systems in a remote-first environment.\n\r\nKey Responsibilities:\r\nDesign, implement, and maintain scalable, secure, and cost-effective cloud infrastructure (primarily on AWS).\n\r\nManage CI/CD pipelines to streamline development and deployment workflows.\n\r\nDevelop and maintain infrastructure-as-code (IaC) using tools like Terraform or CloudFormation.\n\r\nMonitor and improve system performance, availability, and reliability.\n\r\nSet up and manage logging, alerting, and iUpgrade to see actual info response systems.\n\r\nCollaborate with development teams to ensure smooth integration and delivery processes.\n\r\nEnforce security best practices across infrastructure and deployments.\n\r\nQualifications:\r\nProficiency with cloud platforms, particularly AWS (EC2, ELB, ECR, S3, IAM, VPC, etc.).\n\r\nStrong experience with containerization and orchestration: Docker, ECS/EKS, or Kubernetes.\n\r\nExperience with CI/CD tools such as GitHub Actions, Bitbucket Pipelines, Jenkins, etc.\n\r\nFamiliarity with infrastructure-as-code tools like Terraform, CloudFormation, or Pulumi.\n\r\nUnderstanding of monitoring and logging tools: Prometheus, Grafana, Datadog, CloudWatch, ELK stack, etc.\n\r\nBasic knowledge of backend systems and familiarity with Laravel, Node.js, or Vue.js is a plus.\n\r\nStrong problem-solving skills and attention to detail.\n\r\nExcellent communication and collaboration skills.\n\r\nSelf-motivated and comfortable working independently in a remote team.\n\r\nHow to Apply:\r\nIf you're a seasoned DevOps engineer eager to support a growing platform that’s improving the property management industry, we’d love to hear from you! Please submit your resume and a brief cover letter outlining your relevant experience and why you’re interested in this role.",
+  "skill_requirements": [
+    "Docker",
+    "CICD",
+    "AWS"
+  ]
+}

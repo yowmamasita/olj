@@ -1,0 +1,16 @@
+{
+  "job_id": "1414264",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Python-Backend-Developer-FastAPI-AI-Models-Part-Time-Remote-1414264",
+  "scraped_at": "2025-07-14T23:05:40.840701",
+  "title": "Python Backend Developer (FastAPI, AI Models, Part-Time, Remote)",
+  "type_of_work": "Any",
+  "salary": "300",
+  "hours_per_week": "25",
+  "date_updated": "Jul 14, 2025",
+  "job_overview": "Looking for a remote Python backend developer to help build an AI-powered financial app that translates user beliefs into real market trades. You’ll work with FastAPI, pandas, and ML models (scikit-learn). The system is already functional and live on Render. You’ll help improve logic, clean code, and push new features weekly.\n\r\n? Responsibilities:\r\n- Maintain and improve Python FastAPI backend\r\n- Implement ML-based strategy generation (NLP + classification)\r\n- Help integrate Supabase and Render services\r\n- Support light task-based upgrades (1-2 per week)\n\r\n? Requirements:\r\n- Proficiency in Python, pandas, FastAPI\r\n- Familiar with joblib, scikit-learn, and basic ML concepts\r\n- Git + VS Code workflow experience\r\n- Comfortable working async with minimal hand-holding\n\r\n???? Bonus if:\r\n- You’re based in the Philippines ????????\r\n- You understand financial markets, AI, or trading\r\n- You like making AI tools feel like a sports betting app\n\r\n???? Pay: $300–$500/month depending on skill\r\n???? Hours: ~20/week, async, flexible\r\n???? Apply: Send your GitHub, LinkedIn, and past projects\n\r\nThis is a long-term opportunity for someone who works fast, communicates clearly, and wants to grow with a lean AI-powered startup.",
+  "skill_requirements": [
+    "Python",
+    "Machine Learning",
+    "FastAPI"
+  ]
+}

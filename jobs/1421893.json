@@ -1,0 +1,16 @@
+{
+  "job_id": "1421893",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/1421893",
+  "scraped_at": "2025-07-14T23:09:56.356521",
+  "title": "Shopify Developer (Custom Sections & Dynamic Features)",
+  "type_of_work": "Full Time",
+  "salary": "400",
+  "hours_per_week": "20",
+  "date_updated": "Jul 14, 2025",
+  "job_overview": "We’re looking for a skilled Shopify Developer who can build custom Liquid sections, dynamic features, and solve theme-related challenges across multiple stores. This is not a job for someone who only copies from StackOverflow — we want someone who can really code, troubleshoot, and think in Liquid, JSON, and JavaScript.\n\r\nYou’ll work closely with our lead developer and creative team to bring custom UX ideas to life for premium Shopify brands.\n\r\n????? What You’ll Be Doing:\r\n- Build custom Shopify sections (Liquid, schema, CSS, JS) based on Figma or written instructions\r\n- Implement dynamic functionality using metafields, blocks, and theme settings\r\n- Modify and extend existing theme code (e.g. Dawn, Prestige, Spark, etc.)\r\n- Troubleshoot layout, responsiveness, and logic issues\r\n- Occasionally support third-party app integration (e.g. Search & Discovery, Bundler, etc.)\n\r\n???? Requirements:\r\n- Solid experience with Shopify Liquid and theme architecture\r\n- Strong JavaScript and JSON skills (for dynamic sections, AJAX, etc.)\r\n- Solid CSS/SCSS skills (mobile-first, responsive design)\r\n- Able to work with metafields, dynamic blocks, Shopify schema structure, and app blocks\r\n- Understands Shopify's limitations (e.g. no server-side logic) and how to work around them\r\n- Communicates via Slack clearly in English and meets deadlines\n\r\n? Nice-to-Have:\r\n- Experience with cart drawers, quick add functionality, sticky ATC, or Shopify Plus\r\n- Worked with multi-language or multi-currency setups\n\r\n???? Before Hiring:\r\nAll applicants must complete a short test task to demonstrate real coding skills. This will be a custom section or modification based on a real-world use case. You’ll receive a Shopify dev store and instructions.\n\r\n???? To Apply:\r\nSend us:\r\n- A short intro about your experience and availability\r\n- Your GitHub, portfolio, or live store examples you’ve worked on\r\n- Confirm that you’re comfortable doing a short test task\r\n- Your email adress we can add on Slack\n\r\nWe’re looking for long-term collaborators — not people who disappear after one edit. If you're someone who takes pride in clean code, UX, and performance — let’s talk.",
+  "skill_requirements": [
+    "Liquid",
+    "CSS",
+    "Javascript"
+  ]
+}

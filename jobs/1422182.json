@@ -1,0 +1,16 @@
+{
+  "job_id": "1422182",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/1422182",
+  "scraped_at": "2025-07-14T23:10:06.983311",
+  "title": "AI Workflow Architect (n8n + OpenAI + APIs)",
+  "type_of_work": "Full Time",
+  "salary": "700-900 PHP/hr",
+  "hours_per_week": "44",
+  "date_updated": "Jul 14, 2025",
+  "job_overview": "We’re hiring a technical builder to create n8n workflows that fully automate content writing using AI and supporting tools.\n\r\n???? Must-Have Skills\r\n1+ year hands-on with n8n (not just basic flows, real modular builds)\n\r\nProven experience building multi-step LLM prompt chains via OpenAI API\n\r\nStrong understanding of how to build and manage long-form output \n\r\nComfort working in Node.js or Python for scripting custom functions, fetches, formatting\n\r\nFluent in API integrations (e.g. Airtable, Notion, YouTube, RSS, Google Docs)\n\r\n???? Example Deliverables\r\nBlog article writer from 3 input keywords + tone/style selector\n\r\nResearch-based script generator: pulls top Reddit threads, quotes, and facts on a given theme\n\r\nAirtable-integrated content planner with auto-writing pipeline\n\r\n???? TO APPLY — Answer These in Your Cover Letter:\r\n1. What’s the most advanced n8n + AI workflow you’ve built (brief summary)?\n\r\n2. How would you build a longform script-writing workflow that starts with a video title and ends with a 5,000+ word script? List the tools, structure, and prompts you'd use.\n\r\n3. Share any screenshots or links showing your automation builds (especially writing-related).\n\r\n4. Rate your skill level with Python or Node.js for n8n functions.\n\r\nWe’re building systems that can write better, faster, and smarter. If you’ve already built something like this—or you’re dying to—apply now.\n\r\nSubject line must be: POTATO MILKSHAKE\r\nLet’s build the writing machines of the future.\n\r\nDO NOT USE AI IN YOUR APPLICATION. We dont mind mistakes, just make sure to add your experience or samples of screenshots to your application, other wise we won't look at it.",
+  "skill_requirements": [
+    "Node JS",
+    "Python",
+    "Make.com"
+  ]
+}
