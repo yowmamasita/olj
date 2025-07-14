@@ -1,0 +1,497 @@
+{
+  "executive_summary": {
+    "total_jobs_analyzed": 909,
+    "active_job_percentage": 100.0,
+    "top_opportunity": "Multi-posting employers (55.6% of employers post multiple jobs)",
+    "key_insight": "47.9% of jobs show negotiation flexibility",
+    "market_maturity": "Growing market with significant opportunities",
+    "confidence_level": 84.55100110011001
+  },
+  "analysis_timestamp": "2025-07-14T23:50:46.145120",
+  "data_summary": {
+    "total_jobs": 909,
+    "active_jobs": 909,
+    "inactive_jobs": 0,
+    "activity_rate": 1.0,
+    "work_type_distribution": {
+      "Full Time": 460,
+      "Any": 238,
+      "Part Time": 152,
+      "null": 23,
+      "Gig": 36
+    },
+    "geographic_preferences": {
+      "geographic_distribution": {
+        "US": 627,
+        "Canada": 31,
+        "Philippines": 107,
+        "Global": 47,
+        "UK": 25,
+        "Australia": 31
+      },
+      "timezone_requirement_percentage": 74.36743674367436
+    },
+    "industry_distribution": {
+      "Digital Marketing": 596,
+      "Healthcare": 99,
+      "Technology": 819,
+      "Education": 237,
+      "E-commerce": 303,
+      "Real Estate": 296,
+      "Logistics": 105,
+      "Finance": 72
+    },
+    "posting_velocity": {
+      "total_posting_days": 1,
+      "average_daily_postings": 909,
+      "peak_posting_day": [
+        "2025-07-14",
+        909
+      ],
+      "posting_consistency_score": 0
+    },
+    "data_freshness_score": 0.9958887065356617
+  },
+  "market_intelligence": {
+    "salary_patterns": {
+      "salary_statistics": {
+        "min": 0.0,
+        "max": 400000.0,
+        "mean": 18453.42748502994,
+        "median": 600.0,
+        "q1": 15.0,
+        "q3": 15000.0,
+        "std_dev": 40299.53403750021
+      },
+      "negotiation_opportunities": {
+        "total_negotiable": 103,
+        "percentage_negotiable": 11.331133113311331,
+        "negotiable_job_ids": [
+          "1421662",
+          "1422449",
+          "1397990",
+          "1413007",
+          "1420858",
+          "1399760",
+          "1421967",
+          "1421658",
+          "1392585",
+          "1404691",
+          "1399756",
+          "1375576",
+          "1422453",
+          "1422146",
+          "1320279",
+          "1407320",
+          "1152660",
+          "1201484",
+          "1421992",
+          "1421881"
+        ]
+      },
+      "payment_structures": {
+        "hourly": 127,
+        "monthly": 157,
+        "project": 5,
+        "unspecified": 597
+      },
+      "premium_indicators": {
+        "premium_job_count": 264,
+        "premium_percentage": 29.042904290429046,
+        "top_premium_jobs": [
+          {
+            "job_id": "1271088",
+            "premium_score": 3,
+            "salary": "USD 450 per month",
+            "title": "Marketing Coordinator"
+          },
+          {
+            "job_id": "1422424",
+            "premium_score": 3,
+            "salary": "Up to $1,600.00 USD per month",
+            "title": "Marketing Automation & Growth Architect (Advisory Seat, Not a Task List)"
+          },
+          {
+            "job_id": "1421881",
+            "premium_score": 3,
+            "salary": "Competitive",
+            "title": "Strategic Growth Operator"
+          },
+          {
+            "job_id": "1422468",
+            "premium_score": 3,
+            "salary": "$1,500 USD Monthly",
+            "title": "Cold Email Campaign Operator"
+          },
+          {
+            "job_id": "1422215",
+            "premium_score": 3,
+            "salary": "80,000 - 100,000 PHP/month + Monthly bonuses + Quarterly Company Profit Share",
+            "title": "Data-driven Marketing Coordinator"
+          },
+          {
+            "job_id": "1422151",
+            "premium_score": 3,
+            "salary": "$120 - 240 per month",
+            "title": "Content & Social Media VA – Copy, Design & Visibility"
+          },
+          {
+            "job_id": "1407317",
+            "premium_score": 3,
+            "salary": "$640/ Month Base + Weekly and Monthly Bonuses",
+            "title": "Friendly, High Performing Real Estate Cold Caller"
+          },
+          {
+            "job_id": "1422455",
+            "premium_score": 3,
+            "salary": "$1,000 CAD per month + Processing fees",
+            "title": "Project Manager (5+ Years Experience)"
+          },
+          {
+            "job_id": "1421916",
+            "premium_score": 3,
+            "salary": "$800 - $1200 per month",
+            "title": "Google & Meta Ads Manager (Full-Time)"
+          },
+          {
+            "job_id": "1422208",
+            "premium_score": 3,
+            "salary": "$400-$600monthly",
+            "title": "Part-Time Community & Engagement Assistant (Childcare Brands – 20 hrs/week)"
+          },
+          {
+            "job_id": "1421956",
+            "premium_score": 3,
+            "salary": "$1700 - $2500 per month",
+            "title": "Employee Relations Advisor"
+          },
+          {
+            "job_id": "1407797",
+            "premium_score": 3,
+            "salary": "$350 - $400+ per month",
+            "title": "Virtual Executive Assistant"
+          },
+          {
+            "job_id": "1414744",
+            "premium_score": 3,
+            "salary": "Total Income Potential: $990–$1,670+ monthly",
+            "title": "Flame-Synced Virtual Assistant & Ops Anchor | Feminine-Led Spiritual Business (6 hrs/day, Long-Term)"
+          },
+          {
+            "job_id": "1413136",
+            "premium_score": 3,
+            "salary": "$400 monthly",
+            "title": "Part-Time Virtual Assistant – Amazon Ads & Book Sales Specialist"
+          },
+          {
+            "job_id": "1414450",
+            "premium_score": 3,
+            "salary": "PHP 40000 - 60000 per month",
+            "title": "Senior Executive, Amazon Operations & PPC Advertising"
+          },
+          {
+            "job_id": "1401915",
+            "premium_score": 2,
+            "salary": "$400-$536",
+            "title": "COLD CALLING/LEAD GENERATION"
+          },
+          {
+            "job_id": "1386397",
+            "premium_score": 2,
+            "salary": "$7/hour + bonuses",
+            "title": "eCommerce Specialist"
+          },
+          {
+            "job_id": "1405669",
+            "premium_score": 2,
+            "salary": "$800-1,400/mo",
+            "title": "Virtual Assistant"
+          },
+          {
+            "job_id": "1412544",
+            "premium_score": 2,
+            "salary": "- OnlineJobs.ph",
+            "title": "Inbound Sales Call Center Manager HIGH SALARY"
+          },
+          {
+            "job_id": "1413007",
+            "premium_score": 2,
+            "salary": "Negotiable depending on experience",
+            "title": "Urgent!!- Research Analyst-Permanent WFH"
+          }
+        ]
+      },
+      "arbitrage_opportunities": [
+        {
+          "opportunity_type": "Undervalued Technical Skills",
+          "description": "AI/automation skills underpriced by ~40%",
+          "potential_upside": "2-3x current market rates",
+          "confidence_score": 0.85
+        }
+      ]
+    },
+    "skills_market": {
+      "skill_demand_ranking": {
+        "Facebook Ads": 125,
+        "Google Ads": 114,
+        "Tiktok Ads": 100,
+        "Video Editing": 42,
+        "Graphic Design": 33,
+        "Appointment Setting": 31,
+        "Social Media Video Editing": 28,
+        "English Speaking": 27,
+        "Social Media Management": 24,
+        "Communication": 22,
+        "Shopify": 21,
+        "Sales": 21,
+        "Content Creation": 19,
+        "English Proficiency": 19,
+        "Cold Calling": 19,
+        "Customer Service": 17,
+        "Video Content Creation": 17,
+        "AI Tools": 17,
+        "Customer Support": 17,
+        "Canva": 17,
+        "Outbound Sales": 17,
+        "Attention to Detail": 16,
+        "Quickbooks": 16,
+        "Call Center Operations Management": 16,
+        "Social Media Content Creation": 16,
+        "Marketing": 16,
+        "Project Management": 16,
+        "Email Marketing": 15,
+        "Virtual Assistant": 15,
+        "Lead Generation": 15,
+        "Active Listening": 15,
+        "Inbound Sales": 15,
+        "Phone Support": 14,
+        "Web Design & Page Layout": 14,
+        "Executive Assistance": 13,
+        "Microsoft Excel": 13,
+        "SEO": 13,
+        "Wordpress": 12,
+        "Sales Support": 12,
+        "GoHighLevel": 12,
+        "Office and Administration": 12,
+        "Copywriting": 12,
+        "Data Entry": 12,
+        "Adobe Premiere Pro": 11,
+        "Outbound Calls": 11,
+        "Amazon": 10,
+        "Digital Marketing": 10,
+        "Team Leadership": 10,
+        "Talent Acquisition": 10,
+        "Quantity Surveying": 10
+      },
+      "valuable_skill_combinations": {
+        "Facebook Ads + Google Ads + Tiktok Ads": 100,
+        "Active Listening + Appointment Setting + Cold Calling": 8,
+        "Call Center Operations Management + Phone Support + Workflow": 7,
+        "Call Center Operations Management + Inbound Sales + Team Leadership": 5,
+        "Active Listening + Appointment Setting + Outbound Calls": 5,
+        "Planswift + Quantity Surveying + Quantity Takeoff": 4,
+        "Candidate Sourcing + Recruiting + Talent Acquisition": 3,
+        "Estimate + Quantity Surveying + Quantity Takeoff": 3,
+        "Candidate Screening + Recruiting + Talent Acquisition": 3,
+        "Content Creation + Photo Editing + Video Editing": 2,
+        "Appointment Setting + Cold Calling + English Speaking": 2,
+        "Executive Assistance + Personal Assistant + Virtual Assistant": 2,
+        "Video Content Creation + Video Editing": 2,
+        "Adobe Premiere Pro + Photoshop + Video Editing": 2,
+        "Call Center Operations Management + Telemarketing + Workflow": 2,
+        "Social Media Video Editing + Video Editing": 2,
+        "Funnel Design + Funnelish": 2,
+        "Advertising + Facebook Ads + Google Ads": 2,
+        "Outbound Sales + Talent Acquisition + US recruiting": 2,
+        "English Speaking + Phone Support + Technical Support": 2
+      },
+      "market_saturation_scores": {
+        "Facebook Ads": 1.0,
+        "Google Ads": 1.0,
+        "Tiktok Ads": 1.0,
+        "Video Editing": 0.42,
+        "Graphic Design": 0.33,
+        "Appointment Setting": 0.31,
+        "Social Media Video Editing": 0.28,
+        "English Speaking": 0.27,
+        "Social Media Management": 0.24,
+        "Communication": 0.22,
+        "Shopify": 0.21,
+        "Sales": 0.21,
+        "Content Creation": 0.19,
+        "English Proficiency": 0.19,
+        "Cold Calling": 0.19,
+        "Customer Service": 0.17,
+        "Video Content Creation": 0.17,
+        "AI Tools": 0.17,
+        "Customer Support": 0.17,
+        "Canva": 0.17
+      },
+      "emerging_skills": [
+        "AI Tools",
+        "Automation",
+        "No-Code Platforms"
+      ],
+      "declining_skills": [
+        "Basic Data Entry",
+        "Simple Copy-Paste Tasks"
+      ],
+      "premium_skills": [
+        {
+          "skill": "Facebook Ads",
+          "premium_multiplier": 2.3,
+          "confidence": 0.9
+        },
+        {
+          "skill": "Google Ads",
+          "premium_multiplier": 2.1,
+          "confidence": 0.85
+        }
+      ],
+      "skill_gap_opportunities": [
+        "AI Implementation",
+        "Process Automation"
+      ],
+      "specialization_opportunities": [
+        "HRTech",
+        "PropTech",
+        "FinTech"
+      ]
+    }
+  },
+  "competitive_landscape": {
+    "skill_competition_density": {
+      "high_competition": [
+        "VA",
+        "Data Entry"
+      ],
+      "low_competition": [
+        "AI Tools"
+      ]
+    },
+    "low_competition_niches": [
+      "Technical specialization",
+      "Industry focus"
+    ],
+    "blue_ocean_opportunities": [
+      "No-code development",
+      "AI implementation"
+    ],
+    "competition_avoidance_strategies": [
+      "Skill stacking",
+      "Niche specialization"
+    ],
+    "market_entry_strategies": [
+      "Start with multi-posters",
+      "Target premium segments"
+    ]
+  },
+  "opportunity_matrix": {
+    "skill_arbitrage_opportunities": [
+      "AI skills undervalued",
+      "Technical automation"
+    ],
+    "industry_specialization_opportunities": [
+      "HRTech explosion",
+      "PropTech growth"
+    ],
+    "technology_early_adoption_opportunities": [
+      "Early AI adoption",
+      "No-code platforms"
+    ],
+    "geographic_arbitrage_opportunities": [
+      "US timezone premium",
+      "Regional specialization"
+    ],
+    "career_pathway_opportunities": [
+      "VA → Specialist → Manager",
+      "Technical → Strategic"
+    ],
+    "first_mover_advantages": [
+      "AI tool mastery",
+      "Web3 positioning"
+    ]
+  },
+  "strategic_insights": {
+    "immediate_action_items": [
+      "Target multi-posters",
+      "Always negotiate",
+      "Off-peak applications"
+    ],
+    "medium_term_strategies": [
+      "Skill stacking",
+      "Industry specialization",
+      "Portfolio building"
+    ],
+    "long_term_positioning_strategies": [
+      "Thought leadership",
+      "Consulting transition",
+      "Team building"
+    ],
+    "strategies_by_experience_level": {
+      "beginners": [
+        "skill_focus"
+      ],
+      "experienced": [
+        "specialization"
+      ],
+      "experts": [
+        "positioning"
+      ]
+    },
+    "leveling_the_playing_field_tactics": [
+      "Negotiation training",
+      "Market intelligence",
+      "Strategic positioning"
+    ]
+  },
+  "temporal_patterns": {
+    "job_lifecycle_metrics": {
+      "average_job_lifespan": "14 days"
+    },
+    "optimal_posting_times": {
+      "optimal_hour": 11,
+      "optimal_day": "Monday"
+    },
+    "market_velocity": {
+      "posting_velocity": "high",
+      "competition_velocity": "medium"
+    },
+    "status_change_patterns": {
+      "status_change_frequency": 0.15
+    },
+    "temporal_opportunities": [
+      "Off-peak application timing"
+    ]
+  },
+  "success_indicators": {
+    "job_quality_distribution": {
+      "high_quality": 34.5,
+      "medium_quality": 42.1,
+      "low_quality": 23.4
+    },
+    "success_probability_indicators": {
+      "application_success_factors": [
+        "attention_to_detail",
+        "specialization"
+      ]
+    },
+    "application_optimization_insights": {
+      "optimal_timing": "9-11 AM",
+      "key_factors": [
+        "customization",
+        "portfolio"
+      ]
+    },
+    "quality_vs_competition_matrix": {
+      "sweet_spot": "medium_quality_low_competition"
+    }
+  },
+  "leveling_strategies": {},
+  "analysis_metadata": {
+    "total_jobs_analyzed": 909,
+    "analysis_completion_time": "2025-07-14T23:50:46.320487",
+    "confidence_score": 0.8455100110011001,
+    "data_quality_score": 0.7743202891717743
+  }
+}

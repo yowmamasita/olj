@@ -1,0 +1,24 @@
+{
+  "temporal_patterns": {
+    "posting_timing_strategies": {
+      "peak_posting_hours": {
+        "23": 909
+      },
+      "optimal_posting_windows": {
+        "peak_hours": [
+          23
+        ],
+        "best_posting_window": "23:00-23:00",
+        "avoid_hours": []
+      },
+      "employer_timing_psychology": {
+        "morning_preference": "0.0%",
+        "afternoon_preference": "0.0%",
+        "evening_preference": "100.0%",
+        "night_preference": "0.0%",
+        "dominant_pattern": "Most employers post during evening (100.0%)"
+      }
+    },
+    "market_saturation_indicators": {
+      "daily_posting_volume": {
+        

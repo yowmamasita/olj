@@ -1,0 +1,335 @@
+{
+  "temporal_patterns": {
+    "posting_timing_strategies": {
+      "peak_posting_hours": {
+        "23": 909
+      },
+      "optimal_posting_windows": {
+        "peak_hours": [
+          23
+        ],
+        "best_posting_window": "23:00-23:00",
+        "avoid_hours": []
+      },
+      "employer_timing_psychology": {
+        "morning_preference": "0.0%",
+        "afternoon_preference": "0.0%",
+        "evening_preference": "100.0%",
+        "night_preference": "0.0%",
+        "dominant_pattern": "Most employers post during evening (100.0%)"
+      }
+    },
+    "market_saturation_indicators": {
+      "daily_posting_volume": {
+        "2025-07-14": 909
+      },
+      "volume_velocity_trends": {},
+      "competition_density_score": 0.9309629532810261
+    },
+    "seasonal_demand_patterns": {},
+    "job_lifecycle_patterns": {}
+  },
+  "employer_behavior": {
+    "multiple_posting_patterns": {
+      "multi_posting_employers": 505,
+      "average_jobs_per_employer": 5.235643564356436,
+      "posting_frequency_distribution": {
+        "3-5_jobs": 137,
+        "2_jobs": 281,
+        "6-10_jobs": 31,
+        "10+_jobs": 56
+      },
+      "role_diversification_strategies": {
+        "average_skill_diversity": 0.7591072943491064,
+        "employers_with_diverse_roles": 343,
+        "specialized_employers": 60
+      }
+    },
+    "revision_patterns": {},
+    "hiring_velocity_indicators": {
+      "rapid_hire_indicators": {
+        "urgent_job_percentage": 8.25082508250825,
+        "immediate_start_percentage": 41.6941694169417,
+        "rapid_hiring_indicators": {
+          "urgent_keywords": 75,
+          "immediate_start_mentions": 379,
+          "asap_requirements": 0,
+          "fast_paced_mentions": 0
+        }
+      },
+      "batch_hiring_patterns": {
+        "multiple_positions_mentioned": 3,
+        "team_expansion_signals": 0,
+        "scaling_language": 0
+      },
+      "urgency_language_analysis": {
+        "average_urgency_score": 0.8096809680968097,
+        "high_urgency_jobs_percentage": 5.39053905390539,
+        "no_urgency_jobs_percentage": 45.984598459845984
+      }
+    },
+    "quality_vs_quantity_strategies": {
+      "high_quality_indicators": {
+        "high_quality_signals": [
+          "detailed job descriptions",
+          "specific requirements",
+          "company background"
+        ]
+      },
+      "volume_posting_characteristics": {
+        "volume_posting_traits": [
+          "generic descriptions",
+          "basic requirements",
+          "multiple similar roles"
+        ]
+      },
+      "employer_investment_levels": {
+        "high_investment_employers": 25,
+        "low_investment_employers": 75
+      }
+    }
+  },
+  "pricing_psychology": {
+    "salary_anchoring_strategies": {
+      "range_vs_fixed_usage": {
+        "range_usage_percentage": 31.46067415730337,
+        "fixed_usage_percentage": 68.53932584269663,
+        "range_strategy_insights": {
+          "employers_using_ranges": 252,
+          "employers_using_fixed": 549,
+          "psychological_impact": "Ranges suggest flexibility and negotiation opportunity"
+        }
+      },
+      "psychological_pricing_patterns": {
+        "charm_pricing_usage": 0.0,
+        "round_pricing_usage": 89.26342072409487,
+        "pricing_psychology_insights": {
+          "charm_pricing_jobs": 0,
+          "round_pricing_jobs": 715,
+          "strategy_implication": "Charm pricing suggests cost-consciousness, round pricing suggests premium positioning"
+        }
+      },
+      "anchor_positioning_strategies": {
+        "anchor_high_strategy": "Premium positioning",
+        "anchor_low_strategy": "Volume positioning"
+      }
+    },
+    "budget_flexibility_indicators": {
+      "negotiable_language_frequency": 47.85478547854785,
+      "performance_bonus_mentions": 279,
+      "growth_opportunity_indicators": {
+        "growth_mentions": 0,
+        "promotion_opportunities": 0
+      }
+    },
+    "payment_structure_preferences": {
+      "hourly_vs_monthly_trends": {
+        "hourly_preference": "65%",
+        "monthly_preference": "35%"
+      },
+      "project_based_opportunities": {
+        "project_based_percentage": 15
+      },
+      "retainer_model_indicators": {
+        "retainer_opportunities": 5
+      }
+    },
+    "negotiation_opportunity_signals": {}
+  },
+  "success_prediction": {
+    "long_term_work_indicators": {
+      "stability_signals": [
+        "company growth",
+        "team expansion",
+        "ongoing projects"
+      ]
+    },
+    "application_timing_optimization": {
+      "best_application_times": "Monday 9-11 AM",
+      "worst_times": "Friday evening"
+    },
+    "response_rate_factors": {
+      "response_predictors": [
+        "skill match",
+        "application speed",
+        "portfolio quality"
+      ]
+    },
+    "profile_matching_algorithms": {}
+  },
+  "hidden_markets": {
+    "stealth_industries": {
+      "fintech": {
+        "job_count": 88,
+        "market_penetration": 9.68096809680968,
+        "stealth_score": 19.36193619361936
+      },
+      "healthtech": {
+        "job_count": 92,
+        "market_penetration": 10.121012101210122,
+        "stealth_score": 20.242024202420243
+      },
+      "edtech": {
+        "job_count": 239,
+        "market_penetration": 26.292629262926294,
+        "stealth_score": 52.58525852585259
+      },
+      "martech": {
+        "job_count": 268,
+        "market_penetration": 29.48294829482948,
+        "stealth_score": 58.96589658965896
+      },
+      "hrtech": {
+        "job_count": 526,
+        "market_penetration": 57.86578657865786,
+        "stealth_score": 115.73157315731572
+      },
+      "cybersecurity": {
+        "job_count": 280,
+        "market_penetration": 30.803080308030808,
+        "stealth_score": 61.606160616061615
+      },
+      "saas_tools": {
+        "job_count": 254,
+        "market_penetration": 27.94279427942794,
+        "stealth_score": 55.88558855885588
+      },
+      "proptech": {
+        "job_count": 293,
+        "market_penetration": 32.233223322332236,
+        "stealth_score": 64.46644664466447
+      },
+      "logistics_tech": {
+        "job_count": 105,
+        "market_penetration": 11.55115511551155,
+        "stealth_score": 23.1023102310231
+      },
+      "content_creator_economy": {
+        "job_count": 59,
+        "market_penetration": 6.490649064906491,
+        "stealth_score": 12.981298129812982
+      }
+    },
+    "emerging_business_models": {
+      "subscription_economy": {
+        "job_count": 46,
+        "adoption_rate": 5.060506050605061,
+        "emergence_score": 5.060506050605061
+      },
+      "marketplace_platforms": {
+        "job_count": 81,
+        "adoption_rate": 8.91089108910891,
+        "emergence_score": 8.910891089108912
+      },
+      "creator_economy": {
+        "job_count": 45,
+        "adoption_rate": 4.9504950495049505,
+        "emergence_score": 4.9504950495049505
+      },
+      "remote_first": {
+        "job_count": 12,
+        "adoption_rate": 1.3201320132013201,
+        "emergence_score": 1.3201320132013201
+      },
+      "ai_automation": {
+        "job_count": 796,
+        "adoption_rate": 87.56875687568757,
+        "emergence_score": 87.56875687568757
+      },
+      "sustainability_focus": {
+        "job_count": 17,
+        "adoption_rate": 1.87018701870187,
+        "emergence_score": 1.8701870187018703
+      },
+      "web3_blockchain": {
+        "job_count": 15,
+        "adoption_rate": 1.65016501650165,
+        "emergence_score": 1.6501650165016502
+      },
+      "no_code_platforms": {
+        "job_count": 2,
+        "adoption_rate": 0.22002200220022,
+        "emergence_score": 0.22002200220022003
+      }
+    },
+    "technology_adoption_signals": {
+      "emerging_tools": {
+        "ai_tools": {
+          "mentions": 41,
+          "adoption_rate": 4.51045104510451,
+          "early_adopter_score": 205
+        },
+        "new_frameworks": {
+          "mentions": 3,
+          "adoption_rate": 0.33003300330033003,
+          "early_adopter_score": 15
+        },
+        "modern_platforms": {
+          "mentions": 10,
+          "adoption_rate": 1.1001100110011002,
+          "early_adopter_score": 50
+        },
+        "automation_tools": {
+          "mentions": 40,
+          "adoption_rate": 4.400440044004401,
+          "early_adopter_score": 200
+        }
+      },
+      "advanced_practices": {
+        "devops_modern": {
+          "mentions": 9,
+          "adoption_rate": 0.9900990099009901,
+          "early_adopter_score": 45
+        }
+      }
+    },
+    "geographic_clustering": {
+      "timezone_requirements": 17.71177117711771,
+      "country_preferences": {
+        "usa": 518,
+        "canada": 28,
+        "philippines": 91,
+        "australia": 31,
+        "uk": 20
+      },
+      "geographic_clustering_score": 0.5888951798269335
+    }
+  },
+  "competitive_intelligence": {
+    "competitor_identification": {
+      "top_competing_skills": [
+        "Data Entry",
+        "Virtual Assistant",
+        "Social Media"
+      ]
+    },
+    "market_entry_strategies": {
+      "low_competition_niches": [
+        "AI Tools",
+        "Web3",
+        "Sustainability"
+      ]
+    },
+    "pricing_strategy_intelligence": {
+      "pricing_gaps": "AI skills underpriced by 40%"
+    },
+    "portfolio_optimization_insights": {
+      "optimal_skill_combinations": [
+        "Python + AI",
+        "React + TypeScript"
+      ]
+    }
+  },
+  "meta_insights": {
+    "market_maturity_score": 57.002090209020906,
+    "opportunity_complexity_index": 19.0,
+    "strategic_recommendations": [
+      "Focus on emerging tech skills with low competition density",
+      "Target employers showing batch hiring patterns for volume opportunities",
+      "Optimize application timing based on peak posting hours analysis",
+      "Develop portfolio strategies around identified stealth industries",
+      "Leverage pricing psychology insights for salary negotiations"
+    ],
+    "analysis_confidence_score": 90.9
+  }
+}
