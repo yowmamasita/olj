@@ -1,221 +1,96 @@
 # OnlineJobs.ph Skills Visualizer
 
-An interactive skill tree visualization that helps identify job opportunities in the Philippines market. This tool displays hierarchical skill categories with real job market data to guide career planning and upskilling decisions.
+An interactive tool that shows which skills are in demand in the Philippines job market. Perfect for job seekers looking to identify opportunities and plan their career development.
 
-## Features
+## What is this?
 
-### Visual Design System
+This tool creates a visual map of all the skills listed on OnlineJobs.ph, showing:
+- **Which skills have the most job openings** (updated regularly)
+- **How skills relate to each other** (skill categories and relationships)
+- **Market trends** through color-coded categories
 
-#### Node Sizing
-- **Uniform sizing approach**: Node size indicates hierarchy level, not job count
-- **Root node**: 20px radius (OnlineJobs.ph)
-- **All other nodes**: 12px radius (consistent across all skill levels)
-- **Font sizes**: Scale with hierarchy (24px→18px desktop, 20px→16px mobile)
+## Who is this for?
 
-#### Color System
-The visualization uses a sophisticated category-based color scheme with 7 distinct skill categories:
+- **Job seekers** exploring career opportunities in the Philippines
+- **Students** deciding which skills to learn
+- **Career changers** looking for in-demand skills
+- **Employers** understanding the talent landscape
 
-- **🔵 Technology/Programming**: `#0066FF` → `#00BBFF` (blue gradient)
-  - Programming, Web Development, Mobile Development, Cloud Services, etc.
-- **🟣 Design/Creative**: `#9B59B6` → `#E74C3C` (purple to red)
-  - Design, Graphics, UI/UX, Video/Audio Editing
-- **🟠 Business/Management**: `#FF6B35` → `#FFB700` (orange gradient)
-  - Business, Management, Finance, Accounting, HR
-- **🟢 Marketing/Sales**: `#00C896` → `#00E676` (green gradient)
-  - Marketing, Sales, SEO, Social Media, E-Commerce
-- **🔷 Writing/Content**: `#00ACC1` → `#26C6DA` (cyan gradient)
-  - Writing, Content, Copywriting, Blog
-- **🔮 Data/Analytics**: `#3F51B5` → `#7986CB` (dark blue gradient)
-  - Data, Analytics, Research, Statistics
-- **🩷 Support/Admin**: `#E91E63` → `#F06292` (pink gradient)
-  - Support, Admin, Customer Service, Virtual Assistant
+## How to use it
 
-Color intensity within each category increases with job count (0-200 jobs range with HSL interpolation).
+### Quick Start
+1. **Open the tool** in your web browser
+2. **Click on skills** to explore - branches expand to show related skills
+3. **Look for highlighted skills** - these have the most job opportunities
+4. **Click any skill name** to see actual job postings on OnlineJobs.ph
 
-#### Job Demand Indicators
-Special border effects highlight high-opportunity skills:
+### Key Features
 
-- **High demand (50-99 jobs)**: Magenta border (`#FF00FF`), 3px width, pulsing animation
-- **Very high (100-199 jobs)**: Cyan border (`#00FFFF`), 4px width, faster pulsing
-- **Ultra high (200+ jobs)**: Rainbow gradient border, 4px width, color-cycling animation
+**🔍 Find Opportunities**
+- Skills with rainbow borders have 200+ job openings
+- Cyan borders mean 100-199 jobs
+- Magenta borders indicate 50-99 jobs
 
-### Layout Modes
+**🎨 Skill Categories**
+- Blue = Technology & Programming
+- Purple = Design & Creative
+- Orange = Business & Management
+- Green = Marketing & Sales
+- Cyan = Writing & Content
+- Dark Blue = Data & Analytics
+- Pink = Support & Admin
 
-#### Radial Layout
-- Circular tree radiating from center
-- Size: `[2π, min(width,height)/2 - 150]`
-- Simple separation: siblings 1x, non-siblings 2x/depth
+**📱 Works Everywhere**
+- Desktop, tablet, and mobile friendly
+- Touch gestures supported
+- No installation needed
 
-#### Horizontal Layout (Default)
-- Traditional left-to-right tree structure
-- Size: `[height × 1.5, width - 200]`
-- Sophisticated spacing with depth factors:
-  - Level 1: 2x spacing
-  - Level 2: 2.5x spacing
-  - Level 3+: 3x spacing with additional multipliers
-  - Nodes with children get 1.3x extra space
+## Project Overview
 
-### Interactive Features
+### What's included
 
-#### Navigation
-- **Click nodes**: Expand/collapse branches (+ = expandable, − = expanded)
-- **Click leaf nodes**: Opens OnlineJobs.ph job search for that skill
-- **Zoom/Pan**: Mouse wheel or touch gestures
-- **Reset View**: Returns to optimal zoom level for current layout
+**Core Files:**
+- `index.html` - The main visualization (open this in your browser)
+- `stats.html` - Market intelligence dashboard with trends and insights
 
-#### Search & Filtering
-- **Text search**: Find specific skills with pink highlighting
-- **Job count filter**: Slider to show only skills above minimum threshold
-- **High opportunity toggle**: Show/hide special border effects
+**Data Files:**
+- `skills_with_jobs_current.json` - Latest job market data
+- `allskills_tree_clean.json` - Backup skill structure
 
-#### Tooltips
-- **Desktop**: Hover to show skill details
-- **Mobile**: Long-press (500ms) to display tooltip for 3 seconds
-- Shows job count, hierarchy level, and category totals
+**Tools (for maintainers):**
+- `job_scraper_enhanced.py` - Updates job counts from OnlineJobs.ph
+- `insights_engine.py` - Generates market intelligence reports
+- `job_posting_scraper.py` - Collects detailed job posting data
 
-### Mobile Experience
+**Supporting Files:**
+- `jobs/` - Folder containing individual job posting data
+- `start_server.sh` - Simple web server for local viewing
 
-#### Responsive Design (768px breakpoint)
-- **Hamburger menu**: Slide-out controls with overlay
-- **Touch optimization**: 44px minimum touch targets
-- **Collapsible sections**: Legend and instructions fold away
-- **Font scaling**: Reduced sizes for mobile readability
+## Want to help?
 
-#### Touch Interactions
-- **Tap**: Expand/collapse or navigate to jobs
-- **Long-press**: Show tooltip
-- **Pinch/zoom**: Navigate the visualization
-- **Touch feedback**: Visual highlights and animations
+We welcome all kinds of contributions! You don't need to be technical to help:
 
-## Setup Instructions
+- **Report issues** - Tell us if something doesn't work right
+- **Suggest improvements** - Share ideas to make the tool better
+- **Test the tool** - Help us find bugs across different devices
+- **Share market knowledge** - Suggest missing skills or better categories
 
-### 1. Install uv (if not already installed)
+See [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute.
 
-```bash
-# On macOS/Linux
-curl -LsSf https://astral.sh/uv/install.sh | sh
+## Getting Started (Simple Version)
 
-# Or using pip
-pip install uv
-```
+### Just want to view it?
+1. Download the project files
+2. Open `index.html` in any web browser
+3. Start exploring!
 
-### 2. Install Dependencies
+### Want fresh data?
+If you're comfortable with basic computer tasks and want the latest job data, see the setup instructions in [CONTRIBUTING.md](CONTRIBUTING.md).
 
-```bash
-# Create virtual environment and install dependencies
-uv venv
-uv pip install -e .
-```
+## Questions?
 
-### 3. Scrape Job Data (Optional)
+This tool is community-driven and aims to help job seekers in the Philippines make informed career decisions. If you have questions or suggestions, please open an issue on GitHub.
 
-The scraper supports parallel processing for faster execution:
+---
 
-```bash
-# Test mode - scrapes only 10 skills
-uv run python job_scraper_enhanced.py --test
-
-# Full mode with default workers (uses all CPU cores)
-uv run python job_scraper_enhanced.py
-
-# Specify number of workers
-uv run python job_scraper_enhanced.py --workers 8
-
-# Custom options
-uv run python job_scraper_enhanced.py --workers 4 --delay 2.0 --limit 50
-```
-
-**Command-line options:**
-- `--test` - Test mode, scrapes only 10 skills
-- `--workers N` - Number of parallel workers (default: CPU count)
-- `--delay N` - Delay between requests per worker in seconds (default: 1.5)
-- `--limit N` - Limit number of skills to scrape
-
-**Performance improvements:**
-- With 4 workers: ~4x faster
-- With 8 workers: ~6-8x faster
-- Test scrape (10 skills): ~7-10 seconds
-- Full scrape: ~10-15 minutes
-
-### 4. View the Visualization
-
-Start the local server:
-```bash
-./start_server.sh
-```
-
-Open http://localhost:8000/index.html in your browser. The visualization will:
-- Load `skills_with_jobs_current.json` if available (real job data)
-- Fall back to `allskills_tree_clean.json` (demo data with mock counts)
-- Display data status in the controls panel
-
-## Use Cases
-
-### For Job Seekers
-
-1. **Identify High-Demand Skills**
-   - Look for nodes with special border effects (magenta/cyan/rainbow)
-   - Use job count filter to focus on opportunities
-   - Check job count labels on leaf nodes
-
-2. **Explore Career Paths**
-   - Navigate skill categories by color
-   - Expand branches to see related skills
-   - Click skills to view actual job postings
-
-3. **Plan Learning Routes**
-   - Start from current skills
-   - Identify adjacent high-demand skills
-   - Use category totals to prioritize learning areas
-
-### For Employers
-
-- Identify skills with high/low supply
-- Understand skill taxonomy and relationships
-- See market demand patterns by category
-
-## Data Structure
-
-The enhanced JSON includes real job counts:
-
-```json
-{
-  "Accounting": {
-    "children": {
-      "Quickbooks": {
-        "id": "7",
-        "job_count": 336,
-        "type": "leaf"
-      },
-      "Financial Accounting": {
-        "children": {...},
-        "total_jobs": 245,
-        "type": "branch"
-      }
-    },
-    "total_jobs": 734,
-    "type": "branch"
-  }
-}
-```
-
-## Output Files
-
-- `skills_with_jobs_current.json` - Latest enhanced tree data
-- `skills_with_jobs_[timestamp].json` - Timestamped backups
-- `job_scrape_details_[timestamp].csv` - Detailed scraping results
-
-## Browser Compatibility
-
-Works best in modern browsers supporting ES6 and SVG:
-- Chrome/Edge (recommended)
-- Firefox
-- Safari
-
-## Tips
-
-- Run scraper periodically to keep job data current
-- Use horizontal layout for detailed exploration
-- Use radial layout for overview and pattern recognition
-- Filter by job count to focus on viable opportunities
-- Mobile experience optimized for touch navigation
+Made with ❤️ for the Philippine job market community

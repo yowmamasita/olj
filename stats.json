@@ -1,71 +1,71 @@
 {
   "executive_summary": {
-    "total_jobs_analyzed": 1803,
-    "active_job_percentage": 90.95951192457015,
+    "total_jobs_analyzed": 1864,
+    "active_job_percentage": 90.93347639484979,
     "top_opportunity": "Multi-posting employers (55.6% of employers post multiple jobs)",
     "key_insight": "47.9% of jobs show negotiation flexibility",
     "market_maturity": "Growing market with significant opportunities",
-    "confidence_level": 86.77759290072102
+    "confidence_level": 86.69527896995707
   },
-  "analysis_timestamp": "2025-07-15T14:43:05.822883",
+  "analysis_timestamp": "2025-07-15T15:49:04.532875",
   "data_summary": {
-    "total_jobs": 1803,
-    "active_jobs": 1640,
-    "inactive_jobs": 163,
-    "activity_rate": 0.9095951192457016,
+    "total_jobs": 1864,
+    "active_jobs": 1695,
+    "inactive_jobs": 169,
+    "activity_rate": 0.9093347639484979,
     "work_type_distribution": {
-      "Part Time": 308,
-      "Full Time": 886,
-      "Any": 331,
-      "null": 207,
-      "Gig": 71
+      "Part Time": 316,
+      "Full Time": 921,
+      "Any": 339,
+      "null": 213,
+      "Gig": 75
     },
     "geographic_preferences": {
       "geographic_distribution": {
-        "US": 1215,
-        "Philippines": 187,
-        "Australia": 78,
-        "Global": 107,
+        "US": 1257,
+        "Philippines": 192,
+        "Australia": 79,
+        "Global": 108,
         "Canada": 49,
-        "UK": 51
+        "UK": 54
       },
-      "timezone_requirement_percentage": 72.6012201885746
+      "timezone_requirement_percentage": 72.58583690987125
     },
     "industry_distribution": {
-      "Technology": 1671,
-      "Education": 428,
-      "Logistics": 204,
-      "Digital Marketing": 1023,
-      "Real Estate": 570,
-      "E-commerce": 640,
-      "Healthcare": 189,
-      "Finance": 143
+      "Technology": 1731,
+      "Education": 437,
+      "Logistics": 211,
+      "Digital Marketing": 1057,
+      "Real Estate": 594,
+      "E-commerce": 663,
+      "Healthcare": 193,
+      "Finance": 155
     },
     "posting_velocity": {
       "total_posting_days": 2,
-      "average_daily_postings": 901.5,
+      "average_daily_postings": 932,
       "peak_posting_day": [
         "2025-07-15",
-        1666
+        1727
       ],
-      "posting_consistency_score": -0.199297025440079
+      "posting_consistency_score": -0.20633023829035468
     },
-    "data_freshness_score": 0.9770037898924294
+    "data_freshness_score": 0.9747507760989701
   },
   "market_intelligence": {
     "salary_patterns": {
       "salary_statistics": {
         "min": 0.0,
         "max": 457600.0,
-        "mean": 13844.14304488913,
+        "mean": 13685.796281380753,
         "median": 600.0,
-        "q1": 12.0,
-        "q3": 1635.0,
-        "std_dev": 35744.39879084082
+        "q1": 10.0,
+        "q3": 1600.0,
+        "std_dev": 35367.02189656692
       },
       "negotiation_opportunities": {
-        "total_negotiable": 176,
-        "percentage_negotiable": 9.76150859678314,
+        "total_negotiable": 184,
+        "percentage_negotiable": 9.871244635193133,
         "negotiable_job_ids": [
           "1152660",
           "1152670",
@@ -90,14 +90,14 @@
         ]
       },
       "payment_structures": {
-        "hourly": 246,
-        "monthly": 285,
+        "hourly": 256,
+        "monthly": 293,
         "project": 6,
-        "unspecified": 1059
+        "unspecified": 1096
       },
       "premium_indicators": {
-        "premium_job_count": 496,
-        "premium_percentage": 27.509706045479753,
+        "premium_job_count": 511,
+        "premium_percentage": 27.414163090128756,
         "top_premium_jobs": [
           {
             "job_id": "1271088",
@@ -234,54 +234,54 @@
       "skill_demand_ranking": {
         "Facebook Ads": 111,
         "Google Ads": 104,
-        "Video Editing": 85,
+        "Video Editing": 86,
         "Tiktok Ads": 72,
-        "Graphic Design": 68,
-        "Shopify": 60,
-        "Social Media Management": 60,
-        "Customer Service": 53,
-        "English Speaking": 53,
-        "Appointment Setting": 51,
+        "Graphic Design": 69,
+        "Social Media Management": 62,
+        "Shopify": 61,
+        "Customer Service": 57,
+        "Appointment Setting": 54,
+        "English Speaking": 54,
         "Social Media Video Editing": 50,
-        "Customer Support": 47,
-        "Sales": 46,
-        "Social Media Content Creation": 45,
-        "English Proficiency": 43,
-        "Cold Calling": 38,
-        "Outbound Sales": 36,
+        "Customer Support": 49,
+        "Social Media Content Creation": 46,
+        "English Proficiency": 45,
+        "Sales": 44,
+        "Outbound Sales": 40,
+        "Cold Calling": 39,
         "Communication": 35,
-        "Virtual Assistant": 33,
+        "Virtual Assistant": 34,
+        "SEO": 33,
+        "Content Creation": 33,
+        "Canva": 33,
         "Email Marketing": 32,
-        "Canva": 32,
-        "Content Creation": 31,
-        "GoHighLevel": 31,
-        "SEO": 30,
-        "Video Content Creation": 30,
-        "Marketing": 30,
-        "Project Management": 30,
+        "GoHighLevel": 32,
+        "Video Content Creation": 31,
+        "Marketing": 31,
+        "Project Management": 31,
+        "Quickbooks": 30,
         "Copywriting": 28,
         "AI Tools": 28,
         "Attention to Detail": 28,
+        "Inbound Sales": 28,
         "Wordpress": 28,
-        "Quickbooks": 27,
+        "Lead Generation": 28,
         "Adobe Premiere Pro": 26,
         "Phone Support": 26,
-        "Inbound Sales": 25,
         "Office and Administration": 25,
-        "Lead Generation": 25,
         "Active Listening": 24,
+        "Outbound Calls": 24,
         "Amazon": 24,
-        "Outbound Calls": 22,
-        "Data Entry": 22,
+        "Data Entry": 24,
+        "Bookkeeping": 22,
         "Executive Assistance": 21,
+        "Administrative Management": 21,
         "Digital Marketing": 21,
+        "Microsoft Excel": 21,
+        "CRM": 21,
         "Photoshop": 21,
-        "Bookkeeping": 20,
-        "Microsoft Excel": 20,
         "Organization": 20,
-        "Web Design & Page Layout": 19,
-        "Administrative Management": 18,
-        "Marketing Automation": 18
+        "Web Design & Page Layout": 19
       },
       "valuable_skill_combinations": {
         "Facebook Ads + Google Ads + Tiktok Ads": 70,
@@ -296,36 +296,36 @@
         "English Speaking + Phone Support + Technical Support": 3,
         "Social Media Video Editing + Video Editing": 3,
         "AI Tools + Graphic Design + Marketing": 3,
-        "Chat Support + English + Sales": 3,
         "Accounting + Bookkeeping + Quickbooks": 3,
         "Shopify + Shopify + Shopify": 3,
         "GoHighLevel + Google Ads + Shopify": 3,
         "English Proficiency + Google Sheets + Social Media Management": 3,
         "Blogging + Content Management + Copywriting": 2,
         "Customer Support + Office and Administration": 2,
-        "Appointment Setting + English Speaking + Outbound Sales": 2
+        "Appointment Setting + English Speaking + Outbound Sales": 2,
+        "Adobe Premiere Pro + Social Media Video Editing + Video Editing": 2
       },
       "market_saturation_scores": {
         "Facebook Ads": 1.0,
         "Google Ads": 1.0,
-        "Video Editing": 0.85,
+        "Video Editing": 0.86,
         "Tiktok Ads": 0.72,
-        "Graphic Design": 0.68,
-        "Shopify": 0.6,
-        "Social Media Management": 0.6,
-        "Customer Service": 0.53,
-        "English Speaking": 0.53,
-        "Appointment Setting": 0.51,
+        "Graphic Design": 0.69,
+        "Social Media Management": 0.62,
+        "Shopify": 0.61,
+        "Customer Service": 0.57,
+        "Appointment Setting": 0.54,
+        "English Speaking": 0.54,
         "Social Media Video Editing": 0.5,
-        "Customer Support": 0.47,
-        "Sales": 0.46,
-        "Social Media Content Creation": 0.45,
-        "English Proficiency": 0.43,
-        "Cold Calling": 0.38,
-        "Outbound Sales": 0.36,
+        "Customer Support": 0.49,
+        "Social Media Content Creation": 0.46,
+        "English Proficiency": 0.45,
+        "Sales": 0.44,
+        "Outbound Sales": 0.4,
+        "Cold Calling": 0.39,
         "Communication": 0.35,
-        "Virtual Assistant": 0.33,
-        "Email Marketing": 0.32
+        "Virtual Assistant": 0.34,
+        "SEO": 0.33
       },
       "emerging_skills": [
         "AI Tools",
@@ -489,9 +489,9 @@
   },
   "leveling_strategies": {},
   "analysis_metadata": {
-    "total_jobs_analyzed": 1803,
-    "analysis_completion_time": "2025-07-15T14:43:06.220241",
-    "confidence_score": 0.8677759290072102,
-    "data_quality_score": 0.8515965454401394
+    "total_jobs_analyzed": 1864,
+    "analysis_completion_time": "2025-07-15T15:49:04.953014",
+    "confidence_score": 0.8669527896995708,
+    "data_quality_score": 0.8513948497854077
   }
 }

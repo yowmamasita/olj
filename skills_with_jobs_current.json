@@ -5,16 +5,16 @@
         "children": {
           "Billing": {
             "id": "23392",
-            "job_count": 21,
+            "job_count": 0,
             "type": "leaf"
           },
           "Collection": {
             "id": "24570",
-            "job_count": 20,
+            "job_count": 0,
             "type": "leaf"
           }
         },
-        "total_jobs": 41,
+        "total_jobs": 0,
         "type": "branch"
       },
       "Accounts Reconciliations": {
@@ -211,7 +211,7 @@
         "type": "leaf"
       }
     },
-    "total_jobs": 1179,
+    "total_jobs": 1138,
     "type": "branch"
   },
   "Marketing": {
@@ -551,7 +551,7 @@
           },
           "Scriptwriting": {
             "id": "75",
-            "job_count": 104,
+            "job_count": 103,
             "type": "leaf"
           },
           "eMail Marketing": {
@@ -561,7 +561,7 @@
           },
           "Social Media Content Creation": {
             "id": "77",
-            "job_count": 999,
+            "job_count": 997,
             "type": "leaf"
           },
           "Microblog Content Writing": {
@@ -601,7 +601,7 @@
           },
           "Ghost Writing": {
             "id": "85",
-            "job_count": 22,
+            "job_count": 21,
             "type": "leaf"
           },
           "Guide Writing": {
@@ -640,7 +640,7 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 2706,
+        "total_jobs": 2702,
         "type": "branch"
       },
       "Social Media Management": {
@@ -812,7 +812,7 @@
         "type": "leaf"
       }
     },
-    "total_jobs": 9040,
+    "total_jobs": 9036,
     "type": "branch"
   },
   "Advertising": {
@@ -1128,12 +1128,12 @@
       },
       "Product Sourcing": {
         "id": "145",
-        "job_count": 101,
+        "job_count": 0,
         "type": "leaf"
       },
       "Wholesale Sourcing": {
         "id": "146",
-        "job_count": 32,
+        "job_count": 0,
         "type": "leaf"
       },
       "Brand Analysis": {
@@ -1270,7 +1270,7 @@
         "type": "leaf"
       }
     },
-    "total_jobs": 2152,
+    "total_jobs": 2019,
     "type": "branch"
   },
   "Professional Services": {
@@ -2459,7 +2459,7 @@
       },
       "Thumbnail & Social Media Design": {
         "id": "285",
-        "job_count": 171,
+        "job_count": 170,
         "type": "leaf"
       },
       "Advertising And Marketing Design": {
@@ -2622,7 +2622,7 @@
         "type": "leaf"
       }
     },
-    "total_jobs": 2901,
+    "total_jobs": 2900,
     "type": "branch"
   },
   "Video Editing": {
@@ -2721,7 +2721,7 @@
       },
       "Adobe Premiere Elements": {
         "id": "321",
-        "job_count": 2,
+        "job_count": 0,
         "type": "leaf"
       },
       "Clipchamp": {
@@ -2750,7 +2750,7 @@
         "type": "leaf"
       }
     },
-    "total_jobs": 1978,
+    "total_jobs": 1976,
     "type": "branch"
   },
   "Audio Editing": {
@@ -2955,7 +2955,7 @@
       },
       "Social Media Moderation": {
         "id": "353",
-        "job_count": 34,
+        "job_count": 33,
         "type": "leaf"
       },
       "Forum Community Moderation": {
@@ -3132,7 +3132,7 @@
         "type": "leaf"
       }
     },
-    "total_jobs": 2687,
+    "total_jobs": 2686,
     "type": "branch"
   },
   "Office and Administration": {
@@ -3212,7 +3212,7 @@
       },
       "Microsoft Excel": {
         "id": "377",
-        "job_count": 319,
+        "job_count": 318,
         "type": "leaf"
       },
       "Microsoft Power Point": {
@@ -3761,7 +3761,7 @@
         "type": "leaf"
       }
     },
-    "total_jobs": 5652,
+    "total_jobs": 5651,
     "type": "branch"
   },
   "Web Programming": {
@@ -5836,7 +5836,7 @@
           },
           "Security - Microsoft Defender for Cloud": {
             "id": "726",
-            "job_count": 1,
+            "job_count": 0,
             "type": "leaf"
           },
           "Security - Front Door": {
@@ -5870,7 +5870,7 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 25,
+        "total_jobs": 24,
         "type": "branch"
       },
       "Google Cloud": {
@@ -5981,7 +5981,7 @@
         "type": "leaf"
       }
     },
-    "total_jobs": 103,
+    "total_jobs": 102,
     "type": "branch"
   },
   "Systems Administration": {

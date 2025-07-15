@@ -1,0 +1,24 @@
+{
+  "job_id": "1423235",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/QA-Test-Engineer-1423235",
+  "scraped_at": "2025-07-15T15:30:23.585329",
+  "title": "QA Test Engineer",
+  "type_of_work": "Full Time",
+  "salary": "$6-7/hour",
+  "hours_per_week": "40",
+  "date_updated": "Jul 15, 2025",
+  "job_overview": "Requirements\r\n- 2–4 years of experience in software testing or a related field, with knowledge of Selenium, Python, and/or JavaScript\r\n- Solid understanding of HTML structure, semantic markup, and web standards\r\n- Familiarity with the HTTP protocol, status codes, and request/response cycles\r\n- Knowledge of CSS properties, selectors, and responsive design principles\r\n- Experience using browser developer tools for debugging and inspection\r\n- Basic understanding of web application architecture and client-server communication\r\n- Proficiency in testing methodologies and defect lifecycle management\r\n- Working Hours: 9:00 AM – 5:00 PM Israel Time",
+  "skill_requirements": [
+    "Javascript",
+    "Python",
+    "Selenium"
+  ],
+  "is_active": true,
+  "status_history": [
+    {
+      "status": "active",
+      "timestamp": "2025-07-15T15:30:23.587189",
+      "reason": "Job first discovered"
+    }
+  ]
+}

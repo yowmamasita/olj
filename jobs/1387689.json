@@ -1,24 +1,25 @@
 {
   "job_id": "1387689",
   "url": "https://www.onlinejobs.ph/jobseekers/job/Needing-a-dispatcher-who-can-speak-Spanish-and-English-1387689",
-  "scraped_at": "2025-07-15T14:33:59.717612",
-  "title": "Needing a dispatcher who can speak Spanish and English",
-  "type_of_work": "Full Time",
-  "salary": "$3-6 per hour",
-  "hours_per_week": "60",
-  "date_updated": "Jul 15, 2025",
-  "job_overview": "United States Locksmith company looking for someone who can speak English and Spanish. Training available great pay. For fast response message me on WhatsAppUpgrade to see actual info",
-  "skill_requirements": [
-    "English Speaking",
-    "Spanish Bilingual",
-    "Multitasking"
-  ],
-  "is_active": true,
+  "scraped_at": "2025-07-15T15:44:24.564930",
+  "title": "Job Unavailable",
+  "type_of_work": null,
+  "salary": null,
+  "hours_per_week": null,
+  "date_updated": null,
+  "job_overview": null,
+  "skill_requirements": [],
+  "is_active": false,
   "status_history": [
     {
       "status": "active",
       "timestamp": "2025-07-15T12:01:46.472577",
       "reason": "Job first discovered"
+    },
+    {
+      "status": "inactive",
+      "timestamp": "2025-07-15T15:44:24.565667",
+      "reason": "Job became unavailable during re-scrape"
     }
   ]
 }
