@@ -1,0 +1,25 @@
+{
+  "job_id": "1422829",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/PC-Executive-Pay-Per-Click-1422829",
+  "scraped_at": "2025-07-15T12:29:58.208924",
+  "title": "Job Unavailable",
+  "type_of_work": null,
+  "salary": null,
+  "hours_per_week": null,
+  "date_updated": null,
+  "job_overview": null,
+  "skill_requirements": [],
+  "is_active": false,
+  "status_history": [
+    {
+      "status": "active",
+      "timestamp": "2025-07-15T07:33:34.523900",
+      "reason": "Job first discovered"
+    },
+    {
+      "status": "inactive",
+      "timestamp": "2025-07-15T08:39:50.414569",
+      "reason": "Job became unavailable during re-scrape"
+    }
+  ]
+}

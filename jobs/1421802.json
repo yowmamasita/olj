@@ -1,7 +1,7 @@
 {
   "job_id": "1421802",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1421802",
-  "scraped_at": "2025-07-14T23:09:32.778277",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Virtual-Assistant-1421802",
+  "scraped_at": "2025-07-15T00:28:30.043789",
   "title": "Virtual Assistant",
   "type_of_work": "Full Time",
   "salary": "135,000 PHP/month",
@@ -12,5 +12,7 @@
     "Marketing",
     "Graphic Design",
     "AI Tools"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

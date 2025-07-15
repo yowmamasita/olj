@@ -1,7 +1,7 @@
 {
   "job_id": "1422010",
   "url": "https://www.onlinejobs.ph/jobseekers/job/Bookkeeping-Manager-1422010",
-  "scraped_at": "2025-07-14T23:07:30.919315",
+  "scraped_at": "2025-07-15T02:35:13.700815",
   "title": "Bookkeeping Manager",
   "type_of_work": "Part Time",
   "salary": "$540/month",
@@ -12,5 +12,7 @@
     "Accounting",
     "Quickbooks",
     "Bookkeeping"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

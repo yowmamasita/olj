@@ -1,7 +1,7 @@
 {
   "job_id": "1413527",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1413527",
-  "scraped_at": "2025-07-14T23:09:44.470919",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Sales-Representaive-1413527",
+  "scraped_at": "2025-07-14T22:22:25.690580",
   "title": "Sales Representaive",
   "type_of_work": "Full Time",
   "salary": "TBD",
@@ -11,5 +11,7 @@
   "skill_requirements": [
     "Customer Support",
     "Appointment Setting"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

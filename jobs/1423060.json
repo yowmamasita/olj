@@ -1,0 +1,24 @@
+{
+  "job_id": "1423060",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/WordPress-Website-Rebuild-in-Elementor-11-Copy-from-Avada-1423060",
+  "scraped_at": "2025-07-15T12:34:31.615039",
+  "title": "WordPress Website Rebuild in Elementor (1:1 Copy from Avada)",
+  "type_of_work": "Gig",
+  "salary": "1",
+  "hours_per_week": "TBD",
+  "date_updated": "Jul 15, 2025",
+  "job_overview": "We are looking for a skilled WordPress developer to help us rebuild an existing website that is currently built with the Avada theme. Your task is to recreate the entire site in Elementor, page by page, while keeping the layout, styling, and structure exactly the same (1:1 clone).\n\r\nKey Details:\r\n• 25 pages (informational pages only, no webshop or complex features)\r\n• 14 pages of the 25 got exactly the same design\r\n• The site is for an online marketing agency\r\n• No WooCommerce, memberships, or custom functionality involved\r\n• We will provide full access to the current Avada site\r\n• Elementor Pro license can be provided if needed\r\n•      Need to be SEO friendly (knowledge about SEO is very important)\n\r\nPlease include in your application:\r\n• How much time (in hours or days) you estimate the full project will take\r\n• Your fixed price OR hourly rate for this job\r\n• Examples of similar WordPress/Elementor projects you’ve done\n\r\nLooking for someone detail-oriented and experienced with Elementor. Please dont message if you are not experienced/skilled enough to do this job",
+  "skill_requirements": [
+    "On-Page",
+    "Wordpress",
+    "Elementor"
+  ],
+  "is_active": true,
+  "status_history": [
+    {
+      "status": "active",
+      "timestamp": "2025-07-15T12:07:15.728261",
+      "reason": "Job first discovered"
+    }
+  ]
+}

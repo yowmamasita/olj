@@ -1,7 +1,7 @@
 {
   "job_id": "1378335",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1378335",
-  "scraped_at": "2025-07-14T23:09:47.381718",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Appointment-Setter-Work-From-Home-1378335",
+  "scraped_at": "2025-07-14T23:20:50.391389",
   "title": "Appointment Setter (Work From Home)",
   "type_of_work": "Full Time",
   "salary": "20000",
@@ -12,5 +12,7 @@
     "Outbound Sales",
     "English Speaking",
     "Appointment Setting"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

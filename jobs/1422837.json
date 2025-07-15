@@ -1,0 +1,25 @@
+{
+  "job_id": "1422837",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Google-Ads-Specialist-SEM-Specialist-1422837",
+  "scraped_at": "2025-07-15T12:25:40.710231",
+  "title": "Job Unavailable",
+  "type_of_work": null,
+  "salary": null,
+  "hours_per_week": null,
+  "date_updated": null,
+  "job_overview": null,
+  "skill_requirements": [],
+  "is_active": false,
+  "status_history": [
+    {
+      "status": "active",
+      "timestamp": "2025-07-15T07:39:53.879736",
+      "reason": "Job first discovered"
+    },
+    {
+      "status": "inactive",
+      "timestamp": "2025-07-15T09:32:55.964906",
+      "reason": "Job became unavailable during re-scrape"
+    }
+  ]
+}

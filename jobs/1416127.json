@@ -1,7 +1,7 @@
 {
   "job_id": "1416127",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1416127",
-  "scraped_at": "2025-07-14T23:09:59.237890",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/CAD-Drafter-Custom-Cabinet-1416127",
+  "scraped_at": "2025-07-15T12:33:27.429880",
   "title": "CAD Drafter - Custom Cabinet",
   "type_of_work": "Full Time",
   "salary": "$5",
@@ -12,5 +12,7 @@
     "Auto Cad",
     "Drafting",
     "3D autocad"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

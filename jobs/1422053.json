@@ -1,7 +1,7 @@
 {
   "job_id": "1422053",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1422053",
-  "scraped_at": "2025-07-14T23:10:01.052723",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Acquisitions-and-Operations-Analyst-1422053",
+  "scraped_at": "2025-07-15T10:22:06.476856",
   "title": "Acquisitions and Operations Analyst",
   "type_of_work": "Full Time",
   "salary": "$1,600.00",
@@ -12,5 +12,7 @@
     "Commercial Real Estate",
     "Microsoft Excel",
     "English Proficiency"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

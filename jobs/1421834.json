@@ -1,7 +1,7 @@
 {
   "job_id": "1421834",
   "url": "https://www.onlinejobs.ph/jobseekers/job/Tech-Savvy-Assistant-1421834",
-  "scraped_at": "2025-07-14T23:08:36.987874",
+  "scraped_at": "2025-07-15T04:29:28.380801",
   "title": "Tech-Savvy Assistant",
   "type_of_work": "Full Time",
   "salary": "$400/month",
@@ -12,5 +12,7 @@
     "Amazon",
     "Shopify",
     "AI Tools"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

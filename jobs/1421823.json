@@ -1,7 +1,7 @@
 {
   "job_id": "1421823",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1421823",
-  "scraped_at": "2025-07-14T23:06:04.285272",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Short-form-video-editor-1421823",
+  "scraped_at": "2025-07-15T03:43:08.782546",
   "title": "Short-form video editor",
   "type_of_work": "Part Time",
   "salary": "$3000",
@@ -11,5 +11,7 @@
   "skill_requirements": [
     "Video Editing",
     "Social Media Video Editing"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

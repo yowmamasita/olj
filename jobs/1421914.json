@@ -1,7 +1,7 @@
 {
   "job_id": "1421914",
   "url": "https://www.onlinejobs.ph/jobseekers/job/Website-Designer-Developers-1421914",
-  "scraped_at": "2025-07-14T23:09:38.482144",
+  "scraped_at": "2025-07-15T06:28:38.245544",
   "title": "Website Designer/ Developers",
   "type_of_work": "Full Time",
   "salary": "$650/mo",
@@ -12,5 +12,7 @@
     "Web Design & Page Layout",
     "Wix",
     "Wordpress"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

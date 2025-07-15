@@ -1,7 +1,7 @@
 {
   "job_id": "1421836",
   "url": "https://www.onlinejobs.ph/jobseekers/job/Lead-NET-Azure-AI-Angular-Dev-1421836",
-  "scraped_at": "2025-07-14T23:07:23.412443",
+  "scraped_at": "2025-07-15T04:30:25.359042",
   "title": "Lead .NET / Azure AI / Angular Dev",
   "type_of_work": "Gig",
   "salary": "Php 175,000 / mo",
@@ -12,5 +12,7 @@
     "Angular JS",
     ".Net",
     "Azure"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

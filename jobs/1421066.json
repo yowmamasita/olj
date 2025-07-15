@@ -1,7 +1,7 @@
 {
   "job_id": "1421066",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1421066",
-  "scraped_at": "2025-07-14T23:07:26.663404",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/COURSE-SETUP-MARKETING-LAUNCH-1421066",
+  "scraped_at": "2025-07-15T05:33:17.209084",
   "title": "COURSE SETUP MARKETING & LAUNCH",
   "type_of_work": "Gig",
   "salary": "$4 per hour",
@@ -12,5 +12,7 @@
     "Email Marketing",
     "Instagram marketing",
     "Flodesk"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

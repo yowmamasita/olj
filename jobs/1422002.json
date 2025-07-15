@@ -1,7 +1,7 @@
 {
   "job_id": "1422002",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1422002",
-  "scraped_at": "2025-07-14T23:09:21.646575",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/VA-Assistant-1422002",
+  "scraped_at": "2025-07-15T08:36:15.251187",
   "title": "VA Assistant",
   "type_of_work": "Part Time",
   "salary": "$8 to $12 per hour",
@@ -12,5 +12,7 @@
     "Wordpress",
     "Canva",
     "Kajabi"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

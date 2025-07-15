@@ -1,7 +1,7 @@
 {
   "job_id": "1422200",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1422200",
-  "scraped_at": "2025-07-14T23:07:38.565483",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Assistant-to-Corporate-Executive-1422200",
+  "scraped_at": "2025-07-15T02:33:12.480848",
   "title": "Assistant to Corporate Executive",
   "type_of_work": "Full Time",
   "salary": "$400",
@@ -12,5 +12,7 @@
     "Microsoft Excel",
     "Computer Literacy",
     "Financial Reporting"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

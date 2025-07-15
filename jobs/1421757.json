@@ -1,7 +1,7 @@
 {
   "job_id": "1421757",
   "url": "https://www.onlinejobs.ph/jobseekers/job/HighLevel-Admin-Automation-CRM-Migration-Specialist-1421757",
-  "scraped_at": "2025-07-14T23:06:59.907615",
+  "scraped_at": "2025-07-14T23:18:27.237941",
   "title": "HighLevel Admin (Automation & CRM Migration Specialist)",
   "type_of_work": "Full Time",
   "salary": "PHP 30000",
@@ -12,5 +12,7 @@
     "CRM",
     "GoHighLevel",
     "Active Campaign"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

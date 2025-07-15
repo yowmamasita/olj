@@ -1,7 +1,7 @@
 {
   "job_id": "1422328",
   "url": "https://www.onlinejobs.ph/jobseekers/job/Customer-Service-Representative-1422328",
-  "scraped_at": "2025-07-14T23:10:01.772901",
+  "scraped_at": "2025-07-15T12:27:07.403165",
   "title": "Customer Service Representative",
   "type_of_work": "Full Time",
   "salary": "$1000",
@@ -12,5 +12,7 @@
     "Inbound Sales",
     "Customer Support",
     "Customer Relationship Management"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

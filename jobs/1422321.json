@@ -1,7 +1,7 @@
 {
   "job_id": "1422321",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1422321",
-  "scraped_at": "2025-07-14T23:09:48.986841",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Roblox-Game-Developer-1422321",
+  "scraped_at": "2025-07-15T12:34:23.986161",
   "title": "Roblox Game Developer",
   "type_of_work": "Full Time",
   "salary": "1000",
@@ -11,5 +11,7 @@
   "skill_requirements": [
     "Game Development",
     "Game Testing"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

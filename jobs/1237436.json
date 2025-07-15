@@ -1,7 +1,7 @@
 {
   "job_id": "1237436",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1237436",
-  "scraped_at": "2025-07-14T23:09:37.069475",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Multimedia-Specialist-1237436",
+  "scraped_at": "2025-07-14T23:34:04.402332",
   "title": "Multimedia Specialist",
   "type_of_work": "Part Time",
   "salary": "TBD",
@@ -11,5 +11,7 @@
   "skill_requirements": [
     "Video Content Creation",
     "Graphic Design"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

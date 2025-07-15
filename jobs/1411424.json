@@ -1,7 +1,7 @@
 {
   "job_id": "1411424",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1411424",
-  "scraped_at": "2025-07-14T23:06:51.601390",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Data-Analyst-1411424",
+  "scraped_at": "2025-07-15T12:34:37.223351",
   "title": "Data Analyst",
   "type_of_work": "Part Time",
   "salary": "$433 - $500",
@@ -11,5 +11,7 @@
   "skill_requirements": [
     "Data Analytics",
     "Data Entry"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

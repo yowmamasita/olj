@@ -1,7 +1,7 @@
 {
   "job_id": "1421913",
   "url": "https://www.onlinejobs.ph/jobseekers/job/Virtual-Assistant-1421913",
-  "scraped_at": "2025-07-14T23:06:20.089832",
+  "scraped_at": "2025-07-15T02:26:32.657268",
   "title": "Virtual Assistant",
   "type_of_work": "Part Time",
   "salary": "$200-$400",
@@ -11,5 +11,7 @@
   "skill_requirements": [
     "Communication",
     "Product Listing"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

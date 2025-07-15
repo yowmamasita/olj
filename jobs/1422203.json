@@ -1,16 +1,20 @@
 {
   "job_id": "1422203",
   "url": "https://www.onlinejobs.ph/jobseekers/job/Ads-Executive-Performance-Marketing-Executive-1422203",
-  "scraped_at": "2025-07-14T23:09:49.129048",
-  "title": "Ads Executive / Performance Marketing Executive",
-  "type_of_work": "Any",
-  "salary": "90000",
-  "hours_per_week": "22",
-  "date_updated": "Jul 14, 2025",
-  "job_overview": "Ads Executive / Performance Marketing Executive\r\nHelp drive growth through strategic, paid campaigns on Facebook, Google, and TikTok. You’ll play a vital role in testing creatives, managing budgets, and achieving strong ROAS.\n\r\nRequirements:\n\r\nKnowledge of full-funnel paid ad campaigns\n\r\nData-first approach with optimization experience\n\r\nGood communication with creative/content teams\n\r\nPlease send your CV to: Upgrade to see actual info\r\nWe do not respond to messages via onlinejobs.",
-  "skill_requirements": [
-    "Google Ads",
-    "Facebook Ads",
-    "Tiktok Ads"
+  "scraped_at": "2025-07-15T12:31:22.976852",
+  "title": "Job Unavailable",
+  "type_of_work": null,
+  "salary": null,
+  "hours_per_week": null,
+  "date_updated": null,
+  "job_overview": null,
+  "skill_requirements": [],
+  "is_active": false,
+  "status_history": [
+    {
+      "status": "inactive",
+      "timestamp": "2025-07-15T09:35:51.665978",
+      "reason": "Job became unavailable during re-scrape"
+    }
   ]
 }

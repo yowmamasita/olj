@@ -1,7 +1,7 @@
 {
   "job_id": "1422131",
   "url": "https://www.onlinejobs.ph/jobseekers/job/Full-Stack-WordPress-DevOps-Engineer-1422131",
-  "scraped_at": "2025-07-14T23:07:55.010409",
+  "scraped_at": "2025-07-15T12:33:55.179259",
   "title": "Full-Stack WordPress / DevOps Engineer",
   "type_of_work": "Full Time",
   "salary": "$2250/mo",
@@ -12,5 +12,7 @@
     "Wordpress",
     "Fullstack",
     "Devops"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

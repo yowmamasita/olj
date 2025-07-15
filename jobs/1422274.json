@@ -1,7 +1,7 @@
 {
   "job_id": "1422274",
   "url": "https://www.onlinejobs.ph/jobseekers/job/Sales-Support-1422274",
-  "scraped_at": "2025-07-14T23:10:07.848788",
+  "scraped_at": "2025-07-15T12:34:38.702882",
   "title": "Sales Support",
   "type_of_work": "Full Time",
   "salary": "1000",
@@ -11,5 +11,7 @@
   "skill_requirements": [
     "Sales Support",
     "Customer Service"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

@@ -1,7 +1,7 @@
 {
   "job_id": "1404642",
   "url": "https://www.onlinejobs.ph/jobseekers/job/Software-Developer-Time-Tracking-Software-1404642",
-  "scraped_at": "2025-07-14T23:09:34.984051",
+  "scraped_at": "2025-07-15T12:22:28.039256",
   "title": "Software Developer (Time-Tracking Software)",
   "type_of_work": "Full Time",
   "salary": "TBD",
@@ -12,5 +12,7 @@
     "Python",
     "Software",
     "Software Development Project Manager"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

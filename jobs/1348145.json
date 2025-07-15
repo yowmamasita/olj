@@ -1,7 +1,7 @@
 {
   "job_id": "1348145",
   "url": "https://www.onlinejobs.ph/jobseekers/job/Full-Time-UXUI-Designer-1348145",
-  "scraped_at": "2025-07-14T23:08:11.272363",
+  "scraped_at": "2025-07-15T12:32:07.840217",
   "title": "Full-Time UX/UI Designer",
   "type_of_work": "Full Time",
   "salary": "950",
@@ -12,5 +12,7 @@
     "Figma",
     "Adobe XD",
     "UI UX Design"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

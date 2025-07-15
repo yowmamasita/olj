@@ -1,7 +1,7 @@
 {
   "job_id": "1399749",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1399749",
-  "scraped_at": "2025-07-14T23:07:58.938349",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Project-Based-API-Web-Developer-1399749",
+  "scraped_at": "2025-07-15T10:21:25.815396",
   "title": "Project-Based API Web Developer",
   "type_of_work": "Part Time",
   "salary": "$5-$7 (Depending on Experience)",
@@ -12,5 +12,7 @@
     "Squarespace",
     "Wix",
     "Web Development"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

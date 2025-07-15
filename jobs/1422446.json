@@ -1,7 +1,7 @@
 {
   "job_id": "1422446",
   "url": "https://www.onlinejobs.ph/jobseekers/job/Administrative-Assistant-Scheduling-Coordinator-1422446",
-  "scraped_at": "2025-07-14T23:10:11.308563",
+  "scraped_at": "2025-07-15T12:34:07.337271",
   "title": "Administrative Assistant / Scheduling Coordinator",
   "type_of_work": "Full Time",
   "salary": "$1000/month",
@@ -12,5 +12,7 @@
     "Documentation",
     "Coordination",
     "Scheduling"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

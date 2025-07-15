@@ -1,7 +1,7 @@
 {
   "job_id": "1421948",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1421948",
-  "scraped_at": "2025-07-14T23:10:00.464236",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Content-Manager-1421948",
+  "scraped_at": "2025-07-15T06:40:25.529276",
   "title": "Content Manager",
   "type_of_work": "Full Time",
   "salary": "300-500",
@@ -12,5 +12,7 @@
     "Content Management",
     "Organization",
     "Content Planning"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

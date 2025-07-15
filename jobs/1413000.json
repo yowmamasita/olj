@@ -1,7 +1,7 @@
 {
   "job_id": "1413000",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1413000",
-  "scraped_at": "2025-07-14T23:09:31.413543",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Training-Content-Analyst-Video-Based-1413000",
+  "scraped_at": "2025-07-15T12:26:41.921736",
   "title": "Training Content Analyst (Video-Based)",
   "type_of_work": "Gig",
   "salary": "400",
@@ -12,5 +12,7 @@
     "Attention to Detail",
     "Organization",
     "Tech-Savvy"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

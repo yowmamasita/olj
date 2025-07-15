@@ -1,0 +1,25 @@
+{
+  "job_id": "1422906",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Media-Buyer-FacebookGoogleTikTok-1422906",
+  "scraped_at": "2025-07-15T12:24:43.056780",
+  "title": "Job Unavailable",
+  "type_of_work": null,
+  "salary": null,
+  "hours_per_week": null,
+  "date_updated": null,
+  "job_overview": null,
+  "skill_requirements": [],
+  "is_active": false,
+  "status_history": [
+    {
+      "status": "active",
+      "timestamp": "2025-07-15T08:32:38.527304",
+      "reason": "Job first discovered"
+    },
+    {
+      "status": "inactive",
+      "timestamp": "2025-07-15T09:32:14.557535",
+      "reason": "Job became unavailable during re-scrape"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "job_id": "1422027",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1422027",
-  "scraped_at": "2025-07-14T23:09:39.638136",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/UX-Website-Designer-1422027",
+  "scraped_at": "2025-07-15T09:30:48.057421",
   "title": "UX Website Designer",
   "type_of_work": "Full Time",
   "salary": "$640.00",
@@ -12,5 +12,7 @@
     "Web Design & Page Layout",
     "Figma",
     "UI UX Design"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

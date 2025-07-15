@@ -1,7 +1,7 @@
 {
   "job_id": "1342559",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1342559",
-  "scraped_at": "2025-07-14T23:09:53.442192",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Legal-Assistant-Medical-Records-RetrievalClaims-Specialist-1342559",
+  "scraped_at": "2025-07-15T11:30:33.805570",
   "title": "Legal Assistant (Medical Records Retrieval/Claims Specialist)",
   "type_of_work": "Full Time",
   "salary": "$5/hour",
@@ -12,5 +12,7 @@
     "Legal Services",
     "Case Management",
     "Medical Billing"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

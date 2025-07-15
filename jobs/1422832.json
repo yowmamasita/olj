@@ -1,0 +1,25 @@
+{
+  "job_id": "1422832",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/PPC-Executive-Pay-Per-Click-1422832",
+  "scraped_at": "2025-07-15T12:30:40.630777",
+  "title": "Job Unavailable",
+  "type_of_work": null,
+  "salary": null,
+  "hours_per_week": null,
+  "date_updated": null,
+  "job_overview": null,
+  "skill_requirements": [],
+  "is_active": false,
+  "status_history": [
+    {
+      "status": "active",
+      "timestamp": "2025-07-15T07:38:47.186828",
+      "reason": "Job first discovered"
+    },
+    {
+      "status": "inactive",
+      "timestamp": "2025-07-15T09:32:02.840602",
+      "reason": "Job became unavailable during re-scrape"
+    }
+  ]
+}

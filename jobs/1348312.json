@@ -1,7 +1,7 @@
 {
   "job_id": "1348312",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1348312",
-  "scraped_at": "2025-07-14T23:09:21.355449",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Shopify-Website-Developer-1348312",
+  "scraped_at": "2025-07-15T04:27:27.357474",
   "title": "Shopify Website Developer",
   "type_of_work": "Full Time",
   "salary": "2000/month",
@@ -12,5 +12,7 @@
     "Web Programming",
     "Shopify",
     "HTML"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

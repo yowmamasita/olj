@@ -1,7 +1,7 @@
 {
   "job_id": "1421928",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1421928",
-  "scraped_at": "2025-07-14T23:09:38.738248",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Web-Developer-1421928",
+  "scraped_at": "2025-07-15T06:32:53.318841",
   "title": "Web Developer",
   "type_of_work": "Full Time",
   "salary": "75000",
@@ -12,5 +12,7 @@
     "Web Programming",
     "PHP",
     "Wordpress"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

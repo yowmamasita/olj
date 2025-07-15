@@ -1,7 +1,7 @@
 {
   "job_id": "1421921",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1421921",
-  "scraped_at": "2025-07-14T23:09:01.048550",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Blog-Content-Writer-1421921",
+  "scraped_at": "2025-07-15T06:26:49.995720",
   "title": "Blog Content Writer",
   "type_of_work": "Full Time",
   "salary": "$1000 USD/ a month 57k PHP/ a month",
@@ -12,5 +12,7 @@
     "Copywriting",
     "Article Writing",
     "Blogging"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

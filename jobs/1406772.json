@@ -1,7 +1,7 @@
 {
   "job_id": "1406772",
   "url": "https://www.onlinejobs.ph/jobseekers/job/TelemarketerAppointment-Setter-1406772",
-  "scraped_at": "2025-07-14T23:08:27.648019",
+  "scraped_at": "2025-07-15T00:32:22.444700",
   "title": "Telemarketer/Appointment Setter",
   "type_of_work": "Full Time",
   "salary": "30000",
@@ -12,5 +12,7 @@
     "Inbound Sales",
     "Outbound Sales",
     "Cold Calling"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

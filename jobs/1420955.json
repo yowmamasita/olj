@@ -1,7 +1,7 @@
 {
   "job_id": "1420955",
   "url": "https://www.onlinejobs.ph/jobseekers/job/Data-Automation-Wizard-aka-Ops-Tech-Specialist-1420955",
-  "scraped_at": "2025-07-14T23:09:53.796058",
+  "scraped_at": "2025-07-15T05:26:01.024947",
   "title": "Data & Automation Wizard (a.k.a. Ops Tech Specialist)",
   "type_of_work": "Part Time",
   "salary": "450/month",
@@ -12,5 +12,7 @@
     "Python",
     "Data Engineering",
     "AI Tools"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

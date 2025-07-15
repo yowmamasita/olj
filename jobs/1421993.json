@@ -1,7 +1,7 @@
 {
   "job_id": "1421993",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1421993",
-  "scraped_at": "2025-07-14T23:07:59.888703",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Finance-Manager-1421993",
+  "scraped_at": "2025-07-15T08:34:49.021333",
   "title": "Finance Manager",
   "type_of_work": "Full Time",
   "salary": "£1000",
@@ -12,5 +12,7 @@
     "Xero",
     "Tax Preparation",
     "Bank Reconciliation"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

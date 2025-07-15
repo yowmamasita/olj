@@ -1,7 +1,7 @@
 {
   "job_id": "1421984",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1421984",
-  "scraped_at": "2025-07-14T23:09:06.334175",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Executive-Coordinator-Operations-Marketing-Support-1421984",
+  "scraped_at": "2025-07-15T07:30:59.325096",
   "title": "Executive Coordinator (Operations + Marketing Support)",
   "type_of_work": "Part Time",
   "salary": "$6 USD/hour",
@@ -12,5 +12,7 @@
     "Quickbooks",
     "Marketing",
     "HubSpot CRM"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

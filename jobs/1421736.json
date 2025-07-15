@@ -1,7 +1,7 @@
 {
   "job_id": "1421736",
   "url": "https://www.onlinejobs.ph/jobseekers/job/Bookkeeper-Grant-Writer-Finance-Operations-Suppor-1421736",
-  "scraped_at": "2025-07-14T23:10:00.200215",
+  "scraped_at": "2025-07-14T23:25:04.960434",
   "title": "Bookkeeper / Grant Writer + Finance & Operations Suppor",
   "type_of_work": "Full Time",
   "salary": "750",
@@ -12,5 +12,7 @@
     "Quickbooks",
     "Microsoft Excel",
     "Power BI"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

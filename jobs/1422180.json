@@ -1,7 +1,7 @@
 {
   "job_id": "1422180",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1422180",
-  "scraped_at": "2025-07-14T23:09:56.344203",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Recruiting-Specialist-1422180",
+  "scraped_at": "2025-07-15T12:36:08.024542",
   "title": "Recruiting Specialist",
   "type_of_work": "Any",
   "salary": "14000",
@@ -11,5 +11,7 @@
   "skill_requirements": [
     "English Speaking",
     "Applicant Tracking Systems"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

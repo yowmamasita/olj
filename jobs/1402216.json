@@ -1,7 +1,7 @@
 {
   "job_id": "1402216",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1402216",
-  "scraped_at": "2025-07-14T23:09:29.407820",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/PhotoVideo-Editor-1402216",
+  "scraped_at": "2025-07-15T11:27:46.573899",
   "title": "Photo/Video Editor",
   "type_of_work": "Full Time",
   "salary": "$800-1,400/mo",
@@ -12,5 +12,7 @@
     "Content Creation",
     "Photo Editing",
     "Video Editing"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

@@ -1,7 +1,7 @@
 {
   "job_id": "1422354",
   "url": "https://www.onlinejobs.ph/jobseekers/job/Video-Editor-1422354",
-  "scraped_at": "2025-07-14T23:07:37.608492",
+  "scraped_at": "2025-07-15T12:37:03.804125",
   "title": "Video Editor",
   "type_of_work": "Any",
   "salary": "600",
@@ -12,5 +12,7 @@
     "Content Creation",
     "Video Editing",
     "Social Media Video Editing"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

@@ -1,0 +1,24 @@
+{
+  "job_id": "1198384",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Nextcloud-macOS-Migration-Project-1198384",
+  "scraped_at": "2025-07-15T12:23:28.950991",
+  "title": "Nextcloud macOS Migration Project",
+  "type_of_work": "Part Time",
+  "salary": "$35/hr",
+  "hours_per_week": "TBD",
+  "date_updated": "Jul 15, 2025",
+  "job_overview": "Summary\r\nNextcloud + Keycloak + (Optional) OpenLDAP Expert Needed for Secure File Server Migration\n\r\nDescription:\r\nWe’re looking for an experienced contractor with real-world expertise in Nextcloud, Keycloak SSO, and optionally OpenLDAP, to migrate a macOS Server-based file system to Nextcloud. This is a time-sensitive project, expected to be completed in 30 days or less.\n\r\nThis is not a learning opportunity. Only apply if you’ve already delivered similar projects.\n\r\nProject Overview:\r\n    •    Current server: macOS Server (10.12.6) running WebDAV-style shares\r\n    •    Target: Nextcloud on Azure (already deployed)\r\n    •    Keycloak is running (used for other services)\r\n    •    File data has not yet been migrated\r\n    •    OpenLDAP is not yet in use, but may be required\n\r\nWhat You’ll Do:\r\n    •    Assess the macOS Server’s folder/user/group permissions\r\n    •    Migrate all files to Nextcloud\r\n    •    Match original permissions using native or LDAP-based group structures\r\n    •    Integrate Keycloak for SSO authentication\r\n    •    Deploy and configure OpenLDAP only if required\r\n    •    Deliver documentation for all changes/configs\n\r\nRequirements:\r\n    •    Production-grade Nextcloud deployment experience\r\n    •    Keycloak SSO integration (especially with file services)\r\n    •    Deep understanding of group/user-based file permissions\r\n    •    Self-directed, remote work experience\r\n    •    Must provide working examples, references, and proof of experience\n\r\nNice to Have:\r\n    •    LDAP deployment/configuration\r\n    •    Familiarity with Azure hosting and networking\r\n    •    Bash or Python scripting\r\n    •    Background in macOS, WebDAV, or SMB file systems\n\r\nPayment Terms:\r\n    •    Firm project quote required before hire\r\n    •    You’re welcome to ask any questions needed to generate your quote\r\n    •    We suggest a range of $35–$65/hr USD, but final quote will be milestone-based\r\n    •    Paid via Upwork\r\n    •    Deadline: 14 calendar days from start\r\n    •    Remote only; preference for overlap with US Central Time\n\r\nTo Apply, please Include:\r\n    1.    Brief description of your most relevant similar project\r\n    2.    Access to a demo environment or screenshots of prior setups\r\n    3.    Your questions (if any) to generate a firm quote\r\n    4.    Your references or client feedback\n\r\nOnly candidates who demonstrate proven experience will be contacted.",
+  "skill_requirements": [
+    "Web Programming",
+    "Python",
+    "Dev Tools - Cloud Development Kit"
+  ],
+  "is_active": true,
+  "status_history": [
+    {
+      "status": "active",
+      "timestamp": "2025-07-15T02:23:45.383192",
+      "reason": "Job first discovered"
+    }
+  ]
+}

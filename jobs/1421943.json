@@ -1,7 +1,7 @@
 {
   "job_id": "1421943",
   "url": "https://www.onlinejobs.ph/jobseekers/job/Senior-DevOps-Engineer-1421943",
-  "scraped_at": "2025-07-14T23:09:24.212578",
+  "scraped_at": "2025-07-15T06:29:32.852228",
   "title": "Senior DevOps Engineer",
   "type_of_work": "Full Time",
   "salary": "$2000",
@@ -12,5 +12,7 @@
     "Docker",
     "CICD",
     "AWS"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

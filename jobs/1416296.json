@@ -1,7 +1,7 @@
 {
   "job_id": "1416296",
   "url": "https://www.onlinejobs.ph/jobseekers/job/Customer-Service-1416296",
-  "scraped_at": "2025-07-14T23:09:34.216594",
+  "scraped_at": "2025-07-15T12:22:44.111463",
   "title": "Customer Service",
   "type_of_work": "Full Time",
   "salary": "500",
@@ -12,5 +12,7 @@
     "CRM",
     "Customer Service",
     "Computer Literacy"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

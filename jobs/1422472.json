@@ -1,7 +1,7 @@
 {
   "job_id": "1422472",
   "url": "https://www.onlinejobs.ph/jobseekers/job/GHL-Expert-1422472",
-  "scraped_at": "2025-07-14T23:25:19.290576",
+  "scraped_at": "2025-07-15T12:26:05.711355",
   "title": "GHL Expert",
   "type_of_work": "Part Time",
   "salary": "$150-$250",
@@ -12,5 +12,7 @@
     "Google Forms",
     "GoHighLevel",
     "Zapier"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

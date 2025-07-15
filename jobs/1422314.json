@@ -1,7 +1,7 @@
 {
   "job_id": "1422314",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1422314",
-  "scraped_at": "2025-07-14T23:08:56.338364",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/NOW-HIRING-Full-Time-Operations-Manager-1422314",
+  "scraped_at": "2025-07-15T12:22:35.829748",
   "title": "NOW HIRING: Full-Time Operations Manager",
   "type_of_work": "Full Time",
   "salary": "N/A",
@@ -12,5 +12,7 @@
     "Marketing Analytics",
     "Office and Administration",
     "Operation Management"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

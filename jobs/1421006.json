@@ -1,7 +1,7 @@
 {
   "job_id": "1421006",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1421006",
-  "scraped_at": "2025-07-14T23:05:45.909543",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/HubSpot-Account-Cleanup-and-Custom-Setup-1421006",
+  "scraped_at": "2025-07-15T05:36:25.586171",
   "title": "HubSpot Account Cleanup and Custom Setup",
   "type_of_work": "Gig",
   "salary": "$750 for project",
@@ -12,5 +12,7 @@
     "HubSpot CRM",
     "Marketing Automation",
     "Active Campaign"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

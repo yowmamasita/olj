@@ -1,0 +1,23 @@
+{
+  "job_id": "1422735",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Nodejs-developer-1422735",
+  "scraped_at": "2025-07-15T12:36:23.242985",
+  "title": "Node.js developer",
+  "type_of_work": "Full Time",
+  "salary": "500",
+  "hours_per_week": "35",
+  "date_updated": "Jul 15, 2025",
+  "job_overview": "I'm looking for a skilled Node.js developer to build a stealth scraping tool that collects live ticketing data from Upgrade to see actual info and related APIs.\n\r\nThis tool must simulate real human browsing behavior, rotate sessions and proxies, and bypass anti-bot detection (like Akamai or Cloudflare) using Playwright.\n\r\n???? What the Tool Should Do:\r\n? Core Features:\r\nUse Playwright (Node.js) to launch Chromium browsers (headless & visible modes).\n\r\nIntegrate rotating proxies with login authentication (e.g., Upgrade to see actual info user agents, spoof browser fingerprints, and change screen sizes.\n\r\nManage sessions using per-profile cookie storage and rotation.\n\r\nScrape content from dynamic pages and APIs.\n\r\n???? Scraping Targets:\r\nTicket availability and metadata from:\n\nUpgrade to see actual info\n\nUpgrade to see actual info...\n\nUpgrade to see actual info...\n\r\nScrape event details, seat map geometry, section availability, and offer data.\n\r\n???? Anti-Detection Features:\r\nSpoof fingerprints using libraries or manual methods (headers, user agents, etc.).\n\r\nSimulate human behavior: realistic delays, mouse movement, and scrolling.\n\r\nUse Playwright’s device emulation (e.g., emulate iPhone 13).\n\r\n???? Modular Architecture:\r\nConfig file to define which event(s) to scrape and what data to capture.\n\r\nJSON output (timestamped) with clean structure.\n\r\nSupport concurrent tasks (throttle based on config).\n\r\n(Optional but Nice-to-Have):\r\nREST API to trigger scraping jobs and fetch stored results.\n\r\nDashboard or logs to monitor task status and failures.",
+  "skill_requirements": [
+    "Node JS",
+    "Python"
+  ],
+  "is_active": true,
+  "status_history": [
+    {
+      "status": "active",
+      "timestamp": "2025-07-15T04:28:43.466962",
+      "reason": "Job first discovered"
+    }
+  ]
+}

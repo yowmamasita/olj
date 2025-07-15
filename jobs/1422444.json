@@ -1,7 +1,7 @@
 {
   "job_id": "1422444",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1422444",
-  "scraped_at": "2025-07-14T23:07:20.284152",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Full-Time-Graphic-Designer-1422444",
+  "scraped_at": "2025-07-15T12:33:33.207147",
   "title": "Full-Time Graphic Designer",
   "type_of_work": "Full Time",
   "salary": "$800/month",
@@ -12,5 +12,7 @@
     "Photoshop",
     "Graphic Design",
     "Virtual Assistant"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

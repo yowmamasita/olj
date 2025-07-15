@@ -1,7 +1,7 @@
 {
   "job_id": "1324575",
   "url": "https://www.onlinejobs.ph/jobseekers/job/Web-Developer-WordPress-Lead-Generation-Focus-1324575",
-  "scraped_at": "2025-07-14T23:09:55.677410",
+  "scraped_at": "2025-07-15T12:28:18.937603",
   "title": "Web Developer (WordPress & Lead Generation Focus)",
   "type_of_work": "Part Time",
   "salary": "$5/hr - $6/hr",
@@ -12,5 +12,7 @@
     "Google Analytics",
     "Wordpress",
     "Web Development"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

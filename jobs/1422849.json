@@ -1,0 +1,22 @@
+{
+  "job_id": "1422849",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/ManyChat-Make-Automation-Developer-WhatsApp-Instagram-Momence-Integration-1422849",
+  "scraped_at": "2025-07-15T12:36:10.388627",
+  "title": "ManyChat + Make Automation Developer (WhatsApp, Instagram & Momence Integration)",
+  "type_of_work": "Gig",
+  "salary": "$600",
+  "hours_per_week": "TBD",
+  "date_updated": "Jul 15, 2025",
+  "job_overview": "We’re hiring a developer to adapt an existing WhatsApp + Instagram automation system, currently built with WATI + Make + GymMaster, and rebuild it using ManyChat + Make + Upgrade to see actual infonce.\n\r\nThis project covers 3 brand variants:\n\r\n- Power & Revive Gym\r\n- Revive Pilates (same logic, separate content)\r\n- Fitness Trainer Academy (similar flow, different onboarding steps)\n\r\nWhat you’ll do:\n\r\n- Adapt automation flow inside Make\n\r\n- Connect flows to 3 ManyChat accounts (WA + IG)\n\r\n- Replace GymMaster logic with Upgrade to see actual infonce equivalents\n\r\n- Link flows and triggers to booking/payment links or Upgrade to see actual infonce API\n\r\n- Update content per brand (all provided)\n\r\nYou’ll receive:\n\r\n- Full Upgrade to see actual info blueprint from current system\n\r\n- Flowcharts, content, booking/payment links\n\r\n- All platform logins and assets",
+  "skill_requirements": [
+    "Make.com"
+  ],
+  "is_active": true,
+  "status_history": [
+    {
+      "status": "active",
+      "timestamp": "2025-07-15T07:30:37.799268",
+      "reason": "Job first discovered"
+    }
+  ]
+}

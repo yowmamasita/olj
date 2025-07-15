@@ -1,7 +1,7 @@
 {
   "job_id": "1421908",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1421908",
-  "scraped_at": "2025-07-14T23:10:04.716998",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Audio-Editor-1421908",
+  "scraped_at": "2025-07-15T06:42:28.679575",
   "title": "Audio Editor",
   "type_of_work": "Any",
   "salary": "TBD depending on experience",
@@ -12,5 +12,7 @@
     "Podcast Content Creation",
     "Audio Editing",
     "Wordpress"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

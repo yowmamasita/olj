@@ -1,7 +1,7 @@
 {
   "job_id": "1404627",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1404627",
-  "scraped_at": "2025-07-14T23:10:04.710060",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Marketing-Support-Specialist-1404627",
+  "scraped_at": "2025-07-15T12:03:30.002221",
   "title": "Marketing Support Specialist",
   "type_of_work": "Full Time",
   "salary": "$866 USD/month, 49,535 PHP/month",
@@ -12,5 +12,7 @@
     "Marketing",
     "Office and Administration",
     "Administrative Support"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

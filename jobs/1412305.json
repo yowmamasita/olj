@@ -1,7 +1,7 @@
 {
   "job_id": "1412305",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1412305",
-  "scraped_at": "2025-07-14T23:09:07.017890",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Transportation-Tracker-1412305",
+  "scraped_at": "2025-07-15T07:31:10.372305",
   "title": "Transportation Tracker",
   "type_of_work": "Any",
   "salary": "$800 - $1100 / Month (Paid Every 15th / 1st)",
@@ -12,5 +12,7 @@
     "Logistics Management",
     "English Speaking",
     "Dispatching"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

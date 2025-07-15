@@ -1,7 +1,7 @@
 {
   "job_id": "1422061",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1422061",
-  "scraped_at": "2025-07-14T23:06:50.571090",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Property-Management-Real-Estate-Admin-1422061",
+  "scraped_at": "2025-07-15T10:31:28.976911",
   "title": "Property Management / Real Estate Admin",
   "type_of_work": "Full Time",
   "salary": "Php 30,000-35,000 / month",
@@ -12,5 +12,7 @@
     "Property Management",
     "Real Estate",
     "Office and Administration"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

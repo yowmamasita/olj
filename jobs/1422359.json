@@ -1,7 +1,7 @@
 {
   "job_id": "1422359",
   "url": "https://www.onlinejobs.ph/jobseekers/job/Senior-Accountant-1422359",
-  "scraped_at": "2025-07-14T23:12:15.944771",
+  "scraped_at": "2025-07-15T12:24:16.527798",
   "title": "Senior Accountant",
   "type_of_work": "Full Time",
   "salary": "750",
@@ -12,5 +12,7 @@
     "Accounts Reconciliations",
     "Accounts Payable",
     "Bookkeeping"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

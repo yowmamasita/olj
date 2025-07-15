@@ -1,7 +1,7 @@
 {
   "job_id": "1422109",
   "url": "https://www.onlinejobs.ph/jobseekers/job/Photoshop-1422109",
-  "scraped_at": "2025-07-14T23:09:27.834476",
+  "scraped_at": "2025-07-15T02:29:51.139288",
   "title": "Photoshop",
   "type_of_work": "Gig",
   "salary": "20",
@@ -10,5 +10,7 @@
   "job_overview": "Hey there, I just need you to change a name and a picture for one of my documents in Photoshop.",
   "skill_requirements": [
     "Photo Editing"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

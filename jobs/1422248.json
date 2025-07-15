@@ -1,7 +1,7 @@
 {
   "job_id": "1422248",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1422248",
-  "scraped_at": "2025-07-14T23:07:34.866044",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Virtual-Assistant-Customer-Service-and-Admin-Support-1422248",
+  "scraped_at": "2025-07-15T12:25:48.855089",
   "title": "Virtual Assistant - Customer Service and Admin Support",
   "type_of_work": "Full Time",
   "salary": "$580/month",
@@ -12,5 +12,7 @@
     "Administrative Management",
     "Customer Support",
     "Sales Support"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

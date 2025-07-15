@@ -1,7 +1,7 @@
 {
   "job_id": "1422059",
   "url": "https://www.onlinejobs.ph/jobseekers/job/Sales-1422059",
-  "scraped_at": "2025-07-14T23:09:48.536938",
+  "scraped_at": "2025-07-15T10:31:39.995119",
   "title": "Sales - OnlineJobs.ph",
   "type_of_work": "Full Time",
   "salary": "1000/3500",
@@ -12,5 +12,7 @@
     "Inbound Sales",
     "Communication",
     "Sales"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

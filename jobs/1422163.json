@@ -1,16 +1,20 @@
 {
   "job_id": "1422163",
   "url": "https://www.onlinejobs.ph/jobseekers/job/PPC-Executive-Pay-Per-Click-1422163",
-  "scraped_at": "2025-07-14T23:06:20.110398",
-  "title": "PPC Executive (Pay-Per-Click)",
-  "type_of_work": "Any",
-  "salary": "90000",
-  "hours_per_week": "22",
-  "date_updated": "Jul 14, 2025",
-  "job_overview": "PPC Executive (Pay-Per-Click)\r\nWe’re on the lookout for a PPC Executive to manage paid search and display campaigns with an emphasis on conversions and efficiency.\n\r\nRequirements:\n\r\nExperience with PPC campaigns across key ad platforms\n\r\nKnowledge of tracking tools and A/B testing\n\r\nAnalytical approach to ad spend and results\n\r\nPlease send your CV to: Upgrade to see actual info\r\nWe do not respond to messages via onlinejobs.",
-  "skill_requirements": [
-    "Google Ads",
-    "Facebook Ads",
-    "Tiktok Ads"
+  "scraped_at": "2025-07-15T12:31:01.987208",
+  "title": "Job Unavailable",
+  "type_of_work": null,
+  "salary": null,
+  "hours_per_week": null,
+  "date_updated": null,
+  "job_overview": null,
+  "skill_requirements": [],
+  "is_active": false,
+  "status_history": [
+    {
+      "status": "inactive",
+      "timestamp": "2025-07-15T08:40:31.779206",
+      "reason": "Job became unavailable during re-scrape"
+    }
   ]
 }

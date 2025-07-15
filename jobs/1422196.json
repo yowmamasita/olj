@@ -1,16 +1,20 @@
 {
   "job_id": "1422196",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1422196",
-  "scraped_at": "2025-07-14T23:08:03.896204",
-  "title": "Ads Executive / Performance Marketing Executive",
-  "type_of_work": "Any",
-  "salary": "90000",
-  "hours_per_week": "22",
-  "date_updated": "Jul 14, 2025",
-  "job_overview": "Ads Executive / Performance Marketing Executive\r\nThis role involves launching and scaling direct-response ads that convert. You will optimize campaign structures, test creatives, and scale winners across Meta and Google ad networks.\n\r\nRequirements:\n\r\n1 year or more experience in paid acquisition\n\r\nDeep understanding of user journeys and funnel strategies\n\r\nProficiency with platform analytics and performance reporting\n\r\nPlease send your CV to: Upgrade to see actual info\r\nWe do not respond to messages via onlinejobs.",
-  "skill_requirements": [
-    "Google Ads",
-    "Facebook Ads",
-    "Tiktok Ads"
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Ads-Executive-Performance-Marketing-Executive-1422196",
+  "scraped_at": "2025-07-15T12:33:21.750543",
+  "title": "Job Unavailable",
+  "type_of_work": null,
+  "salary": null,
+  "hours_per_week": null,
+  "date_updated": null,
+  "job_overview": null,
+  "skill_requirements": [],
+  "is_active": false,
+  "status_history": [
+    {
+      "status": "inactive",
+      "timestamp": "2025-07-15T09:21:50.555903",
+      "reason": "Job became unavailable during re-scrape"
+    }
   ]
 }

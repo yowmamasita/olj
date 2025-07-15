@@ -1,7 +1,7 @@
 {
   "job_id": "1422138",
   "url": "https://www.onlinejobs.ph/jobseekers/job/HubSpot-Assistant-1422138",
-  "scraped_at": "2025-07-14T23:09:28.490735",
+  "scraped_at": "2025-07-15T12:30:19.643141",
   "title": "HubSpot Assistant",
   "type_of_work": "Gig",
   "salary": "200",
@@ -10,5 +10,7 @@
   "job_overview": "I We are looking for a HubSpot expert.\n\r\nYou will need to be able to setup HubSpot instance from scratch such that the platform works for:\n\r\n-attribution\r\nlead scoring\r\ncreate workflows both standard and non standard (custom)\n\r\nNote: we need someone who really understands how to extract the value in HubSpot, not sopmeone who can just make changes to an existing instance.",
   "skill_requirements": [
     "HubSpot CRM"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

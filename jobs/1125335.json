@@ -1,7 +1,7 @@
 {
   "job_id": "1125335",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1125335",
-  "scraped_at": "2025-07-14T23:09:57.415814",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Shopify-Full-Stack-Web-Developer-1125335",
+  "scraped_at": "2025-07-15T04:29:57.349770",
   "title": "Shopify Full Stack Web Developer",
   "type_of_work": "Full Time",
   "salary": "$2000/month",
@@ -12,5 +12,7 @@
     "Shopify",
     "Javascript",
     "Fullstack"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

@@ -1,7 +1,7 @@
 {
   "job_id": "1422400",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1422400",
-  "scraped_at": "2025-07-14T23:08:45.727763",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Shopify-Product-lister-1422400",
+  "scraped_at": "2025-07-15T12:22:23.588032",
   "title": "Shopify Product lister",
   "type_of_work": "Part Time",
   "salary": "$330 up till $650 per month",
@@ -12,5 +12,7 @@
     "Marketing",
     "Shopify",
     "Product Listing"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

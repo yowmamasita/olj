@@ -1,7 +1,7 @@
 {
   "job_id": "1396977",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1396977",
-  "scraped_at": "2025-07-14T23:07:52.842646",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/eBay-Admin-Assistant-1396977",
+  "scraped_at": "2025-07-15T07:38:09.875259",
   "title": "eBay Admin Assistant",
   "type_of_work": "Full Time",
   "salary": "TBD (based on skills/experience)",
@@ -12,5 +12,7 @@
     "Ebay",
     "Listing Management",
     "Google Sheets"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

@@ -1,7 +1,7 @@
 {
   "job_id": "1421792",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1421792",
-  "scraped_at": "2025-07-14T23:08:18.779052",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Part-time-Customer-Service-Representative-DutchGerman-1421792",
+  "scraped_at": "2025-07-15T00:18:41.287442",
   "title": "Part-time Customer Service Representative (Dutch/German)",
   "type_of_work": "Part Time",
   "salary": "$200/month",
@@ -12,5 +12,7 @@
     "Customer Support",
     "Email Management",
     "English"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

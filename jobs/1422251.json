@@ -1,7 +1,7 @@
 {
   "job_id": "1422251",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1422251",
-  "scraped_at": "2025-07-14T23:09:35.785945",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Marketing-Manager-1422251",
+  "scraped_at": "2025-07-15T12:23:04.374426",
   "title": "Marketing Manager",
   "type_of_work": "Full Time",
   "salary": "PHP 60,000",
@@ -12,5 +12,7 @@
     "Marketing Automation",
     "Social Media Management",
     "AI Tools"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

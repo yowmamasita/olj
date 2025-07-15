@@ -1,7 +1,7 @@
 {
   "job_id": "1232734",
   "url": "https://www.onlinejobs.ph/jobseekers/job/Administrative-Staff-PositionCustomer-Relations-Manager-1232734",
-  "scraped_at": "2025-07-14T23:08:57.105101",
+  "scraped_at": "2025-07-15T08:38:04.305636",
   "title": "Administrative Staff Position/Customer Relations Manager",
   "type_of_work": "Full Time",
   "salary": "$4/hour",
@@ -12,5 +12,7 @@
     "Administrative Management",
     "Admin Data Processing",
     "Virtual Assistant"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

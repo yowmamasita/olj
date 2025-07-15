@@ -1,7 +1,7 @@
 {
   "job_id": "1421893",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1421893",
-  "scraped_at": "2025-07-14T23:09:56.356521",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Shopify-Developer-Custom-Sections-Dynamic-Features-1421893",
+  "scraped_at": "2025-07-15T06:41:06.017032",
   "title": "Shopify Developer (Custom Sections & Dynamic Features)",
   "type_of_work": "Full Time",
   "salary": "400",
@@ -12,5 +12,7 @@
     "Liquid",
     "CSS",
     "Javascript"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

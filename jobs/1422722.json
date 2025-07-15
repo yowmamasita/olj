@@ -1,0 +1,25 @@
+{
+  "job_id": "1422722",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Ads-Executive-Performance-Marketing-Executive-1422722",
+  "scraped_at": "2025-07-15T12:24:15.395974",
+  "title": "Job Unavailable",
+  "type_of_work": null,
+  "salary": null,
+  "hours_per_week": null,
+  "date_updated": null,
+  "job_overview": null,
+  "skill_requirements": [],
+  "is_active": false,
+  "status_history": [
+    {
+      "status": "active",
+      "timestamp": "2025-07-15T03:37:13.508861",
+      "reason": "Job first discovered"
+    },
+    {
+      "status": "inactive",
+      "timestamp": "2025-07-15T05:30:15.288672",
+      "reason": "Job became unavailable during re-scrape"
+    }
+  ]
+}

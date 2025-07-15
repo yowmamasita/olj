@@ -1,7 +1,7 @@
 {
   "job_id": "1351922",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1351922",
-  "scraped_at": "2025-07-14T23:08:20.984795",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Operations-Support-Specialist-HVAC-1351922",
+  "scraped_at": "2025-07-15T03:42:02.144095",
   "title": "Operations Support Specialist – HVAC",
   "type_of_work": "Full Time",
   "salary": "$4 per hour",
@@ -11,5 +11,7 @@
   "skill_requirements": [
     "Customer Support",
     "Office and Administration"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

@@ -1,7 +1,7 @@
 {
   "job_id": "1268049",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1268049",
-  "scraped_at": "2025-07-14T23:09:28.131159",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/AI-DeveloporSpecialist-1268049",
+  "scraped_at": "2025-07-15T02:23:17.038560",
   "title": "AI Developor/Specialist",
   "type_of_work": "Any",
   "salary": "750",
@@ -12,5 +12,7 @@
     "ChatGPT",
     "AI Tools",
     "Make.com"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

@@ -1,7 +1,7 @@
 {
   "job_id": "1421898",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1421898",
-  "scraped_at": "2025-07-14T23:09:44.296285",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Virtual-Assistant-Social-Media-Back-End-Support-1421898",
+  "scraped_at": "2025-07-15T02:33:13.785201",
   "title": "Virtual Assistant - Social Media & Back-End Support",
   "type_of_work": "Full Time",
   "salary": "$200 USD/wk",
@@ -12,5 +12,7 @@
     "Social Media Management",
     "Microsoft Excel",
     "Canva"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

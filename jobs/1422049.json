@@ -1,7 +1,7 @@
 {
   "job_id": "1422049",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1422049",
-  "scraped_at": "2025-07-14T23:07:17.792075",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Immediate-Start-Graphic-and-Web-Designer-1422049",
+  "scraped_at": "2025-07-15T10:19:52.793809",
   "title": "Immediate Start Graphic and Web Designer",
   "type_of_work": "Full Time",
   "salary": "146,000 PHP per month",
@@ -12,5 +12,7 @@
     "Logo Design",
     "CSS",
     "Wordpress"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

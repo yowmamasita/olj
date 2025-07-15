@@ -1,7 +1,7 @@
 {
   "job_id": "1386397",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1386397",
-  "scraped_at": "2025-07-14T23:09:53.223910",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/eCommerce-Specialist-1386397",
+  "scraped_at": "2025-07-15T07:46:03.117978",
   "title": "eCommerce Specialist",
   "type_of_work": "Full Time",
   "salary": "$7/hour + bonuses",
@@ -12,5 +12,7 @@
     "Amazon",
     "Seller Central",
     "Shopify"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

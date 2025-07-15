@@ -1,7 +1,7 @@
 {
   "job_id": "1421790",
   "url": "https://www.onlinejobs.ph/jobseekers/job/We-are-hiring-Ads-Account-Manager-Remote-1421790",
-  "scraped_at": "2025-07-14T23:06:22.528283",
+  "scraped_at": "2025-07-15T03:44:21.565052",
   "title": "We are hiring: Ads Account Manager (Remote)",
   "type_of_work": "Any",
   "salary": "90000",
@@ -12,5 +12,7 @@
     "Google Ads",
     "Facebook Ads",
     "Tiktok Ads"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

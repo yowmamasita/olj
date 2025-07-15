@@ -1,7 +1,7 @@
 {
   "job_id": "1421990",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1421990",
-  "scraped_at": "2025-07-14T23:07:57.618811",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Sales-Appointment-Setters-B2BB2C-1421990",
+  "scraped_at": "2025-07-15T07:45:21.933688",
   "title": "Sales Appointment Setters - B2B/B2C",
   "type_of_work": "Full Time",
   "salary": "$800",
@@ -12,5 +12,7 @@
     "Outbound Sales",
     "Lead Generation",
     "Sales"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

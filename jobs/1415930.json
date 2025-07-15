@@ -1,7 +1,7 @@
 {
   "job_id": "1415930",
   "url": "https://www.onlinejobs.ph/jobseekers/job/E-commerce-Specialist-1415930",
-  "scraped_at": "2025-07-14T23:09:19.826205",
+  "scraped_at": "2025-07-14T23:24:57.854144",
   "title": "E-commerce Specialist",
   "type_of_work": "Any",
   "salary": "$600 to $900",
@@ -12,5 +12,7 @@
     "Seller Page Management",
     "Dropshipping",
     "Shopify"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

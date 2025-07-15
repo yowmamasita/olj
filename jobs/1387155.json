@@ -1,7 +1,7 @@
 {
   "job_id": "1387155",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1387155",
-  "scraped_at": "2025-07-14T23:06:58.848475",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Remote-Takeoff-Estimator-Structural-1387155",
+  "scraped_at": "2025-07-15T08:37:40.742658",
   "title": "Remote Takeoff Estimator (Structural)",
   "type_of_work": "Any",
   "salary": "$4.25 to $4.75/hr",
@@ -12,5 +12,7 @@
     "Estimate",
     "Quantity Surveying",
     "Quantity Takeoff"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

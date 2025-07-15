@@ -1,8 +1,8 @@
 {
   "job_id": "1422424",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1422424",
-  "scraped_at": "2025-07-14T23:09:52.560162",
-  "title": "Marketing Automation & Growth Architect (Advisory Seat, Not a Task List)",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Marketing-Automation-Growth-Architect-1422424",
+  "scraped_at": "2025-07-15T12:35:17.674882",
+  "title": "Marketing Automation & Growth Architect",
   "type_of_work": "Full Time",
   "salary": "Up to $1,600.00 USD per month",
   "hours_per_week": "40",
@@ -12,5 +12,7 @@
     "HubSpot CRM",
     "JSON",
     "Make.com"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

@@ -1,7 +1,7 @@
 {
   "job_id": "1422374",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1422374",
-  "scraped_at": "2025-07-14T23:08:51.344052",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Medical-Biller-1422374",
+  "scraped_at": "2025-07-15T12:26:22.325784",
   "title": "Medical Biller",
   "type_of_work": "Full Time",
   "salary": "php 48,000/month",
@@ -12,5 +12,7 @@
     "Content Creation",
     "Claims Processing",
     "Medical Billing"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

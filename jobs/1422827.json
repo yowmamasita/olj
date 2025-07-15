@@ -1,0 +1,25 @@
+{
+  "job_id": "1422827",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Social-Media-Ads-Specialist-1422827",
+  "scraped_at": "2025-07-15T12:35:57.247024",
+  "title": "Job Unavailable",
+  "type_of_work": null,
+  "salary": null,
+  "hours_per_week": null,
+  "date_updated": null,
+  "job_overview": null,
+  "skill_requirements": [],
+  "is_active": false,
+  "status_history": [
+    {
+      "status": "active",
+      "timestamp": "2025-07-15T07:47:00.972731",
+      "reason": "Job first discovered"
+    },
+    {
+      "status": "inactive",
+      "timestamp": "2025-07-15T08:35:26.576110",
+      "reason": "Job became unavailable during re-scrape"
+    }
+  ]
+}

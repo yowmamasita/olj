@@ -1,7 +1,7 @@
 {
   "job_id": "1422182",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1422182",
-  "scraped_at": "2025-07-14T23:10:06.983311",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/AI-Workflow-Architect-n8n-OpenAI-APIs-1422182",
+  "scraped_at": "2025-07-15T12:31:44.339450",
   "title": "AI Workflow Architect (n8n + OpenAI + APIs)",
   "type_of_work": "Full Time",
   "salary": "700-900 PHP/hr",
@@ -12,5 +12,7 @@
     "Node JS",
     "Python",
     "Make.com"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

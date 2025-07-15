@@ -1,7 +1,7 @@
 {
   "job_id": "1334711",
   "url": "https://www.onlinejobs.ph/jobseekers/job/Senior-Accountant-Remote-Full-Time-4hr-US-Clients-1334711",
-  "scraped_at": "2025-07-14T23:25:19.935652",
+  "scraped_at": "2025-07-15T12:33:54.918229",
   "title": "Senior Accountant – Remote | Full-Time | $4/hr (U.S. Clients)",
   "type_of_work": "Full Time",
   "salary": "$4/hr",
@@ -12,5 +12,7 @@
     "Accounts Reconciliations",
     "Quickbooks",
     "Accounting"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

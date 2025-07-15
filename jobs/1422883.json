@@ -1,0 +1,25 @@
+{
+  "job_id": "1422883",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Performance-Ad-Campaign-Manager-1422883",
+  "scraped_at": "2025-07-15T12:34:48.174868",
+  "title": "Job Unavailable",
+  "type_of_work": null,
+  "salary": null,
+  "hours_per_week": null,
+  "date_updated": null,
+  "job_overview": null,
+  "skill_requirements": [],
+  "is_active": false,
+  "status_history": [
+    {
+      "status": "active",
+      "timestamp": "2025-07-15T07:49:22.946144",
+      "reason": "Job first discovered"
+    },
+    {
+      "status": "inactive",
+      "timestamp": "2025-07-15T09:27:38.232374",
+      "reason": "Job became unavailable during re-scrape"
+    }
+  ]
+}

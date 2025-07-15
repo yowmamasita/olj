@@ -1,7 +1,7 @@
 {
   "job_id": "1292257",
   "url": "https://www.onlinejobs.ph/jobseekers/job/iPhone-Automation-Expert-for-Mac-Controlled-iOS-Automation-1292257",
-  "scraped_at": "2025-07-14T23:09:00.026002",
+  "scraped_at": "2025-07-15T05:25:58.678355",
   "title": "iPhone Automation Expert for Mac-Controlled iOS Automation",
   "type_of_work": "Part Time",
   "salary": "100",
@@ -12,5 +12,7 @@
     "Python",
     "iOS Development",
     "Selenium"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

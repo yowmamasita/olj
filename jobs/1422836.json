@@ -1,0 +1,25 @@
+{
+  "job_id": "1422836",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/TikTok-Ads-Specialist-1422836",
+  "scraped_at": "2025-07-15T12:35:48.804857",
+  "title": "Job Unavailable",
+  "type_of_work": null,
+  "salary": null,
+  "hours_per_week": null,
+  "date_updated": null,
+  "job_overview": null,
+  "skill_requirements": [],
+  "is_active": false,
+  "status_history": [
+    {
+      "status": "active",
+      "timestamp": "2025-07-15T07:34:01.075069",
+      "reason": "Job first discovered"
+    },
+    {
+      "status": "inactive",
+      "timestamp": "2025-07-15T08:37:31.336425",
+      "reason": "Job became unavailable during re-scrape"
+    }
+  ]
+}

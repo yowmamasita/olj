@@ -1,7 +1,7 @@
 {
   "job_id": "1422156",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1422156",
-  "scraped_at": "2025-07-14T23:08:50.172858",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Data-Entry-and-Admin-Specialist-1422156",
+  "scraped_at": "2025-07-15T12:22:38.927123",
   "title": "Data Entry and Admin Specialist",
   "type_of_work": "Full Time",
   "salary": "400",
@@ -12,5 +12,7 @@
     "Microsoft Excel",
     "Microsoft Word",
     "Data Entry"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

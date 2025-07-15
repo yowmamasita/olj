@@ -1,7 +1,7 @@
 {
   "job_id": "1421776",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1421776",
-  "scraped_at": "2025-07-14T23:10:06.125114",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Sales-Development-Representative-1421776",
+  "scraped_at": "2025-07-15T03:47:57.976170",
   "title": "Sales Development Representative",
   "type_of_work": "Full Time",
   "salary": "40,000 - 80,000 PHP",
@@ -12,5 +12,7 @@
     "HubSpot CRM",
     "Lead Generation",
     "Outbound Calls"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

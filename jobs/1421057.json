@@ -1,7 +1,7 @@
 {
   "job_id": "1421057",
   "url": "https://www.onlinejobs.ph/jobseekers/job/E-commerce-Web-Developer-BigCommerce-Specialist-Contract-1421057",
-  "scraped_at": "2025-07-14T23:08:51.654680",
+  "scraped_at": "2025-07-15T05:26:21.978413",
   "title": "E-commerce Web Developer (BigCommerce Specialist) - Contract",
   "type_of_work": "Gig",
   "salary": "500",
@@ -12,5 +12,7 @@
     "Web Design & Page Layout",
     "Javascript",
     "Bigcommerce"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

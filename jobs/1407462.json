@@ -1,7 +1,7 @@
 {
   "job_id": "1407462",
   "url": "https://www.onlinejobs.ph/jobseekers/job/Senior-Full-Stack-Developer-Work-From-Home-1407462",
-  "scraped_at": "2025-07-14T23:08:33.442630",
+  "scraped_at": "2025-07-15T12:35:45.709266",
   "title": "Senior Full Stack Developer (Work From Home)",
   "type_of_work": "Full Time",
   "salary": "80,000 - 150,000",
@@ -12,5 +12,7 @@
     "PHP",
     "React JS",
     "MySQL"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

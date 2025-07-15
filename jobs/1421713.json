@@ -1,7 +1,7 @@
 {
   "job_id": "1421713",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1421713",
-  "scraped_at": "2025-07-14T23:09:07.859959",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Experienced-US-Tax-Senior-CPA-Required-1421713",
+  "scraped_at": "2025-07-14T22:26:41.109841",
   "title": "Experienced US Tax Senior - CPA Required!",
   "type_of_work": "Full Time",
   "salary": "$3,000+",
@@ -12,5 +12,7 @@
     "Quickbooks",
     "Tax Preparation",
     "English Proficiency"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

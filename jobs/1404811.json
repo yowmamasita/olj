@@ -1,0 +1,25 @@
+{
+  "job_id": "1404811",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Inbound-Sales-Agent-1404811",
+  "scraped_at": "2025-07-15T12:30:04.292344",
+  "title": "Job Unavailable",
+  "type_of_work": null,
+  "salary": null,
+  "hours_per_week": null,
+  "date_updated": null,
+  "job_overview": null,
+  "skill_requirements": [],
+  "is_active": false,
+  "status_history": [
+    {
+      "status": "active",
+      "timestamp": "2025-07-15T05:26:57.614756",
+      "reason": "Job first discovered"
+    },
+    {
+      "status": "inactive",
+      "timestamp": "2025-07-15T06:37:21.079193",
+      "reason": "Job became unavailable during re-scrape"
+    }
+  ]
+}

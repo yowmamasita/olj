@@ -1,7 +1,7 @@
 {
   "job_id": "1422009",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1422009",
-  "scraped_at": "2025-07-14T23:05:53.925305",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Classifieds-website-designer-1422009",
+  "scraped_at": "2025-07-15T08:35:52.261625",
   "title": "Classifieds website designer",
   "type_of_work": "Gig",
   "salary": "25000 Total",
@@ -12,5 +12,7 @@
     "Web Design & Page Layout",
     "Website Builder",
     "MySQL"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

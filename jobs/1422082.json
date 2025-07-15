@@ -1,7 +1,7 @@
 {
   "job_id": "1422082",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1422082",
-  "scraped_at": "2025-07-14T23:06:00.185236",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Marketplace-Specialist-1422082",
+  "scraped_at": "2025-07-15T11:32:17.981610",
   "title": "Marketplace Specialist",
   "type_of_work": "Full Time",
   "salary": "up to PHP 40,000/month",
@@ -12,5 +12,7 @@
     "Inventory Management",
     "Ecommerce",
     "Product Listing"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

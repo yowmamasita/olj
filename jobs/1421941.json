@@ -1,7 +1,7 @@
 {
   "job_id": "1421941",
   "url": "https://www.onlinejobs.ph/jobseekers/job/Skip-the-Traffic-and-Earn-at-the-Comfort-of-your-Home-1421941",
-  "scraped_at": "2025-07-14T23:09:16.997465",
+  "scraped_at": "2025-07-15T06:30:55.984042",
   "title": "Skip the Traffic and Earn at the Comfort of your Home!",
   "type_of_work": "Full Time",
   "salary": "36,000-55,000 PHP/Month",
@@ -12,5 +12,7 @@
     "Cold Calling",
     "Active Listening",
     "Appointment Setting"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

@@ -1,7 +1,7 @@
 {
   "job_id": "1422348",
   "url": "https://www.onlinejobs.ph/jobseekers/job/QA-Specialist-with-ABA-Healthcare-Experience-1422348",
-  "scraped_at": "2025-07-14T23:08:28.490095",
+  "scraped_at": "2025-07-15T12:26:48.506942",
   "title": "QA Specialist with ABA Healthcare Experience",
   "type_of_work": "Any",
   "salary": "DOE",
@@ -12,5 +12,7 @@
     "Software QA Testing",
     "Functional Testing",
     "Bug Tracking"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

@@ -1,7 +1,7 @@
 {
   "job_id": "1421988",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1421988",
-  "scraped_at": "2025-07-14T23:08:57.251676",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Legal-Assistant-Floater-Position-1421988",
+  "scraped_at": "2025-07-15T07:46:10.087657",
   "title": "Legal Assistant Floater Position",
   "type_of_work": "Full Time",
   "salary": "$1,000/mo.",
@@ -12,5 +12,7 @@
     "Customer Service",
     "English Proficiency",
     "Case Management"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

@@ -1,7 +1,7 @@
 {
   "job_id": "1422150",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1422150",
-  "scraped_at": "2025-07-14T23:08:07.086061",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Executive-Virtual-Assistant-MS-Office-Admin-Support-1422150",
+  "scraped_at": "2025-07-15T12:27:42.883416",
   "title": "Executive Virtual Assistant – MS Office + Admin Support",
   "type_of_work": "Part Time",
   "salary": "$120 - $240+ per month",
@@ -12,5 +12,7 @@
     "Microsoft Excel",
     "Microsoft Power Point",
     "Microsoft Outlook"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

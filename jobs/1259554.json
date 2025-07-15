@@ -1,7 +1,7 @@
 {
   "job_id": "1259554",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1259554",
-  "scraped_at": "2025-07-14T23:06:15.127527",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Web-Developer-Build-Optimize-Innovate-20-Benefits-1259554",
+  "scraped_at": "2025-07-15T12:24:21.608550",
   "title": "-->>Web Developer – Build. Optimize. Innovate. – 20+ Benefits!<<--",
   "type_of_work": "Full Time",
   "salary": "TBD",
@@ -12,5 +12,7 @@
     "Web Programming",
     "Javascript",
     "Fullstack"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

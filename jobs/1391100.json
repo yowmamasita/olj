@@ -1,0 +1,23 @@
+{
+  "job_id": "1391100",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Odoo-DeveloperProgrammer-1391100",
+  "scraped_at": "2025-07-15T12:24:47.472240",
+  "title": "Odoo - Developer/Programmer",
+  "type_of_work": "Part Time",
+  "salary": "$600",
+  "hours_per_week": "20",
+  "date_updated": "Jul 15, 2025",
+  "job_overview": "Job Overview:\r\nWe are looking for a skilled Odoo.sh Developer to join our team and contribute to the development, customization, and maintenance of our Odoo applications hosted on Odoo.sh. The ideal candidate should have a strong understanding of the Odoo framework, Odoo.sh platform, and experience in developing business applications.\n\r\nKey Responsibilities:\r\nDevelop and customize Odoo modules (backend and frontend) based on business requirements.\r\nManage and maintain Odoo.sh environments (development, staging, production).\r\nIntegrate third-party APIs and tools with Odoo.\r\nPerform Odoo.sh deployment tasks, including version control with Git.\r\nTroubleshoot and debug issues in Odoo modules and Odoo.sh environments.\r\nCollaborate with functional consultants and other developers to implement features and resolve issues.\r\nWrite technical documentation and adhere to development best practices.\r\nPerform unit testing and support UAT (User Acceptance Testing).\n\r\nRequired Skills & Qualifications:\r\nProven experience with Odoo (v12+) and Odoo.sh platform.\r\nStrong knowledge of Python, PostgreSQL, XML, and JavaScript.\r\nExperience with Git and CI/CD pipelines on Odoo.sh.\r\nFamiliarity with Odoo ORM, QWeb templates, and Odoo Studio.\r\nGood understanding of business workflows (Sales, Inventory, Accounting, HR, etc.).\r\nAbility to write clean, modular, and well-documented code.\r\nStrong problem-solving skills and attention to detail.\n\r\nPreferred Qualifications:\r\nOdoo certification(s).\r\nExperience with Odoo multi-company/multi-currency environments.\r\nExperience integrating Odoo with external systems (e.g., payment gateways, CRMs).\r\nKnowledge of Linux server environments and web hosting.\r\nFamiliarity with Docker and cloud platforms.\n\r\nWhat We Offer:\r\nCompetitive salary and benefits.\r\nFlexible working hours and remote work options.\r\nExposure to international projects.\r\nA collaborative and innovative work environment.\r\nOpportunities for learning and career advancement.",
+  "skill_requirements": [
+    "Odoo",
+    "PHP"
+  ],
+  "is_active": true,
+  "status_history": [
+    {
+      "status": "active",
+      "timestamp": "2025-07-15T06:31:00.747006",
+      "reason": "Job first discovered"
+    }
+  ]
+}

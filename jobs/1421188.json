@@ -1,7 +1,7 @@
 {
   "job_id": "1421188",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1421188",
-  "scraped_at": "2025-07-14T23:09:12.413959",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Human-Resource-Assistant-Payroll-Officer-1421188",
+  "scraped_at": "2025-07-14T22:22:39.033824",
   "title": "Human Resource Assistant - Payroll Officer",
   "type_of_work": "Full Time",
   "salary": "AUD 300/month",
@@ -12,5 +12,7 @@
     "Payroll",
     "Timekeeping",
     "Applicant Tracking Systems"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

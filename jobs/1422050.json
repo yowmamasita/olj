@@ -1,7 +1,7 @@
 {
   "job_id": "1422050",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1422050",
-  "scraped_at": "2025-07-14T23:09:28.119008",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Software-Developer-1422050",
+  "scraped_at": "2025-07-15T02:36:09.911859",
   "title": "Software Developer",
   "type_of_work": "Full Time",
   "salary": "$800 US/Month",
@@ -10,5 +10,7 @@
   "job_overview": "We’re Hiring: Part-Time Developer (Replit Experience Required)\n\r\nAre you fluent in code and comfortable building in the Replit environment? We’re looking for a part-time developer who thrives in fast-paced, flexible settings and can help bring web-based projects to life quickly and cleanly.\n\r\nWhat You’ll Do:\r\n • Build and maintain small- to mid-scale applications using Replit\r\n • Collaborate on feature design and functionality\r\n • Tackle quick-turnaround projects and prototypes\r\n • Debug, test, and iterate based on feedback\n\r\nWhat We’re Looking For:\r\n • Strong familiarity with Replit (please share any public projects)\r\n • Proficiency in JavaScript and/or Python\r\n • Ability to work independently and meet deadlines\r\n • Bonus if you’ve worked with APIs, automation, or frontend tools\n\r\nHours: Flexible, part-time\r\nPay: Based on experience\n\r\nThis is a great opportunity for a student, freelancer, or someone who loves building smart tools in smart ways.",
   "skill_requirements": [
     "Software Development Project Manager"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

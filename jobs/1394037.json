@@ -1,7 +1,7 @@
 {
   "job_id": "1394037",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1394037",
-  "scraped_at": "2025-07-14T23:06:53.026964",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Video-Editror-1394037",
+  "scraped_at": "2025-07-15T12:37:21.816628",
   "title": "Video Editror",
   "type_of_work": "Gig",
   "salary": "000",
@@ -11,5 +11,7 @@
   "skill_requirements": [
     "Video Content Creation",
     "Video Editing"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

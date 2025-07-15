@@ -1,7 +1,7 @@
 {
   "job_id": "1421795",
-  "url": "https://www.onlinejobs.ph/jobseekers/job/1421795",
-  "scraped_at": "2025-07-14T23:09:15.346917",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Robust-Full-Stack-TypeScriptNodejs-Developer-1421795",
+  "scraped_at": "2025-07-15T03:44:02.045526",
   "title": "Robust Full-Stack TypeScript/Node.js Developer",
   "type_of_work": "Full Time",
   "salary": "$640",
@@ -12,5 +12,7 @@
     "Node JS",
     "Typescript",
     "REST API"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

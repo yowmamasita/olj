@@ -1,7 +1,7 @@
 {
   "job_id": "1422412",
   "url": "https://www.onlinejobs.ph/jobseekers/job/Google-Ads-Expert-1422412",
-  "scraped_at": "2025-07-14T23:12:13.989140",
+  "scraped_at": "2025-07-15T12:31:59.892845",
   "title": "Google Ads Expert",
   "type_of_work": "Part Time",
   "salary": "$1000/month",
@@ -12,5 +12,7 @@
     "Google Ads",
     "Facebook Ads",
     "Google Analytics"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

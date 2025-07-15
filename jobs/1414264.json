@@ -1,7 +1,7 @@
 {
   "job_id": "1414264",
   "url": "https://www.onlinejobs.ph/jobseekers/job/Python-Backend-Developer-FastAPI-AI-Models-Part-Time-Remote-1414264",
-  "scraped_at": "2025-07-14T23:05:40.840701",
+  "scraped_at": "2025-07-15T06:42:22.960830",
   "title": "Python Backend Developer (FastAPI, AI Models, Part-Time, Remote)",
   "type_of_work": "Any",
   "salary": "300",
@@ -12,5 +12,7 @@
     "Python",
     "Machine Learning",
     "FastAPI"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

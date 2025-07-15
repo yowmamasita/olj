@@ -1,7 +1,7 @@
 {
   "job_id": "1421968",
   "url": "https://www.onlinejobs.ph/jobseekers/job/Course-Office-Administrator-1421968",
-  "scraped_at": "2025-07-14T23:08:02.263013",
+  "scraped_at": "2025-07-15T07:49:05.627694",
   "title": "Course Office Administrator",
   "type_of_work": "Full Time",
   "salary": "USD 4.00 per hour",
@@ -12,5 +12,7 @@
     "Administrative Management",
     "Office and Administration",
     "Calendar Management"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

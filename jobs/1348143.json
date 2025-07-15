@@ -1,7 +1,7 @@
 {
   "job_id": "1348143",
   "url": "https://www.onlinejobs.ph/jobseekers/job/Full-Time-UXUI-Designer-1348143",
-  "scraped_at": "2025-07-14T23:09:57.256213",
+  "scraped_at": "2025-07-15T12:26:35.235961",
   "title": "Full-Time UX/UI Designer",
   "type_of_work": "Full Time",
   "salary": "950",
@@ -11,5 +11,7 @@
   "skill_requirements": [
     "Web Design & Page Layout",
     "UI UX Design"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

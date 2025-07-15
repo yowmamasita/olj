@@ -1,7 +1,7 @@
 {
   "job_id": "1421760",
   "url": "https://www.onlinejobs.ph/jobseekers/job/Sales-Development-Representative-B2B-Cold-Caller-1421760",
-  "scraped_at": "2025-07-14T23:08:28.364642",
+  "scraped_at": "2025-07-14T23:25:41.644082",
   "title": "Sales Development Representative (B2B Cold Caller)",
   "type_of_work": "Full Time",
   "salary": "$500 - $1000 per month",
@@ -12,5 +12,7 @@
     "Telemarketing",
     "Outbound Sales",
     "Outbound Calls"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }

@@ -1,16 +1,20 @@
 {
   "job_id": "1422170",
   "url": "https://www.onlinejobs.ph/jobseekers/job/Facebook-Ads-Specialist-1422170",
-  "scraped_at": "2025-07-14T23:08:50.480399",
-  "title": "Facebook Ads Specialist",
-  "type_of_work": "Any",
-  "salary": "90000",
-  "hours_per_week": "22",
-  "date_updated": "Jul 14, 2025",
-  "job_overview": "Facebook Ads Specialist\r\nLooking for a skilled Facebook Ads Specialist to handle budgets and improve results across Meta platforms. You’ll work with creatives to deliver high-converting campaigns for various objectives like engagement and sales.\n\r\nRequirements:\n\r\nMinimum 1 year of hands-on experience with Facebook Ads\n\r\nStrong knowledge of Ads Manager, audience targeting (custom/lookalike)\n\r\nAbility to scale or pause campaigns based on performance metrics\n\r\nPlease send your CV to: Upgrade to see actual info\r\nWe do not respond to messages via onlinejobs.",
-  "skill_requirements": [
-    "Google Ads",
-    "Facebook Ads",
-    "Tiktok Ads"
+  "scraped_at": "2025-07-15T12:27:56.868598",
+  "title": "Job Unavailable",
+  "type_of_work": null,
+  "salary": null,
+  "hours_per_week": null,
+  "date_updated": null,
+  "job_overview": null,
+  "skill_requirements": [],
+  "is_active": false,
+  "status_history": [
+    {
+      "status": "inactive",
+      "timestamp": "2025-07-15T08:34:41.450450",
+      "reason": "Job became unavailable during re-scrape"
+    }
   ]
 }

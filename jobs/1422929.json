@@ -1,0 +1,25 @@
+{
+  "job_id": "1422929",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Paid-Media-Executive-1422929",
+  "scraped_at": "2025-07-15T12:21:51.537343",
+  "title": "Job Unavailable",
+  "type_of_work": null,
+  "salary": null,
+  "hours_per_week": null,
+  "date_updated": null,
+  "job_overview": null,
+  "skill_requirements": [],
+  "is_active": false,
+  "status_history": [
+    {
+      "status": "active",
+      "timestamp": "2025-07-15T08:30:12.215828",
+      "reason": "Job first discovered"
+    },
+    {
+      "status": "inactive",
+      "timestamp": "2025-07-15T09:23:45.619640",
+      "reason": "Job became unavailable during re-scrape"
+    }
+  ]
+}

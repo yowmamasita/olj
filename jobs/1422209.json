@@ -1,7 +1,7 @@
 {
   "job_id": "1422209",
   "url": "https://www.onlinejobs.ph/jobseekers/job/Fast-Response-VA-1422209",
-  "scraped_at": "2025-07-14T23:09:23.164460",
+  "scraped_at": "2025-07-15T12:27:14.378551",
   "title": "Fast Response VA",
   "type_of_work": "Part Time",
   "salary": "200/month",
@@ -11,5 +11,7 @@
   "skill_requirements": [
     "Calendar Management",
     "Data Entry"
-  ]
+  ],
+  "is_active": true,
+  "status_history": []
 }
