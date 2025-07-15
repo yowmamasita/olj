@@ -1,6 +1,6 @@
 # OnlineJobs.ph Skills Visualizer
 
-An interactive tool that shows which skills are in demand in the Philippines job market. Perfect for job seekers looking to identify opportunities and plan their career development.
+An interactive tool that shows which skills are in demand in the echo chamber called OnlineJobs.ph For job seekers looking to identify opportunities and plan their career development.
 
 ## What is this?
 
@@ -66,31 +66,6 @@ This tool creates a visual map of all the skills listed on OnlineJobs.ph, showin
 - `jobs/` - Folder containing individual job posting data
 - `start_server.sh` - Simple web server for local viewing
 
-## Want to help?
-
-We welcome all kinds of contributions! You don't need to be technical to help:
-
-- **Report issues** - Tell us if something doesn't work right
-- **Suggest improvements** - Share ideas to make the tool better
-- **Test the tool** - Help us find bugs across different devices
-- **Share market knowledge** - Suggest missing skills or better categories
-
 See [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute.
 
-## Getting Started (Simple Version)
-
-### Just want to view it?
-1. Download the project files
-2. Open `index.html` in any web browser
-3. Start exploring!
-
-### Want fresh data?
-If you're comfortable with basic computer tasks and want the latest job data, see the setup instructions in [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## Questions?
-
-This tool is community-driven and aims to help job seekers in the Philippines make informed career decisions. If you have questions or suggestions, please open an issue on GitHub.
-
----
-
-Made with ❤️ for the Philippine job market community
+> Made with ❤️ for r/buhaydigital
