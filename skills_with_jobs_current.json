@@ -39,7 +39,7 @@
       },
       "Quickbooks": {
         "id": "7",
-        "job_count": 340,
+        "job_count": 339,
         "type": "leaf"
       },
       "Accounts Payable": {
@@ -211,7 +211,7 @@
         "type": "leaf"
       }
     },
-    "total_jobs": 1180,
+    "total_jobs": 1179,
     "type": "branch"
   },
   "Marketing": {
@@ -561,7 +561,7 @@
           },
           "Social Media Content Creation": {
             "id": "77",
-            "job_count": 1000,
+            "job_count": 999,
             "type": "leaf"
           },
           "Microblog Content Writing": {
@@ -640,7 +640,7 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 2707,
+        "total_jobs": 2706,
         "type": "branch"
       },
       "Social Media Management": {
@@ -812,7 +812,7 @@
         "type": "leaf"
       }
     },
-    "total_jobs": 9041,
+    "total_jobs": 9040,
     "type": "branch"
   },
   "Advertising": {
@@ -1215,7 +1215,7 @@
       },
       "Shopify": {
         "id": "162",
-        "job_count": 575,
+        "job_count": 574,
         "type": "leaf"
       },
       "Bigcommerce": {
@@ -1270,7 +1270,7 @@
         "type": "leaf"
       }
     },
-    "total_jobs": 2153,
+    "total_jobs": 2152,
     "type": "branch"
   },
   "Professional Services": {
@@ -1580,7 +1580,7 @@
           },
           "Construction Project Manager": {
             "id": "191",
-            "job_count": 78,
+            "job_count": 77,
             "type": "leaf"
           },
           "Bpo Operations Management": {
@@ -1646,7 +1646,7 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 1233,
+        "total_jobs": 1232,
         "type": "branch"
       },
       "Journalism": {
@@ -1749,7 +1749,7 @@
         "type": "leaf"
       }
     },
-    "total_jobs": 2186,
+    "total_jobs": 2185,
     "type": "branch"
   },
   "Project Management": {
@@ -2459,7 +2459,7 @@
       },
       "Thumbnail & Social Media Design": {
         "id": "285",
-        "job_count": 172,
+        "job_count": 171,
         "type": "leaf"
       },
       "Advertising And Marketing Design": {
@@ -2622,7 +2622,7 @@
         "type": "leaf"
       }
     },
-    "total_jobs": 2902,
+    "total_jobs": 2901,
     "type": "branch"
   },
   "Video Editing": {
@@ -2676,7 +2676,7 @@
       },
       "Social Media Video Editing": {
         "id": "312",
-        "job_count": 999,
+        "job_count": 998,
         "type": "leaf"
       },
       "Adobe Premiere Pro": {
@@ -2750,7 +2750,7 @@
         "type": "leaf"
       }
     },
-    "total_jobs": 1979,
+    "total_jobs": 1978,
     "type": "branch"
   },
   "Audio Editing": {
@@ -3254,11 +3254,11 @@
         "children": {
           "Scheduling": {
             "id": "24375",
-            "job_count": 75,
+            "job_count": 74,
             "type": "leaf"
           }
         },
-        "total_jobs": 75,
+        "total_jobs": 74,
         "type": "branch"
       },
       "Data Entry": {
@@ -3474,7 +3474,7 @@
       },
       "Coordination": {
         "id": "24008",
-        "job_count": 30,
+        "job_count": 29,
         "type": "leaf"
       },
       "Computer Literacy": {
@@ -3484,7 +3484,7 @@
       },
       "English": {
         "id": "24217",
-        "job_count": 256,
+        "job_count": 255,
         "type": "leaf"
       },
       "Emotional Intelligence": {
@@ -3612,7 +3612,7 @@
       },
       "File Management": {
         "id": "25808",
-        "job_count": 15,
+        "job_count": 14,
         "type": "leaf"
       },
       "Employee Engagement": {
@@ -3697,7 +3697,7 @@
       },
       "Executive Assistance": {
         "id": "38287",
-        "job_count": 371,
+        "job_count": 369,
         "type": "leaf"
       },
       "Regulatory Compliance": {
@@ -3761,7 +3761,7 @@
         "type": "leaf"
       }
     },
-    "total_jobs": 5658,
+    "total_jobs": 5652,
     "type": "branch"
   },
   "Web Programming": {
@@ -4200,7 +4200,7 @@
           },
           "React JS": {
             "id": "472",
-            "job_count": 104,
+            "job_count": 103,
             "type": "leaf"
           },
           "Express JS": {
@@ -4329,7 +4329,7 @@
             "type": "leaf"
           }
         },
-        "total_jobs": 335,
+        "total_jobs": 334,
         "type": "branch"
       },
       "CSS": {
@@ -4590,7 +4590,7 @@
       },
       "HTML": {
         "id": "549",
-        "job_count": 94,
+        "job_count": 93,
         "type": "leaf"
       },
       "Python": {
@@ -4685,7 +4685,7 @@
         "type": "leaf"
       }
     },
-    "total_jobs": 807,
+    "total_jobs": 805,
     "type": "branch"
   },
   "Website Builder": {
@@ -5290,12 +5290,12 @@
         "children": {
           "Nginx": {
             "id": "666",
-            "job_count": 0,
+            "job_count": 2,
             "type": "leaf"
           },
           "Apache": {
             "id": "667",
-            "job_count": 0,
+            "job_count": 1,
             "type": "leaf"
           },
           "Caddy": {
@@ -5345,7 +5345,7 @@
             "type": "branch"
           }
         },
-        "total_jobs": 3,
+        "total_jobs": 6,
         "type": "branch"
       },
       "ASP.NET": {
@@ -5571,7 +5571,7 @@
         "type": "leaf"
       }
     },
-    "total_jobs": 1236,
+    "total_jobs": 1239,
     "type": "branch"
   },
   "Cloud Services": {
@@ -6033,7 +6033,7 @@
   },
   "Virtual Assistant": {
     "id": "38361",
-    "job_count": 505,
+    "job_count": 504,
     "type": "leaf"
   },
   "Web Development": {

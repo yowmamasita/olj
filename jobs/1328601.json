@@ -1,0 +1,24 @@
+{
+  "job_id": "1328601",
+  "url": "https://www.onlinejobs.ph/jobseekers/job/Senior-Wordpress-Backend-Developer-1328601",
+  "scraped_at": "2025-07-15T14:32:06.253785",
+  "title": "Senior Wordpress Backend Developer",
+  "type_of_work": "Any",
+  "salary": "50,000 - 250,000",
+  "hours_per_week": "TBD",
+  "date_updated": "Jul 15, 2025",
+  "job_overview": "Non negotiable skills required:\r\n- Previous experience building a WordPress Plugin from scratch\r\n- Knowledge of how to make custom Database tables in WordPress\r\n- PHP Mastery (5 years+)\r\n- Understanding of WordPress's REST API and how and when to integrate it into a plugin.\n\r\nPreferred skills:\r\n- JS Mastery\r\n- VCS Mastery (You should know your way around git)\r\n- LMS/LearnDash expertise\r\n- WooCommerce expertise\r\n- Understanding of the broader WordPress ecosystem such as (ACF, WP Fusion, Block Builders, Form Builders etc).\r\n- React Knowledge\r\n- Knowledge in registering and creating blocks.",
+  "skill_requirements": [
+    "PHP",
+    "Javascript",
+    "Wordpress"
+  ],
+  "is_active": true,
+  "status_history": [
+    {
+      "status": "active",
+      "timestamp": "2025-07-15T14:32:06.255329",
+      "reason": "Job first discovered"
+    }
+  ]
+}
