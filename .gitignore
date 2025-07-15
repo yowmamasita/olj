@@ -36,3 +36,6 @@ Thumbs.db
 
 # Keep the current file
 !skills_with_jobs_current.json
+
+# Logs
+cron.log

@@ -104,7 +104,7 @@ pip install uv
 ```bash
 # Create virtual environment and install dependencies
 uv venv
-uv pip sync requirements.txt
+uv pip install -e .
 ```
 
 ### 3. Scrape Job Data (Optional)
